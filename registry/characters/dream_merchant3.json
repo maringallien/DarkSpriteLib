@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "dream_merchant3",
+  "path": "characters/dream_merchant3",
+  "animations": {
+    "full_sheet": {
+      "type": "simple",
+      "key": "full_sheet",
+      "file": "characters/dream_merchant3/time_traveler_npc.png",
+      "category": "ui",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 768,
+        "sheetHeight": 82,
+        "frameWidth": 64,
+        "frameHeight": 82,
+        "frameCount": 12
+      },
+      "originalName": "time_traveler_npc"
+    }
+  }
+}

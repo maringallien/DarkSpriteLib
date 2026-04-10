@@ -1,0 +1,142 @@
+{
+  "type": "standard",
+  "id": "lord_of_the_flames",
+  "path": "characters/lord_of_the_flames",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2755,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 19
+      },
+      "originalName": "lord_of_the_flames-attack"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-buff.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3045,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 21
+      },
+      "originalName": "lord_of_the_flames-buff"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-chain_stab.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2175,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 15
+      },
+      "originalName": "lord_of_the_flames-chain_stab"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2175,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 15
+      },
+      "originalName": "lord_of_the_flames-death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1740,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 12
+      },
+      "originalName": "lord_of_the_flames-idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2320,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 16
+      },
+      "originalName": "lord_of_the_flames-move"
+    },
+    "ranged1": {
+      "type": "simple",
+      "key": "ranged1",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-range_fire_burst.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1885,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 13
+      },
+      "originalName": "lord_of_the_flames-range_fire_burst"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/lord_of_the_flames/lord_of_the_flames-spear.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2175,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 15
+      },
+      "originalName": "lord_of_the_flames-spear"
+    },
+    "ranged2": {
+      "type": "simple",
+      "key": "ranged2",
+      "file": "characters/lord_of_the_flames/range_sprite_with_glow.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 637,
+        "sheetHeight": 28,
+        "frameWidth": 637,
+        "frameHeight": 28,
+        "frameCount": 1
+      },
+      "originalName": "range_sprite_with_glow"
+    }
+  }
+}

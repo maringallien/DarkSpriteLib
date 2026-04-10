@@ -1,0 +1,158 @@
+{
+  "type": "standard",
+  "id": "tiny_gunslinger",
+  "path": "characters/tiny_gunslinger",
+  "animations": {
+    "jetpack": {
+      "type": "sequence",
+      "key": "jetpack",
+      "category": "traversal",
+      "parts": [
+        {
+          "key": "take_off",
+          "file": "characters/tiny_gunslinger/jetpack_take_off.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 384,
+            "sheetHeight": 32,
+            "frameWidth": 96,
+            "frameHeight": 32,
+            "frameCount": 4
+          },
+          "originalName": "jetpack_take_off"
+        },
+        {
+          "key": "fly",
+          "file": "characters/tiny_gunslinger/jetpack_fly.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 384,
+            "sheetHeight": 32,
+            "frameWidth": 96,
+            "frameHeight": 32,
+            "frameCount": 4
+          },
+          "originalName": "jetpack_fly"
+        },
+        {
+          "key": "land",
+          "file": "characters/tiny_gunslinger/jetpack_come_down.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 384,
+            "sheetHeight": 32,
+            "frameWidth": 96,
+            "frameHeight": 32,
+            "frameCount": 4
+          },
+          "originalName": "jetpack_come_down"
+        }
+      ]
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/tiny_gunslinger/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "die"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/tiny_gunslinger/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "idle"
+    },
+    "land": {
+      "type": "simple",
+      "key": "land",
+      "file": "characters/tiny_gunslinger/jetpack_land.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "jetpack_land"
+    },
+    "ledge_grab": {
+      "type": "simple",
+      "key": "ledge_grab",
+      "file": "characters/tiny_gunslinger/ledge_slide.png",
+      "category": "traversal",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 768,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "ledge_slide"
+    },
+    "roll": {
+      "type": "simple",
+      "key": "roll",
+      "file": "characters/tiny_gunslinger/roll.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "roll"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/tiny_gunslinger/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "run"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/tiny_gunslinger/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 32,
+        "frameWidth": 96,
+        "frameHeight": 32,
+        "frameCount": 4
+      },
+      "originalName": "take_hit"
+    }
+  }
+}

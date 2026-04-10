@@ -1,0 +1,187 @@
+{
+  "type": "standard",
+  "id": "evil_sage",
+  "path": "characters/evil_sage",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/evil_sage/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "attack"
+    },
+    "dash1": {
+      "type": "simple",
+      "key": "dash1",
+      "file": "characters/evil_sage/dash.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "dash"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/evil_sage/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 416,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 8
+      },
+      "originalName": "die"
+    },
+    "idle1": {
+      "type": "simple",
+      "key": "idle1",
+      "file": "characters/evil_sage/duck.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 14
+      },
+      "originalName": "duck"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/evil_sage/evil_shockwave.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1918,
+        "sheetHeight": 39,
+        "frameWidth": 959,
+        "frameHeight": 39,
+        "frameCount": 2
+      },
+      "originalName": "evil_shockwave"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/evil_sage/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "idle2": {
+      "type": "simple",
+      "key": "idle2",
+      "file": "characters/evil_sage/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 468,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 9
+      },
+      "originalName": "idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/evil_sage/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "jump"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/evil_sage/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 468,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 9
+      },
+      "originalName": "run"
+    },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/evil_sage/shield.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "shield"
+    },
+    "dash2": {
+      "type": "simple",
+      "key": "dash2",
+      "file": "characters/evil_sage/slide.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "slide"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/evil_sage/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 104,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    }
+  }
+}

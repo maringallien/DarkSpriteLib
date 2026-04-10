@@ -1,0 +1,157 @@
+{
+  "type": "standard",
+  "id": "shock_sweeper",
+  "path": "characters/shock_sweeper",
+  "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/shock_sweeper/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 440,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 5
+      },
+      "originalName": "death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/shock_sweeper/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 264,
+        "sheetHeight": 33,
+        "frameWidth": 66,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/shock_sweeper/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 176,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 2
+      },
+      "originalName": "hit"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/shock_sweeper/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 264,
+        "sheetHeight": 33,
+        "frameWidth": 66,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "jump"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/shock_sweeper/shuffe(move).png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 704,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 8
+      },
+      "originalName": "shuffe(move)"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/shock_sweeper/slam.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 880,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 10
+      },
+      "originalName": "slam"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/shock_sweeper/spin_slam.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 792,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 9
+      },
+      "originalName": "spin_slam"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/shock_sweeper/static_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 88,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 1
+      },
+      "originalName": "static_idle"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/shock_sweeper/sweep.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 704,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 8
+      },
+      "originalName": "sweep"
+    },
+    "wake": {
+      "type": "simple",
+      "key": "wake",
+      "file": "characters/shock_sweeper/wake.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 528,
+        "sheetHeight": 30,
+        "frameWidth": 88,
+        "frameHeight": 30,
+        "frameCount": 6
+      },
+      "originalName": "wake"
+    }
+  }
+}

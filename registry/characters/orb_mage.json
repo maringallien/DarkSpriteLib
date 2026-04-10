@@ -1,0 +1,127 @@
+{
+  "type": "standard",
+  "id": "orb_mage",
+  "path": "characters/orb_mage",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/orb_mage/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1547,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 13
+      },
+      "originalName": "attack"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/orb_mage/attack_vfx.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 714,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "attack_vfx"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/orb_mage/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 833,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 7
+      },
+      "originalName": "death"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/orb_mage/heal.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1666,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 14
+      },
+      "originalName": "heal"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/orb_mage/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 357,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 3
+      },
+      "originalName": "hit"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/orb_mage/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 357,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 3
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/orb_mage/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 952,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 8
+      },
+      "originalName": "move"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/orb_mage/sweep_attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1904,
+        "sheetHeight": 34,
+        "frameWidth": 119,
+        "frameHeight": 34,
+        "frameCount": 16
+      },
+      "originalName": "sweep_attack"
+    }
+  }
+}

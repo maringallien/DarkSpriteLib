@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "spitter",
+  "path": "characters/spitter",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/spitter/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 456,
+        "sheetHeight": 39,
+        "frameWidth": 57,
+        "frameHeight": 39,
+        "frameCount": 8
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/spitter/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 513,
+        "sheetHeight": 39,
+        "frameWidth": 57,
+        "frameHeight": 39,
+        "frameCount": 9
+      },
+      "originalName": "death"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/spitter/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 171,
+        "sheetHeight": 39,
+        "frameWidth": 57,
+        "frameHeight": 39,
+        "frameCount": 3
+      },
+      "originalName": "hit"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/spitter/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 342,
+        "sheetHeight": 39,
+        "frameWidth": 57,
+        "frameHeight": 39,
+        "frameCount": 6
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/spitter/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 399,
+        "sheetHeight": 39,
+        "frameWidth": 57,
+        "frameHeight": 39,
+        "frameCount": 7
+      },
+      "originalName": "walk"
+    }
+  }
+}

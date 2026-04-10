@@ -1,0 +1,607 @@
+{
+  "type": "standard",
+  "id": "spirit_walkers",
+  "path": "characters/spirit_walkers",
+  "animations": {
+    "idle1": {
+      "type": "simple",
+      "key": "idle1",
+      "file": "characters/spirit_walkers/dude_10_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_10_idle"
+    },
+    "walk1": {
+      "type": "simple",
+      "key": "walk1",
+      "file": "characters/spirit_walkers/dude_10_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_10_walk"
+    },
+    "idle2": {
+      "type": "simple",
+      "key": "idle2",
+      "file": "characters/spirit_walkers/dude_11_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_11_idle"
+    },
+    "walk2": {
+      "type": "simple",
+      "key": "walk2",
+      "file": "characters/spirit_walkers/dude_11_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_11_walk"
+    },
+    "idle3": {
+      "type": "simple",
+      "key": "idle3",
+      "file": "characters/spirit_walkers/dude_12_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_12_idle"
+    },
+    "walk3": {
+      "type": "simple",
+      "key": "walk3",
+      "file": "characters/spirit_walkers/dude_12_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_12_walk"
+    },
+    "idle4": {
+      "type": "simple",
+      "key": "idle4",
+      "file": "characters/spirit_walkers/dude_13_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_13_idle"
+    },
+    "walk4": {
+      "type": "simple",
+      "key": "walk4",
+      "file": "characters/spirit_walkers/dude_13_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_13_walk"
+    },
+    "idle5": {
+      "type": "simple",
+      "key": "idle5",
+      "file": "characters/spirit_walkers/dude_14_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_14_idle"
+    },
+    "walk5": {
+      "type": "simple",
+      "key": "walk5",
+      "file": "characters/spirit_walkers/dude_14_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_14_walk"
+    },
+    "idle6": {
+      "type": "simple",
+      "key": "idle6",
+      "file": "characters/spirit_walkers/dude_15_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_15_idle"
+    },
+    "walk6": {
+      "type": "simple",
+      "key": "walk6",
+      "file": "characters/spirit_walkers/dude_15_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_15_walk"
+    },
+    "idle7": {
+      "type": "simple",
+      "key": "idle7",
+      "file": "characters/spirit_walkers/dude_16_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_16_idle"
+    },
+    "walk7": {
+      "type": "simple",
+      "key": "walk7",
+      "file": "characters/spirit_walkers/dude_16_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_16_walk"
+    },
+    "idle8": {
+      "type": "simple",
+      "key": "idle8",
+      "file": "characters/spirit_walkers/dude_17_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_17_idle"
+    },
+    "walk8": {
+      "type": "simple",
+      "key": "walk8",
+      "file": "characters/spirit_walkers/dude_17_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_17_walk"
+    },
+    "idle9": {
+      "type": "simple",
+      "key": "idle9",
+      "file": "characters/spirit_walkers/dude_18_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_18_idle"
+    },
+    "walk9": {
+      "type": "simple",
+      "key": "walk9",
+      "file": "characters/spirit_walkers/dude_18_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_18_walk"
+    },
+    "idle10": {
+      "type": "simple",
+      "key": "idle10",
+      "file": "characters/spirit_walkers/dude_19_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_19_idle"
+    },
+    "walk10": {
+      "type": "simple",
+      "key": "walk10",
+      "file": "characters/spirit_walkers/dude_19_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_19_walk"
+    },
+    "idle11": {
+      "type": "simple",
+      "key": "idle11",
+      "file": "characters/spirit_walkers/dude_1_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_1_idle"
+    },
+    "walk11": {
+      "type": "simple",
+      "key": "walk11",
+      "file": "characters/spirit_walkers/dude_1_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_1_walk"
+    },
+    "idle12": {
+      "type": "simple",
+      "key": "idle12",
+      "file": "characters/spirit_walkers/dude_20_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_20_idle"
+    },
+    "walk12": {
+      "type": "simple",
+      "key": "walk12",
+      "file": "characters/spirit_walkers/dude_20_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_20_walk"
+    },
+    "idle13": {
+      "type": "simple",
+      "key": "idle13",
+      "file": "characters/spirit_walkers/dude_2_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_2_idle"
+    },
+    "walk13": {
+      "type": "simple",
+      "key": "walk13",
+      "file": "characters/spirit_walkers/dude_2_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_2_walk"
+    },
+    "idle14": {
+      "type": "simple",
+      "key": "idle14",
+      "file": "characters/spirit_walkers/dude_3_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_3_idle"
+    },
+    "walk14": {
+      "type": "simple",
+      "key": "walk14",
+      "file": "characters/spirit_walkers/dude_3_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_3_walk"
+    },
+    "idle15": {
+      "type": "simple",
+      "key": "idle15",
+      "file": "characters/spirit_walkers/dude_4_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_4_idle"
+    },
+    "walk15": {
+      "type": "simple",
+      "key": "walk15",
+      "file": "characters/spirit_walkers/dude_4_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_4_walk"
+    },
+    "idle16": {
+      "type": "simple",
+      "key": "idle16",
+      "file": "characters/spirit_walkers/dude_5_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_5_idle"
+    },
+    "walk16": {
+      "type": "simple",
+      "key": "walk16",
+      "file": "characters/spirit_walkers/dude_5_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_5_walk"
+    },
+    "idle17": {
+      "type": "simple",
+      "key": "idle17",
+      "file": "characters/spirit_walkers/dude_6_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_6_idle"
+    },
+    "walk17": {
+      "type": "simple",
+      "key": "walk17",
+      "file": "characters/spirit_walkers/dude_6_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_6_walk"
+    },
+    "idle18": {
+      "type": "simple",
+      "key": "idle18",
+      "file": "characters/spirit_walkers/dude_7_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_7_idle"
+    },
+    "walk18": {
+      "type": "simple",
+      "key": "walk18",
+      "file": "characters/spirit_walkers/dude_7_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_7_walk"
+    },
+    "idle19": {
+      "type": "simple",
+      "key": "idle19",
+      "file": "characters/spirit_walkers/dude_8_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_8_idle"
+    },
+    "walk19": {
+      "type": "simple",
+      "key": "walk19",
+      "file": "characters/spirit_walkers/dude_8_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_8_walk"
+    },
+    "idle20": {
+      "type": "simple",
+      "key": "idle20",
+      "file": "characters/spirit_walkers/dude_9_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "dude_9_idle"
+    },
+    "walk20": {
+      "type": "simple",
+      "key": "walk20",
+      "file": "characters/spirit_walkers/dude_9_walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 32,
+        "frameWidth": 24,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "dude_9_walk"
+    }
+  }
+}

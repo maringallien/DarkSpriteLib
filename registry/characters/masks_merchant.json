@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "masks_merchant",
+  "path": "characters/masks_merchant",
+  "animations": {
+    "full_sheet": {
+      "type": "simple",
+      "key": "full_sheet",
+      "file": "characters/masks_merchant/mask_merchants.png",
+      "category": "ui",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1944,
+        "sheetHeight": 60,
+        "frameWidth": 243,
+        "frameHeight": 60,
+        "frameCount": 8
+      },
+      "originalName": "mask_merchants"
+    }
+  }
+}

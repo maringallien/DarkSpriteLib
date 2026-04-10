@@ -1,0 +1,262 @@
+{
+  "type": "standard",
+  "id": "glitch_samurai",
+  "path": "characters/glitch_samurai",
+  "animations": {
+    "full_sheet": {
+      "type": "simple",
+      "key": "full_sheet",
+      "file": "characters/glitch_samurai/Glitch Samurai 140x46.png",
+      "category": "ui",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2800,
+        "sheetHeight": 644,
+        "frameWidth": 1400,
+        "frameHeight": 644,
+        "frameCount": 2
+      },
+      "originalName": "glitch samurai 140x46"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/glitch_samurai/Glitch Samurai-Death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1680,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 24
+      },
+      "originalName": "glitch samurai-death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/glitch_samurai/Glitch Samurai-Fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 560,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 8
+      },
+      "originalName": "glitch samurai-fall"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/glitch_samurai/Glitch Samurai-Glitch Out.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 700,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 10
+      },
+      "originalName": "glitch samurai-glitch out"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/glitch_samurai/Glitch Samurai-Glitch Slices.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1540,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 22
+      },
+      "originalName": "glitch samurai-glitch slices"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/glitch_samurai/Glitch Samurai-Glitch Sweep.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 840,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 12
+      },
+      "originalName": "glitch samurai-glitch sweep"
+    },
+    "idle2": {
+      "type": "simple",
+      "key": "idle2",
+      "file": "characters/glitch_samurai/Glitch Samurai-Idle Gltich.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1540,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 22
+      },
+      "originalName": "glitch samurai-idle gltich"
+    },
+    "idle1": {
+      "type": "simple",
+      "key": "idle1",
+      "file": "characters/glitch_samurai/Glitch Samurai-Idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1540,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 22
+      },
+      "originalName": "glitch samurai-idle"
+    },
+    "jump2": {
+      "type": "simple",
+      "key": "jump2",
+      "file": "characters/glitch_samurai/Glitch Samurai-Jump Glitch.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 560,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 8
+      },
+      "originalName": "glitch samurai-jump glitch"
+    },
+    "jump1": {
+      "type": "simple",
+      "key": "jump1",
+      "file": "characters/glitch_samurai/Glitch Samurai-Jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 560,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 8
+      },
+      "originalName": "glitch samurai-jump"
+    },
+    "land": {
+      "type": "simple",
+      "key": "land",
+      "file": "characters/glitch_samurai/Glitch Samurai-Land.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 420,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 6
+      },
+      "originalName": "glitch samurai-land"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/glitch_samurai/Glitch Samurai-Run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1680,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 24
+      },
+      "originalName": "glitch samurai-run"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/glitch_samurai/Glitch Samurai-Slash 1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 980,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 14
+      },
+      "originalName": "glitch samurai-slash 1"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/glitch_samurai/Glitch Samurai-Slash 2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 700,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 10
+      },
+      "originalName": "glitch samurai-slash 2"
+    },
+    "wall_slide1": {
+      "type": "simple",
+      "key": "wall_slide1",
+      "file": "characters/glitch_samurai/Glitch Samurai-Wall SIt.png",
+      "category": "traversal",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 140,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 2
+      },
+      "originalName": "glitch samurai-wall sit"
+    },
+    "wall_slide2": {
+      "type": "simple",
+      "key": "wall_slide2",
+      "file": "characters/glitch_samurai/Glitch Samurai-Wall Slide.png",
+      "category": "traversal",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 560,
+        "sheetHeight": 46,
+        "frameWidth": 70,
+        "frameHeight": 46,
+        "frameCount": 8
+      },
+      "originalName": "glitch samurai-wall slide"
+    },
+    "idle3": {
+      "type": "simple",
+      "key": "idle3",
+      "file": "characters/glitch_samurai/weird lamp-like ornament.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 281,
+        "sheetHeight": 72,
+        "frameWidth": 281,
+        "frameHeight": 72,
+        "frameCount": 1
+      },
+      "originalName": "weird lamp-like ornament"
+    }
+  }
+}

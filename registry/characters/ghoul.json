@@ -1,0 +1,112 @@
+{
+  "type": "standard",
+  "id": "ghoul",
+  "path": "characters/ghoul",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/ghoul/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 434,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 7
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/ghoul/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 496,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 8
+      },
+      "originalName": "death"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/ghoul/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 248,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "hit"
+    },
+    "appear": {
+      "type": "simple",
+      "key": "appear",
+      "file": "characters/ghoul/spawn.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 682,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 11
+      },
+      "originalName": "spawn"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/ghoul/static_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 62,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 1
+      },
+      "originalName": "static_idle"
+    },
+    "wake": {
+      "type": "simple",
+      "key": "wake",
+      "file": "characters/ghoul/wake.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 248,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "wake"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/ghoul/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 558,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 9
+      },
+      "originalName": "walk"
+    }
+  }
+}

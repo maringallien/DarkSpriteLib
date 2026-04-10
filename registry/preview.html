@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DarkSpriteLib – Animation Preview</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d0d1a;
+      color: #dde0ff;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      font-size: 13px;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Header / controls ─────────────────────────────────────── */
+    #toolbar {
+      background: #14142e;
+      border-bottom: 1px solid #282860;
+      padding: 8px 14px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    #toolbar h1 { font-size: 14px; font-weight: 700; color: #8080ff; margin-right: 4px; }
+
+    .ctrl-group { display: flex; align-items: center; gap: 6px; }
+
+    .ctrl-label { color: #8888bb; white-space: nowrap; }
+
+    select {
+      background: #1c1c40;
+      color: #dde0ff;
+      border: 1px solid #33336a;
+      border-radius: 4px;
+      padding: 4px 8px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    select:focus { outline: none; border-color: #5555cc; }
+    #entity-select { min-width: 220px; }
+    #anim-select   { min-width: 180px; }
+
+    button {
+      background: #2b2b8a;
+      color: #dde0ff;
+      border: 1px solid #4444aa;
+      border-radius: 4px;
+      padding: 4px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    button:hover:not(:disabled) { background: #4444bb; }
+    button:disabled { background: #1a1a30; color: #444466; cursor: not-allowed; border-color: #2a2a4a; }
+    button.active { background: #554400; border-color: #aa8800; color: #ffdd44; }
+
+    input[type=range] { width: 90px; accent-color: #5555ff; cursor: pointer; }
+    input[type=checkbox] { accent-color: #5555ff; cursor: pointer; width: 14px; height: 14px; }
+
+    #speed-val { min-width: 28px; text-align: right; color: #aaaadd; }
+
+    /* ── Main layout ───────────────────────────────────────────── */
+    #main { display: flex; flex: 1; overflow: hidden; }
+
+    #canvas-wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0d0d1a;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #loading-msg {
+      display: none;
+      position: absolute;
+      background: rgba(0,0,0,.75);
+      color: #8888ff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      pointer-events: none;
+      z-index: 10;
+    }
+
+    /* ── Info panel ────────────────────────────────────────────── */
+    #info-panel {
+      width: 260px;
+      flex-shrink: 0;
+      background: #12122a;
+      border-left: 1px solid #282860;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    #info-panel h2 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #7070cc;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      padding: 10px 12px 6px;
+      border-bottom: 1px solid #1e1e42;
+      flex-shrink: 0;
+    }
+    #info-body { flex: 1; overflow-y: auto; padding: 8px 12px; }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 4px 0;
+      border-bottom: 1px solid #1a1a36;
+    }
+    .info-key   { color: #7070aa; white-space: nowrap; }
+    .info-val   { color: #dde0ff; text-align: right; word-break: break-all; }
+
+    .badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 1px 5px;
+      border-radius: 3px;
+      letter-spacing: .03em;
+    }
+    .b-warn { background: #4a2800; color: #ffaa44; }
+    .b-seq  { background: #003050; color: #44aaff; }
+    .b-proj { background: #003020; color: #44dd88; }
+    .b-full { background: #3a2800; color: #ddaa44; }
+
+    .seq-parts { margin-top: 6px; }
+    .seq-part {
+      background: #1a1a38;
+      border-left: 2px solid #2a2a50;
+      border-radius: 0 3px 3px 0;
+      padding: 4px 8px;
+      margin-bottom: 3px;
+      font-size: 11px;
+    }
+    .seq-part.active { border-left-color: #5555ff; background: #1e1e48; }
+    .seq-part .part-name { font-weight: 600; color: #aaaaee; }
+    .seq-part .part-detail { color: #666688; margin-top: 1px; }
+
+    /* ── Status bar ────────────────────────────────────────────── */
+    #statusbar {
+      background: #0a0a18;
+      border-top: 1px solid #1a1a36;
+      padding: 3px 14px;
+      font-size: 11px;
+      color: #555577;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    #frame-counter { color: #444466; }
+  </style>
+</head>
+<body>
+
+<!-- ── Toolbar ─────────────────────────────────────────────────────────── -->
+<div id="toolbar">
+  <h1>DarkSpriteLib</h1>
+
+  <div class="ctrl-group">
+    <span class="ctrl-label">Entity</span>
+    <select id="entity-select"><option value="">Loading…</option></select>
+  </div>
+
+  <div class="ctrl-group">
+    <span class="ctrl-label">Animation</span>
+    <select id="anim-select"><option value="">—</option></select>
+  </div>
+
+  <div class="ctrl-group">
+    <button id="btn-play"  disabled>▶ Play</button>
+    <button id="btn-pause" disabled>⏸ Pause</button>
+    <button id="btn-stop"  disabled>■ Stop</button>
+  </div>
+
+  <div class="ctrl-group">
+    <input type="checkbox" id="loop-chk" checked>
+    <label class="ctrl-label" for="loop-chk">Loop</label>
+  </div>
+
+  <div class="ctrl-group">
+    <span class="ctrl-label">Speed</span>
+    <input type="range" id="speed-range" min="0.25" max="4" step="0.25" value="1">
+    <span id="speed-val">1×</span>
+  </div>
+
+  <div class="ctrl-group">
+    <span class="ctrl-label">FPS</span>
+    <input type="range" id="fps-range" min="4" max="30" step="1" value="10">
+    <span id="fps-val">10</span>
+  </div>
+</div>
+
+<!-- ── Main ────────────────────────────────────────────────────────────── -->
+<div id="main">
+  <div id="canvas-wrap">
+    <div id="loading-msg">Loading texture…</div>
+    <div id="game-container"></div>
+  </div>
+
+  <div id="info-panel">
+    <h2>Animation Info</h2>
+    <div id="info-body">
+      <p style="color:#444466;margin-top:8px">Select an entity and animation.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ── Status bar ──────────────────────────────────────────────────────── -->
+<div id="statusbar">
+  <span id="status-msg">Ready — open registry loaded from <code>/registry/registry.json</code></span>
+  <span id="frame-counter"></span>
+</div>
+
+<script>
+// ─── Globals ──────────────────────────────────────────────────────────────────
+
+const BASE   = window.location.origin;
+let registry = null;
+let entities = [];          // flat list built from registry
+let curEntity = null;       // currently selected entity object
+let scene    = null;        // Phaser scene reference
+let paused   = false;
+
+// ─── Registry loading ─────────────────────────────────────────────────────────
+
+async function boot() {
+  status('Loading registry…');
+  try {
+    const r = await fetch(`${BASE}/registry/registry.json`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    registry = await r.json();
+    buildEntities();
+    populateEntityDropdown();
+    initPhaser();
+    status(`Ready — ${entities.length} entities loaded`);
+  } catch (e) {
+    status(`ERROR: ${e.message} — is the server running? (node registry/serve.js)`);
+    document.getElementById('entity-select').innerHTML =
+      '<option>Failed to load registry.json</option>';
+  }
+}
+
+// ─── Entity / animation list ──────────────────────────────────────────────────
+
+function buildEntities() {
+  entities = [];
+
+  // Playable character modes
+  for (const [modeKey, mode] of Object.entries(registry.playableCharacter.modes)) {
+    const anims = mode.animations;
+    if (Object.keys(anims).length === 0) continue;
+    entities.push({
+      id: `_player__${modeKey}`,
+      label: modeKey.replace(/_/g, ' '),
+      group: 'Player',
+      animations: anims,
+    });
+  }
+
+  // Characters
+  for (const [charId, char] of Object.entries(registry.characters)) {
+    const name = charId.replace(/_/g, ' ');
+
+    if (char.type === 'standard') {
+      if (Object.keys(char.animations).length === 0) continue;
+      entities.push({ id: charId, label: name, group: 'Characters', animations: char.animations });
+
+    } else if (char.type === 'composite') {
+      for (const [compKey, comp] of Object.entries(char.components)) {
+        if (Object.keys(comp.animations).length === 0) continue;
+        entities.push({
+          id: `${charId}__${compKey}`,
+          label: `${name} / ${compKey}`,
+          group: 'Composite',
+          animations: comp.animations,
+        });
+      }
+
+    } else if (char.type === 'variant') {
+      for (const [varKey, variant] of Object.entries(char.variants)) {
+        if (Object.keys(variant.animations).length === 0) continue;
+        entities.push({
+          id: `${charId}__${varKey}`,
+          label: `${name} [${varKey}]`,
+          group: 'Variants',
+          animations: variant.animations,
+        });
+      }
+    }
+  }
+
+  entities.sort((a, b) => a.label.localeCompare(b.label));
+}
+
+function populateEntityDropdown() {
+  const sel = document.getElementById('entity-select');
+  sel.innerHTML = '<option value="">— Select Entity —</option>';
+
+  // Group into optgroups
+  const groups = {};
+  for (const e of entities) {
+    (groups[e.group] ??= []).push(e);
+  }
+
+  for (const [groupName, list] of Object.entries(groups)) {
+    const grp = document.createElement('optgroup');
+    grp.label = groupName;
+    for (const e of list) {
+      const opt = document.createElement('option');
+      opt.value = e.id;
+      opt.textContent = e.label;
+      grp.appendChild(opt);
+    }
+    sel.appendChild(grp);
+  }
+}
+
+function onEntityChange() {
+  const id = document.getElementById('entity-select').value;
+  curEntity = entities.find(e => e.id === id) ?? null;
+
+  const animSel = document.getElementById('anim-select');
+  animSel.innerHTML = '<option value="">— Select Animation —</option>';
+
+  if (!curEntity) return;
+
+  for (const [key, anim] of Object.entries(curEntity.animations)) {
+    const opt = document.createElement('option');
+    opt.value = key;
+    let label = key;
+    if (anim.type === 'sequence') label += '  [seq]';
+    if (anim.type === 'with_projectile') label += '  [+proj]';
+    if (isAmbiguous(anim)) label += '  ⚠';
+    opt.textContent = label;
+    animSel.appendChild(opt);
+  }
+}
+
+function isAmbiguous(anim) {
+  if (anim.frames?.ambiguous) return true;
+  if (anim.type === 'sequence') return anim.parts.some(p => p.frames?.ambiguous);
+  return false;
+}
+
+function onAnimChange() {
+  const key = document.getElementById('anim-select').value;
+  if (!key || !curEntity) return;
+  const anim = curEntity.animations[key];
+  if (!anim) return;
+
+  enableControls(true);
+  updateInfoPanel(anim, key, -1);
+  triggerPlay(anim);
+}
+
+// ─── Info panel ───────────────────────────────────────────────────────────────
+
+function updateInfoPanel(anim, normKey, activePartIdx) {
+  const body = document.getElementById('info-body');
+  const row = (k, v) =>
+    `<div class="info-row"><span class="info-key">${k}</span><span class="info-val">${v}</span></div>`;
+
+  let html = row('Key', `<strong>${normKey}</strong>`);
+  html += row('Type', anim.type);
+
+  if (anim.type === 'simple' || anim.type === 'with_projectile') {
+    html += row('Original', anim.originalName ?? '—');
+    html += row('Category', anim.category ?? '—');
+    html += row('Loops', anim.loops ? 'yes' : 'no');
+    html += row('Frame size', `${anim.frames.frameWidth} × ${anim.frames.frameHeight}`);
+    html += row('Frames', String(anim.frames.frameCount));
+    html += row('Sheet', `${anim.frames.sheetWidth} × ${anim.frames.sheetHeight}`);
+    if (anim.frames.ambiguous) {
+      html += `<div style="margin:6px 0"><span class="badge b-warn">⚠ Ambiguous frame size</span></div>`;
+    }
+    html += row('File', `<small>${anim.file}</small>`);
+
+    if (anim.type === 'with_projectile') {
+      html += `<div style="margin:6px 0"><span class="badge b-proj">+ Projectile: ${anim.projectile.map(p => p.key).join(', ')}</span></div>`;
+    }
+    if (anim.key === 'full_sheet' || anim.originalName?.includes('sprite_sheet')) {
+      html += `<div style="margin:6px 0"><span class="badge b-full">Combined sprite sheet — static display</span></div>`;
+    }
+
+  } else if (anim.type === 'sequence') {
+    html += row('Category', anim.category ?? '—');
+    html += row('Parts', String(anim.parts.length));
+    html += `<div style="margin:6px 0"><span class="badge b-seq">Sequence</span></div>`;
+    html += '<div class="seq-parts">';
+    for (let i = 0; i < anim.parts.length; i++) {
+      const p = anim.parts[i];
+      const active = i === activePartIdx ? ' active' : '';
+      html += `<div class="seq-part${active}" id="seqpart-${i}">
+        <div class="part-name">${p.key}</div>
+        <div class="part-detail">${p.frames.frameCount} frames · ${p.frames.frameWidth}×${p.frames.frameHeight}</div>
+      </div>`;
+    }
+    html += '</div>';
+  }
+
+  body.innerHTML = html;
+}
+
+function highlightSeqPart(idx) {
+  document.querySelectorAll('.seq-part').forEach((el, i) => {
+    el.classList.toggle('active', i === idx);
+  });
+}
+
+// ─── Phaser scene ─────────────────────────────────────────────────────────────
+
+class PreviewScene extends Phaser.Scene {
+  constructor() {
+    super({ key: 'PreviewScene' });
+    this.sprites = [];
+    this.gen = 0;
+  }
+
+  preload() {}
+
+  create() {
+    const W = this.scale.width;
+    const H = this.scale.height;
+    this.cx = W / 2;
+    this.cy = H / 2;
+
+    // Checkerboard background
+    const g = this.add.graphics();
+    const SZ = 24;
+    for (let x = 0; x < W; x += SZ) {
+      for (let y = 0; y < H; y += SZ) {
+        const even = (Math.floor(x / SZ) + Math.floor(y / SZ)) % 2 === 0;
+        g.fillStyle(even ? 0x111126 : 0x16162e, 1).fillRect(x, y, SZ, SZ);
+      }
+    }
+
+    // Crosshair
+    const cg = this.add.graphics();
+    cg.lineStyle(1, 0x2a2a55, 0.6);
+    cg.lineBetween(this.cx, 0, this.cx, H);
+    cg.lineBetween(0, this.cy, W, this.cy);
+
+    scene = this;
+
+    // Texture load events
+    this.load.on('complete', () => {
+      document.getElementById('loading-msg').style.display = 'none';
+      this._pendingPlay?.();
+      this._pendingPlay = null;
+    });
+
+    this.load.on('loaderror', file => {
+      document.getElementById('loading-msg').style.display = 'none';
+      status(`Load error: ${file.src}`);
+    });
+  }
+
+  // ── Public interface ────────────────────────────────────────────────────────
+
+  loadAndPlay(anim) {
+    this.clearAll();
+    paused = false;
+    document.getElementById('btn-pause').textContent = '⏸ Pause';
+
+    const gen = ++this.gen;
+    const filesToLoad = this.filesToLoad(anim);
+
+    const doPlay = () => {
+      if (gen !== this.gen) return;
+      this.playAnim(anim, gen);
+    };
+
+    if (filesToLoad.length === 0) {
+      doPlay();
+      return;
+    }
+
+    document.getElementById('loading-msg').style.display = 'block';
+    this._pendingPlay = doPlay;
+
+    for (const f of filesToLoad) {
+      if (f.fw > 0 && f.fh > 0) {
+        this.load.spritesheet(f.key, `${BASE}/${f.file}`, {
+          frameWidth: f.fw,
+          frameHeight: f.fh,
+        });
+      } else {
+        this.load.image(f.key, `${BASE}/${f.file}`);
+      }
+    }
+    this.load.start();
+  }
+
+  stop() {
+    this.clearAll();
+    frameCounter('');
+    status('Stopped');
+  }
+
+  togglePause() {
+    paused = !paused;
+    for (const s of this.sprites) {
+      if (!s.active) continue;
+      if (paused) s.anims?.pause();
+      else s.anims?.resume();
+    }
+    document.getElementById('btn-pause').textContent = paused ? '▶ Resume' : '⏸ Pause';
+    document.getElementById('btn-pause').classList.toggle('active', paused);
+  }
+
+  // ── Internals ───────────────────────────────────────────────────────────────
+
+  clearAll() {
+    this.gen++;
+    for (const s of this.sprites) { try { s.destroy(); } catch (_) {} }
+    this.sprites = [];
+  }
+
+  filesToLoad(anim) {
+    const files = [];
+    const add = (file, fw, fh) => {
+      if (!this.textures.exists(file)) files.push({ key: file, file, fw, fh });
+    };
+
+    if (anim.type === 'simple') {
+      add(anim.file, anim.frames.frameWidth, anim.frames.frameHeight);
+    } else if (anim.type === 'with_projectile') {
+      add(anim.file, anim.frames.frameWidth, anim.frames.frameHeight);
+      for (const p of anim.projectile) add(p.file, p.frames.frameWidth, p.frames.frameHeight);
+    } else if (anim.type === 'sequence') {
+      for (const p of anim.parts) add(p.file, p.frames.frameWidth, p.frames.frameHeight);
+    }
+    return files;
+  }
+
+  playAnim(anim, gen) {
+    const loop  = document.getElementById('loop-chk').checked;
+    const fps   = parseInt(document.getElementById('fps-range').value);
+    const speed = parseFloat(document.getElementById('speed-range').value);
+    const effectiveFps = Math.round(fps * speed);
+
+    if (anim.type === 'simple') {
+      this.playSimple(anim, loop, effectiveFps, gen);
+    } else if (anim.type === 'with_projectile') {
+      this.playSimple(anim, loop, effectiveFps, gen);
+      this.playProjectile(anim, effectiveFps, gen);
+    } else if (anim.type === 'sequence') {
+      const sprite = this.add.sprite(this.cx, this.cy, anim.parts[0].file, 0);
+      this.sprites.push(sprite);
+      this.playSeqPart(sprite, anim, 0, loop, effectiveFps, gen);
+    }
+  }
+
+  playSimple(anim, loop, fps, gen) {
+    const animKey = `${anim.file}::${fps}::${loop}`;
+    this.ensureAnim(animKey, anim.file, anim.frames.frameCount, fps, loop);
+
+    const sprite = this.add.sprite(this.cx, this.cy, anim.file, 0);
+    this.applyScale(sprite, anim.frames);
+    this.sprites.push(sprite);
+
+    sprite.on('animationupdate', (a, frame) => {
+      if (gen !== this.gen) return;
+      frameCounter(`Frame ${frame.index + 1} / ${a.getTotalFrames()}`);
+    });
+
+    sprite.play(animKey);
+    status(`${anim.key}  ·  ${anim.frames.frameCount} frames  ·  ${anim.frames.frameWidth}×${anim.frames.frameHeight}px`);
+  }
+
+  playProjectile(anim, fps, gen) {
+    const projIdle = anim.projectile.find(p => p.key === 'idle') ?? anim.projectile[0];
+    if (!projIdle || !this.textures.exists(projIdle.file)) return;
+
+    const animKey = `${projIdle.file}::${fps}::loop`;
+    this.ensureAnim(animKey, projIdle.file, projIdle.frames.frameCount, fps, true);
+
+    // Offset to the right of main sprite by ~1.5 frame widths
+    const offset = anim.frames.frameWidth * this.scaleFor(anim.frames) + 20;
+    const ps = this.add.sprite(this.cx + offset, this.cy, projIdle.file, 0);
+    this.applyScale(ps, projIdle.frames);
+    this.sprites.push(ps);
+    ps.play(animKey);
+  }
+
+  playSeqPart(sprite, anim, partIdx, loop, fps, gen) {
+    if (gen !== this.gen) return;
+
+    if (partIdx >= anim.parts.length) {
+      if (loop) this.playSeqPart(sprite, anim, 0, loop, fps, gen);
+      return;
+    }
+
+    const part = anim.parts[partIdx];
+    const animKey = `${part.file}::${fps}`;
+    this.ensureAnim(animKey, part.file, part.frames.frameCount, fps, false);
+
+    sprite.setTexture(part.file, 0);
+    this.applyScale(sprite, part.frames);
+
+    highlightSeqPart(partIdx);
+    status(`Sequence: part ${partIdx + 1}/${anim.parts.length}  ·  ${part.key}  ·  ${part.frames.frameCount} frames`);
+
+    sprite.on('animationupdate', (a, frame) => {
+      if (gen !== this.gen) return;
+      frameCounter(`Frame ${frame.index + 1} / ${a.getTotalFrames()}  (part ${partIdx + 1}/${anim.parts.length})`);
+    });
+
+    sprite.once('animationcomplete', () => {
+      sprite.removeAllListeners('animationupdate');
+      this.playSeqPart(sprite, anim, partIdx + 1, loop, fps, gen);
+    });
+
+    sprite.play(animKey);
+  }
+
+  ensureAnim(key, textureKey, frameCount, fps, loop) {
+    if (this.anims.exists(key)) this.anims.remove(key);
+    this.anims.create({
+      key,
+      frames: this.anims.generateFrameNumbers(textureKey, {
+        start: 0,
+        end: Math.max(0, frameCount - 1),
+      }),
+      frameRate: Math.max(1, fps),
+      repeat: loop ? -1 : 0,
+    });
+  }
+
+  scaleFor(frames) {
+    const maxDim = Math.max(frames.frameWidth || 1, frames.frameHeight || 1);
+    // Cap at 2× so small pixel-art sprites don't blow up to fill the canvas
+    return Math.min(2, Math.max(1, Math.floor(220 / maxDim)));
+  }
+
+  applyScale(sprite, frames) {
+    sprite.setScale(this.scaleFor(frames));
+  }
+}
+
+// ─── Phaser init ──────────────────────────────────────────────────────────────
+
+function initPhaser() {
+  new Phaser.Game({
+    type: Phaser.AUTO,
+    width: 800,
+    height: 480,
+    parent: 'game-container',
+    scene: PreviewScene,
+    audio: { noAudio: true },
+    scale: {
+      mode: Phaser.Scale.FIT,
+      autoCenter: Phaser.Scale.CENTER_BOTH,
+    },
+  });
+}
+
+// ─── Control wiring ──────────────────────────────────────────────────────────
+
+function triggerPlay(anim) {
+  if (!scene) return;
+  scene.loadAndPlay(anim);
+}
+
+function currentAnim() {
+  const key = document.getElementById('anim-select').value;
+  return key && curEntity ? curEntity.animations[key] ?? null : null;
+}
+
+document.getElementById('entity-select').addEventListener('change', onEntityChange);
+document.getElementById('anim-select').addEventListener('change', onAnimChange);
+
+document.getElementById('btn-play').addEventListener('click', () => {
+  const anim = currentAnim();
+  if (anim) triggerPlay(anim);
+});
+
+document.getElementById('btn-pause').addEventListener('click', () => {
+  if (scene) scene.togglePause();
+});
+
+document.getElementById('btn-stop').addEventListener('click', () => {
+  if (scene) scene.stop();
+});
+
+document.getElementById('speed-range').addEventListener('input', e => {
+  document.getElementById('speed-val').textContent = `${e.target.value}×`;
+  const anim = currentAnim();
+  if (anim && scene) triggerPlay(anim);
+});
+
+document.getElementById('fps-range').addEventListener('input', e => {
+  document.getElementById('fps-val').textContent = e.target.value;
+  const anim = currentAnim();
+  if (anim && scene) triggerPlay(anim);
+});
+
+document.getElementById('loop-chk').addEventListener('change', () => {
+  const anim = currentAnim();
+  if (anim && scene) triggerPlay(anim);
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
+  if (e.code === 'Space') { e.preventDefault(); document.getElementById('btn-pause').click(); }
+  if (e.code === 'KeyS')  { document.getElementById('btn-stop').click(); }
+  if (e.code === 'KeyR')  { const anim = currentAnim(); if (anim) triggerPlay(anim); }
+});
+
+function enableControls(on) {
+  ['btn-play', 'btn-pause', 'btn-stop'].forEach(id => {
+    document.getElementById(id).disabled = !on;
+  });
+}
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+function status(msg)       { document.getElementById('status-msg').textContent = msg; }
+function frameCounter(msg) { document.getElementById('frame-counter').textContent = msg; }
+
+// ─── Boot ─────────────────────────────────────────────────────────────────────
+
+boot();
+</script>
+</body>
+</html>

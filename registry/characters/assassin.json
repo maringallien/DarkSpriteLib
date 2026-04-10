@@ -1,0 +1,172 @@
+{
+  "type": "standard",
+  "id": "assassin",
+  "path": "characters/assassin",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/assassin/attack_1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 364,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 4
+      },
+      "originalName": "attack_1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/assassin/attack_2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 455,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 5
+      },
+      "originalName": "attack_2"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/assassin/cross_slice.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 455,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 5
+      },
+      "originalName": "cross_slice"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/assassin/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 8
+      },
+      "originalName": "death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/assassin/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 364,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/assassin/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 182,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 2
+      },
+      "originalName": "hit"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/assassin/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 819,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 9
+      },
+      "originalName": "idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/assassin/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 364,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 4
+      },
+      "originalName": "jump"
+    },
+    "land": {
+      "type": "simple",
+      "key": "land",
+      "file": "characters/assassin/land_with_vfx.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 364,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 4
+      },
+      "originalName": "land_with_vfx"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/assassin/run_with_vfx.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 8
+      },
+      "originalName": "run_with_vfx"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/assassin/sweep_attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 910,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 10
+      },
+      "originalName": "sweep_attack"
+    }
+  }
+}

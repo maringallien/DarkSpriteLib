@@ -1,0 +1,37 @@
+{
+  "type": "standard",
+  "id": "shadow_of_storms",
+  "path": "characters/shadow_of_storms",
+  "animations": {
+    "ranged": {
+      "type": "simple",
+      "key": "ranged",
+      "file": "characters/shadow_of_storms/50x51 Beam.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 350,
+        "sheetHeight": 51,
+        "frameWidth": 175,
+        "frameHeight": 51,
+        "frameCount": 2
+      },
+      "originalName": "50x51 beam"
+    },
+    "full_sheet": {
+      "type": "simple",
+      "key": "full_sheet",
+      "file": "characters/shadow_of_storms/Shadow Of Storms 159x53.png",
+      "category": "ui",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 17013,
+        "sheetHeight": 53,
+        "frameWidth": 17013,
+        "frameHeight": 53,
+        "frameCount": 1
+      },
+      "originalName": "shadow of storms 159x53"
+    }
+  }
+}

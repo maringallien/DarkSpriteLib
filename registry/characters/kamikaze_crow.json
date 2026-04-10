@@ -1,0 +1,67 @@
+{
+  "type": "standard",
+  "id": "kamikaze_crow",
+  "path": "characters/kamikaze_crow",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/kamikaze_crow/kami-kaze_crow-dive.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 162,
+        "sheetHeight": 27,
+        "frameWidth": 54,
+        "frameHeight": 27,
+        "frameCount": 3
+      },
+      "originalName": "kami-kaze_crow-dive"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/kamikaze_crow/kami-kaze_crow-explode.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 324,
+        "sheetHeight": 27,
+        "frameWidth": 54,
+        "frameHeight": 27,
+        "frameCount": 6
+      },
+      "originalName": "kami-kaze_crow-explode"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/kamikaze_crow/kami-kaze_crow-fly.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 108,
+        "sheetHeight": 27,
+        "frameWidth": 54,
+        "frameHeight": 27,
+        "frameCount": 2
+      },
+      "originalName": "kami-kaze_crow-fly"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/kamikaze_crow/kami-kaze_crow-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 324,
+        "sheetHeight": 27,
+        "frameWidth": 54,
+        "frameHeight": 27,
+        "frameCount": 6
+      },
+      "originalName": "kami-kaze_crow-idle"
+    }
+  }
+}

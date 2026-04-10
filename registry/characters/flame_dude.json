@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "flame_dude",
+  "path": "characters/flame_dude",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/flame_dude/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1222,
+        "sheetHeight": 64,
+        "frameWidth": 94,
+        "frameHeight": 64,
+        "frameCount": 13
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/flame_dude/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1410,
+        "sheetHeight": 64,
+        "frameWidth": 94,
+        "frameHeight": 64,
+        "frameCount": 15
+      },
+      "originalName": "die"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/flame_dude/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 564,
+        "sheetHeight": 64,
+        "frameWidth": 94,
+        "frameHeight": 64,
+        "frameCount": 6
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/flame_dude/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 752,
+        "sheetHeight": 64,
+        "frameWidth": 94,
+        "frameHeight": 64,
+        "frameCount": 8
+      },
+      "originalName": "move"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/flame_dude/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 188,
+        "sheetHeight": 64,
+        "frameWidth": 94,
+        "frameHeight": 64,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    }
+  }
+}

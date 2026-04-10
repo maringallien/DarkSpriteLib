@@ -1,0 +1,115 @@
+{
+  "type": "standard",
+  "id": "archer_bandit",
+  "path": "characters/archer_bandit",
+  "animations": {
+    "teleport": {
+      "type": "sequence",
+      "key": "teleport",
+      "category": "special",
+      "parts": [
+        {
+          "key": "vanish",
+          "file": "characters/archer_bandit/archer_bandit-vanish.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1530,
+            "sheetHeight": 112,
+            "frameWidth": 85,
+            "frameHeight": 112,
+            "frameCount": 18
+          },
+          "originalName": "archer_bandit-vanish"
+        },
+        {
+          "key": "appear",
+          "file": "characters/archer_bandit/archer_bandit-appear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1360,
+            "sheetHeight": 112,
+            "frameWidth": 85,
+            "frameHeight": 112,
+            "frameCount": 16
+          },
+          "originalName": "archer_bandit-appear"
+        }
+      ]
+    },
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/archer_bandit/archer_bandit-attack_1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1615,
+        "sheetHeight": 112,
+        "frameWidth": 85,
+        "frameHeight": 112,
+        "frameCount": 19
+      },
+      "originalName": "archer_bandit-attack_1"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/archer_bandit/archer_bandit-death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1360,
+        "sheetHeight": 112,
+        "frameWidth": 85,
+        "frameHeight": 112,
+        "frameCount": 16
+      },
+      "originalName": "archer_bandit-death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/archer_bandit/archer_bandit-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 680,
+        "sheetHeight": 112,
+        "frameWidth": 85,
+        "frameHeight": 112,
+        "frameCount": 8
+      },
+      "originalName": "archer_bandit-idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/archer_bandit/archer_bandit-run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 680,
+        "sheetHeight": 112,
+        "frameWidth": 85,
+        "frameHeight": 112,
+        "frameCount": 8
+      },
+      "originalName": "archer_bandit-run"
+    },
+    "ranged": {
+      "type": "simple",
+      "key": "ranged",
+      "file": "characters/archer_bandit/volley_vfx.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 592,
+        "sheetHeight": 111,
+        "frameWidth": 74,
+        "frameHeight": 111,
+        "frameCount": 8
+      },
+      "originalName": "volley_vfx"
+    }
+  }
+}

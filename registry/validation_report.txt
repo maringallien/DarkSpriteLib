@@ -1,0 +1,103 @@
+DarkSpriteLib – Animation Registry Validation Report
+Generated: 2026-04-10T21:34:53.833Z
+Characters processed: 56
+Playable character modes: 5
+Total issues: 66
+
+────────────────────────────────────────────────────────────────────────────────
+
+WARNINGS (66)
+────────────────────────────────────────
+  [WARN]  civilians: Missing idle animation
+  [WARN]  civilians: Missing death animation
+  [WARN]  dream_merchant1: Missing idle animation
+  [WARN]  dream_merchant1: Missing death animation
+  [WARN]  dream_merchant2: Missing idle animation
+  [WARN]  dream_merchant2: Missing death animation
+  [WARN]  dream_merchant3: Missing idle animation
+  [WARN]  dream_merchant3: Missing death animation
+  [WARN]  evil_sage: Missing idle animation
+  [WARN]  flower_enemy: Missing idle animation
+  [WARN]  glitch_samurai: Missing idle animation
+  [WARN]  golden_retriever: Missing idle animation
+  [WARN]  masks_merchant: Missing idle animation
+  [WARN]  masks_merchant: Missing death animation
+  [WARN]  mechanical_characters: Missing idle animation
+  [WARN]  merchants: Ambiguous frame size for "gem_merchant"
+          → characters/merchants/gem_merchant.png
+  [WARN]  merchants: Ambiguous frame size for "gun_merchant"
+          → characters/merchants/gun_merchant.png
+  [WARN]  merchants: Ambiguous frame size for "mushroom_merchant"
+          → characters/merchants/mushroom_merchant.png
+  [WARN]  merchants: Missing idle animation
+  [WARN]  merchants: Missing death animation
+  [WARN]  mountain_pass_merchants: Missing idle animation
+  [WARN]  mountain_pass_merchants: Missing death animation
+  [WARN]  npcs: Missing idle animation
+  [WARN]  npcs: Missing death animation
+  [WARN]  panda_protector: Missing death animation
+  [WARN]  sage: Missing idle animation
+  [WARN]  shadow_of_storms: Missing idle animation
+  [WARN]  shadow_of_storms: Missing death animation
+  [WARN]  slicers: Ambiguous frame size for "attack"
+          → characters/slicers/dual_slicer/attack.png
+  [WARN]  slicers: Ambiguous frame size for "die"
+          → characters/slicers/dual_slicer/die.png
+  [WARN]  slicers: Ambiguous frame size for "idle"
+          → characters/slicers/dual_slicer/idle.png
+  [WARN]  slicers: Ambiguous frame size for "move"
+          → characters/slicers/dual_slicer/move.png
+  [WARN]  slicers: Ambiguous frame size for "take_hit"
+          → characters/slicers/dual_slicer/take_hit.png
+  [WARN]  slicers: Ambiguous frame size for "die"
+          → characters/slicers/heavy_slicer/die.png
+  [WARN]  slicers: Ambiguous frame size for "take_hit"
+          → characters/slicers/heavy_slicer/take_hit.png
+  [WARN]  slicers: Missing idle animation
+  [WARN]  slicers: Missing death animation
+  [WARN]  spark_bug: Missing idle animation
+  [WARN]  spirit_walkers: Missing idle animation
+  [WARN]  spirit_walkers: Missing death animation
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge"
+          → characters/the_blood_king/the_blood_king-charge.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge_transition_down"
+          → characters/the_blood_king/the_blood_king-charge_transition_down.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge_transition_up"
+          → characters/the_blood_king/the_blood_king-charge_transition_up.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-dodge_charge_attack"
+          → characters/the_blood_king/the_blood_king-dodge_charge_attack.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-double_slash_vfx"
+          → characters/the_blood_king/the_blood_king-double_slash_vfx.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-fall"
+          → characters/the_blood_king/the_blood_king-fall.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-finisher"
+          → characters/the_blood_king/the_blood_king-finisher.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-hit"
+          → characters/the_blood_king/the_blood_king-hit.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-idle"
+          → characters/the_blood_king/the_blood_king-idle.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-jump"
+          → characters/the_blood_king/the_blood_king-jump.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-jump_to_fall_trans"
+          → characters/the_blood_king/the_blood_king-jump_to_fall_trans.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-run"
+          → characters/the_blood_king/the_blood_king-run.png
+  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-stab_and_spin_throw"
+          → characters/the_blood_king/the_blood_king-stab_and_spin_throw.png
+  [WARN]  the_bone_reaper/orb_black: Missing death animation
+  [WARN]  the_bone_reaper/orb_white: Missing death animation
+  [WARN]  the_heart_hoarder: Missing idle animation
+  [WARN]  playable_character/dark_flame_spells: Ambiguous frame size for "dark_flame_1"
+          → playable_character/dark_flame_spells/dark_flame_1.png
+  [WARN]  playable_character/dark_flame_spells: Ambiguous frame size for "dark_flame_2"
+          → playable_character/dark_flame_spells/dark_flame_2.png
+  [WARN]  playable_character/dark_flame_spells: Missing idle animation
+  [WARN]  playable_character/dark_flame_spells: Missing death animation
+  [WARN]  playable_character/gunslinger_gun1: Missing idle animation
+  [WARN]  playable_character/gunslinger_gun2: Missing idle animation
+  [WARN]  playable_character/sword_master_magic: Ambiguous frame size for "slash_1"
+          → playable_character/sword_master_animations/magic_attacks/slash_1.png
+  [WARN]  playable_character/sword_master_magic: Ambiguous frame size for "slash_2"
+          → playable_character/sword_master_animations/magic_attacks/slash_2.png
+  [WARN]  playable_character/sword_master_magic: Missing idle animation
+  [WARN]  playable_character/sword_master_magic: Missing death animation

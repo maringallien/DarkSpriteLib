@@ -1,0 +1,307 @@
+{
+  "type": "standard",
+  "id": "doberman",
+  "path": "characters/doberman",
+  "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/doberman/dead.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 45,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 1
+      },
+      "originalName": "dead"
+    },
+    "bark": {
+      "type": "simple",
+      "key": "bark",
+      "file": "characters/doberman/dog-bark.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 450,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 10
+      },
+      "originalName": "dog-bark"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/doberman/dog-bite.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 450,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 10
+      },
+      "originalName": "dog-bite"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/doberman/dog-fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 180,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 4
+      },
+      "originalName": "dog-fall"
+    },
+    "get_up": {
+      "type": "simple",
+      "key": "get_up",
+      "file": "characters/doberman/dog-get_up.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 315,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 7
+      },
+      "originalName": "dog-get_up"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/doberman/dog-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 540,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 12
+      },
+      "originalName": "dog-idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/doberman/dog-jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 180,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 4
+      },
+      "originalName": "dog-jump"
+    },
+    "land": {
+      "type": "simple",
+      "key": "land",
+      "file": "characters/doberman/dog-land.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 225,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 5
+      },
+      "originalName": "dog-land"
+    },
+    "lie": {
+      "type": "simple",
+      "key": "lie",
+      "file": "characters/doberman/dog-lay_down_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 990,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 22
+      },
+      "originalName": "dog-lay_down_idle"
+    },
+    "ledge_grab": {
+      "type": "simple",
+      "key": "ledge_grab",
+      "file": "characters/doberman/dog-ledge_climb.png",
+      "category": "traversal",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 405,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 9
+      },
+      "originalName": "dog-ledge_climb"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/doberman/dog-run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 360,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 8
+      },
+      "originalName": "dog-run"
+    },
+    "sit_down": {
+      "type": "simple",
+      "key": "sit_down",
+      "file": "characters/doberman/dog-sit.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 270,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "dog-sit"
+    },
+    "sit": {
+      "type": "simple",
+      "key": "sit",
+      "file": "characters/doberman/dog-sit_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 405,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 9
+      },
+      "originalName": "dog-sit_idle"
+    },
+    "sleep": {
+      "type": "simple",
+      "key": "sleep",
+      "file": "characters/doberman/dog-sleep.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 990,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 22
+      },
+      "originalName": "dog-sleep"
+    },
+    "sit_up": {
+      "type": "simple",
+      "key": "sit_up",
+      "file": "characters/doberman/dog-stand.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 270,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "dog-stand"
+    },
+    "go_sleep": {
+      "type": "simple",
+      "key": "go_sleep",
+      "file": "characters/doberman/dog-to_sleep.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 270,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "dog-to_sleep"
+    },
+    "wake_up": {
+      "type": "simple",
+      "key": "wake_up",
+      "file": "characters/doberman/dog-wake_up_transition.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 270,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "dog-wake_up_transition"
+    },
+    "walk1": {
+      "type": "simple",
+      "key": "walk1",
+      "file": "characters/doberman/dog-walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 450,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 10
+      },
+      "originalName": "dog-walk"
+    },
+    "walk2": {
+      "type": "simple",
+      "key": "walk2",
+      "file": "characters/doberman/dog-walk_sniff.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 450,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 10
+      },
+      "originalName": "dog-walk_sniff"
+    },
+    "sniff": {
+      "type": "simple",
+      "key": "sniff",
+      "file": "characters/doberman/eat.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 540,
+        "sheetHeight": 34,
+        "frameWidth": 45,
+        "frameHeight": 34,
+        "frameCount": 12
+      },
+      "originalName": "eat"
+    }
+  }
+}

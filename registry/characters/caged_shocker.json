@@ -1,0 +1,97 @@
+{
+  "type": "standard",
+  "id": "caged_shocker",
+  "path": "characters/caged_shocker",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/caged_shocker/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1540,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 14
+      },
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/caged_shocker/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1100,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 10
+      },
+      "originalName": "attack2"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/caged_shocker/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1320,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 12
+      },
+      "originalName": "die"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/caged_shocker/hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 220,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 2
+      },
+      "originalName": "hit"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/caged_shocker/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2640,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 24
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/caged_shocker/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1320,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 12
+      },
+      "originalName": "move"
+    }
+  }
+}

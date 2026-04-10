@@ -1,0 +1,127 @@
+{
+  "type": "standard",
+  "id": "panda_protector",
+  "path": "characters/panda_protector",
+  "animations": {
+    "death1": {
+      "type": "simple",
+      "key": "death1",
+      "file": "characters/panda_protector/bazooka_panda-death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1035,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 9
+      },
+      "originalName": "bazooka_panda-death"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/panda_protector/bazooka_panda-hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 230,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 2
+      },
+      "originalName": "bazooka_panda-hit"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/panda_protector/bazooka_panda-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1380,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 12
+      },
+      "originalName": "bazooka_panda-idle"
+    },
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/panda_protector/bazooka_panda-melee.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1150,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 10
+      },
+      "originalName": "bazooka_panda-melee"
+    },
+    "ranged": {
+      "type": "simple",
+      "key": "ranged",
+      "file": "characters/panda_protector/bazooka_panda-shoot.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2530,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 22
+      },
+      "originalName": "bazooka_panda-shoot"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/panda_protector/bazooka_panda-walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1380,
+        "sheetHeight": 43,
+        "frameWidth": 115,
+        "frameHeight": 43,
+        "frameCount": 12
+      },
+      "originalName": "bazooka_panda-walk"
+    },
+    "death2": {
+      "type": "simple",
+      "key": "death2",
+      "file": "characters/panda_protector/explosion.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2100,
+        "sheetHeight": 30,
+        "frameWidth": 525,
+        "frameHeight": 30,
+        "frameCount": 4
+      },
+      "originalName": "explosion"
+    },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/panda_protector/shield.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 768,
+        "sheetHeight": 135,
+        "frameWidth": 384,
+        "frameHeight": 135,
+        "frameCount": 2
+      },
+      "originalName": "shield"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "dream_merchant2",
+  "path": "characters/dream_merchant2",
+  "animations": {
+    "full_sheet": {
+      "type": "simple",
+      "key": "full_sheet",
+      "file": "characters/dream_merchant2/magic_merchant.png",
+      "category": "ui",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 520,
+        "sheetHeight": 49,
+        "frameWidth": 65,
+        "frameHeight": 49,
+        "frameCount": 8
+      },
+      "originalName": "magic_merchant"
+    }
+  }
+}

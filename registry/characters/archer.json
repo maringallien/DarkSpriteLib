@@ -1,0 +1,97 @@
+{
+  "type": "standard",
+  "id": "archer",
+  "path": "characters/archer",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/archer/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2436,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 14
+      },
+      "originalName": "attack"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/archer/damaged.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 348,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 2
+      },
+      "originalName": "damaged"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/archer/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1044,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 6
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/archer/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3480,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 20
+      },
+      "originalName": "idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/archer/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1392,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/archer/special_attack.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2784,
+        "sheetHeight": 25,
+        "frameWidth": 174,
+        "frameHeight": 25,
+        "frameCount": 16
+      },
+      "originalName": "special_attack"
+    }
+  }
+}

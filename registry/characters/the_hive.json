@@ -1,0 +1,37 @@
+{
+  "type": "standard",
+  "id": "the_hive",
+  "path": "characters/the_hive",
+  "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/the_hive/explode.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 858,
+        "sheetHeight": 43,
+        "frameWidth": 78,
+        "frameHeight": 43,
+        "frameCount": 11
+      },
+      "originalName": "explode"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/the_hive/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 702,
+        "sheetHeight": 43,
+        "frameWidth": 78,
+        "frameHeight": 43,
+        "frameCount": 9
+      },
+      "originalName": "idle"
+    }
+  }
+}

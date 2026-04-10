@@ -1,0 +1,130 @@
+{
+  "type": "standard",
+  "id": "the_tarnished_widow",
+  "path": "characters/the_tarnished_widow",
+  "animations": {
+    "teleport": {
+      "type": "sequence",
+      "key": "teleport",
+      "category": "special",
+      "parts": [
+        {
+          "key": "vanish",
+          "file": "characters/the_tarnished_widow/teleport_vanish.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3384,
+            "sheetHeight": 90,
+            "frameWidth": 423,
+            "frameHeight": 90,
+            "frameCount": 8
+          },
+          "originalName": "teleport_vanish"
+        },
+        {
+          "key": "land",
+          "file": "characters/the_tarnished_widow/teleport_land.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3384,
+            "sheetHeight": 90,
+            "frameWidth": 423,
+            "frameHeight": 90,
+            "frameCount": 8
+          },
+          "originalName": "teleport_land"
+        }
+      ]
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/the_tarnished_widow/buff.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "buff"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/the_tarnished_widow/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "die"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/the_tarnished_widow/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/the_tarnished_widow/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "move"
+    },
+    "ranged": {
+      "type": "simple",
+      "key": "ranged",
+      "file": "characters/the_tarnished_widow/spit_attack.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "spit_attack"
+    },
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/the_tarnished_widow/stomp_attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "stomp_attack"
+    }
+  }
+}

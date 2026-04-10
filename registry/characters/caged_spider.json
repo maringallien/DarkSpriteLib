@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "caged_spider",
+  "path": "characters/caged_spider",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/caged_spider/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 344,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 8
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/caged_spider/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 387,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 9
+      },
+      "originalName": "die"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/caged_spider/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 344,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 8
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/caged_spider/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 258,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 6
+      },
+      "originalName": "move"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/caged_spider/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 86,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    }
+  }
+}

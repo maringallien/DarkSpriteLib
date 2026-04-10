@@ -1,0 +1,140 @@
+{
+  "type": "standard",
+  "id": "human_crow_keeper",
+  "path": "characters/human_crow_keeper",
+  "animations": {
+    "dash": {
+      "type": "simple",
+      "key": "dash",
+      "file": "characters/human_crow_keeper/dash.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3350,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 25
+      },
+      "originalName": "dash"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/human_crow_keeper/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1474,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 11
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/human_crow_keeper/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1072,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 8
+      },
+      "originalName": "idle"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/human_crow_keeper/jump_attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2546,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 19
+      },
+      "originalName": "jump_attack"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/human_crow_keeper/land_atack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2412,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 18
+      },
+      "originalName": "land_atack"
+    },
+    "ranged": {
+      "type": "with_projectile",
+      "key": "ranged",
+      "file": "characters/human_crow_keeper/shoot_ball.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2010,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 15
+      },
+      "originalName": "shoot_ball",
+      "projectile": [
+        {
+          "key": "idle",
+          "file": "characters/human_crow_keeper/projectile-idle.png",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 114,
+            "sheetHeight": 42,
+            "frameWidth": 57,
+            "frameHeight": 42,
+            "frameCount": 2
+          },
+          "originalName": "projectile-idle"
+        },
+        {
+          "key": "idle",
+          "file": "characters/human_crow_keeper/projectile_sprite_sheet.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 855,
+            "sheetHeight": 42,
+            "frameWidth": 57,
+            "frameHeight": 42,
+            "frameCount": 15
+          },
+          "originalName": "projectile_sprite_sheet"
+        }
+      ]
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/human_crow_keeper/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 804,
+        "sheetHeight": 92,
+        "frameWidth": 134,
+        "frameHeight": 92,
+        "frameCount": 6
+      },
+      "originalName": "walk"
+    }
+  }
+}

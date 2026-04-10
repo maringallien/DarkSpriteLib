@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "spark_bug",
+  "path": "characters/spark_bug",
+  "animations": {
+    "appear": {
+      "type": "simple",
+      "key": "appear",
+      "file": "characters/spark_bug/appear_attack.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 96,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 6
+      },
+      "originalName": "appear_attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/spark_bug/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 64,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 4
+      },
+      "originalName": "death"
+    },
+    "vanish": {
+      "type": "simple",
+      "key": "vanish",
+      "file": "characters/spark_bug/dissappear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 128,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 8
+      },
+      "originalName": "dissappear"
+    },
+    "walk1": {
+      "type": "simple",
+      "key": "walk1",
+      "file": "characters/spark_bug/move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 128,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 8
+      },
+      "originalName": "move"
+    },
+    "walk2": {
+      "type": "simple",
+      "key": "walk2",
+      "file": "characters/spark_bug/move_with_spark.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 128,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 8
+      },
+      "originalName": "move_with_spark"
+    }
+  }
+}

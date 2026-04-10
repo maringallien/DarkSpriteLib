@@ -1,0 +1,145 @@
+{
+  "type": "standard",
+  "id": "dagger_bandit",
+  "path": "characters/dagger_bandit",
+  "animations": {
+    "teleport": {
+      "type": "sequence",
+      "key": "teleport",
+      "category": "special",
+      "parts": [
+        {
+          "key": "vanish",
+          "file": "characters/dagger_bandit/dagger_bandit-vanish.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2304,
+            "sheetHeight": 78,
+            "frameWidth": 128,
+            "frameHeight": 78,
+            "frameCount": 18
+          },
+          "originalName": "dagger_bandit-vanish"
+        },
+        {
+          "key": "appear",
+          "file": "characters/dagger_bandit/dagger_bandit-appear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2048,
+            "sheetHeight": 78,
+            "frameWidth": 128,
+            "frameHeight": 78,
+            "frameCount": 16
+          },
+          "originalName": "dagger_bandit-appear"
+        }
+      ]
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/dagger_bandit/dagger_bandit-attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 896,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 7
+      },
+      "originalName": "dagger_bandit-attack"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/dagger_bandit/dagger_bandit-bat_fang_attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2560,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 20
+      },
+      "originalName": "dagger_bandit-bat_fang_attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/dagger_bandit/dagger_bandit-death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2048,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 16
+      },
+      "originalName": "dagger_bandit-death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/dagger_bandit/dagger_bandit-fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 128,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 1
+      },
+      "originalName": "dagger_bandit-fall"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/dagger_bandit/dagger_bandit-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1024,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 8
+      },
+      "originalName": "dagger_bandit-idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/dagger_bandit/dagger_bandit-jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 128,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 1
+      },
+      "originalName": "dagger_bandit-jump"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/dagger_bandit/dagger_bandit-run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1024,
+        "sheetHeight": 78,
+        "frameWidth": 128,
+        "frameHeight": 78,
+        "frameCount": 8
+      },
+      "originalName": "dagger_bandit-run"
+    }
+  }
+}

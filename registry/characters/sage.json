@@ -1,0 +1,172 @@
+{
+  "type": "standard",
+  "id": "sage",
+  "path": "characters/sage",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/sage/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "attack"
+    },
+    "dash": {
+      "type": "simple",
+      "key": "dash",
+      "file": "characters/sage/dash.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "dash"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/sage/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 416,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 8
+      },
+      "originalName": "die"
+    },
+    "idle1": {
+      "type": "simple",
+      "key": "idle1",
+      "file": "characters/sage/duck.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 14
+      },
+      "originalName": "duck"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/sage/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "idle2": {
+      "type": "simple",
+      "key": "idle2",
+      "file": "characters/sage/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 468,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 9
+      },
+      "originalName": "idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/sage/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 208,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 4
+      },
+      "originalName": "jump"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/sage/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 468,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 9
+      },
+      "originalName": "run"
+    },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/sage/shield.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "shield"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/sage/shockwave_vfx.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 548,
+        "sheetHeight": 156,
+        "frameWidth": 274,
+        "frameHeight": 156,
+        "frameCount": 2
+      },
+      "originalName": "shockwave_vfx"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/sage/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 104,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    }
+  }
+}
