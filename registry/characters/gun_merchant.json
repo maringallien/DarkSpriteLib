@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "gun_merchant",
+  "path": "characters/gun_merchant",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/gun_merchant/gun_merchant.png",
+      "category": "ui",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2160,
+        "sheetHeight": 39,
+        "frameWidth": 108,
+        "frameHeight": 39,
+        "frameCount": 20
+      },
+      "originalName": "gun_merchant"
+    }
+  }
+}

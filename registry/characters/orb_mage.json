@@ -18,9 +18,9 @@
       },
       "originalName": "attack"
     },
-    "attack2": {
+    "attack1_vfx": {
       "type": "simple",
-      "key": "attack2",
+      "key": "attack1_vfx",
       "file": "characters/orb_mage/attack_vfx.png",
       "category": "attack",
       "loops": false,
@@ -108,9 +108,9 @@
       },
       "originalName": "move"
     },
-    "attack3": {
+    "attack2": {
       "type": "simple",
-      "key": "attack3",
+      "key": "attack2",
       "file": "characters/orb_mage/sweep_attack.png",
       "category": "attack",
       "loops": false,

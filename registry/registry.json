@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-10T21:34:53.833Z",
+  "generatedAt": "2026-04-12T04:40:16.966Z",
   "characters": {
     "ancient_guardian": {
       "type": "standard",
@@ -2797,103 +2797,19 @@
       "path": "characters/evil_crow",
       "animations": {
         "attack1": {
-          "type": "with_projectile",
+          "type": "simple",
           "key": "attack1",
-          "file": "characters/evil_crow/evil_crow-attack_explode.png",
+          "file": "characters/evil_crow/evil_crow-attack.png",
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 252,
+            "sheetWidth": 756,
             "sheetHeight": 36,
             "frameWidth": 42,
             "frameHeight": 36,
-            "frameCount": 6
+            "frameCount": 18
           },
-          "originalName": "evil_crow-attack_explode",
-          "projectile": [
-            {
-              "key": "explode",
-              "file": "characters/evil_crow/projectile-attack_explode.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 132,
-                "sheetHeight": 22,
-                "frameWidth": 66,
-                "frameHeight": 22,
-                "frameCount": 2
-              },
-              "originalName": "projectile-attack_explode"
-            },
-            {
-              "key": "idle",
-              "file": "characters/evil_crow/projectile-attack_idle.png",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 132,
-                "sheetHeight": 22,
-                "frameWidth": 66,
-                "frameHeight": 22,
-                "frameCount": 2
-              },
-              "originalName": "projectile-attack_idle"
-            },
-            {
-              "key": "start",
-              "file": "characters/evil_crow/projectile-attack_start.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 132,
-                "sheetHeight": 22,
-                "frameWidth": 66,
-                "frameHeight": 22,
-                "frameCount": 2
-              },
-              "originalName": "projectile-attack_start"
-            },
-            {
-              "key": "idle",
-              "file": "characters/evil_crow/projectile.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 132,
-                "sheetHeight": 66,
-                "frameWidth": 132,
-                "frameHeight": 66,
-                "frameCount": 1
-              },
-              "originalName": "projectile"
-            }
-          ]
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/evil_crow/evil_crow-attack_idle.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 252,
-            "sheetHeight": 36,
-            "frameWidth": 42,
-            "frameHeight": 36,
-            "frameCount": 6
-          },
-          "originalName": "evil_crow-attack_idle"
-        },
-        "attack3": {
-          "type": "simple",
-          "key": "attack3",
-          "file": "characters/evil_crow/evil_crow-attack_start.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 252,
-            "sheetHeight": 36,
-            "frameWidth": 42,
-            "frameHeight": 36,
-            "frameCount": 6
-          },
-          "originalName": "evil_crow-attack_start"
+          "originalName": "evil_crow-attack"
         },
         "death": {
           "type": "simple",
@@ -2910,9 +2826,9 @@
           },
           "originalName": "evil_crow-death"
         },
-        "attack4": {
+        "attack2": {
           "type": "simple",
-          "key": "attack4",
+          "key": "attack2",
           "file": "characters/evil_crow/evil_crow-dive_attack.png",
           "category": "attack",
           "loops": false,
@@ -2970,9 +2886,9 @@
           },
           "originalName": "evil_crow-land"
         },
-        "attack5": {
+        "trans_dive": {
           "type": "simple",
-          "key": "attack5",
+          "key": "trans_dive",
           "file": "characters/evil_crow/evil_crow-trans_to_dive.png",
           "category": "attack",
           "loops": false,
@@ -2985,9 +2901,9 @@
           },
           "originalName": "evil_crow-trans_to_dive"
         },
-        "walk2": {
+        "take_off": {
           "type": "simple",
-          "key": "walk2",
+          "key": "take_off",
           "file": "characters/evil_crow/evil_crow-trans_to_fly.png",
           "category": "movement",
           "loops": true,
@@ -2999,21 +2915,6 @@
             "frameCount": 3
           },
           "originalName": "evil_crow-trans_to_fly"
-        },
-        "full_sheet": {
-          "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/evil_crow/evil_crow_sprite_sheet.png",
-          "category": "ui",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 924,
-            "sheetHeight": 360,
-            "frameWidth": 924,
-            "frameHeight": 360,
-            "frameCount": 1
-          },
-          "originalName": "evil_crow_sprite_sheet"
         }
       }
     },
@@ -3022,9 +2923,9 @@
       "id": "evil_sage",
       "path": "characters/evil_sage",
       "animations": {
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/evil_sage/attack.png",
           "category": "attack",
           "loops": false,
@@ -3037,9 +2938,9 @@
           },
           "originalName": "attack"
         },
-        "dash1": {
+        "dash": {
           "type": "simple",
-          "key": "dash1",
+          "key": "dash",
           "file": "characters/evil_sage/dash.png",
           "category": "movement",
           "loops": false,
@@ -3067,12 +2968,12 @@
           },
           "originalName": "die"
         },
-        "idle1": {
+        "attack2": {
           "type": "simple",
-          "key": "idle1",
+          "key": "attack2",
           "file": "characters/evil_sage/duck.png",
-          "category": "movement",
-          "loops": true,
+          "category": "attack",
+          "loops": false,
           "frames": {
             "sheetWidth": 728,
             "sheetHeight": 21,
@@ -3082,18 +2983,18 @@
           },
           "originalName": "duck"
         },
-        "special": {
+        "attack2_vfx": {
           "type": "simple",
-          "key": "special",
+          "key": "attack2_vfx",
           "file": "characters/evil_sage/evil_shockwave.png",
           "category": "special",
           "loops": false,
           "frames": {
             "sheetWidth": 1918,
             "sheetHeight": 39,
-            "frameWidth": 959,
+            "frameWidth": 137,
             "frameHeight": 39,
-            "frameCount": 2
+            "frameCount": 14
           },
           "originalName": "evil_shockwave"
         },
@@ -3112,9 +3013,9 @@
           },
           "originalName": "fall"
         },
-        "idle2": {
+        "idle": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle",
           "file": "characters/evil_sage/idle.png",
           "category": "movement",
           "loops": true,
@@ -3172,9 +3073,9 @@
           },
           "originalName": "shield"
         },
-        "dash2": {
+        "slide": {
           "type": "simple",
-          "key": "dash2",
+          "key": "slide",
           "file": "characters/evil_sage/slide.png",
           "category": "movement",
           "loops": false,
@@ -3353,6 +3254,28 @@
         }
       }
     },
+    "gem_merchant": {
+      "type": "standard",
+      "id": "gem_merchant",
+      "path": "characters/gem_merchant",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/gem_merchant/gem_merchant.png",
+          "category": "ui",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1212,
+            "sheetHeight": 37,
+            "frameWidth": 101,
+            "frameHeight": 37,
+            "frameCount": 12
+          },
+          "originalName": "gem_merchant"
+        }
+      }
+    },
     "ghoul": {
       "type": "standard",
       "id": "ghoul",
@@ -3470,21 +3393,6 @@
       "id": "glitch_samurai",
       "path": "characters/glitch_samurai",
       "animations": {
-        "full_sheet": {
-          "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/glitch_samurai/Glitch Samurai 140x46.png",
-          "category": "ui",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2800,
-            "sheetHeight": 644,
-            "frameWidth": 1400,
-            "frameHeight": 644,
-            "frameCount": 2
-          },
-          "originalName": "glitch samurai 140x46"
-        },
         "death": {
           "type": "simple",
           "key": "death",
@@ -3492,11 +3400,11 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 24
+            "sheetWidth": 2520,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 12
           },
           "originalName": "glitch samurai-death"
         },
@@ -3507,26 +3415,26 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 560,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 8
+            "sheetWidth": 840,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 4
           },
           "originalName": "glitch samurai-fall"
         },
-        "special": {
+        "attack1_vanish": {
           "type": "simple",
-          "key": "special",
+          "key": "attack1_vanish",
           "file": "characters/glitch_samurai/Glitch Samurai-Glitch Out.png",
           "category": "special",
           "loops": false,
           "frames": {
-            "sheetWidth": 700,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 10
+            "sheetWidth": 1050,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 5
           },
           "originalName": "glitch samurai-glitch out"
         },
@@ -3537,11 +3445,11 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 1540,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 22
+            "sheetWidth": 2310,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 11
           },
           "originalName": "glitch samurai-glitch slices"
         },
@@ -3552,71 +3460,56 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 840,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 12
+            "sheetWidth": 1260,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 6
           },
           "originalName": "glitch samurai-glitch sweep"
         },
-        "idle2": {
+        "idle": {
           "type": "simple",
-          "key": "idle2",
-          "file": "characters/glitch_samurai/Glitch Samurai-Idle Gltich.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1540,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 22
-          },
-          "originalName": "glitch samurai-idle gltich"
-        },
-        "idle1": {
-          "type": "simple",
-          "key": "idle1",
+          "key": "idle",
           "file": "characters/glitch_samurai/Glitch Samurai-Idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1540,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 22
+            "sheetWidth": 2310,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 11
           },
           "originalName": "glitch samurai-idle"
         },
-        "jump2": {
+        "attack2_vanish": {
           "type": "simple",
-          "key": "jump2",
+          "key": "attack2_vanish",
           "file": "characters/glitch_samurai/Glitch Samurai-Jump Glitch.png",
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 560,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 8
+            "sheetWidth": 840,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 4
           },
           "originalName": "glitch samurai-jump glitch"
         },
-        "jump1": {
+        "jump": {
           "type": "simple",
-          "key": "jump1",
+          "key": "jump",
           "file": "characters/glitch_samurai/Glitch Samurai-Jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 560,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 8
+            "sheetWidth": 840,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 4
           },
           "originalName": "glitch samurai-jump"
         },
@@ -3627,11 +3520,11 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 420,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 6
+            "sheetWidth": 630,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 3
           },
           "originalName": "glitch samurai-land"
         },
@@ -3642,41 +3535,41 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 24
+            "sheetWidth": 2520,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 12
           },
           "originalName": "glitch samurai-run"
-        },
-        "attack3": {
-          "type": "simple",
-          "key": "attack3",
-          "file": "characters/glitch_samurai/Glitch Samurai-Slash 1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 980,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 14
-          },
-          "originalName": "glitch samurai-slash 1"
         },
         "attack4": {
           "type": "simple",
           "key": "attack4",
+          "file": "characters/glitch_samurai/Glitch Samurai-Slash 1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1470,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 7
+          },
+          "originalName": "glitch samurai-slash 1"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
           "file": "characters/glitch_samurai/Glitch Samurai-Slash 2.png",
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 700,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 10
+            "sheetWidth": 1050,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 5
           },
           "originalName": "glitch samurai-slash 2"
         },
@@ -3687,11 +3580,11 @@
           "category": "traversal",
           "loops": true,
           "frames": {
-            "sheetWidth": 140,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 2
+            "sheetWidth": 210,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 1
           },
           "originalName": "glitch samurai-wall sit"
         },
@@ -3702,28 +3595,13 @@
           "category": "traversal",
           "loops": true,
           "frames": {
-            "sheetWidth": 560,
-            "sheetHeight": 46,
-            "frameWidth": 70,
-            "frameHeight": 46,
-            "frameCount": 8
+            "sheetWidth": 840,
+            "sheetHeight": 69,
+            "frameWidth": 210,
+            "frameHeight": 69,
+            "frameCount": 4
           },
           "originalName": "glitch samurai-wall slide"
-        },
-        "idle3": {
-          "type": "simple",
-          "key": "idle3",
-          "file": "characters/glitch_samurai/weird lamp-like ornament.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 281,
-            "sheetHeight": 72,
-            "frameWidth": 281,
-            "frameHeight": 72,
-            "frameCount": 1
-          },
-          "originalName": "weird lamp-like ornament"
         }
       }
     },
@@ -3732,9 +3610,9 @@
       "id": "golden_retriever",
       "path": "characters/golden_retriever",
       "animations": {
-        "death": {
+        "dead": {
           "type": "simple",
-          "key": "death",
+          "key": "dead",
           "file": "characters/golden_retriever/dead.png",
           "category": "state",
           "loops": false,
@@ -3747,9 +3625,9 @@
           },
           "originalName": "dead"
         },
-        "idle1": {
+        "sniff": {
           "type": "simple",
-          "key": "idle1",
+          "key": "sniff",
           "file": "characters/golden_retriever/eat.png",
           "category": "state",
           "loops": true,
@@ -3762,9 +3640,9 @@
           },
           "originalName": "eat"
         },
-        "idle2": {
+        "bark": {
           "type": "simple",
-          "key": "idle2",
+          "key": "bark",
           "file": "characters/golden_retriever/golden-bark.png",
           "category": "state",
           "loops": false,
@@ -3777,9 +3655,9 @@
           },
           "originalName": "golden-bark"
         },
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/golden_retriever/golden-bite.png",
           "category": "attack",
           "loops": false,
@@ -3807,9 +3685,9 @@
           },
           "originalName": "golden-fall"
         },
-        "wake1": {
+        "get_up": {
           "type": "simple",
-          "key": "wake1",
+          "key": "get_up",
           "file": "characters/golden_retriever/golden-get_up.png",
           "category": "state",
           "loops": false,
@@ -3822,9 +3700,9 @@
           },
           "originalName": "golden-get_up"
         },
-        "idle3": {
+        "idle": {
           "type": "simple",
-          "key": "idle3",
+          "key": "idle",
           "file": "characters/golden_retriever/golden-idle.png",
           "category": "movement",
           "loops": true,
@@ -3867,9 +3745,9 @@
           },
           "originalName": "golden-land"
         },
-        "idle4": {
+        "lie": {
           "type": "simple",
-          "key": "idle4",
+          "key": "lie",
           "file": "characters/golden_retriever/golden-lay_down_idle.png",
           "category": "movement",
           "loops": true,
@@ -3882,9 +3760,9 @@
           },
           "originalName": "golden-lay_down_idle"
         },
-        "ledge_grab1": {
+        "ledge_grab": {
           "type": "simple",
-          "key": "ledge_grab1",
+          "key": "ledge_grab",
           "file": "characters/golden_retriever/golden-ledge_climb.png",
           "category": "traversal",
           "loops": false,
@@ -3896,21 +3774,6 @@
             "frameCount": 9
           },
           "originalName": "golden-ledge_climb"
-        },
-        "ledge_grab2": {
-          "type": "simple",
-          "key": "ledge_grab2",
-          "file": "characters/golden_retriever/golden-ledge_grab.png",
-          "category": "traversal",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 45,
-            "sheetHeight": 32,
-            "frameWidth": 45,
-            "frameHeight": 32,
-            "frameCount": 1
-          },
-          "originalName": "golden-ledge_grab"
         },
         "run": {
           "type": "simple",
@@ -3927,9 +3790,9 @@
           },
           "originalName": "golden-run"
         },
-        "sleep1": {
+        "sit_down": {
           "type": "simple",
-          "key": "sleep1",
+          "key": "sit_down",
           "file": "characters/golden_retriever/golden-sit.png",
           "category": "state",
           "loops": true,
@@ -3942,9 +3805,9 @@
           },
           "originalName": "golden-sit"
         },
-        "idle5": {
+        "sit": {
           "type": "simple",
-          "key": "idle5",
+          "key": "sit",
           "file": "characters/golden_retriever/golden-sit_idle.png",
           "category": "movement",
           "loops": true,
@@ -3957,9 +3820,9 @@
           },
           "originalName": "golden-sit_idle"
         },
-        "sleep2": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep2",
+          "key": "sleep",
           "file": "characters/golden_retriever/golden-sleep.png",
           "category": "state",
           "loops": true,
@@ -3972,9 +3835,9 @@
           },
           "originalName": "golden-sleep"
         },
-        "idle6": {
+        "sit_up": {
           "type": "simple",
-          "key": "idle6",
+          "key": "sit_up",
           "file": "characters/golden_retriever/golden-stand.png",
           "category": "movement",
           "loops": true,
@@ -3987,9 +3850,9 @@
           },
           "originalName": "golden-stand"
         },
-        "sleep3": {
+        "go_sleep": {
           "type": "simple",
-          "key": "sleep3",
+          "key": "go_sleep",
           "file": "characters/golden_retriever/golden-to_sleep.png",
           "category": "state",
           "loops": true,
@@ -4002,9 +3865,9 @@
           },
           "originalName": "golden-to_sleep"
         },
-        "wake2": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake2",
+          "key": "wake_up",
           "file": "characters/golden_retriever/golden-wake_up_transition.png",
           "category": "state",
           "loops": false,
@@ -4017,9 +3880,9 @@
           },
           "originalName": "golden-wake_up_transition"
         },
-        "walk1": {
+        "walk": {
           "type": "simple",
-          "key": "walk1",
+          "key": "walk",
           "file": "characters/golden_retriever/golden-walk.png",
           "category": "movement",
           "loops": true,
@@ -4046,21 +3909,28 @@
             "frameCount": 10
           },
           "originalName": "golden-walk_sniff"
-        },
-        "full_sheet": {
+        }
+      }
+    },
+    "gun_merchant": {
+      "type": "standard",
+      "id": "gun_merchant",
+      "path": "characters/gun_merchant",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/golden_retriever/golden_sprite_sheet.png",
+          "key": "idle",
+          "file": "characters/gun_merchant/gun_merchant.png",
           "category": "ui",
-          "loops": false,
+          "loops": true,
           "frames": {
-            "sheetWidth": 990,
-            "sheetHeight": 704,
-            "frameWidth": 990,
-            "frameHeight": 704,
-            "frameCount": 1
+            "sheetWidth": 2160,
+            "sheetHeight": 39,
+            "frameWidth": 108,
+            "frameHeight": 39,
+            "frameCount": 20
           },
-          "originalName": "golden_sprite_sheet"
+          "originalName": "gun_merchant"
         }
       }
     },
@@ -4069,9 +3939,9 @@
       "id": "hell_bot_dark",
       "path": "characters/hell_bot_dark",
       "animations": {
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/hell_bot_dark/attack.png",
           "category": "attack",
           "loops": false,
@@ -4144,9 +4014,9 @@
           },
           "originalName": "run"
         },
-        "ranged": {
+        "attack2": {
           "type": "simple",
-          "key": "ranged",
+          "key": "attack2",
           "file": "characters/hell_bot_dark/shoot.png",
           "category": "ranged",
           "loops": false,
@@ -4166,17 +4036,17 @@
       "id": "human_crow_keeper",
       "path": "characters/human_crow_keeper",
       "animations": {
-        "dash": {
+        "attack_1": {
           "type": "simple",
-          "key": "dash",
+          "key": "attack_1",
           "file": "characters/human_crow_keeper/dash.png",
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 3350,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 6700,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 25
           },
           "originalName": "dash"
@@ -4188,10 +4058,10 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1474,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 2948,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 11
           },
           "originalName": "death"
@@ -4203,86 +4073,58 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1072,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 2144,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 8
           },
           "originalName": "idle"
         },
-        "attack1": {
+        "attack2_jump": {
           "type": "simple",
-          "key": "attack1",
+          "key": "attack2_jump",
           "file": "characters/human_crow_keeper/jump_attack.png",
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2546,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 5092,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 19
           },
           "originalName": "jump_attack"
         },
-        "attack2": {
+        "attack2_slam": {
           "type": "simple",
-          "key": "attack2",
+          "key": "attack2_slam",
           "file": "characters/human_crow_keeper/land_atack.png",
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2412,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 4824,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 18
           },
           "originalName": "land_atack"
         },
-        "ranged": {
-          "type": "with_projectile",
-          "key": "ranged",
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
           "file": "characters/human_crow_keeper/shoot_ball.png",
-          "category": "ranged",
+          "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2010,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 4020,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 15
           },
-          "originalName": "shoot_ball",
-          "projectile": [
-            {
-              "key": "idle",
-              "file": "characters/human_crow_keeper/projectile-idle.png",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 114,
-                "sheetHeight": 42,
-                "frameWidth": 57,
-                "frameHeight": 42,
-                "frameCount": 2
-              },
-              "originalName": "projectile-idle"
-            },
-            {
-              "key": "idle",
-              "file": "characters/human_crow_keeper/projectile_sprite_sheet.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 855,
-                "sheetHeight": 42,
-                "frameWidth": 57,
-                "frameHeight": 42,
-                "frameCount": 15
-              },
-              "originalName": "projectile_sprite_sheet"
-            }
-          ]
+          "originalName": "shoot_ball"
         },
         "walk": {
           "type": "simple",
@@ -4291,10 +4133,10 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 804,
-            "sheetHeight": 92,
-            "frameWidth": 134,
-            "frameHeight": 92,
+            "sheetWidth": 1608,
+            "sheetHeight": 184,
+            "frameWidth": 268,
+            "frameHeight": 184,
             "frameCount": 6
           },
           "originalName": "walk"
@@ -4315,9 +4157,9 @@
           "frames": {
             "sheetWidth": 162,
             "sheetHeight": 27,
-            "frameWidth": 54,
+            "frameWidth": 27,
             "frameHeight": 27,
-            "frameCount": 3
+            "frameCount": 6
           },
           "originalName": "kami-kaze_crow-dive"
         },
@@ -4330,9 +4172,9 @@
           "frames": {
             "sheetWidth": 324,
             "sheetHeight": 27,
-            "frameWidth": 54,
+            "frameWidth": 27,
             "frameHeight": 27,
-            "frameCount": 6
+            "frameCount": 12
           },
           "originalName": "kami-kaze_crow-explode"
         },
@@ -4345,9 +4187,9 @@
           "frames": {
             "sheetWidth": 108,
             "sheetHeight": 27,
-            "frameWidth": 54,
+            "frameWidth": 27,
             "frameHeight": 27,
-            "frameCount": 2
+            "frameCount": 4
           },
           "originalName": "kami-kaze_crow-fly"
         },
@@ -4360,9 +4202,9 @@
           "frames": {
             "sheetWidth": 324,
             "sheetHeight": 27,
-            "frameWidth": 54,
+            "frameWidth": 27,
             "frameHeight": 27,
-            "frameCount": 6
+            "frameCount": 12
           },
           "originalName": "kami-kaze_crow-idle"
         }
@@ -4463,11 +4305,11 @@
           },
           "originalName": "lord_of_the_flames-move"
         },
-        "ranged1": {
+        "attack4": {
           "type": "simple",
-          "key": "ranged1",
+          "key": "attack4",
           "file": "characters/lord_of_the_flames/lord_of_the_flames-range_fire_burst.png",
-          "category": "ranged",
+          "category": "attack",
           "loops": false,
           "frames": {
             "sheetWidth": 1885,
@@ -4493,18 +4335,18 @@
           },
           "originalName": "lord_of_the_flames-spear"
         },
-        "ranged2": {
+        "attack4_proj": {
           "type": "simple",
-          "key": "ranged2",
+          "key": "attack4_proj",
           "file": "characters/lord_of_the_flames/range_sprite_with_glow.png",
-          "category": "ranged",
+          "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 637,
+            "sheetWidth": 441,
             "sheetHeight": 28,
-            "frameWidth": 637,
+            "frameWidth": 49,
             "frameHeight": 28,
-            "frameCount": 1
+            "frameCount": 9
           },
           "originalName": "range_sprite_with_glow"
         }
@@ -4836,18 +4678,18 @@
       "id": "masks_merchant",
       "path": "characters/masks_merchant",
       "animations": {
-        "full_sheet": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet",
+          "key": "idle",
           "file": "characters/masks_merchant/mask_merchants.png",
           "category": "ui",
           "loops": false,
           "frames": {
             "sheetWidth": 1944,
             "sheetHeight": 60,
-            "frameWidth": 243,
+            "frameWidth": 81,
             "frameHeight": 60,
-            "frameCount": 8
+            "frameCount": 24
           },
           "originalName": "mask_merchants"
         }
@@ -4857,211 +4699,93 @@
       "type": "standard",
       "id": "mechanical_characters",
       "path": "characters/mechanical_characters",
+      "animations": {}
+    },
+    "mountain_merchant1": {
+      "type": "standard",
+      "id": "mountain_merchant1",
+      "path": "characters/mountain_merchant1",
       "animations": {
-        "attack": {
+        "idle": {
           "type": "simple",
-          "key": "attack",
-          "file": "characters/mechanical_characters/shielder/attack.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2193,
-            "sheetHeight": 46,
-            "frameWidth": 129,
-            "frameHeight": 46,
-            "frameCount": 17
-          },
-          "originalName": "attack"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "characters/mechanical_characters/shielder/death.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2064,
-            "sheetHeight": 46,
-            "frameWidth": 129,
-            "frameHeight": 46,
-            "frameCount": 16
-          },
-          "originalName": "death"
-        },
-        "ranged": {
-          "type": "with_projectile",
-          "key": "ranged",
-          "file": "characters/mechanical_characters/shielder/range.png",
-          "category": "ranged",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1806,
-            "sheetHeight": 46,
-            "frameWidth": 129,
-            "frameHeight": 46,
-            "frameCount": 14
-          },
-          "originalName": "range",
-          "projectile": [
-            {
-              "key": "idle",
-              "file": "characters/mechanical_characters/projectiles/projectile.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 64,
-                "sheetHeight": 32,
-                "frameWidth": 64,
-                "frameHeight": 32,
-                "frameCount": 1
-              },
-              "originalName": "projectile"
-            },
-            {
-              "key": "blue",
-              "file": "characters/mechanical_characters/projectiles/projectile_blue.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 64,
-                "sheetHeight": 32,
-                "frameWidth": 64,
-                "frameHeight": 32,
-                "frameCount": 1
-              },
-              "originalName": "projectile_blue"
-            },
-            {
-              "key": "white",
-              "file": "characters/mechanical_characters/projectiles/projectile_white_tip.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 64,
-                "sheetHeight": 32,
-                "frameWidth": 64,
-                "frameHeight": 32,
-                "frameCount": 1
-              },
-              "originalName": "projectile_white_tip"
-            }
-          ]
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "characters/mechanical_characters/shielder/walk.png",
-          "category": "movement",
+          "key": "idle",
+          "file": "characters/mountain_merchant1/mountain_merchant1.png",
+          "category": "ui",
           "loops": true,
-          "frames": {
-            "sheetWidth": 774,
-            "sheetHeight": 46,
-            "frameWidth": 129,
-            "frameHeight": 46,
-            "frameCount": 6
-          },
-          "originalName": "walk"
-        }
-      }
-    },
-    "merchants": {
-      "type": "standard",
-      "id": "merchants",
-      "path": "characters/merchants",
-      "animations": {
-        "full_sheet1": {
-          "type": "simple",
-          "key": "full_sheet1",
-          "file": "characters/merchants/gem_merchant.png",
-          "category": "ui",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 101,
-            "sheetHeight": 444,
-            "frameWidth": 101,
-            "frameHeight": 444,
-            "frameCount": 1
-          },
-          "originalName": "gem_merchant"
-        },
-        "full_sheet2": {
-          "type": "simple",
-          "key": "full_sheet2",
-          "file": "characters/merchants/gun_merchant.png",
-          "category": "ui",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 108,
-            "sheetHeight": 780,
-            "frameWidth": 108,
-            "frameHeight": 780,
-            "frameCount": 1
-          },
-          "originalName": "gun_merchant"
-        },
-        "full_sheet3": {
-          "type": "simple",
-          "key": "full_sheet3",
-          "file": "characters/merchants/mushroom_merchant.png",
-          "category": "ui",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 111,
-            "sheetHeight": 1272,
-            "frameWidth": 111,
-            "frameHeight": 1272,
-            "frameCount": 1
-          },
-          "originalName": "mushroom_merchant"
-        }
-      }
-    },
-    "mountain_pass_merchants": {
-      "type": "standard",
-      "id": "mountain_pass_merchants",
-      "path": "characters/mountain_pass_merchants",
-      "animations": {
-        "full_sheet1": {
-          "type": "simple",
-          "key": "full_sheet1",
-          "file": "characters/mountain_pass_merchants/merchant_1.png",
-          "category": "ui",
-          "loops": false,
           "frames": {
             "sheetWidth": 3072,
             "sheetHeight": 71,
-            "frameWidth": 192,
+            "frameWidth": 128,
             "frameHeight": 71,
-            "frameCount": 16
+            "frameCount": 24
           },
-          "originalName": "merchant_1"
-        },
-        "full_sheet2": {
+          "originalName": "mountain_merchant1"
+        }
+      }
+    },
+    "mountain_merchant2": {
+      "type": "standard",
+      "id": "mountain_merchant2",
+      "path": "characters/mountain_merchant2",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet2",
-          "file": "characters/mountain_pass_merchants/merchant_2.png",
+          "key": "idle",
+          "file": "characters/mountain_merchant2/mountain_merchant2.png",
           "category": "ui",
-          "loops": false,
+          "loops": true,
           "frames": {
             "sheetWidth": 3144,
             "sheetHeight": 88,
-            "frameWidth": 393,
+            "frameWidth": 131,
             "frameHeight": 88,
-            "frameCount": 8
+            "frameCount": 24
           },
-          "originalName": "merchant_2"
-        },
-        "full_sheet3": {
+          "originalName": "mountain_merchant2"
+        }
+      }
+    },
+    "mountain_merchant3": {
+      "type": "standard",
+      "id": "mountain_merchant3",
+      "path": "characters/mountain_merchant3",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet3",
-          "file": "characters/mountain_pass_merchants/merchant_3.png",
+          "key": "idle",
+          "file": "characters/mountain_merchant3/mountain_merchant3.png",
           "category": "ui",
-          "loops": false,
+          "loops": true,
           "frames": {
             "sheetWidth": 2436,
             "sheetHeight": 61,
-            "frameWidth": 609,
+            "frameWidth": 116,
             "frameHeight": 61,
-            "frameCount": 4
+            "frameCount": 21
           },
-          "originalName": "merchant_3"
+          "originalName": "mountain_merchant3"
+        }
+      }
+    },
+    "mushroom_merchant": {
+      "type": "standard",
+      "id": "mushroom_merchant",
+      "path": "characters/mushroom_merchant",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/mushroom_merchant/mushroom_merchant.png",
+          "category": "ui",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2664,
+            "sheetHeight": 53,
+            "frameWidth": 111,
+            "frameHeight": 53,
+            "frameCount": 24
+          },
+          "originalName": "mushroom_merchant"
         }
       }
     },
@@ -5070,39 +4794,39 @@
       "id": "npcs",
       "path": "characters/npcs",
       "animations": {
-        "summon": {
+        "bunny_lady_npc": {
           "type": "simple",
-          "key": "summon",
+          "key": "bunny_lady_npc",
           "file": "characters/npcs/bunny_lady/bunny_summoner.png",
           "category": "state",
           "loops": false,
           "frames": {
             "sheetWidth": 1440,
             "sheetHeight": 42,
-            "frameWidth": 90,
+            "frameWidth": 36,
             "frameHeight": 42,
-            "frameCount": 16
+            "frameCount": 40
           },
           "originalName": "bunny_summoner"
         },
-        "full_sheet1": {
+        "fortune_teller_npc": {
           "type": "simple",
-          "key": "full_sheet1",
+          "key": "fortune_teller_npc",
           "file": "characters/npcs/fortune_teller/fortune_teller_dude.png",
           "category": "ui",
           "loops": false,
           "frames": {
             "sheetWidth": 1104,
             "sheetHeight": 43,
-            "frameWidth": 69,
+            "frameWidth": 46,
             "frameHeight": 43,
-            "frameCount": 16
+            "frameCount": 24
           },
           "originalName": "fortune_teller_dude"
         },
-        "full_sheet2": {
+        "guard_npc": {
           "type": "simple",
-          "key": "full_sheet2",
+          "key": "guard_npc",
           "file": "characters/npcs/guard/guard.png",
           "category": "ui",
           "loops": false,
@@ -5115,9 +4839,9 @@
           },
           "originalName": "guard"
         },
-        "full_sheet3": {
+        "loader_npc": {
           "type": "simple",
-          "key": "full_sheet3",
+          "key": "loader_npc",
           "file": "characters/npcs/loader/loader.png",
           "category": "ui",
           "loops": false,
@@ -5130,39 +4854,39 @@
           },
           "originalName": "loader"
         },
-        "full_sheet4": {
+        "magic_dude_npc": {
           "type": "simple",
-          "key": "full_sheet4",
+          "key": "magic_dude_npc",
           "file": "characters/npcs/magic_dude/magic_dude.png",
           "category": "ui",
           "loops": false,
           "frames": {
             "sheetWidth": 504,
             "sheetHeight": 36,
-            "frameWidth": 63,
+            "frameWidth": 21,
             "frameHeight": 36,
-            "frameCount": 8
+            "frameCount": 24
           },
           "originalName": "magic_dude"
         },
-        "full_sheet5": {
+        "senator_npc": {
           "type": "simple",
-          "key": "full_sheet5",
+          "key": "senator_npc",
           "file": "characters/npcs/senator/senator.png",
           "category": "ui",
           "loops": false,
           "frames": {
             "sheetWidth": 768,
             "sheetHeight": 41,
-            "frameWidth": 96,
+            "frameWidth": 64,
             "frameHeight": 41,
-            "frameCount": 8
+            "frameCount": 12
           },
           "originalName": "senator"
         },
-        "full_sheet6": {
+        "strangler_npc": {
           "type": "simple",
-          "key": "full_sheet6",
+          "key": "strangler_npc",
           "file": "characters/npcs/strangler/strangler.png",
           "category": "ui",
           "loops": false,
@@ -5175,9 +4899,9 @@
           },
           "originalName": "strangler"
         },
-        "full_sheet7": {
+        "tamer_npc": {
           "type": "simple",
-          "key": "full_sheet7",
+          "key": "tamer_npc",
           "file": "characters/npcs/tamer/tamer.png",
           "category": "ui",
           "loops": false,
@@ -5190,9 +4914,9 @@
           },
           "originalName": "tamer"
         },
-        "full_sheet8": {
+        "watcher_npc": {
           "type": "simple",
-          "key": "full_sheet8",
+          "key": "watcher_npc",
           "file": "characters/npcs/watcher/watcher.png",
           "category": "ui",
           "loops": false,
@@ -5227,9 +4951,9 @@
           },
           "originalName": "attack"
         },
-        "attack2": {
+        "attack1_vfx": {
           "type": "simple",
-          "key": "attack2",
+          "key": "attack1_vfx",
           "file": "characters/orb_mage/attack_vfx.png",
           "category": "attack",
           "loops": false,
@@ -5317,9 +5041,9 @@
           },
           "originalName": "move"
         },
-        "attack3": {
+        "attack2": {
           "type": "simple",
-          "key": "attack3",
+          "key": "attack2",
           "file": "characters/orb_mage/sweep_attack.png",
           "category": "attack",
           "loops": false,
@@ -5339,9 +5063,9 @@
       "id": "panda_protector",
       "path": "characters/panda_protector",
       "animations": {
-        "death1": {
+        "death": {
           "type": "simple",
-          "key": "death1",
+          "key": "death",
           "file": "characters/panda_protector/bazooka_panda-death.png",
           "category": "state",
           "loops": false,
@@ -5384,9 +5108,9 @@
           },
           "originalName": "bazooka_panda-idle"
         },
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/panda_protector/bazooka_panda-melee.png",
           "category": "attack",
           "loops": false,
@@ -5399,11 +5123,11 @@
           },
           "originalName": "bazooka_panda-melee"
         },
-        "ranged": {
+        "attack2": {
           "type": "simple",
-          "key": "ranged",
+          "key": "attack2",
           "file": "characters/panda_protector/bazooka_panda-shoot.png",
-          "category": "ranged",
+          "category": "attack",
           "loops": false,
           "frames": {
             "sheetWidth": 2530,
@@ -5429,35 +5153,20 @@
           },
           "originalName": "bazooka_panda-walk"
         },
-        "death2": {
+        "attack2_vfx": {
           "type": "simple",
-          "key": "death2",
+          "key": "attack2_vfx",
           "file": "characters/panda_protector/explosion.png",
-          "category": "state",
+          "category": "special",
           "loops": false,
           "frames": {
             "sheetWidth": 2100,
             "sheetHeight": 30,
-            "frameWidth": 525,
+            "frameWidth": 140,
             "frameHeight": 30,
-            "frameCount": 4
+            "frameCount": 15
           },
           "originalName": "explosion"
-        },
-        "block": {
-          "type": "simple",
-          "key": "block",
-          "file": "characters/panda_protector/shield.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 768,
-            "sheetHeight": 135,
-            "frameWidth": 384,
-            "frameHeight": 135,
-            "frameCount": 2
-          },
-          "originalName": "shield"
         }
       }
     },
@@ -5466,9 +5175,9 @@
       "id": "sage",
       "path": "characters/sage",
       "animations": {
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/sage/attack.png",
           "category": "attack",
           "loops": false,
@@ -5511,12 +5220,12 @@
           },
           "originalName": "die"
         },
-        "idle1": {
+        "attack2": {
           "type": "simple",
-          "key": "idle1",
+          "key": "attack2",
           "file": "characters/sage/duck.png",
-          "category": "movement",
-          "loops": true,
+          "category": "attack",
+          "loops": false,
           "frames": {
             "sheetWidth": 728,
             "sheetHeight": 21,
@@ -5541,9 +5250,9 @@
           },
           "originalName": "fall"
         },
-        "idle2": {
+        "idle": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle",
           "file": "characters/sage/idle.png",
           "category": "movement",
           "loops": true,
@@ -5601,18 +5310,18 @@
           },
           "originalName": "shield"
         },
-        "special": {
+        "attack2_vfx": {
           "type": "simple",
-          "key": "special",
+          "key": "attack2_vfx",
           "file": "characters/sage/shockwave_vfx.png",
           "category": "special",
           "loops": false,
           "frames": {
             "sheetWidth": 548,
             "sheetHeight": 156,
-            "frameWidth": 274,
+            "frameWidth": 137,
             "frameHeight": 156,
-            "frameCount": 2
+            "frameCount": 4
           },
           "originalName": "shockwave_vfx"
         },
@@ -5808,6 +5517,73 @@
             "frameCount": 1
           },
           "originalName": "shadow of storms 159x53"
+        }
+      }
+    },
+    "shielder": {
+      "type": "standard",
+      "id": "shielder",
+      "path": "characters/shielder",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/shielder/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2193,
+            "sheetHeight": 46,
+            "frameWidth": 129,
+            "frameHeight": 46,
+            "frameCount": 17
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/shielder/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2064,
+            "sheetHeight": 46,
+            "frameWidth": 129,
+            "frameHeight": 46,
+            "frameCount": 16
+          },
+          "originalName": "death"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/shielder/range.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1806,
+            "sheetHeight": 46,
+            "frameWidth": 129,
+            "frameHeight": 46,
+            "frameCount": 14
+          },
+          "originalName": "range"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/shielder/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 774,
+            "sheetHeight": 46,
+            "frameWidth": 129,
+            "frameHeight": 46,
+            "frameCount": 6
+          },
+          "originalName": "walk"
         }
       }
     },
@@ -9510,29 +9286,24 @@
       "message": "Missing death animation"
     },
     {
-      "characterId": "evil_sage",
-      "severity": "warning",
-      "message": "Missing idle animation"
-    },
-    {
       "characterId": "flower_enemy",
       "severity": "warning",
       "message": "Missing idle animation"
     },
     {
-      "characterId": "glitch_samurai",
+      "characterId": "gem_merchant",
       "severity": "warning",
-      "message": "Missing idle animation"
+      "message": "Missing death animation"
     },
     {
       "characterId": "golden_retriever",
       "severity": "warning",
-      "message": "Missing idle animation"
+      "message": "Missing death animation"
     },
     {
-      "characterId": "masks_merchant",
+      "characterId": "gun_merchant",
       "severity": "warning",
-      "message": "Missing idle animation"
+      "message": "Missing death animation"
     },
     {
       "characterId": "masks_merchant",
@@ -9545,40 +9316,27 @@
       "message": "Missing idle animation"
     },
     {
-      "characterId": "merchants",
-      "severity": "warning",
-      "message": "Ambiguous frame size for \"gem_merchant\"",
-      "file": "characters/merchants/gem_merchant.png"
-    },
-    {
-      "characterId": "merchants",
-      "severity": "warning",
-      "message": "Ambiguous frame size for \"gun_merchant\"",
-      "file": "characters/merchants/gun_merchant.png"
-    },
-    {
-      "characterId": "merchants",
-      "severity": "warning",
-      "message": "Ambiguous frame size for \"mushroom_merchant\"",
-      "file": "characters/merchants/mushroom_merchant.png"
-    },
-    {
-      "characterId": "merchants",
-      "severity": "warning",
-      "message": "Missing idle animation"
-    },
-    {
-      "characterId": "merchants",
+      "characterId": "mechanical_characters",
       "severity": "warning",
       "message": "Missing death animation"
     },
     {
-      "characterId": "mountain_pass_merchants",
+      "characterId": "mountain_merchant1",
       "severity": "warning",
-      "message": "Missing idle animation"
+      "message": "Missing death animation"
     },
     {
-      "characterId": "mountain_pass_merchants",
+      "characterId": "mountain_merchant2",
+      "severity": "warning",
+      "message": "Missing death animation"
+    },
+    {
+      "characterId": "mountain_merchant3",
+      "severity": "warning",
+      "message": "Missing death animation"
+    },
+    {
+      "characterId": "mushroom_merchant",
       "severity": "warning",
       "message": "Missing death animation"
     },
@@ -9611,6 +9369,11 @@
       "characterId": "shadow_of_storms",
       "severity": "warning",
       "message": "Missing death animation"
+    },
+    {
+      "characterId": "shielder",
+      "severity": "warning",
+      "message": "Missing idle animation"
     },
     {
       "characterId": "slicers",

@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "mountain_merchant3",
+  "path": "characters/mountain_merchant3",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/mountain_merchant3/mountain_merchant3.png",
+      "category": "ui",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2436,
+        "sheetHeight": 61,
+        "frameWidth": 116,
+        "frameHeight": 61,
+        "frameCount": 21
+      },
+      "originalName": "mountain_merchant3"
+    }
+  }
+}

@@ -245,6 +245,52 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "attack":          "attack1",
     "special_attack":  "attack2",
   },
+  evil_crow: {
+    "evil_crow-trans_to_dive": "trans_dive",
+    "evil_crow-trans_to_fly":  "take_off",
+  },
+  glitch_samurai: {
+    "glitch samurai-glitch out":   "attack1_vanish",
+    "glitch samurai-jump glitch":  "attack2_vanish",
+    "glitch samurai-jump":         "jump",
+    "glitch samurai-slash 1":      "attack4",
+    "glitch samurai-slash 2":      "attack3",
+  },
+  hell_bot_dark: {
+    "attack": "attack1",
+    "shoot":  "attack2",
+  },
+  human_crow_keeper: {
+    "dash":        "attack_1",
+    "jump_attack": "attack2_jump",
+    "land_atack":  "attack2_slam",
+    "shoot_ball":  "attack3",
+  },
+  golden_retriever: {
+    "dead":                        "dead",
+    "eat":                         "sniff",
+    "golden-bark":                 "bark",
+    "golden-bite":                 "attack1",
+    "golden-get_up":               "get_up",
+    "golden-idle":                 "idle",
+    "golden-lay_down_idle":        "lie",
+    "golden-ledge_climb":          "ledge_grab",
+    "golden-sit":                  "sit_down",
+    "golden-sit_idle":             "sit",
+    "golden-sleep":                "sleep",
+    "golden-stand":                "sit_up",
+    "golden-to_sleep":             "go_sleep",
+    "golden-wake_up_transition":   "wake_up",
+    "golden-walk":                 "walk",
+  },
+  evil_sage: {
+    "attack":          "attack1",
+    "duck":            "attack2",
+    "evil_shockwave":  "attack2_vfx",
+    "dash":            "dash",
+    "idle":            "idle",
+    "slide":           "slide",
+  },
   doberman: {
     "dog-bark":               "bark",
     "dog-bite":               "attack1",
@@ -260,15 +306,59 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "dog-wake_up_transition": "wake_up",
     "eat":                    "sniff",
   },
+  lord_of_the_flames: {
+    "lord_of_the_flames-range_fire_burst": "attack4",
+    "range_sprite_with_glow":              "attack4_proj",
+  },
+  masks_merchant: {
+    "mask_merchants": "idle",
+  },
+  gem_merchant:        { "gem_merchant":        "idle" },
+  gun_merchant:        { "gun_merchant":        "idle" },
+  mushroom_merchant:   { "mushroom_merchant":   "idle" },
+  mountain_merchant1:  { "mountain_merchant1":  "idle" },
+  mountain_merchant2:  { "mountain_merchant2":  "idle" },
+  mountain_merchant3:  { "mountain_merchant3":  "idle" },
+  shielder: {
+    "attack": "attack1",
+    "range":  "attack2",
+  },
 };
 
 // Stems to exclude entirely from a character's animation list.
+// Per-character stem → { category, loops } overrides.
+// Use when a stem's generic normalization rule has the wrong category or loops value
+// after a STEM_KEY_OVERRIDE renames it to a semantically different animation type.
+const ANIMATION_META_OVERRIDES: Record<string, Record<string, { category?: string; loops?: boolean }>> = {
+  evil_sage: {
+    "duck": { category: "attack", loops: false },
+  },
+  human_crow_keeper: {
+    "shoot_ball": { category: "attack", loops: false },
+  },
+  lord_of_the_flames: {
+    "lord_of_the_flames-range_fire_burst": { category: "attack", loops: false },
+    "range_sprite_with_glow":              { category: "attack", loops: false },
+  },
+  gem_merchant:        { "gem_merchant":        { category: "ui", loops: true } },
+  gun_merchant:        { "gun_merchant":        { category: "ui", loops: true } },
+  mushroom_merchant:   { "mushroom_merchant":   { category: "ui", loops: true } },
+  mountain_merchant1:  { "mountain_merchant1":  { category: "ui", loops: true } },
+  mountain_merchant2:  { "mountain_merchant2":  { category: "ui", loops: true } },
+  mountain_merchant3:  { "mountain_merchant3":  { category: "ui", loops: true } },
+};
+
 const STEM_EXCLUSIONS: Record<string, Set<string>> = {
   ancient_guardian: new Set(["shield_spritesheet"]),
   archer:           new Set(["vfx_for_special", "special_attack_vanish"]),
   archer_bandit:    new Set(["archer_bandit-fall", "archer_bandit-jump"]),
   bomb_droid:       new Set(["idle"]),
   doberman:         new Set(["dog-ledge_grab", "dog"]),
+  evil_crow:        new Set(["evil_crow-attack_explode", "evil_crow-attack_idle", "evil_crow-attack_start"]),
+  glitch_samurai:   new Set(["glitch samurai-idle gltich"]),
+  golden_retriever:  new Set(["golden-ledge_grab", "golden_sprite_sheet"]),
+  human_crow_keeper: new Set(["projectile-idle", "projectile_sprite_sheet"]),
+  shielder:          new Set(["projectile", "projectile_blue", "projectile_white_tip"]),
 };
 
 // Override the auto-detected frameWidth for a character (all files share one height group).
@@ -279,15 +369,29 @@ const STEM_EXCLUSIONS: Record<string, Set<string>> = {
 const FRAME_WIDTH_OVERRIDES: Record<string, number> = {
   archer: 174,
   caged_spider: 43,
+  glitch_samurai: 210,
+  kamikaze_crow: 27,
+  human_crow_keeper: 268,
 };
 
 // Per-file frame dimension overrides (relative path from repo root).
 // Use for grid sheets (multiple rows) or isolated files with known dimensions.
 const FILE_FRAME_OVERRIDES: Record<string, { frameWidth: number; frameHeight: number }> = {
-  "characters/archer_bandit/volley_vfx.png":       { frameWidth: 74,  frameHeight: 111 },
+  "characters/archer_bandit/volley_vfx.png":                    { frameWidth: 74,  frameHeight: 111 },
+  "characters/human_crow_keeper/projectile-idle.png":           { frameWidth: 114, frameHeight: 84  },
+  "characters/human_crow_keeper/projectile_sprite_sheet.png":   { frameWidth: 114, frameHeight: 84  },
+  "characters/evil_sage/evil_shockwave.png":        { frameWidth: 137, frameHeight: 39  },
   "characters/dream_merchant1/genie_merchant.png":  { frameWidth: 90,  frameHeight: 63  },
   "characters/dream_merchant2/magic_merchant.png":  { frameWidth: 65,  frameHeight: 49  },
   "characters/dream_merchant3/time_traveler_npc.png": { frameWidth: 64,  frameHeight: 82 },
+  "characters/lord_of_the_flames/range_sprite_with_glow.png": { frameWidth: 49, frameHeight: 28 },
+  "characters/masks_merchant/mask_merchants.png": { frameWidth: 81, frameHeight: 60 },
+  "characters/gem_merchant/gem_merchant.png":        { frameWidth: 101, frameHeight: 37 },
+  "characters/gun_merchant/gun_merchant.png":        { frameWidth: 108, frameHeight: 39 },
+  "characters/mushroom_merchant/mushroom_merchant.png": { frameWidth: 111, frameHeight: 53 },
+  "characters/mountain_merchant1/mountain_merchant1.png": { frameWidth: 128, frameHeight: 71 },
+  "characters/mountain_merchant2/mountain_merchant2.png": { frameWidth: 131, frameHeight: 88 },
+  "characters/mountain_merchant3/mountain_merchant3.png": { frameWidth: 116, frameHeight: 61 },
 };
 
 // ---------------------------------------------------------------------------
@@ -390,23 +494,28 @@ function buildStandardCharacter(
     const { frames, ambiguous } = getFrames(file);
     if (ambiguous) issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for "${stem}"`, file: relPath(file) });
 
+    const metaOverride = ANIMATION_META_OVERRIDES[id]?.[stem];
     animations[normalizedKey] = {
       type: "simple",
       key: normalizedKey,
       file: relPath(file),
-      category: rule.category,
-      loops: rule.loops,
+      category: (metaOverride?.category ?? rule.category) as SimpleAnimation["category"],
+      loops: metaOverride?.loops ?? rule.loops,
       frames,
       originalName: stem,
     } satisfies SimpleAnimation;
   }
 
   // ── 3. Link projectiles to the nearest ranged/attack animation ────────────
-  if (projectileFiles.length > 0) {
+  const activeProjectileFiles = projectileFiles.filter(
+    (f) => !STEM_EXCLUSIONS[id]?.has(stemOf(f)),
+  );
+  if (activeProjectileFiles.length > 0) {
     const rangedKey = Object.keys(animations).find((k) => k.startsWith("ranged"))
+      ?? Object.keys(animations).find((k) => (animations[k] as SimpleAnimation).category === "ranged")
       ?? Object.keys(animations).find((k) => k.startsWith("attack"));
 
-    const projectileStates: ProjectileState[] = projectileFiles.map((file) => {
+    const projectileStates: ProjectileState[] = activeProjectileFiles.map((file) => {
       const stem = stemOf(file);
       const { frames, ambiguous } = getFrames(file);
       if (ambiguous) issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for projectile "${stem}"`, file: relPath(file) });

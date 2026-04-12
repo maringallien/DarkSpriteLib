@@ -3,39 +3,39 @@
   "id": "npcs",
   "path": "characters/npcs",
   "animations": {
-    "summon": {
+    "bunny_lady_npc": {
       "type": "simple",
-      "key": "summon",
+      "key": "bunny_lady_npc",
       "file": "characters/npcs/bunny_lady/bunny_summoner.png",
       "category": "state",
       "loops": false,
       "frames": {
         "sheetWidth": 1440,
         "sheetHeight": 42,
-        "frameWidth": 90,
+        "frameWidth": 36,
         "frameHeight": 42,
-        "frameCount": 16
+        "frameCount": 40
       },
       "originalName": "bunny_summoner"
     },
-    "full_sheet1": {
+    "fortune_teller_npc": {
       "type": "simple",
-      "key": "full_sheet1",
+      "key": "fortune_teller_npc",
       "file": "characters/npcs/fortune_teller/fortune_teller_dude.png",
       "category": "ui",
       "loops": false,
       "frames": {
         "sheetWidth": 1104,
         "sheetHeight": 43,
-        "frameWidth": 69,
+        "frameWidth": 46,
         "frameHeight": 43,
-        "frameCount": 16
+        "frameCount": 24
       },
       "originalName": "fortune_teller_dude"
     },
-    "full_sheet2": {
+    "guard_npc": {
       "type": "simple",
-      "key": "full_sheet2",
+      "key": "guard_npc",
       "file": "characters/npcs/guard/guard.png",
       "category": "ui",
       "loops": false,
@@ -48,9 +48,9 @@
       },
       "originalName": "guard"
     },
-    "full_sheet3": {
+    "loader_npc": {
       "type": "simple",
-      "key": "full_sheet3",
+      "key": "loader_npc",
       "file": "characters/npcs/loader/loader.png",
       "category": "ui",
       "loops": false,
@@ -63,39 +63,39 @@
       },
       "originalName": "loader"
     },
-    "full_sheet4": {
+    "magic_dude_npc": {
       "type": "simple",
-      "key": "full_sheet4",
+      "key": "magic_dude_npc",
       "file": "characters/npcs/magic_dude/magic_dude.png",
       "category": "ui",
       "loops": false,
       "frames": {
         "sheetWidth": 504,
         "sheetHeight": 36,
-        "frameWidth": 63,
+        "frameWidth": 21,
         "frameHeight": 36,
-        "frameCount": 8
+        "frameCount": 24
       },
       "originalName": "magic_dude"
     },
-    "full_sheet5": {
+    "senator_npc": {
       "type": "simple",
-      "key": "full_sheet5",
+      "key": "senator_npc",
       "file": "characters/npcs/senator/senator.png",
       "category": "ui",
       "loops": false,
       "frames": {
         "sheetWidth": 768,
         "sheetHeight": 41,
-        "frameWidth": 96,
+        "frameWidth": 64,
         "frameHeight": 41,
-        "frameCount": 8
+        "frameCount": 12
       },
       "originalName": "senator"
     },
-    "full_sheet6": {
+    "strangler_npc": {
       "type": "simple",
-      "key": "full_sheet6",
+      "key": "strangler_npc",
       "file": "characters/npcs/strangler/strangler.png",
       "category": "ui",
       "loops": false,
@@ -108,9 +108,9 @@
       },
       "originalName": "strangler"
     },
-    "full_sheet7": {
+    "tamer_npc": {
       "type": "simple",
-      "key": "full_sheet7",
+      "key": "tamer_npc",
       "file": "characters/npcs/tamer/tamer.png",
       "category": "ui",
       "loops": false,
@@ -123,9 +123,9 @@
       },
       "originalName": "tamer"
     },
-    "full_sheet8": {
+    "watcher_npc": {
       "type": "simple",
-      "key": "full_sheet8",
+      "key": "watcher_npc",
       "file": "characters/npcs/watcher/watcher.png",
       "category": "ui",
       "loops": false,

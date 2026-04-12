@@ -3,9 +3,9 @@
   "id": "sage",
   "path": "characters/sage",
   "animations": {
-    "attack": {
+    "attack1": {
       "type": "simple",
-      "key": "attack",
+      "key": "attack1",
       "file": "characters/sage/attack.png",
       "category": "attack",
       "loops": false,
@@ -48,12 +48,12 @@
       },
       "originalName": "die"
     },
-    "idle1": {
+    "attack2": {
       "type": "simple",
-      "key": "idle1",
+      "key": "attack2",
       "file": "characters/sage/duck.png",
-      "category": "movement",
-      "loops": true,
+      "category": "attack",
+      "loops": false,
       "frames": {
         "sheetWidth": 728,
         "sheetHeight": 21,
@@ -78,9 +78,9 @@
       },
       "originalName": "fall"
     },
-    "idle2": {
+    "idle": {
       "type": "simple",
-      "key": "idle2",
+      "key": "idle",
       "file": "characters/sage/idle.png",
       "category": "movement",
       "loops": true,
@@ -138,18 +138,18 @@
       },
       "originalName": "shield"
     },
-    "special": {
+    "attack2_vfx": {
       "type": "simple",
-      "key": "special",
+      "key": "attack2_vfx",
       "file": "characters/sage/shockwave_vfx.png",
       "category": "special",
       "loops": false,
       "frames": {
         "sheetWidth": 548,
         "sheetHeight": 156,
-        "frameWidth": 274,
+        "frameWidth": 137,
         "frameHeight": 156,
-        "frameCount": 2
+        "frameCount": 4
       },
       "originalName": "shockwave_vfx"
     },

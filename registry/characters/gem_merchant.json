@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "gem_merchant",
+  "path": "characters/gem_merchant",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/gem_merchant/gem_merchant.png",
+      "category": "ui",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1212,
+        "sheetHeight": 37,
+        "frameWidth": 101,
+        "frameHeight": 37,
+        "frameCount": 12
+      },
+      "originalName": "gem_merchant"
+    }
+  }
+}

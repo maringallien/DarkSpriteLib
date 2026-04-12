@@ -93,11 +93,11 @@
       },
       "originalName": "lord_of_the_flames-move"
     },
-    "ranged1": {
+    "attack4": {
       "type": "simple",
-      "key": "ranged1",
+      "key": "attack4",
       "file": "characters/lord_of_the_flames/lord_of_the_flames-range_fire_burst.png",
-      "category": "ranged",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 1885,
@@ -123,18 +123,18 @@
       },
       "originalName": "lord_of_the_flames-spear"
     },
-    "ranged2": {
+    "attack4_proj": {
       "type": "simple",
-      "key": "ranged2",
+      "key": "attack4_proj",
       "file": "characters/lord_of_the_flames/range_sprite_with_glow.png",
-      "category": "ranged",
+      "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 637,
+        "sheetWidth": 441,
         "sheetHeight": 28,
-        "frameWidth": 637,
+        "frameWidth": 49,
         "frameHeight": 28,
-        "frameCount": 1
+        "frameCount": 9
       },
       "originalName": "range_sprite_with_glow"
     }

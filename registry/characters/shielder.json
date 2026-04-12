@@ -1,0 +1,67 @@
+{
+  "type": "standard",
+  "id": "shielder",
+  "path": "characters/shielder",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/shielder/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2193,
+        "sheetHeight": 46,
+        "frameWidth": 129,
+        "frameHeight": 46,
+        "frameCount": 17
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/shielder/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2064,
+        "sheetHeight": 46,
+        "frameWidth": 129,
+        "frameHeight": 46,
+        "frameCount": 16
+      },
+      "originalName": "death"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/shielder/range.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1806,
+        "sheetHeight": 46,
+        "frameWidth": 129,
+        "frameHeight": 46,
+        "frameCount": 14
+      },
+      "originalName": "range"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/shielder/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 774,
+        "sheetHeight": 46,
+        "frameWidth": 129,
+        "frameHeight": 46,
+        "frameCount": 6
+      },
+      "originalName": "walk"
+    }
+  }
+}

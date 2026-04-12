@@ -3,9 +3,9 @@
   "id": "hell_bot_dark",
   "path": "characters/hell_bot_dark",
   "animations": {
-    "attack": {
+    "attack1": {
       "type": "simple",
-      "key": "attack",
+      "key": "attack1",
       "file": "characters/hell_bot_dark/attack.png",
       "category": "attack",
       "loops": false,
@@ -78,9 +78,9 @@
       },
       "originalName": "run"
     },
-    "ranged": {
+    "attack2": {
       "type": "simple",
-      "key": "ranged",
+      "key": "attack2",
       "file": "characters/hell_bot_dark/shoot.png",
       "category": "ranged",
       "loops": false,

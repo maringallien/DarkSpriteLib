@@ -12,9 +12,9 @@
       "frames": {
         "sheetWidth": 3072,
         "sheetHeight": 71,
-        "frameWidth": 192,
+        "frameWidth": 128,
         "frameHeight": 71,
-        "frameCount": 16
+        "frameCount": 24
       },
       "originalName": "merchant_1"
     },
@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 3144,
         "sheetHeight": 88,
-        "frameWidth": 393,
+        "frameWidth": 131,
         "frameHeight": 88,
-        "frameCount": 8
+        "frameCount": 24
       },
       "originalName": "merchant_2"
     },
@@ -42,9 +42,9 @@
       "frames": {
         "sheetWidth": 2436,
         "sheetHeight": 61,
-        "frameWidth": 609,
+        "frameWidth": 116,
         "frameHeight": 61,
-        "frameCount": 4
+        "frameCount": 21
       },
       "originalName": "merchant_3"
     }

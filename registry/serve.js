@@ -23,7 +23,7 @@ const MIME = {
 };
 
 const server = http.createServer((req, res) => {
-  let urlPath = req.url.split("?")[0];
+  let urlPath = decodeURIComponent(req.url.split("?")[0]);
 
   // Redirect root to the preview tool
   if (urlPath === "/" || urlPath === "") {

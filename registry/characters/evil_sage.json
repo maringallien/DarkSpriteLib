@@ -3,9 +3,9 @@
   "id": "evil_sage",
   "path": "characters/evil_sage",
   "animations": {
-    "attack": {
+    "attack1": {
       "type": "simple",
-      "key": "attack",
+      "key": "attack1",
       "file": "characters/evil_sage/attack.png",
       "category": "attack",
       "loops": false,
@@ -18,9 +18,9 @@
       },
       "originalName": "attack"
     },
-    "dash1": {
+    "dash": {
       "type": "simple",
-      "key": "dash1",
+      "key": "dash",
       "file": "characters/evil_sage/dash.png",
       "category": "movement",
       "loops": false,
@@ -48,12 +48,12 @@
       },
       "originalName": "die"
     },
-    "idle1": {
+    "attack2": {
       "type": "simple",
-      "key": "idle1",
+      "key": "attack2",
       "file": "characters/evil_sage/duck.png",
-      "category": "movement",
-      "loops": true,
+      "category": "attack",
+      "loops": false,
       "frames": {
         "sheetWidth": 728,
         "sheetHeight": 21,
@@ -63,18 +63,18 @@
       },
       "originalName": "duck"
     },
-    "special": {
+    "attack2_vfx": {
       "type": "simple",
-      "key": "special",
+      "key": "attack2_vfx",
       "file": "characters/evil_sage/evil_shockwave.png",
       "category": "special",
       "loops": false,
       "frames": {
         "sheetWidth": 1918,
         "sheetHeight": 39,
-        "frameWidth": 959,
+        "frameWidth": 137,
         "frameHeight": 39,
-        "frameCount": 2
+        "frameCount": 14
       },
       "originalName": "evil_shockwave"
     },
@@ -93,9 +93,9 @@
       },
       "originalName": "fall"
     },
-    "idle2": {
+    "idle": {
       "type": "simple",
-      "key": "idle2",
+      "key": "idle",
       "file": "characters/evil_sage/idle.png",
       "category": "movement",
       "loops": true,
@@ -153,9 +153,9 @@
       },
       "originalName": "shield"
     },
-    "dash2": {
+    "slide": {
       "type": "simple",
-      "key": "dash2",
+      "key": "slide",
       "file": "characters/evil_sage/slide.png",
       "category": "movement",
       "loops": false,

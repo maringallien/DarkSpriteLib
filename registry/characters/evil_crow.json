@@ -4,103 +4,19 @@
   "path": "characters/evil_crow",
   "animations": {
     "attack1": {
-      "type": "with_projectile",
+      "type": "simple",
       "key": "attack1",
-      "file": "characters/evil_crow/evil_crow-attack_explode.png",
+      "file": "characters/evil_crow/evil_crow-attack.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 252,
+        "sheetWidth": 756,
         "sheetHeight": 36,
         "frameWidth": 42,
         "frameHeight": 36,
-        "frameCount": 6
+        "frameCount": 18
       },
-      "originalName": "evil_crow-attack_explode",
-      "projectile": [
-        {
-          "key": "explode",
-          "file": "characters/evil_crow/projectile-attack_explode.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 132,
-            "sheetHeight": 22,
-            "frameWidth": 66,
-            "frameHeight": 22,
-            "frameCount": 2
-          },
-          "originalName": "projectile-attack_explode"
-        },
-        {
-          "key": "idle",
-          "file": "characters/evil_crow/projectile-attack_idle.png",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 132,
-            "sheetHeight": 22,
-            "frameWidth": 66,
-            "frameHeight": 22,
-            "frameCount": 2
-          },
-          "originalName": "projectile-attack_idle"
-        },
-        {
-          "key": "start",
-          "file": "characters/evil_crow/projectile-attack_start.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 132,
-            "sheetHeight": 22,
-            "frameWidth": 66,
-            "frameHeight": 22,
-            "frameCount": 2
-          },
-          "originalName": "projectile-attack_start"
-        },
-        {
-          "key": "idle",
-          "file": "characters/evil_crow/projectile.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 132,
-            "sheetHeight": 66,
-            "frameWidth": 132,
-            "frameHeight": 66,
-            "frameCount": 1
-          },
-          "originalName": "projectile"
-        }
-      ]
-    },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/evil_crow/evil_crow-attack_idle.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 252,
-        "sheetHeight": 36,
-        "frameWidth": 42,
-        "frameHeight": 36,
-        "frameCount": 6
-      },
-      "originalName": "evil_crow-attack_idle"
-    },
-    "attack3": {
-      "type": "simple",
-      "key": "attack3",
-      "file": "characters/evil_crow/evil_crow-attack_start.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 252,
-        "sheetHeight": 36,
-        "frameWidth": 42,
-        "frameHeight": 36,
-        "frameCount": 6
-      },
-      "originalName": "evil_crow-attack_start"
+      "originalName": "evil_crow-attack"
     },
     "death": {
       "type": "simple",
@@ -117,9 +33,9 @@
       },
       "originalName": "evil_crow-death"
     },
-    "attack4": {
+    "attack2": {
       "type": "simple",
-      "key": "attack4",
+      "key": "attack2",
       "file": "characters/evil_crow/evil_crow-dive_attack.png",
       "category": "attack",
       "loops": false,
@@ -177,9 +93,9 @@
       },
       "originalName": "evil_crow-land"
     },
-    "attack5": {
+    "trans_dive": {
       "type": "simple",
-      "key": "attack5",
+      "key": "trans_dive",
       "file": "characters/evil_crow/evil_crow-trans_to_dive.png",
       "category": "attack",
       "loops": false,
@@ -192,9 +108,9 @@
       },
       "originalName": "evil_crow-trans_to_dive"
     },
-    "walk2": {
+    "take_off": {
       "type": "simple",
-      "key": "walk2",
+      "key": "take_off",
       "file": "characters/evil_crow/evil_crow-trans_to_fly.png",
       "category": "movement",
       "loops": true,
@@ -206,21 +122,6 @@
         "frameCount": 3
       },
       "originalName": "evil_crow-trans_to_fly"
-    },
-    "full_sheet": {
-      "type": "simple",
-      "key": "full_sheet",
-      "file": "characters/evil_crow/evil_crow_sprite_sheet.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 924,
-        "sheetHeight": 360,
-        "frameWidth": 924,
-        "frameHeight": 360,
-        "frameCount": 1
-      },
-      "originalName": "evil_crow_sprite_sheet"
     }
   }
 }

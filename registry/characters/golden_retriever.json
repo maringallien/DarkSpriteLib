@@ -3,9 +3,9 @@
   "id": "golden_retriever",
   "path": "characters/golden_retriever",
   "animations": {
-    "death": {
+    "dead": {
       "type": "simple",
-      "key": "death",
+      "key": "dead",
       "file": "characters/golden_retriever/dead.png",
       "category": "state",
       "loops": false,
@@ -18,9 +18,9 @@
       },
       "originalName": "dead"
     },
-    "idle1": {
+    "sniff": {
       "type": "simple",
-      "key": "idle1",
+      "key": "sniff",
       "file": "characters/golden_retriever/eat.png",
       "category": "state",
       "loops": true,
@@ -33,9 +33,9 @@
       },
       "originalName": "eat"
     },
-    "idle2": {
+    "bark": {
       "type": "simple",
-      "key": "idle2",
+      "key": "bark",
       "file": "characters/golden_retriever/golden-bark.png",
       "category": "state",
       "loops": false,
@@ -48,9 +48,9 @@
       },
       "originalName": "golden-bark"
     },
-    "attack": {
+    "attack1": {
       "type": "simple",
-      "key": "attack",
+      "key": "attack1",
       "file": "characters/golden_retriever/golden-bite.png",
       "category": "attack",
       "loops": false,
@@ -78,9 +78,9 @@
       },
       "originalName": "golden-fall"
     },
-    "wake1": {
+    "get_up": {
       "type": "simple",
-      "key": "wake1",
+      "key": "get_up",
       "file": "characters/golden_retriever/golden-get_up.png",
       "category": "state",
       "loops": false,
@@ -93,9 +93,9 @@
       },
       "originalName": "golden-get_up"
     },
-    "idle3": {
+    "idle": {
       "type": "simple",
-      "key": "idle3",
+      "key": "idle",
       "file": "characters/golden_retriever/golden-idle.png",
       "category": "movement",
       "loops": true,
@@ -138,9 +138,9 @@
       },
       "originalName": "golden-land"
     },
-    "idle4": {
+    "lie": {
       "type": "simple",
-      "key": "idle4",
+      "key": "lie",
       "file": "characters/golden_retriever/golden-lay_down_idle.png",
       "category": "movement",
       "loops": true,
@@ -153,9 +153,9 @@
       },
       "originalName": "golden-lay_down_idle"
     },
-    "ledge_grab1": {
+    "ledge_grab": {
       "type": "simple",
-      "key": "ledge_grab1",
+      "key": "ledge_grab",
       "file": "characters/golden_retriever/golden-ledge_climb.png",
       "category": "traversal",
       "loops": false,
@@ -167,21 +167,6 @@
         "frameCount": 9
       },
       "originalName": "golden-ledge_climb"
-    },
-    "ledge_grab2": {
-      "type": "simple",
-      "key": "ledge_grab2",
-      "file": "characters/golden_retriever/golden-ledge_grab.png",
-      "category": "traversal",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 45,
-        "sheetHeight": 32,
-        "frameWidth": 45,
-        "frameHeight": 32,
-        "frameCount": 1
-      },
-      "originalName": "golden-ledge_grab"
     },
     "run": {
       "type": "simple",
@@ -198,9 +183,9 @@
       },
       "originalName": "golden-run"
     },
-    "sleep1": {
+    "sit_down": {
       "type": "simple",
-      "key": "sleep1",
+      "key": "sit_down",
       "file": "characters/golden_retriever/golden-sit.png",
       "category": "state",
       "loops": true,
@@ -213,9 +198,9 @@
       },
       "originalName": "golden-sit"
     },
-    "idle5": {
+    "sit": {
       "type": "simple",
-      "key": "idle5",
+      "key": "sit",
       "file": "characters/golden_retriever/golden-sit_idle.png",
       "category": "movement",
       "loops": true,
@@ -228,9 +213,9 @@
       },
       "originalName": "golden-sit_idle"
     },
-    "sleep2": {
+    "sleep": {
       "type": "simple",
-      "key": "sleep2",
+      "key": "sleep",
       "file": "characters/golden_retriever/golden-sleep.png",
       "category": "state",
       "loops": true,
@@ -243,9 +228,9 @@
       },
       "originalName": "golden-sleep"
     },
-    "idle6": {
+    "sit_up": {
       "type": "simple",
-      "key": "idle6",
+      "key": "sit_up",
       "file": "characters/golden_retriever/golden-stand.png",
       "category": "movement",
       "loops": true,
@@ -258,9 +243,9 @@
       },
       "originalName": "golden-stand"
     },
-    "sleep3": {
+    "go_sleep": {
       "type": "simple",
-      "key": "sleep3",
+      "key": "go_sleep",
       "file": "characters/golden_retriever/golden-to_sleep.png",
       "category": "state",
       "loops": true,
@@ -273,9 +258,9 @@
       },
       "originalName": "golden-to_sleep"
     },
-    "wake2": {
+    "wake_up": {
       "type": "simple",
-      "key": "wake2",
+      "key": "wake_up",
       "file": "characters/golden_retriever/golden-wake_up_transition.png",
       "category": "state",
       "loops": false,
@@ -288,9 +273,9 @@
       },
       "originalName": "golden-wake_up_transition"
     },
-    "walk1": {
+    "walk": {
       "type": "simple",
-      "key": "walk1",
+      "key": "walk",
       "file": "characters/golden_retriever/golden-walk.png",
       "category": "movement",
       "loops": true,
@@ -317,21 +302,6 @@
         "frameCount": 10
       },
       "originalName": "golden-walk_sniff"
-    },
-    "full_sheet": {
-      "type": "simple",
-      "key": "full_sheet",
-      "file": "characters/golden_retriever/golden_sprite_sheet.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 990,
-        "sheetHeight": 704,
-        "frameWidth": 990,
-        "frameHeight": 704,
-        "frameCount": 1
-      },
-      "originalName": "golden_sprite_sheet"
     }
   }
 }

@@ -12,9 +12,9 @@
       "frames": {
         "sheetWidth": 162,
         "sheetHeight": 27,
-        "frameWidth": 54,
+        "frameWidth": 27,
         "frameHeight": 27,
-        "frameCount": 3
+        "frameCount": 6
       },
       "originalName": "kami-kaze_crow-dive"
     },
@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 324,
         "sheetHeight": 27,
-        "frameWidth": 54,
+        "frameWidth": 27,
         "frameHeight": 27,
-        "frameCount": 6
+        "frameCount": 12
       },
       "originalName": "kami-kaze_crow-explode"
     },
@@ -42,9 +42,9 @@
       "frames": {
         "sheetWidth": 108,
         "sheetHeight": 27,
-        "frameWidth": 54,
+        "frameWidth": 27,
         "frameHeight": 27,
-        "frameCount": 2
+        "frameCount": 4
       },
       "originalName": "kami-kaze_crow-fly"
     },
@@ -57,9 +57,9 @@
       "frames": {
         "sheetWidth": 324,
         "sheetHeight": 27,
-        "frameWidth": 54,
+        "frameWidth": 27,
         "frameHeight": 27,
-        "frameCount": 6
+        "frameCount": 12
       },
       "originalName": "kami-kaze_crow-idle"
     }

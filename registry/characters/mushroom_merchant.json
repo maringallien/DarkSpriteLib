@@ -1,0 +1,22 @@
+{
+  "type": "standard",
+  "id": "mushroom_merchant",
+  "path": "characters/mushroom_merchant",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/mushroom_merchant/mushroom_merchant.png",
+      "category": "ui",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2664,
+        "sheetHeight": 53,
+        "frameWidth": 111,
+        "frameHeight": 53,
+        "frameCount": 24
+      },
+      "originalName": "mushroom_merchant"
+    }
+  }
+}

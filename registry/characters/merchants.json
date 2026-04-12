@@ -3,48 +3,48 @@
   "id": "merchants",
   "path": "characters/merchants",
   "animations": {
-    "full_sheet1": {
+    "gem_merchant": {
       "type": "simple",
-      "key": "full_sheet1",
+      "key": "gem_merchant",
       "file": "characters/merchants/gem_merchant.png",
       "category": "ui",
-      "loops": false,
+      "loops": true,
       "frames": {
-        "sheetWidth": 101,
-        "sheetHeight": 444,
+        "sheetWidth": 1212,
+        "sheetHeight": 37,
         "frameWidth": 101,
-        "frameHeight": 444,
-        "frameCount": 1
+        "frameHeight": 37,
+        "frameCount": 12
       },
       "originalName": "gem_merchant"
     },
-    "full_sheet2": {
+    "gun_merchant": {
       "type": "simple",
-      "key": "full_sheet2",
+      "key": "gun_merchant",
       "file": "characters/merchants/gun_merchant.png",
       "category": "ui",
-      "loops": false,
+      "loops": true,
       "frames": {
-        "sheetWidth": 108,
-        "sheetHeight": 780,
+        "sheetWidth": 2160,
+        "sheetHeight": 39,
         "frameWidth": 108,
-        "frameHeight": 780,
-        "frameCount": 1
+        "frameHeight": 39,
+        "frameCount": 20
       },
       "originalName": "gun_merchant"
     },
-    "full_sheet3": {
+    "mushroom_merchant": {
       "type": "simple",
-      "key": "full_sheet3",
+      "key": "mushroom_merchant",
       "file": "characters/merchants/mushroom_merchant.png",
       "category": "ui",
-      "loops": false,
+      "loops": true,
       "frames": {
-        "sheetWidth": 111,
-        "sheetHeight": 1272,
+        "sheetWidth": 2664,
+        "sheetHeight": 53,
         "frameWidth": 111,
-        "frameHeight": 1272,
-        "frameCount": 1
+        "frameHeight": 53,
+        "frameCount": 24
       },
       "originalName": "mushroom_merchant"
     }
