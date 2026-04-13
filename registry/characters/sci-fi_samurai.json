@@ -17,9 +17,9 @@
           "frames": {
             "sheetWidth": 2280,
             "sheetHeight": 49,
-            "frameWidth": 95,
+            "frameWidth": 285,
             "frameHeight": 49,
-            "frameCount": 24
+            "frameCount": 8
           },
           "originalName": "attack"
         },
@@ -32,9 +32,9 @@
           "frames": {
             "sheetWidth": 2280,
             "sheetHeight": 49,
-            "frameWidth": 95,
+            "frameWidth": 285,
             "frameHeight": 49,
-            "frameCount": 23
+            "frameCount": 8
           },
           "originalName": "die"
         },
@@ -47,9 +47,9 @@
           "frames": {
             "sheetWidth": 2280,
             "sheetHeight": 49,
-            "frameWidth": 95,
+            "frameWidth": 285,
             "frameHeight": 49,
-            "frameCount": 12
+            "frameCount": 8
           },
           "originalName": "idle"
         },
@@ -62,7 +62,7 @@
           "frames": {
             "sheetWidth": 2280,
             "sheetHeight": 49,
-            "frameWidth": 95,
+            "frameWidth": 285,
             "frameHeight": 49,
             "frameCount": 8
           },
@@ -84,9 +84,9 @@
           "frames": {
             "sheetWidth": 2461,
             "sheetHeight": 33,
-            "frameWidth": 107,
+            "frameWidth": 2461,
             "frameHeight": 33,
-            "frameCount": 23
+            "frameCount": 1
           },
           "originalName": "attack"
         },
@@ -99,9 +99,9 @@
           "frames": {
             "sheetWidth": 2461,
             "sheetHeight": 33,
-            "frameWidth": 107,
+            "frameWidth": 2461,
             "frameHeight": 33,
-            "frameCount": 23
+            "frameCount": 1
           },
           "originalName": "die"
         },
@@ -114,9 +114,9 @@
           "frames": {
             "sheetWidth": 2461,
             "sheetHeight": 33,
-            "frameWidth": 107,
+            "frameWidth": 2461,
             "frameHeight": 33,
-            "frameCount": 12
+            "frameCount": 1
           },
           "originalName": "idle"
         },
@@ -129,9 +129,9 @@
           "frames": {
             "sheetWidth": 2461,
             "sheetHeight": 33,
-            "frameWidth": 107,
+            "frameWidth": 2461,
             "frameHeight": 33,
-            "frameCount": 8
+            "frameCount": 1
           },
           "originalName": "run"
         }

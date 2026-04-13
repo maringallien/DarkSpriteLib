@@ -3,9 +3,9 @@
   "id": "shadow_of_storms",
   "path": "characters/shadow_of_storms",
   "animations": {
-    "attack3_vfx": {
+    "ranged": {
       "type": "simple",
-      "key": "attack3_vfx",
+      "key": "ranged",
       "file": "characters/shadow_of_storms/50x51 Beam.png",
       "category": "ranged",
       "loops": false,
@@ -17,51 +17,6 @@
         "frameCount": 2
       },
       "originalName": "50x51 beam"
-    },
-    "idle": {
-      "type": "simple",
-      "key": "idle",
-      "file": "characters/shadow_of_storms/idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 1908,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
-        "frameCount": 12
-      },
-      "originalName": "shadow of storms 159x53"
-    },
-    "run": {
-      "type": "simple",
-      "key": "run",
-      "file": "characters/shadow_of_storms/run.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 1272,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
-        "frameCount": 8
-      },
-      "originalName": "shadow of storms 159x53"
-    },
-    "heal": {
-      "type": "simple",
-      "key": "heal",
-      "file": "characters/shadow_of_storms/heal.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 2862,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
-        "frameCount": 18
-      },
-      "originalName": "shadow of storms 159x53"
     },
     "attack1": {
       "type": "simple",
@@ -76,7 +31,7 @@
         "frameHeight": 53,
         "frameCount": 9
       },
-      "originalName": "shadow of storms 159x53"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
@@ -91,7 +46,7 @@
         "frameHeight": 53,
         "frameCount": 13
       },
-      "originalName": "shadow of storms 159x53"
+      "originalName": "attack2"
     },
     "attack3": {
       "type": "simple",
@@ -106,7 +61,7 @@
         "frameHeight": 53,
         "frameCount": 14
       },
-      "originalName": "shadow of storms 159x53"
+      "originalName": "attack3"
     },
     "attack4": {
       "type": "simple",
@@ -121,22 +76,7 @@
         "frameHeight": 53,
         "frameCount": 18
       },
-      "originalName": "shadow of storms 159x53"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/shadow_of_storms/take_hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 318,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
-        "frameCount": 2
-      },
-      "originalName": "shadow of storms 159x53"
+      "originalName": "attack4"
     },
     "death": {
       "type": "simple",
@@ -151,7 +91,67 @@
         "frameHeight": 53,
         "frameCount": 10
       },
-      "originalName": "shadow of storms 159x53"
+      "originalName": "death"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/shadow_of_storms/heal.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2862,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 18
+      },
+      "originalName": "heal"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/shadow_of_storms/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1908,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 12
+      },
+      "originalName": "idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/shadow_of_storms/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1272,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/shadow_of_storms/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 318,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
     }
   }
 }

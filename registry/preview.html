@@ -305,6 +305,15 @@ function buildEntities() {
     }
   }
 
+  // Animals
+  for (const [animalId, animal] of Object.entries(registry.animals ?? {})) {
+    const name = animalId.replace(/_/g, ' ');
+    if (animal.type === 'standard') {
+      if (Object.keys(animal.animations).length === 0) continue;
+      entities.push({ id: `_animal__${animalId}`, label: name, group: 'Animals', animations: animal.animations });
+    }
+  }
+
   entities.sort((a, b) => a.label.localeCompare(b.label));
 }
 
@@ -568,10 +577,11 @@ class PreviewScene extends Phaser.Scene {
   }
 
   playSimple(anim, loop, fps, gen) {
-    const animKey = `${anim.file}::${fps}::${loop}`;
-    this.ensureAnim(animKey, anim.file, anim.frames.frameCount, fps, loop);
+    const startFrame = anim.frames.startFrame ?? 0;
+    const animKey = `${anim.file}::${fps}::${loop}::${startFrame}`;
+    this.ensureAnim(animKey, anim.file, anim.frames.frameCount, fps, loop, startFrame);
 
-    const sprite = this.add.sprite(this.cx, this.cy, anim.file, 0);
+    const sprite = this.add.sprite(this.cx, this.cy, anim.file, startFrame);
     this.applyScale(sprite, anim.frames);
     this.sprites.push(sprite);
 
@@ -630,13 +640,13 @@ class PreviewScene extends Phaser.Scene {
     sprite.play(animKey);
   }
 
-  ensureAnim(key, textureKey, frameCount, fps, loop) {
+  ensureAnim(key, textureKey, frameCount, fps, loop, startFrame = 0) {
     if (this.anims.exists(key)) this.anims.remove(key);
     this.anims.create({
       key,
       frames: this.anims.generateFrameNumbers(textureKey, {
-        start: 0,
-        end: Math.max(0, frameCount - 1),
+        start: startFrame,
+        end: Math.max(startFrame, startFrame + frameCount - 1),
       }),
       frameRate: Math.max(1, fps),
       repeat: loop ? -1 : 0,

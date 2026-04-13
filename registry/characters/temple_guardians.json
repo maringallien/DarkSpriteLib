@@ -12,9 +12,9 @@
       "frames": {
         "sheetWidth": 1760,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 11
+        "frameCount": 440
       },
       "originalName": "attack_1"
     },
@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 1760,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 11
+        "frameCount": 440
       },
       "originalName": "attack_2"
     },
@@ -42,9 +42,9 @@
       "frames": {
         "sheetWidth": 1600,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 10
+        "frameCount": 400
       },
       "originalName": "death"
     },
@@ -57,9 +57,9 @@
       "frames": {
         "sheetWidth": 320,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 2
+        "frameCount": 80
       },
       "originalName": "hit"
     },
@@ -72,9 +72,9 @@
       "frames": {
         "sheetWidth": 28,
         "sheetHeight": 59,
-        "frameWidth": 28,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 1
+        "frameCount": 7
       },
       "originalName": "idle"
     },
@@ -87,9 +87,9 @@
       "frames": {
         "sheetWidth": 2240,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 14
+        "frameCount": 560
       },
       "originalName": "special_attack"
     },
@@ -102,9 +102,9 @@
       "frames": {
         "sheetWidth": 1280,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 4,
         "frameHeight": 59,
-        "frameCount": 8
+        "frameCount": 320
       },
       "originalName": "walk"
     }

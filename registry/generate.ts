@@ -46,9 +46,11 @@ import type {
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const CHARS_DIR = path.join(ROOT, "characters");
+const ANIMALS_DIR = path.join(ROOT, "animals");
 const PLAYABLE_DIR = path.join(ROOT, "playable_character");
 const OUT_DIR = path.join(ROOT, "registry");
 const OUT_CHARS_DIR = path.join(OUT_DIR, "characters");
+const OUT_ANIMALS_DIR = path.join(OUT_DIR, "animals");
 
 // ---------------------------------------------------------------------------
 // PNG frame-size heuristic
@@ -215,14 +217,6 @@ const CHARACTER_OVERRIDES: Record<string, CharacterOverride> = {
       evil: "evil_bo_panda",
     },
   },
-  a_strange_companion: {
-    type: "variant",
-    variants: {
-      default: ".",
-      red:     ".",  // color variants are in same dir, handled differently
-      teal:    ".",
-    },
-  },
   colossal_boss: {
     type: "composite",
     components: {
@@ -310,6 +304,74 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "lord_of_the_flames-range_fire_burst": "attack4",
     "range_sprite_with_glow":              "attack4_proj",
   },
+  // ── Strange companion color variants (each is its own character entry) ──────
+  // All three share the same animation key conventions; only the stem prefix differs.
+  strange_companion_black: {
+    "strange_companion-idle":             "idle",
+    "strange_companion-move":             "walk",
+    "strange_companion-jump":             "jump",
+    "strange_companion-fall":             "fall",
+    "strange_companion-land":             "land",
+    "strange_companion-roll":             "roll",
+    "strange_companion-sleep":            "sleep",
+    "strange_companion-wake_up":          "wake_up",
+    "strange_companion-blast_1":          "attack1",
+    "strange_companion-blast_2":          "attack2",
+    "strange_companion-bark":             "bark",
+    "strange_companion-chill":            "chill",
+    "strange_companion-sit":              "sit",
+    "strange_companion-to_idle":          "to_idle",
+    "strange_companion-to_sleep":         "to_sleep",
+    "strange_companion-to_roll":          "to_roll",
+    "strange_companion-trans_jump_to_fall": "trans_jump_to_fall",
+    "strange_companion-trans_to_jump":    "trans_to_jump",
+    "strange_companion-roll_end":         "roll_end",
+    "eat":                                "eat",
+  },
+  strange_companion_red: {
+    "strange_companion_red-idle":             "idle",
+    "strange_companion_red-move":             "walk",
+    "strange_companion_red-jump":             "jump",
+    "strange_companion_red-fall":             "fall",
+    "strange_companion_red-land":             "land",
+    "strange_companion_red-roll":             "roll",
+    "strange_companion_red-sleep":            "sleep",
+    "strange_companion_red-wake_up":          "wake_up",
+    "strange_companion_red-blast_1":          "attack1",
+    "strange_companion_red-blast_2":          "attack2",
+    "strange_companion_red-bark":             "bark",
+    "strange_companion_red-chill":            "chill",
+    "strange_companion_red-sit":              "sit",
+    "strange_companion_red-to_idle":          "to_idle",
+    "strange_companion_red-to_sleep":         "to_sleep",
+    "strange_companion_red-to_roll":          "to_roll",
+    "strange_companion_red-trans_jump_to_fall": "trans_jump_to_fall",
+    "strange_companion_red-trans_to_jump":    "trans_to_jump",
+    "strange_companion_red-roll_end":         "roll_end",
+    "eat":                                    "eat",
+  },
+  strange_companion_teal: {
+    "strange_companion_teal-idle":             "idle",
+    "strange_companion_teal-move":             "walk",
+    "strange_companion_teal-jump":             "jump",
+    "strange_companion_teal-fall":             "fall",
+    "strange_companion_teal-land":             "land",
+    "strange_companion_teal-roll":             "roll",
+    "strange_companion_teal-sleep":            "sleep",
+    "strange_companion_teal-wake_up":          "wake_up",
+    "strange_companion_teal-blast_1":          "attack1",
+    "strange_companion_teal-blast_2":          "attack2",
+    "strange_companion_teal-bark":             "bark",
+    "strange_companion_teal-chill":            "chill",
+    "strange_companion_teal-sit":              "sit",
+    "strange_companion_teal-to_idle":          "to_idle",
+    "strange_companion_teal-to_sleep":         "to_sleep",
+    "strange_companion_teal-to_roll":          "to_roll",
+    "strange_companion_teal-trans_jump_to_fall": "trans_jump_to_fall",
+    "strange_companion_teal-trans_to_jump":    "trans_to_jump",
+    "strange_companion_teal-roll_end":         "roll_end",
+    "eat":                                     "eat",
+  },
   masks_merchant: {
     "mask_merchants": "idle",
   },
@@ -340,6 +402,19 @@ const ANIMATION_META_OVERRIDES: Record<string, Record<string, { category?: strin
     "lord_of_the_flames-range_fire_burst": { category: "attack", loops: false },
     "range_sprite_with_glow":              { category: "attack", loops: false },
   },
+  // ── Strange companion: blast animations are melee/attack, not ranged ────────
+  strange_companion_black: {
+    "strange_companion-blast_1": { category: "attack", loops: false },
+    "strange_companion-blast_2": { category: "attack", loops: false },
+  },
+  strange_companion_red: {
+    "strange_companion_red-blast_1": { category: "attack", loops: false },
+    "strange_companion_red-blast_2": { category: "attack", loops: false },
+  },
+  strange_companion_teal: {
+    "strange_companion_teal-blast_1": { category: "attack", loops: false },
+    "strange_companion_teal-blast_2": { category: "attack", loops: false },
+  },
   gem_merchant:        { "gem_merchant":        { category: "ui", loops: true } },
   gun_merchant:        { "gun_merchant":        { category: "ui", loops: true } },
   mushroom_merchant:   { "mushroom_merchant":   { category: "ui", loops: true } },
@@ -359,6 +434,12 @@ const STEM_EXCLUSIONS: Record<string, Set<string>> = {
   golden_retriever:  new Set(["golden-ledge_grab", "golden_sprite_sheet"]),
   human_crow_keeper: new Set(["projectile-idle", "projectile_sprite_sheet"]),
   shielder:          new Set(["projectile", "projectile_blue", "projectile_white_tip"]),
+  // Full sprite sheet PNGs coexist with individual animation PNGs in each variant dir.
+  // The bare "projectile" file (288×64) is also excluded to avoid a key collision with
+  // projectile_32x32-idle.png — both would otherwise resolve to "projectile_idle".
+  strange_companion_black: new Set(["strange_companion_sprite_sheet", "projectile"]),
+  strange_companion_red:   new Set(["strange_companion_red", "projectile"]),
+  strange_companion_teal:  new Set(["strange_companion_teal", "projectile"]),
 };
 
 // Override the auto-detected frameWidth for a character (all files share one height group).
@@ -392,17 +473,178 @@ const FILE_FRAME_OVERRIDES: Record<string, { frameWidth: number; frameHeight: nu
   "characters/mountain_merchant1/mountain_merchant1.png": { frameWidth: 128, frameHeight: 71 },
   "characters/mountain_merchant2/mountain_merchant2.png": { frameWidth: 131, frameHeight: 88 },
   "characters/mountain_merchant3/mountain_merchant3.png": { frameWidth: 116, frameHeight: 61 },
+
+  // ── Simple animals ────────────────────────────────────────────────────────
+  // crow: 17 px wide, 21 px tall per row; 3 animations
+  "animals/crow/crow_blue/crow_blue_animation1.png": { frameWidth: 17, frameHeight: 21 },
+  "animals/crow/crow_blue/crow_blue_animation2.png": { frameWidth: 17, frameHeight: 21 },
+  "animals/crow/crow_blue/crow_blue_animation3.png": { frameWidth: 17, frameHeight: 21 },
+  "animals/crow/crow_red/crow_red_animation1.png":   { frameWidth: 17, frameHeight: 21 },
+  "animals/crow/crow_red/crow_red_animation2.png":   { frameWidth: 17, frameHeight: 21 },
+  "animals/crow/crow_red/crow_red_animation3.png":   { frameWidth: 17, frameHeight: 21 },
+  // elk: 56 px wide, 35 px tall per row; 4 animations
+  "animals/elk/elk_blue/elk_animation1.png":         { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_blue/elk_animation2.png":         { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_blue/elk_animation3.png":         { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_blue/elk_animation4.png":         { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_red/elk_red_animation1.png":      { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_red/elk_red_animation2.png":      { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_red/elk_red_animation3.png":      { frameWidth: 56, frameHeight: 35 },
+  "animals/elk/elk_red/elk_red_animation4.png":      { frameWidth: 56, frameHeight: 35 },
+  // rat: 24 px wide, 8 px tall per row; 3 animations
+  "animals/rat/rat_blue/rat_blue_animation1.png":    { frameWidth: 24, frameHeight: 8 },
+  "animals/rat/rat_blue/rat_blue_animation2.png":    { frameWidth: 24, frameHeight: 8 },
+  "animals/rat/rat_blue/rat_blue_animation3.png":    { frameWidth: 24, frameHeight: 8 },
+  "animals/rat/rat_red/rat_red_animation1.png":      { frameWidth: 24, frameHeight: 8 },
+  "animals/rat/rat_red/rat_red_animation2.png":      { frameWidth: 24, frameHeight: 8 },
+  "animals/rat/rat_red/rat_red_animation3.png":      { frameWidth: 24, frameHeight: 8 },
+  // deer split strips (56 px wide, 54 px tall)
+  "animals/deer/deer_blue_animation1.png": { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_blue_animation2.png": { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_blue_animation3.png": { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_blue_animation4.png": { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_red_animation1.png":  { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_red_animation2.png":  { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_red_animation3.png":  { frameWidth: 56, frameHeight: 54 },
+  "animals/deer/deer_red_animation4.png":  { frameWidth: 56, frameHeight: 54 },
+  // fox split strips (28 px wide, 20 px tall)
+  "animals/fox/fox_blue/fox_animation1.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_blue/fox_animation2.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_blue/fox_animation3.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_blue/fox_animation4.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_blue/fox_animation5.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_blue/fox_animation6.png":     { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation1.png":  { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation2.png":  { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation3.png":  { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation4.png":  { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation5.png":  { frameWidth: 28, frameHeight: 20 },
+  "animals/fox/fox_red/fox_red_animation6.png":  { frameWidth: 28, frameHeight: 20 },
+  // orbs split strips (16 px wide, 16 px tall)
+  "animals/orbs/orbs_animation1.png":      { frameWidth: 16, frameHeight: 16 },
+  "animals/orbs/orbs_animation2.png":      { frameWidth: 16, frameHeight: 16 },
+  "animals/orbs/orbs_animation3.png":      { frameWidth: 16, frameHeight: 16 },
+  "animals/orbs/orbs_animation4.png":      { frameWidth: 16, frameHeight: 16 },
+
+  // ── Strange companion projectiles ──────────────────────────────────────────
+  "animals/a_strange_companion/projectile/projectile_32x32-explode.png": { frameWidth: 32, frameHeight: 32 },
+  "animals/a_strange_companion/projectile/projectile_32x32-idle.png":    { frameWidth: 32, frameHeight: 32 },
 };
+
+// ---------------------------------------------------------------------------
+// Animal files: character id → ordered list of per-animation PNG paths.
+// Each file is exactly one animation (animation1, animation2…).
+// Files that were originally combined sprite sheets have already been split
+// into individual strips by the offline splitting script.
+// ---------------------------------------------------------------------------
+
+// Per-animal animation key names, in file order.
+// Use null to skip a file (it will be omitted from the output).
+const ANIMAL_ANIM_KEYS: Record<string, (string | null)[]> = {
+  crow_blue:  ["idle", "fly", "death"],
+  crow_red:   ["idle", "fly", "death"],
+  deer_blue:  ["walk", "idle", "look_up", "death"],
+  deer_red:   ["walk", "idle", "look_up", "death"],
+  elk_blue:   ["idle", "look_up", "walk", "death"],
+  elk_red:    ["idle", "look_up", "walk", "death"],
+  fox_blue:   ["idle", null, "walk", "run", "take_hit", "death"],
+  fox_red:    ["idle", null, "walk", "run", "take_hit", "death"],
+  rat_blue:   ["idle", "run", "death"],
+  rat_red:    ["idle", "run", "death"],
+};
+
+const ANIMAL_FILES: Record<string, string[]> = {
+  crow_blue: [
+    "animals/crow/crow_blue/crow_blue_animation1.png",
+    "animals/crow/crow_blue/crow_blue_animation2.png",
+    "animals/crow/crow_blue/crow_blue_animation3.png",
+  ],
+  crow_red: [
+    "animals/crow/crow_red/crow_red_animation1.png",
+    "animals/crow/crow_red/crow_red_animation2.png",
+    "animals/crow/crow_red/crow_red_animation3.png",
+  ],
+  deer_blue:  [
+    "animals/deer/deer_blue_animation1.png",
+    "animals/deer/deer_blue_animation2.png",
+    "animals/deer/deer_blue_animation3.png",
+    "animals/deer/deer_blue_animation4.png",
+  ],
+  deer_red: [
+    "animals/deer/deer_red_animation1.png",
+    "animals/deer/deer_red_animation2.png",
+    "animals/deer/deer_red_animation3.png",
+    "animals/deer/deer_red_animation4.png",
+  ],
+  elk_blue: [
+    "animals/elk/elk_blue/elk_animation1.png",
+    "animals/elk/elk_blue/elk_animation2.png",
+    "animals/elk/elk_blue/elk_animation3.png",
+    "animals/elk/elk_blue/elk_animation4.png",
+  ],
+  elk_red: [
+    "animals/elk/elk_red/elk_red_animation1.png",
+    "animals/elk/elk_red/elk_red_animation2.png",
+    "animals/elk/elk_red/elk_red_animation3.png",
+    "animals/elk/elk_red/elk_red_animation4.png",
+  ],
+  fox_blue: [
+    "animals/fox/fox_blue/fox_animation1.png",
+    "animals/fox/fox_blue/fox_animation2.png",
+    "animals/fox/fox_blue/fox_animation3.png",
+    "animals/fox/fox_blue/fox_animation4.png",
+    "animals/fox/fox_blue/fox_animation5.png",
+    "animals/fox/fox_blue/fox_animation6.png",
+  ],
+  fox_red: [
+    "animals/fox/fox_red/fox_red_animation1.png",
+    "animals/fox/fox_red/fox_red_animation2.png",
+    "animals/fox/fox_red/fox_red_animation3.png",
+    "animals/fox/fox_red/fox_red_animation4.png",
+    "animals/fox/fox_red/fox_red_animation5.png",
+    "animals/fox/fox_red/fox_red_animation6.png",
+  ],
+  rat_blue: [
+    "animals/rat/rat_blue/rat_blue_animation1.png",
+    "animals/rat/rat_blue/rat_blue_animation2.png",
+    "animals/rat/rat_blue/rat_blue_animation3.png",
+  ],
+  rat_red: [
+    "animals/rat/rat_red/rat_red_animation1.png",
+    "animals/rat/rat_red/rat_red_animation2.png",
+    "animals/rat/rat_red/rat_red_animation3.png",
+  ],
+};
+
+// Strange companion: 3 color variants added as separate StandardCharacter entries
+// in the characters registry (not the animals registry).
+const STRANGE_COMPANION_VARIANTS: Record<string, string> = {
+  strange_companion_black: "animals/a_strange_companion/strange_companion_black",
+  strange_companion_red:   "animals/a_strange_companion/strange_companion_red",
+  strange_companion_teal:  "animals/a_strange_companion/strange_companion_teal",
+};
+const STRANGE_COMPANION_PROJECTILE_DIR = "animals/a_strange_companion/projectile";
 
 // ---------------------------------------------------------------------------
 // Core: build a StandardCharacter from a flat list of PNG files
 // ---------------------------------------------------------------------------
+
+interface BuildOptions {
+  /**
+   * When true, projectile files are always emitted as separate SimpleAnimation
+   * entries (projectile_idle, projectile_explode…) and never merged into an
+   * AnimationWithProjectile.  Use for companion animals where projectiles are
+   * independent entities, not extensions of a ranged attack.
+   */
+  separateProjectiles?: boolean;
+}
 
 function buildStandardCharacter(
   id: string,
   dirPath: string,
   files: string[],
   issues: ValidationIssue[],
+  options: BuildOptions = {},
 ): StandardCharacter {
   const animations: Record<string, AnyAnimation> = {};
 
@@ -506,32 +748,47 @@ function buildStandardCharacter(
     } satisfies SimpleAnimation;
   }
 
-  // ── 3. Link projectiles to the nearest ranged/attack animation ────────────
+  // ── 3. Handle projectile files ─────────────────────────────────────────────
   const activeProjectileFiles = projectileFiles.filter(
     (f) => !STEM_EXCLUSIONS[id]?.has(stemOf(f)),
   );
   if (activeProjectileFiles.length > 0) {
-    const rangedKey = Object.keys(animations).find((k) => k.startsWith("ranged"))
-      ?? Object.keys(animations).find((k) => (animations[k] as SimpleAnimation).category === "ranged")
-      ?? Object.keys(animations).find((k) => k.startsWith("attack"));
-
-    const projectileStates: ProjectileState[] = activeProjectileFiles.map((file) => {
-      const stem = stemOf(file);
-      const { frames, ambiguous } = getFrames(file);
-      if (ambiguous) issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for projectile "${stem}"`, file: relPath(file) });
-      return { key: projectilePartKey(stem), file: relPath(file), loops: stem.includes("idle"), frames, originalName: stem };
-    });
-
-    if (rangedKey && animations[rangedKey]?.type === "simple") {
-      const base = animations[rangedKey] as SimpleAnimation;
-      const withProj: AnimationWithProjectile = { ...base, type: "with_projectile", projectile: projectileStates };
-      animations[rangedKey] = withProj;
-    } else {
-      for (const ps of projectileStates) {
-        animations[`projectile_${ps.key}`] = {
-          type: "simple", key: `projectile_${ps.key}`, file: ps.file,
-          category: "ranged", loops: ps.loops, frames: ps.frames, originalName: ps.originalName,
+    if (options.separateProjectiles) {
+      // Always emit projectiles as independent SimpleAnimation entries.
+      for (const file of activeProjectileFiles) {
+        const stem = stemOf(file);
+        const { frames, ambiguous } = getFrames(file);
+        if (ambiguous) issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for projectile "${stem}"`, file: relPath(file) });
+        const key = `projectile_${projectilePartKey(stem)}`;
+        animations[key] = {
+          type: "simple", key, file: relPath(file),
+          category: "ranged", loops: stem.includes("idle"), frames, originalName: stem,
         } satisfies SimpleAnimation;
+      }
+    } else {
+      // Default: link projectiles to the nearest ranged/attack animation.
+      const rangedKey = Object.keys(animations).find((k) => k.startsWith("ranged"))
+        ?? Object.keys(animations).find((k) => (animations[k] as SimpleAnimation).category === "ranged")
+        ?? Object.keys(animations).find((k) => k.startsWith("attack"));
+
+      const projectileStates: ProjectileState[] = activeProjectileFiles.map((file) => {
+        const stem = stemOf(file);
+        const { frames, ambiguous } = getFrames(file);
+        if (ambiguous) issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for projectile "${stem}"`, file: relPath(file) });
+        return { key: projectilePartKey(stem), file: relPath(file), loops: stem.includes("idle"), frames, originalName: stem };
+      });
+
+      if (rangedKey && animations[rangedKey]?.type === "simple") {
+        const base = animations[rangedKey] as SimpleAnimation;
+        const withProj: AnimationWithProjectile = { ...base, type: "with_projectile", projectile: projectileStates };
+        animations[rangedKey] = withProj;
+      } else {
+        for (const ps of projectileStates) {
+          animations[`projectile_${ps.key}`] = {
+            type: "simple", key: `projectile_${ps.key}`, file: ps.file,
+            category: "ranged", loops: ps.loops, frames: ps.frames, originalName: ps.originalName,
+          } satisfies SimpleAnimation;
+        }
       }
     }
   }
@@ -593,6 +850,67 @@ function buildCharacter(
   }
 
   return buildStandardCharacter(id, dirPath, files, issues);
+}
+
+// ---------------------------------------------------------------------------
+// Animal character builder
+//
+// Builds a StandardCharacter from an ordered list of per-animation PNG files.
+// Each file becomes animation1, animation2, … in order.
+// ---------------------------------------------------------------------------
+
+function buildAnimalCharacter(
+  id: string,
+  relFilePaths: string[],   // ordered list of paths relative to repo root
+  issues: ValidationIssue[],
+): StandardCharacter {
+  const absFiles = relFilePaths.map((f) => path.join(ROOT, f));
+  const frameMap = precomputeFrameData(absFiles, id);
+  const animations: Record<string, AnyAnimation> = {};
+
+  const keyNames = ANIMAL_ANIM_KEYS[id];
+
+  for (let i = 0; i < relFilePaths.length; i++) {
+    const relFilePath = relFilePaths[i];
+    const absFile = absFiles[i];
+    // null key means this file is intentionally excluded
+    const rawKey = keyNames ? keyNames[i] : `animation${i + 1}`;
+    if (rawKey === null) continue;
+    const key = rawKey ?? `animation${i + 1}`;
+
+    const raw = frameMap.get(absFile);
+
+    if (!raw) {
+      issues.push({ characterId: id, severity: "error", message: `Failed to read PNG dimensions for ${key}`, file: relFilePath });
+      continue;
+    }
+
+    const { ambiguous, ...frames } = raw;
+    if (ambiguous) {
+      issues.push({
+        characterId: id, severity: "warning",
+        message: `Ambiguous frame size for ${key} — verify FILE_FRAME_OVERRIDES entry`,
+        file: relFilePath,
+      });
+    }
+
+    animations[key] = {
+      type: "simple",
+      key,
+      file: relFilePath,
+      category: "movement",
+      loops: true,
+      frames,
+      originalName: path.basename(relFilePath, path.extname(relFilePath)),
+    } satisfies SimpleAnimation;
+  }
+
+  return {
+    type: "standard",
+    id,
+    path: path.dirname(relFilePaths[0]),
+    animations,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -674,6 +992,7 @@ function buildPlayableCharacter(issues: ValidationIssue[]): PlayableCharacter {
 
 function main() {
   fs.mkdirSync(OUT_CHARS_DIR, { recursive: true });
+  fs.mkdirSync(OUT_ANIMALS_DIR, { recursive: true });
 
   const issues: ValidationIssue[] = [];
   const characters: Record<string, AnyCharacter> = {};
@@ -696,6 +1015,21 @@ function main() {
     );
   }
 
+  // Process strange companion color variants (go into characters, not animals)
+  const projectileFiles = listPngs(path.join(ROOT, STRANGE_COMPANION_PROJECTILE_DIR));
+  for (const [id, relVariantDir] of Object.entries(STRANGE_COMPANION_VARIANTS)) {
+    console.log(`Processing character: ${id}`);
+    const varDirPath = path.join(ROOT, relVariantDir);
+    const files = listPngs(varDirPath).concat(projectileFiles);
+    const char = buildStandardCharacter(id, varDirPath, files, issues, { separateProjectiles: true });
+    characters[id] = char;
+    fs.writeFileSync(
+      path.join(OUT_CHARS_DIR, `${id}.json`),
+      JSON.stringify(char, null, 2),
+      "utf-8",
+    );
+  }
+
   // Process playable character
   console.log("Processing playable character…");
   const playableCharacter = buildPlayableCharacter(issues);
@@ -705,12 +1039,26 @@ function main() {
     "utf-8",
   );
 
+  // Process simple animals (each PNG → one character entry in the animals map)
+  const animals: Record<string, AnyCharacter> = {};
+  for (const [id, relFilePath] of Object.entries(ANIMAL_FILES)) {
+    console.log(`Processing animal: ${id}`);
+    const animal = buildAnimalCharacter(id, relFilePath, issues);
+    animals[id] = animal;
+    fs.writeFileSync(
+      path.join(OUT_ANIMALS_DIR, `${id}.json`),
+      JSON.stringify(animal, null, 2),
+      "utf-8",
+    );
+  }
+
   // Assemble master registry
   const registry: Registry = {
     version: "1.0.0",
     generatedAt: new Date().toISOString(),
     characters,
     playableCharacter,
+    animals,
     validationIssues: issues,
   };
 
@@ -726,6 +1074,7 @@ function main() {
     `Generated: ${registry.generatedAt}`,
     `Characters processed: ${Object.keys(characters).length}`,
     `Playable character modes: ${Object.keys(playableCharacter.modes).length}`,
+    `Animals processed: ${Object.keys(animals).length}`,
     `Total issues: ${issues.length}`,
     "",
     "─".repeat(80),

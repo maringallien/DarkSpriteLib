@@ -3,6 +3,36 @@
   "id": "dual_slicer",
   "path": "characters/dual_slicer",
   "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/dual_slicer/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1224,
+        "sheetHeight": 25,
+        "frameWidth": 4,
+        "frameHeight": 25,
+        "frameCount": 306
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/dual_slicer/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 180,
+        "sheetHeight": 25,
+        "frameWidth": 4,
+        "frameHeight": 25,
+        "frameCount": 45
+      },
+      "originalName": "die"
+    },
     "idle": {
       "type": "simple",
       "key": "idle",
@@ -12,9 +42,9 @@
       "frames": {
         "sheetWidth": 160,
         "sheetHeight": 25,
-        "frameWidth": 20,
+        "frameWidth": 4,
         "frameHeight": 25,
-        "frameCount": 8
+        "frameCount": 40
       },
       "originalName": "idle"
     },
@@ -27,26 +57,11 @@
       "frames": {
         "sheetWidth": 160,
         "sheetHeight": 25,
-        "frameWidth": 20,
+        "frameWidth": 4,
         "frameHeight": 25,
-        "frameCount": 8
+        "frameCount": 40
       },
       "originalName": "move"
-    },
-    "attack1": {
-      "type": "simple",
-      "key": "attack1",
-      "file": "characters/dual_slicer/attack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1224,
-        "sheetHeight": 25,
-        "frameWidth": 68,
-        "frameHeight": 25,
-        "frameCount": 18
-      },
-      "originalName": "attack"
     },
     "take_hit": {
       "type": "simple",
@@ -57,26 +72,11 @@
       "frames": {
         "sheetWidth": 248,
         "sheetHeight": 25,
-        "frameWidth": 62,
+        "frameWidth": 4,
         "frameHeight": 25,
-        "frameCount": 4
+        "frameCount": 62
       },
       "originalName": "take_hit"
-    },
-    "death": {
-      "type": "simple",
-      "key": "death",
-      "file": "characters/dual_slicer/die.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 180,
-        "sheetHeight": 25,
-        "frameWidth": 30,
-        "frameHeight": 25,
-        "frameCount": 6
-      },
-      "originalName": "die"
     }
   }
 }

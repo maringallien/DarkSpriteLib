@@ -1,0 +1,67 @@
+{
+  "type": "standard",
+  "id": "elk_blue",
+  "path": "animals/elk/elk_blue",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "animals/elk/elk_blue/elk_animation1.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 336,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 6
+      },
+      "originalName": "elk_animation1"
+    },
+    "look_up": {
+      "type": "simple",
+      "key": "look_up",
+      "file": "animals/elk/elk_blue/elk_animation2.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1064,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 19
+      },
+      "originalName": "elk_animation2"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "animals/elk/elk_blue/elk_animation3.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 448,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 8
+      },
+      "originalName": "elk_animation3"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "animals/elk/elk_blue/elk_animation4.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 784,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 14
+      },
+      "originalName": "elk_animation4"
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "type": "standard",
+  "id": "strange_companion_teal",
+  "path": "animals/a_strange_companion/strange_companion_teal",
+  "animations": {
+    "eat": {
+      "type": "simple",
+      "key": "eat",
+      "file": "animals/a_strange_companion/strange_companion_teal/eat.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1008,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 16
+      },
+      "originalName": "eat"
+    },
+    "bark": {
+      "type": "simple",
+      "key": "bark",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-bark.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1008,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 16
+      },
+      "originalName": "strange_companion_teal-bark"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-blast_1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2016,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 32
+      },
+      "originalName": "strange_companion_teal-blast_1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-blast_2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2772,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 44
+      },
+      "originalName": "strange_companion_teal-blast_2"
+    },
+    "chill": {
+      "type": "simple",
+      "key": "chill",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-chill.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3024,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 48
+      },
+      "originalName": "strange_companion_teal-chill"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-fall"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1008,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 16
+      },
+      "originalName": "strange_companion_teal-idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-jump"
+    },
+    "land": {
+      "type": "simple",
+      "key": "land",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-land.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-land"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-move.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-move"
+    },
+    "roll": {
+      "type": "simple",
+      "key": "roll",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-roll.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-roll"
+    },
+    "roll_end": {
+      "type": "simple",
+      "key": "roll_end",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-roll_end.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 882,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 14
+      },
+      "originalName": "strange_companion_teal-roll_end"
+    },
+    "sit": {
+      "type": "simple",
+      "key": "sit",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-sit.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2142,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 34
+      },
+      "originalName": "strange_companion_teal-sit"
+    },
+    "sleep": {
+      "type": "simple",
+      "key": "sleep",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-sleep.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3024,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 48
+      },
+      "originalName": "strange_companion_teal-sleep"
+    },
+    "to_idle": {
+      "type": "simple",
+      "key": "to_idle",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-to_idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1512,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 24
+      },
+      "originalName": "strange_companion_teal-to_idle"
+    },
+    "to_roll": {
+      "type": "simple",
+      "key": "to_roll",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-to_roll.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 252,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 4
+      },
+      "originalName": "strange_companion_teal-to_roll"
+    },
+    "to_sleep": {
+      "type": "simple",
+      "key": "to_sleep",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-to_sleep.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1260,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 20
+      },
+      "originalName": "strange_companion_teal-to_sleep"
+    },
+    "trans_jump_to_fall": {
+      "type": "simple",
+      "key": "trans_jump_to_fall",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-trans_jump_to_fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 8
+      },
+      "originalName": "strange_companion_teal-trans_jump_to_fall"
+    },
+    "trans_to_jump": {
+      "type": "simple",
+      "key": "trans_to_jump",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-trans_to_jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 630,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 10
+      },
+      "originalName": "strange_companion_teal-trans_to_jump"
+    },
+    "wake_up": {
+      "type": "simple",
+      "key": "wake_up",
+      "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-wake_up.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1260,
+        "sheetHeight": 25,
+        "frameWidth": 63,
+        "frameHeight": 25,
+        "frameCount": 20
+      },
+      "originalName": "strange_companion_teal-wake_up"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "animals/a_strange_companion/projectile/projectile_32x32-explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 288,
+        "sheetHeight": 32,
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frameCount": 9
+      },
+      "originalName": "projectile_32x32-explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "animals/a_strange_companion/projectile/projectile_32x32-idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 64,
+        "sheetHeight": 32,
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frameCount": 2
+      },
+      "originalName": "projectile_32x32-idle"
+    }
+  }
+}

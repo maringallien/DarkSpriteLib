@@ -202,6 +202,13 @@ export interface Registry {
   /** keyed by character id */
   characters: Record<string, AnyCharacter>;
   playableCharacter: PlayableCharacter;
+  /**
+   * Ambient animals and companions, keyed by id.
+   * Simple animals (crow, deer, elk, fox, orbs, rat) have numbered animations
+   * (animation1, animation2…) parsed left-to-right from their sprite sheets.
+   * The strange_companion_* variants are in `characters` instead.
+   */
+  animals: Record<string, AnyCharacter>;
   /** Issues detected during generation — review these */
   validationIssues: ValidationIssue[];
 }

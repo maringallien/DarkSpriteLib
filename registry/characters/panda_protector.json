@@ -3,9 +3,9 @@
   "id": "panda_protector",
   "path": "characters/panda_protector",
   "animations": {
-    "death": {
+    "death1": {
       "type": "simple",
-      "key": "death",
+      "key": "death1",
       "file": "characters/panda_protector/bazooka_panda-death.png",
       "category": "state",
       "loops": false,
@@ -48,9 +48,9 @@
       },
       "originalName": "bazooka_panda-idle"
     },
-    "attack1": {
+    "attack": {
       "type": "simple",
-      "key": "attack1",
+      "key": "attack",
       "file": "characters/panda_protector/bazooka_panda-melee.png",
       "category": "attack",
       "loops": false,
@@ -63,11 +63,11 @@
       },
       "originalName": "bazooka_panda-melee"
     },
-    "attack2": {
+    "ranged": {
       "type": "simple",
-      "key": "attack2",
+      "key": "ranged",
       "file": "characters/panda_protector/bazooka_panda-shoot.png",
-      "category": "attack",
+      "category": "ranged",
       "loops": false,
       "frames": {
         "sheetWidth": 2530,
@@ -93,20 +93,35 @@
       },
       "originalName": "bazooka_panda-walk"
     },
-    "attack2_vfx": {
+    "death2": {
       "type": "simple",
-      "key": "attack2_vfx",
+      "key": "death2",
       "file": "characters/panda_protector/explosion.png",
-      "category": "special",
+      "category": "state",
       "loops": false,
       "frames": {
         "sheetWidth": 2100,
         "sheetHeight": 30,
-        "frameWidth": 140,
+        "frameWidth": 525,
         "frameHeight": 30,
-        "frameCount": 15
+        "frameCount": 4
       },
       "originalName": "explosion"
+    },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/panda_protector/shield.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 768,
+        "sheetHeight": 135,
+        "frameWidth": 384,
+        "frameHeight": 135,
+        "frameCount": 2
+      },
+      "originalName": "shield"
     }
   }
 }

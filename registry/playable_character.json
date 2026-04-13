@@ -3,6 +3,134 @@
   "id": "playable_character",
   "path": "playable_character",
   "modes": {
+    "dark_flame_spells": {
+      "type": "standard",
+      "id": "playable_character/dark_flame_spells",
+      "path": "playable_character/dark_flame_spells",
+      "animations": {
+        "ranged1": {
+          "type": "simple",
+          "key": "ranged1",
+          "file": "playable_character/dark_flame_spells/dark_bomb.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2054,
+            "sheetHeight": 65,
+            "frameWidth": 1027,
+            "frameHeight": 65,
+            "frameCount": 2
+          },
+          "originalName": "dark_bomb"
+        },
+        "special1": {
+          "type": "simple",
+          "key": "special1",
+          "file": "playable_character/dark_flame_spells/dark_circle_of_flames.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1066,
+            "sheetHeight": 73,
+            "frameWidth": 533,
+            "frameHeight": 73,
+            "frameCount": 2
+          },
+          "originalName": "dark_circle_of_flames"
+        },
+        "ranged2": {
+          "type": "simple",
+          "key": "ranged2",
+          "file": "playable_character/dark_flame_spells/dark_face_bomb.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2054,
+            "sheetHeight": 80,
+            "frameWidth": 1027,
+            "frameHeight": 80,
+            "frameCount": 2
+          },
+          "originalName": "dark_face_bomb"
+        },
+        "special2": {
+          "type": "simple",
+          "key": "special2",
+          "file": "playable_character/dark_flame_spells/dark_flame_1.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 500,
+            "sheetHeight": 40,
+            "frameWidth": 5,
+            "frameHeight": 40,
+            "frameCount": 100
+          },
+          "originalName": "dark_flame_1"
+        },
+        "special3": {
+          "type": "simple",
+          "key": "special3",
+          "file": "playable_character/dark_flame_spells/dark_flame_2.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 715,
+            "sheetHeight": 40,
+            "frameWidth": 5,
+            "frameHeight": 40,
+            "frameCount": 143
+          },
+          "originalName": "dark_flame_2"
+        },
+        "special4": {
+          "type": "simple",
+          "key": "special4",
+          "file": "playable_character/dark_flame_spells/dark_flaming_sword.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1445,
+            "sheetHeight": 44,
+            "frameWidth": 1445,
+            "frameHeight": 44,
+            "frameCount": 1
+          },
+          "originalName": "dark_flaming_sword"
+        },
+        "special5": {
+          "type": "simple",
+          "key": "special5",
+          "file": "playable_character/dark_flame_spells/dark_orb.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1780,
+            "sheetHeight": 28,
+            "frameWidth": 445,
+            "frameHeight": 28,
+            "frameCount": 4
+          },
+          "originalName": "dark_orb"
+        },
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "playable_character/dark_flame_spells/reaper_attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2856,
+            "sheetHeight": 59,
+            "frameWidth": 357,
+            "frameHeight": 59,
+            "frameCount": 8
+          },
+          "originalName": "reaper_attack"
+        }
+      },
+      "mode": "dark_flame_spells"
+    },
     "gunslinger_gun1": {
       "type": "standard",
       "id": "playable_character/gunslinger_gun1",
@@ -259,6 +387,89 @@
       },
       "mode": "gunslinger_gun2"
     },
+    "sword_master_magic": {
+      "type": "standard",
+      "id": "playable_character/sword_master_magic",
+      "path": "playable_character/sword_master_animations/magic_attacks",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "playable_character/sword_master_animations/magic_attacks/roll_attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1150,
+            "sheetHeight": 75,
+            "frameWidth": 575,
+            "frameHeight": 75,
+            "frameCount": 2
+          },
+          "originalName": "roll_attack"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "playable_character/sword_master_animations/magic_attacks/slam.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 500,
+            "sheetHeight": 37,
+            "frameWidth": 125,
+            "frameHeight": 37,
+            "frameCount": 4
+          },
+          "originalName": "slam"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "playable_character/sword_master_animations/magic_attacks/slash_1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1232,
+            "sheetHeight": 120,
+            "frameWidth": 1,
+            "frameHeight": 120,
+            "frameCount": 1232
+          },
+          "originalName": "slash_1"
+        },
+        "attack4": {
+          "type": "simple",
+          "key": "attack4",
+          "file": "playable_character/sword_master_animations/magic_attacks/slash_2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 685,
+            "sheetHeight": 120,
+            "frameWidth": 1,
+            "frameHeight": 120,
+            "frameCount": 685
+          },
+          "originalName": "slash_2"
+        },
+        "attack5": {
+          "type": "simple",
+          "key": "attack5",
+          "file": "playable_character/sword_master_animations/magic_attacks/spin_attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 906,
+            "sheetHeight": 90,
+            "frameWidth": 453,
+            "frameHeight": 90,
+            "frameCount": 2
+          },
+          "originalName": "spin_attack"
+        }
+      },
+      "mode": "sword_master_magic"
+    },
     "sword_master": {
       "type": "standard",
       "id": "playable_character/sword_master",
@@ -273,9 +484,9 @@
           "frames": {
             "sheetWidth": 540,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 6
+            "frameCount": 90
           },
           "originalName": "block"
         },
@@ -288,10 +499,9 @@
           "frames": {
             "sheetWidth": 540,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 6,
-            "anchorX": 24
+            "frameCount": 90
           },
           "originalName": "dash"
         },
@@ -304,9 +514,9 @@
           "frames": {
             "sheetWidth": 540,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 6
+            "frameCount": 90
           },
           "originalName": "death"
         },
@@ -319,24 +529,24 @@
           "frames": {
             "sheetWidth": 630,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 7
+            "frameCount": 105
           },
           "originalName": "falling"
         },
-        "wall_slide": {
+        "fall2": {
           "type": "simple",
-          "key": "wall_slide",
+          "key": "fall2",
           "file": "playable_character/sword_master_animations/regular_animations/falling_extended.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 810,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 9
+            "frameCount": 135
           },
           "originalName": "falling_extended"
         },
@@ -349,9 +559,9 @@
           "frames": {
             "sheetWidth": 810,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 9
+            "frameCount": 135
           },
           "originalName": "idle"
         },
@@ -364,9 +574,9 @@
           "frames": {
             "sheetWidth": 720,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 8
+            "frameCount": 120
           },
           "originalName": "jog"
         },
@@ -379,9 +589,9 @@
           "frames": {
             "sheetWidth": 384,
             "sheetHeight": 62,
-            "frameWidth": 48,
+            "frameWidth": 96,
             "frameHeight": 62,
-            "frameCount": 8
+            "frameCount": 4
           },
           "originalName": "ledge_climb"
         },
@@ -394,9 +604,9 @@
           "frames": {
             "sheetWidth": 720,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 8
+            "frameCount": 120
           },
           "originalName": "roll"
         },
@@ -409,10 +619,9 @@
           "frames": {
             "sheetWidth": 900,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 10,
-            "anchorX": 11
+            "frameCount": 150
           },
           "originalName": "roll_attack"
         },
@@ -425,9 +634,9 @@
           "frames": {
             "sheetWidth": 720,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 8
+            "frameCount": 120
           },
           "originalName": "run"
         },
@@ -440,10 +649,9 @@
           "frames": {
             "sheetWidth": 450,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 5,
-            "anchorX": 12
+            "frameCount": 75
           },
           "originalName": "slam"
         },
@@ -456,10 +664,9 @@
           "frames": {
             "sheetWidth": 630,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 7,
-            "anchorX": 18
+            "frameCount": 105
           },
           "originalName": "slash_1"
         },
@@ -472,10 +679,9 @@
           "frames": {
             "sheetWidth": 450,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 5,
-            "anchorX": 20
+            "frameCount": 75
           },
           "originalName": "slash_2"
         },
@@ -488,10 +694,9 @@
           "frames": {
             "sheetWidth": 546,
             "sheetHeight": 37,
-            "frameWidth": 91,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 6,
-            "anchorX": 34
+            "frameCount": 91
           },
           "originalName": "spin_attack"
         },
@@ -504,9 +709,9 @@
           "frames": {
             "sheetWidth": 720,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 8
+            "frameCount": 120
           },
           "originalName": "sprint"
         },
@@ -519,104 +724,24 @@
           "frames": {
             "sheetWidth": 180,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 2
+            "frameCount": 30
           },
           "originalName": "take_hit"
         },
-        "attack1_magic": {
+        "special": {
           "type": "simple",
-          "key": "attack1_magic",
-          "file": "playable_character/sword_master_animations/magic_attacks/roll_attack.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1150,
-            "sheetHeight": 75,
-            "frameWidth": 115,
-            "frameHeight": 75,
-            "frameCount": 10,
-            "anchorX": 57
-          },
-          "originalName": "roll_attack"
-        },
-        "attack2_magic": {
-          "type": "simple",
-          "key": "attack2_magic",
-          "file": "playable_character/sword_master_animations/magic_attacks/slam.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 500,
-            "sheetHeight": 37,
-            "frameWidth": 100,
-            "frameHeight": 37,
-            "frameCount": 5,
-            "anchorX": 37
-          },
-          "originalName": "slam"
-        },
-        "attack3_magic": {
-          "type": "simple",
-          "key": "attack3_magic",
-          "file": "playable_character/sword_master_animations/magic_attacks/slash_1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1232,
-            "sheetHeight": 120,
-            "frameWidth": 176,
-            "frameHeight": 120,
-            "frameCount": 7,
-            "anchorX": 76
-          },
-          "originalName": "slash_1"
-        },
-        "attack4_magic": {
-          "type": "simple",
-          "key": "attack4_magic",
-          "file": "playable_character/sword_master_animations/magic_attacks/slash_2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 685,
-            "sheetHeight": 120,
-            "frameWidth": 137,
-            "frameHeight": 120,
-            "frameCount": 5,
-            "anchorX": 49
-          },
-          "originalName": "slash_2"
-        },
-        "attack5_magic": {
-          "type": "simple",
-          "key": "attack5_magic",
-          "file": "playable_character/sword_master_animations/magic_attacks/spin_attack.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 906,
-            "sheetHeight": 90,
-            "frameWidth": 151,
-            "frameHeight": 90,
-            "frameCount": 6,
-            "anchorX": 73
-          },
-          "originalName": "spin_attack"
-        },
-        "attack6": {
-          "type": "simple",
-          "key": "attack6",
+          "key": "special",
           "file": "playable_character/sword_master_animations/regular_animations/teleport_attack.png",
           "category": "special",
           "loops": false,
           "frames": {
             "sheetWidth": 2340,
             "sheetHeight": 37,
-            "frameWidth": 90,
+            "frameWidth": 6,
             "frameHeight": 37,
-            "frameCount": 26
+            "frameCount": 390
           },
           "originalName": "teleport_attack"
         }

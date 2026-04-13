@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 2736,
         "sheetHeight": 32,
-        "frameWidth": 144,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 19
+        "frameCount": 342
       },
       "originalName": "the_blood_king-dodge_charge_attack"
     },
@@ -42,45 +42,45 @@
       "frames": {
         "sheetWidth": 1120,
         "sheetHeight": 32,
-        "frameWidth": 80,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 14
+        "frameCount": 140
       },
       "originalName": "the_blood_king-double_slash_vfx"
     },
-    "fall": {
+    "fall1": {
       "type": "simple",
-      "key": "fall",
+      "key": "fall1",
       "file": "characters/the_blood_king/the_blood_king-fall.png",
       "category": "movement",
       "loops": false,
       "frames": {
         "sheetWidth": 192,
         "sheetHeight": 32,
-        "frameWidth": 48,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 4
+        "frameCount": 24
       },
       "originalName": "the_blood_king-fall"
     },
-    "attack3": {
+    "special": {
       "type": "simple",
-      "key": "attack3",
+      "key": "special",
       "file": "characters/the_blood_king/the_blood_king-finisher.png",
-      "category": "attack",
+      "category": "special",
       "loops": false,
       "frames": {
         "sheetWidth": 832,
         "sheetHeight": 32,
-        "frameWidth": 64,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 13
+        "frameCount": 104
       },
       "originalName": "the_blood_king-finisher"
     },
-    "attack3_vfx": {
+    "attack3": {
       "type": "simple",
-      "key": "attack3_vfx",
+      "key": "attack3",
       "file": "characters/the_blood_king/the_blood_king-heart_slam.png",
       "category": "attack",
       "loops": false,
@@ -102,9 +102,9 @@
       "frames": {
         "sheetWidth": 64,
         "sheetHeight": 32,
-        "frameWidth": 32,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 2
+        "frameCount": 8
       },
       "originalName": "the_blood_king-hit"
     },
@@ -117,9 +117,9 @@
       "frames": {
         "sheetWidth": 384,
         "sheetHeight": 32,
-        "frameWidth": 32,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 12
+        "frameCount": 48
       },
       "originalName": "the_blood_king-idle"
     },
@@ -132,9 +132,9 @@
       "frames": {
         "sheetWidth": 128,
         "sheetHeight": 32,
-        "frameWidth": 32,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 4
+        "frameCount": 16
       },
       "originalName": "the_blood_king-jump"
     },
@@ -153,6 +153,21 @@
       },
       "originalName": "the_blood_king-jump_slam_attack_vfx"
     },
+    "fall2": {
+      "type": "simple",
+      "key": "fall2",
+      "file": "characters/the_blood_king/the_blood_king-jump_to_fall_trans.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 64,
+        "sheetHeight": 32,
+        "frameWidth": 8,
+        "frameHeight": 32,
+        "frameCount": 8
+      },
+      "originalName": "the_blood_king-jump_to_fall_trans"
+    },
     "run": {
       "type": "simple",
       "key": "run",
@@ -162,9 +177,9 @@
       "frames": {
         "sheetWidth": 256,
         "sheetHeight": 32,
-        "frameWidth": 32,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 8
+        "frameCount": 32
       },
       "originalName": "the_blood_king-run"
     },
@@ -177,9 +192,9 @@
       "frames": {
         "sheetWidth": 1768,
         "sheetHeight": 32,
-        "frameWidth": 136,
+        "frameWidth": 8,
         "frameHeight": 32,
-        "frameCount": 13
+        "frameCount": 221
       },
       "originalName": "the_blood_king-stab_and_spin_throw"
     },
@@ -197,6 +212,21 @@
         "frameCount": 12
       },
       "originalName": "the_blood_king-teleport_appear"
+    },
+    "attack6": {
+      "type": "simple",
+      "key": "attack6",
+      "file": "characters/the_blood_king/the_blood_king-vfx_stab_and_spin_throw.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2184,
+        "sheetHeight": 79,
+        "frameWidth": 168,
+        "frameHeight": 79,
+        "frameCount": 13
+      },
+      "originalName": "the_blood_king-vfx_stab_and_spin_throw"
     }
   }
 }

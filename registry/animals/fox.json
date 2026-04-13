@@ -1,0 +1,97 @@
+{
+  "type": "standard",
+  "id": "fox",
+  "path": "animals/fox/fox_blue",
+  "animations": {
+    "animation1": {
+      "type": "simple",
+      "key": "animation1",
+      "file": "animals/fox/fox_blue/fox_animation1.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 140,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 5
+      },
+      "originalName": "fox_animation1"
+    },
+    "animation2": {
+      "type": "simple",
+      "key": "animation2",
+      "file": "animals/fox/fox_blue/fox_animation2.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 56,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 2
+      },
+      "originalName": "fox_animation2"
+    },
+    "animation3": {
+      "type": "simple",
+      "key": "animation3",
+      "file": "animals/fox/fox_blue/fox_animation3.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 168,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 6
+      },
+      "originalName": "fox_animation3"
+    },
+    "animation4": {
+      "type": "simple",
+      "key": "animation4",
+      "file": "animals/fox/fox_blue/fox_animation4.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 140,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 5
+      },
+      "originalName": "fox_animation4"
+    },
+    "animation5": {
+      "type": "simple",
+      "key": "animation5",
+      "file": "animals/fox/fox_blue/fox_animation5.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 56,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 2
+      },
+      "originalName": "fox_animation5"
+    },
+    "animation6": {
+      "type": "simple",
+      "key": "animation6",
+      "file": "animals/fox/fox_blue/fox_animation6.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 196,
+        "sheetHeight": 20,
+        "frameWidth": 28,
+        "frameHeight": 20,
+        "frameCount": 7
+      },
+      "originalName": "fox_animation6"
+    }
+  }
+}

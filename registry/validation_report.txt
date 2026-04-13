@@ -1,12 +1,13 @@
 DarkSpriteLib – Animation Registry Validation Report
-Generated: 2026-04-12T04:40:16.966Z
-Characters processed: 61
+Generated: 2026-04-13T16:06:42.859Z
+Characters processed: 65
 Playable character modes: 5
-Total issues: 64
+Animals processed: 10
+Total issues: 85
 
 ────────────────────────────────────────────────────────────────────────────────
 
-WARNINGS (64)
+WARNINGS (85)
 ────────────────────────────────────────
   [WARN]  civilians: Missing idle animation
   [WARN]  civilians: Missing death animation
@@ -16,10 +17,24 @@ WARNINGS (64)
   [WARN]  dream_merchant2: Missing death animation
   [WARN]  dream_merchant3: Missing idle animation
   [WARN]  dream_merchant3: Missing death animation
+  [WARN]  dual_slicer: Ambiguous frame size for "attack"
+          → characters/dual_slicer/attack.png
+  [WARN]  dual_slicer: Ambiguous frame size for "die"
+          → characters/dual_slicer/die.png
+  [WARN]  dual_slicer: Ambiguous frame size for "idle"
+          → characters/dual_slicer/idle.png
+  [WARN]  dual_slicer: Ambiguous frame size for "move"
+          → characters/dual_slicer/move.png
+  [WARN]  dual_slicer: Ambiguous frame size for "take_hit"
+          → characters/dual_slicer/take_hit.png
   [WARN]  flower_enemy: Missing idle animation
   [WARN]  gem_merchant: Missing death animation
   [WARN]  golden_retriever: Missing death animation
   [WARN]  gun_merchant: Missing death animation
+  [WARN]  heavy_slicer: Ambiguous frame size for "die"
+          → characters/heavy_slicer/die.png
+  [WARN]  heavy_slicer: Ambiguous frame size for "take_hit"
+          → characters/heavy_slicer/take_hit.png
   [WARN]  masks_merchant: Missing death animation
   [WARN]  mechanical_characters: Missing idle animation
   [WARN]  mechanical_characters: Missing death animation
@@ -31,34 +46,25 @@ WARNINGS (64)
   [WARN]  npcs: Missing death animation
   [WARN]  panda_protector: Missing death animation
   [WARN]  sage: Missing idle animation
-  [WARN]  shadow_of_storms: Missing idle animation
-  [WARN]  shadow_of_storms: Missing death animation
   [WARN]  shielder: Missing idle animation
-  [WARN]  slicers: Ambiguous frame size for "attack"
-          → characters/slicers/dual_slicer/attack.png
-  [WARN]  slicers: Ambiguous frame size for "die"
-          → characters/slicers/dual_slicer/die.png
-  [WARN]  slicers: Ambiguous frame size for "idle"
-          → characters/slicers/dual_slicer/idle.png
-  [WARN]  slicers: Ambiguous frame size for "move"
-          → characters/slicers/dual_slicer/move.png
-  [WARN]  slicers: Ambiguous frame size for "take_hit"
-          → characters/slicers/dual_slicer/take_hit.png
-  [WARN]  slicers: Ambiguous frame size for "die"
-          → characters/slicers/heavy_slicer/die.png
-  [WARN]  slicers: Ambiguous frame size for "take_hit"
-          → characters/slicers/heavy_slicer/take_hit.png
-  [WARN]  slicers: Missing idle animation
-  [WARN]  slicers: Missing death animation
+  [WARN]  slicer_bot: Missing death animation
   [WARN]  spark_bug: Missing idle animation
   [WARN]  spirit_walkers: Missing idle animation
   [WARN]  spirit_walkers: Missing death animation
-  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge"
-          → characters/the_blood_king/the_blood_king-charge.png
-  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge_transition_down"
-          → characters/the_blood_king/the_blood_king-charge_transition_down.png
-  [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-charge_transition_up"
-          → characters/the_blood_king/the_blood_king-charge_transition_up.png
+  [WARN]  temple_guardians: Ambiguous frame size for "attack_1"
+          → characters/temple_guardians/attack_1.png
+  [WARN]  temple_guardians: Ambiguous frame size for "attack_2"
+          → characters/temple_guardians/attack_2.png
+  [WARN]  temple_guardians: Ambiguous frame size for "death"
+          → characters/temple_guardians/death.png
+  [WARN]  temple_guardians: Ambiguous frame size for "hit"
+          → characters/temple_guardians/hit.png
+  [WARN]  temple_guardians: Ambiguous frame size for "idle"
+          → characters/temple_guardians/idle.png
+  [WARN]  temple_guardians: Ambiguous frame size for "special_attack"
+          → characters/temple_guardians/special_attack.png
+  [WARN]  temple_guardians: Ambiguous frame size for "walk"
+          → characters/temple_guardians/walk.png
   [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-dodge_charge_attack"
           → characters/the_blood_king/the_blood_king-dodge_charge_attack.png
   [WARN]  the_blood_king: Ambiguous frame size for "the_blood_king-double_slash_vfx"
@@ -82,6 +88,9 @@ WARNINGS (64)
   [WARN]  the_bone_reaper/orb_black: Missing death animation
   [WARN]  the_bone_reaper/orb_white: Missing death animation
   [WARN]  the_heart_hoarder: Missing idle animation
+  [WARN]  strange_companion_black: Missing death animation
+  [WARN]  strange_companion_red: Missing death animation
+  [WARN]  strange_companion_teal: Missing death animation
   [WARN]  playable_character/dark_flame_spells: Ambiguous frame size for "dark_flame_1"
           → playable_character/dark_flame_spells/dark_flame_1.png
   [WARN]  playable_character/dark_flame_spells: Ambiguous frame size for "dark_flame_2"
@@ -96,3 +105,37 @@ WARNINGS (64)
           → playable_character/sword_master_animations/magic_attacks/slash_2.png
   [WARN]  playable_character/sword_master_magic: Missing idle animation
   [WARN]  playable_character/sword_master_magic: Missing death animation
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "block"
+          → playable_character/sword_master_animations/regular_animations/block.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "dash"
+          → playable_character/sword_master_animations/regular_animations/dash.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "death"
+          → playable_character/sword_master_animations/regular_animations/death.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "falling"
+          → playable_character/sword_master_animations/regular_animations/falling.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "falling_extended"
+          → playable_character/sword_master_animations/regular_animations/falling_extended.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "idle"
+          → playable_character/sword_master_animations/regular_animations/idle.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "jog"
+          → playable_character/sword_master_animations/regular_animations/jog.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "roll"
+          → playable_character/sword_master_animations/regular_animations/roll.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "roll_attack"
+          → playable_character/sword_master_animations/regular_animations/roll_attack.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "run"
+          → playable_character/sword_master_animations/regular_animations/run.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "slam"
+          → playable_character/sword_master_animations/regular_animations/slam.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "slash_1"
+          → playable_character/sword_master_animations/regular_animations/slash_1.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "slash_2"
+          → playable_character/sword_master_animations/regular_animations/slash_2.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "spin_attack"
+          → playable_character/sword_master_animations/regular_animations/spin_attack.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "sprint"
+          → playable_character/sword_master_animations/regular_animations/sprint.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "take_hit"
+          → playable_character/sword_master_animations/regular_animations/take_hit.png
+  [WARN]  playable_character/sword_master: Ambiguous frame size for "teleport_attack"
+          → playable_character/sword_master_animations/regular_animations/teleport_attack.png

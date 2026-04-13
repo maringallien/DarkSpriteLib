@@ -325,7 +325,7 @@ export const PATTERN_RULES: PatternRule[] = [
   { pattern: /punch/,            rule: { baseKey: "attack",   category: "attack",    loops: false } },
   { pattern: /swing/,            rule: { baseKey: "attack",   category: "attack",    loops: false } },
   { pattern: /shoot/,            rule: { baseKey: "ranged",   category: "ranged",    loops: false } },
-  { pattern: /range/,            rule: { baseKey: "ranged",   category: "ranged",    loops: false } },
+  { pattern: /\brange/,           rule: { baseKey: "ranged",   category: "ranged",    loops: false } },
   { pattern: /laser/,            rule: { baseKey: "ranged",   category: "ranged",    loops: false } },
   { pattern: /beam/,             rule: { baseKey: "ranged",   category: "ranged",    loops: false } },
   { pattern: /spit/,             rule: { baseKey: "ranged",   category: "ranged",    loops: false } },

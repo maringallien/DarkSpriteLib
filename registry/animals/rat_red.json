@@ -1,0 +1,52 @@
+{
+  "type": "standard",
+  "id": "rat_red",
+  "path": "animals/rat/rat_red",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "animals/rat/rat_red/rat_red_animation1.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 24,
+        "sheetHeight": 8,
+        "frameWidth": 24,
+        "frameHeight": 8,
+        "frameCount": 1
+      },
+      "originalName": "rat_red_animation1"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "animals/rat/rat_red/rat_red_animation2.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 120,
+        "sheetHeight": 8,
+        "frameWidth": 24,
+        "frameHeight": 8,
+        "frameCount": 5
+      },
+      "originalName": "rat_red_animation2"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "animals/rat/rat_red/rat_red_animation3.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 216,
+        "sheetHeight": 8,
+        "frameWidth": 24,
+        "frameHeight": 8,
+        "frameCount": 9
+      },
+      "originalName": "rat_red_animation3"
+    }
+  }
+}

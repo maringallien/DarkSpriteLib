@@ -3,18 +3,18 @@
   "id": "wheel_bot",
   "path": "characters/wheel_bot",
   "animations": {
-    "charge": {
+    "special": {
       "type": "simple",
-      "key": "charge",
+      "key": "special",
       "file": "characters/wheel_bot/charge.png",
       "category": "special",
       "loops": false,
       "frames": {
         "sheetWidth": 448,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 4
+        "frameCount": 8
       },
       "originalName": "charge"
     },
@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 224,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 2
+        "frameCount": 4
       },
       "originalName": "damaged"
     },
@@ -42,9 +42,9 @@
       "frames": {
         "sheetWidth": 672,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 6
+        "frameCount": 12
       },
       "originalName": "death"
     },
@@ -57,9 +57,9 @@
       "frames": {
         "sheetWidth": 784,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 7
+        "frameCount": 14
       },
       "originalName": "fire_dash"
     },
@@ -72,9 +72,9 @@
       "frames": {
         "sheetWidth": 112,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 1
+        "frameCount": 2
       },
       "originalName": "idle"
     },
@@ -87,9 +87,9 @@
       "frames": {
         "sheetWidth": 896,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 8
+        "frameCount": 16
       },
       "originalName": "move"
     },
@@ -102,9 +102,9 @@
       "frames": {
         "sheetWidth": 448,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 4
+        "frameCount": 8
       },
       "originalName": "shoot"
     },
@@ -117,9 +117,9 @@
       "frames": {
         "sheetWidth": 560,
         "sheetHeight": 26,
-        "frameWidth": 112,
+        "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 5
+        "frameCount": 10
       },
       "originalName": "wake"
     }
