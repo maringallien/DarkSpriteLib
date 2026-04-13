@@ -1,0 +1,217 @@
+{
+  "type": "standard",
+  "id": "bo_panda_evil",
+  "path": "characters/bo_panda",
+  "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/bo_panda/evil_bo_panda/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1030,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 10
+      },
+      "originalName": "death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "characters/bo_panda/evil_bo_panda/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/bo_panda/evil_bo_panda/fall_with_spin.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "fall_with_spin"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/bo_panda/evil_bo_panda/heli_slam.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1030,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 10
+      },
+      "originalName": "heli_slam"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/bo_panda/evil_bo_panda/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 927,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 9
+      },
+      "originalName": "idle"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/bo_panda/evil_bo_panda/jab_repeat.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 618,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 6
+      },
+      "originalName": "jab_repeat"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/bo_panda/evil_bo_panda/jabs.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 927,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 9
+      },
+      "originalName": "jabs"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/bo_panda/evil_bo_panda/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "jump"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/bo_panda/evil_bo_panda/jump_spin.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1751,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 17
+      },
+      "originalName": "jump_spin"
+    },
+    "attack5": {
+      "type": "simple",
+      "key": "attack5",
+      "file": "characters/bo_panda/evil_bo_panda/jump_with_spin.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "jump_with_spin"
+    },
+    "attack6": {
+      "type": "simple",
+      "key": "attack6",
+      "file": "characters/bo_panda/evil_bo_panda/quick_attacks.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1030,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 10
+      },
+      "originalName": "quick_attacks"
+    },
+    "roll": {
+      "type": "simple",
+      "key": "roll",
+      "file": "characters/bo_panda/evil_bo_panda/roll.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "roll"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/bo_panda/evil_bo_panda/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 824,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "wall_slide": {
+      "type": "simple",
+      "key": "wall_slide",
+      "file": "characters/bo_panda/evil_bo_panda/wall_slide.png",
+      "category": "traversal",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "wall_slide"
+    }
+  }
+}

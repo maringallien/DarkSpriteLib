@@ -1,0 +1,183 @@
+{
+  "biome": "the_beneath",
+  "path": "the_beneath/objects/animated_objects",
+  "objects": {
+    "portal": {
+      "type": "standard",
+      "id": "portal",
+      "path": "the_beneath/objects/animated_objects/portal",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/portal/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 252,
+            "sheetHeight": 41,
+            "frameWidth": 21,
+            "frameHeight": 41,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "warp": {
+          "type": "simple",
+          "key": "warp",
+          "file": "the_beneath/objects/animated_objects/portal/warp.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 252,
+            "sheetHeight": 41,
+            "frameWidth": 21,
+            "frameHeight": 41,
+            "frameCount": 12
+          },
+          "originalName": "warp"
+        }
+      }
+    },
+    "save": {
+      "type": "standard",
+      "id": "save",
+      "path": "the_beneath/objects/animated_objects/save",
+      "animations": {
+        "down": {
+          "type": "simple",
+          "key": "down",
+          "file": "the_beneath/objects/animated_objects/save/down.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 64,
+            "sheetHeight": 19,
+            "frameWidth": 16,
+            "frameHeight": 19,
+            "frameCount": 4
+          },
+          "originalName": "down"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/save/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 64,
+            "sheetHeight": 19,
+            "frameWidth": 16,
+            "frameHeight": 19,
+            "frameCount": 4
+          },
+          "originalName": "idle"
+        },
+        "start_up": {
+          "type": "simple",
+          "key": "start_up",
+          "file": "the_beneath/objects/animated_objects/save/start_up.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 112,
+            "sheetHeight": 19,
+            "frameWidth": 16,
+            "frameHeight": 19,
+            "frameCount": 7
+          },
+          "originalName": "start_up"
+        }
+      }
+    },
+    "door_open": {
+      "type": "standard",
+      "id": "door_open",
+      "path": "the_beneath/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/door_open.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 615,
+            "sheetHeight": 48,
+            "frameWidth": 41,
+            "frameHeight": 48,
+            "frameCount": 15
+          },
+          "originalName": "door_open"
+        }
+      }
+    },
+    "flower_glow": {
+      "type": "standard",
+      "id": "flower_glow",
+      "path": "the_beneath/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/flower_glow.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 160,
+            "sheetHeight": 16,
+            "frameWidth": 16,
+            "frameHeight": 16,
+            "frameCount": 10
+          },
+          "originalName": "flower_glow"
+        }
+      }
+    },
+    "light_with_bugs": {
+      "type": "standard",
+      "id": "light_with_bugs",
+      "path": "the_beneath/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/light_with_bugs.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 320,
+            "sheetHeight": 37,
+            "frameWidth": 32,
+            "frameHeight": 37,
+            "frameCount": 10
+          },
+          "originalName": "light_with_bugs"
+        }
+      }
+    },
+    "torch": {
+      "type": "standard",
+      "id": "torch",
+      "path": "the_beneath/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_beneath/objects/animated_objects/torch.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 56,
+            "sheetHeight": 37,
+            "frameWidth": 7,
+            "frameHeight": 37,
+            "frameCount": 8
+          },
+          "originalName": "torch"
+        }
+      }
+    }
+  }
+}

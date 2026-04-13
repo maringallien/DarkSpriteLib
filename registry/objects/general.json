@@ -1,0 +1,1218 @@
+{
+  "biome": "general",
+  "path": "general/objects/animated_objects",
+  "objects": {
+    "animated_trees": {
+      "type": "standard",
+      "id": "animated_trees",
+      "path": "general/objects/animated_objects/animated_trees",
+      "animations": {
+        "blood_tree_1_animation1": {
+          "type": "simple",
+          "key": "blood_tree_1_animation1",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 896,
+            "sheetHeight": 128,
+            "frameWidth": 112,
+            "frameHeight": 128,
+            "frameCount": 8
+          },
+          "originalName": "blood_tree_1_animation1"
+        },
+        "blood_tree_1_animation2": {
+          "type": "simple",
+          "key": "blood_tree_1_animation2",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1456,
+            "sheetHeight": 128,
+            "frameWidth": 112,
+            "frameHeight": 128,
+            "frameCount": 13
+          },
+          "originalName": "blood_tree_1_animation2"
+        },
+        "blood_tree_1_animation3": {
+          "type": "simple",
+          "key": "blood_tree_1_animation3",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 896,
+            "sheetHeight": 128,
+            "frameWidth": 112,
+            "frameHeight": 128,
+            "frameCount": 8
+          },
+          "originalName": "blood_tree_1_animation3"
+        },
+        "blood_tree_1_animation4": {
+          "type": "simple",
+          "key": "blood_tree_1_animation4",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation4.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1792,
+            "sheetHeight": 128,
+            "frameWidth": 112,
+            "frameHeight": 128,
+            "frameCount": 16
+          },
+          "originalName": "blood_tree_1_animation4"
+        },
+        "blood_tree_2_animation1": {
+          "type": "simple",
+          "key": "blood_tree_2_animation1",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1024,
+            "sheetHeight": 96,
+            "frameWidth": 128,
+            "frameHeight": 96,
+            "frameCount": 8
+          },
+          "originalName": "blood_tree_2_animation1"
+        },
+        "blood_tree_2_animation2": {
+          "type": "simple",
+          "key": "blood_tree_2_animation2",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1920,
+            "sheetHeight": 96,
+            "frameWidth": 128,
+            "frameHeight": 96,
+            "frameCount": 15
+          },
+          "originalName": "blood_tree_2_animation2"
+        },
+        "blood_tree_2_animation3": {
+          "type": "simple",
+          "key": "blood_tree_2_animation3",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1024,
+            "sheetHeight": 96,
+            "frameWidth": 128,
+            "frameHeight": 96,
+            "frameCount": 8
+          },
+          "originalName": "blood_tree_2_animation3"
+        },
+        "blood_tree_2_animation4": {
+          "type": "simple",
+          "key": "blood_tree_2_animation4",
+          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation4.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2048,
+            "sheetHeight": 96,
+            "frameWidth": 128,
+            "frameHeight": 96,
+            "frameCount": 16
+          },
+          "originalName": "blood_tree_2_animation4"
+        }
+      }
+    },
+    "custom_fires": {
+      "type": "standard",
+      "id": "custom_fires",
+      "path": "general/objects/animated_objects/custom_fires",
+      "animations": {
+        "rock_blue_calm": {
+          "type": "simple",
+          "key": "rock_blue_calm",
+          "file": "general/objects/animated_objects/custom_fires/rock_blue_calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_blue_calm"
+        },
+        "rock_blue_insane": {
+          "type": "simple",
+          "key": "rock_blue_insane",
+          "file": "general/objects/animated_objects/custom_fires/rock_blue_insane.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_blue_insane"
+        },
+        "rock_blue_mild": {
+          "type": "simple",
+          "key": "rock_blue_mild",
+          "file": "general/objects/animated_objects/custom_fires/rock_blue_mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_blue_mild"
+        },
+        "rock_blue_wild": {
+          "type": "simple",
+          "key": "rock_blue_wild",
+          "file": "general/objects/animated_objects/custom_fires/rock_blue_wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_blue_wild"
+        },
+        "rock_orange_calm": {
+          "type": "simple",
+          "key": "rock_orange_calm",
+          "file": "general/objects/animated_objects/custom_fires/rock_orange_calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_orange_calm"
+        },
+        "rock_orange_insane": {
+          "type": "simple",
+          "key": "rock_orange_insane",
+          "file": "general/objects/animated_objects/custom_fires/rock_orange_insane.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_orange_insane"
+        },
+        "rock_orange_mild": {
+          "type": "simple",
+          "key": "rock_orange_mild",
+          "file": "general/objects/animated_objects/custom_fires/rock_orange_mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_orange_mild"
+        },
+        "rock_orange_wild": {
+          "type": "simple",
+          "key": "rock_orange_wild",
+          "file": "general/objects/animated_objects/custom_fires/rock_orange_wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_orange_wild"
+        },
+        "rock_purple_calm": {
+          "type": "simple",
+          "key": "rock_purple_calm",
+          "file": "general/objects/animated_objects/custom_fires/rock_purple_calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_purple_calm"
+        },
+        "rock_purple_insane": {
+          "type": "simple",
+          "key": "rock_purple_insane",
+          "file": "general/objects/animated_objects/custom_fires/rock_purple_insane.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_purple_insane"
+        },
+        "rock_purple_mild": {
+          "type": "simple",
+          "key": "rock_purple_mild",
+          "file": "general/objects/animated_objects/custom_fires/rock_purple_mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_purple_mild"
+        },
+        "rock_purple_wild": {
+          "type": "simple",
+          "key": "rock_purple_wild",
+          "file": "general/objects/animated_objects/custom_fires/rock_purple_wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "rock_purple_wild"
+        },
+        "stone_blue_calm": {
+          "type": "simple",
+          "key": "stone_blue_calm",
+          "file": "general/objects/animated_objects/custom_fires/stone_blue_calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_blue_calm"
+        },
+        "stone_blue_insane": {
+          "type": "simple",
+          "key": "stone_blue_insane",
+          "file": "general/objects/animated_objects/custom_fires/stone_blue_insane.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_blue_insane"
+        },
+        "stone_blue_mild": {
+          "type": "simple",
+          "key": "stone_blue_mild",
+          "file": "general/objects/animated_objects/custom_fires/stone_blue_mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_blue_mild"
+        },
+        "stone_blue_wild": {
+          "type": "simple",
+          "key": "stone_blue_wild",
+          "file": "general/objects/animated_objects/custom_fires/stone_blue_wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_blue_wild"
+        },
+        "stone_custom_fires-calm": {
+          "type": "simple",
+          "key": "stone_custom_fires-calm",
+          "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_custom_fires-calm"
+        },
+        "stone_custom_fires-insnae": {
+          "type": "simple",
+          "key": "stone_custom_fires-insnae",
+          "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-insnae.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_custom_fires-insnae"
+        },
+        "stone_custom_fires-mild": {
+          "type": "simple",
+          "key": "stone_custom_fires-mild",
+          "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_custom_fires-mild"
+        },
+        "stone_custom_fires-wild": {
+          "type": "simple",
+          "key": "stone_custom_fires-wild",
+          "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_custom_fires-wild"
+        },
+        "stone_purple_calm": {
+          "type": "simple",
+          "key": "stone_purple_calm",
+          "file": "general/objects/animated_objects/custom_fires/stone_purple_calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_purple_calm"
+        },
+        "stone_purple_insane": {
+          "type": "simple",
+          "key": "stone_purple_insane",
+          "file": "general/objects/animated_objects/custom_fires/stone_purple_insane.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_purple_insane"
+        },
+        "stone_purple_mild": {
+          "type": "simple",
+          "key": "stone_purple_mild",
+          "file": "general/objects/animated_objects/custom_fires/stone_purple_mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_purple_mild"
+        },
+        "stone_purple_wild": {
+          "type": "simple",
+          "key": "stone_purple_wild",
+          "file": "general/objects/animated_objects/custom_fires/stone_purple_wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 468,
+            "sheetHeight": 38,
+            "frameWidth": 39,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "stone_purple_wild"
+        },
+        "wood_custom_fires-calm": {
+          "type": "simple",
+          "key": "wood_custom_fires-calm",
+          "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-calm.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "wood_custom_fires-calm"
+        },
+        "wood_custom_fires-insnae": {
+          "type": "simple",
+          "key": "wood_custom_fires-insnae",
+          "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-insnae.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "wood_custom_fires-insnae"
+        },
+        "wood_custom_fires-mild": {
+          "type": "simple",
+          "key": "wood_custom_fires-mild",
+          "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-mild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "wood_custom_fires-mild"
+        },
+        "wood_custom_fires-wild": {
+          "type": "simple",
+          "key": "wood_custom_fires-wild",
+          "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-wild.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 38,
+            "frameWidth": 36,
+            "frameHeight": 38,
+            "frameCount": 12
+          },
+          "originalName": "wood_custom_fires-wild"
+        }
+      }
+    },
+    "portals": {
+      "type": "standard",
+      "id": "portals",
+      "path": "general/objects/animated_objects/portals",
+      "animations": {
+        "ancient_tech_portal_animation1": {
+          "type": "simple",
+          "key": "ancient_tech_portal_animation1",
+          "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4536,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 24
+          },
+          "originalName": "ancient_tech_portal_animation1"
+        },
+        "ancient_tech_portal_animation2": {
+          "type": "simple",
+          "key": "ancient_tech_portal_animation2",
+          "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 3213,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 17
+          },
+          "originalName": "ancient_tech_portal_animation2"
+        },
+        "ancient_tech_portal_animation3": {
+          "type": "simple",
+          "key": "ancient_tech_portal_animation3",
+          "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1323,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 7
+          },
+          "originalName": "ancient_tech_portal_animation3"
+        },
+        "blood_portal_animation1": {
+          "type": "simple",
+          "key": "blood_portal_animation1",
+          "file": "general/objects/animated_objects/portals/blood_portal_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4536,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 24
+          },
+          "originalName": "blood_portal_animation1"
+        },
+        "blood_portal_animation2": {
+          "type": "simple",
+          "key": "blood_portal_animation2",
+          "file": "general/objects/animated_objects/portals/blood_portal_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4536,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 24
+          },
+          "originalName": "blood_portal_animation2"
+        },
+        "blood_portal_animation3": {
+          "type": "simple",
+          "key": "blood_portal_animation3",
+          "file": "general/objects/animated_objects/portals/blood_portal_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1890,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 10
+          },
+          "originalName": "blood_portal_animation3"
+        },
+        "grassy_portal_animation1": {
+          "type": "simple",
+          "key": "grassy_portal_animation1",
+          "file": "general/objects/animated_objects/portals/grassy_portal_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4536,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 24
+          },
+          "originalName": "grassy_portal_animation1"
+        },
+        "grassy_portal_animation2": {
+          "type": "simple",
+          "key": "grassy_portal_animation2",
+          "file": "general/objects/animated_objects/portals/grassy_portal_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 3213,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 17
+          },
+          "originalName": "grassy_portal_animation2"
+        },
+        "grassy_portal_animation3": {
+          "type": "simple",
+          "key": "grassy_portal_animation3",
+          "file": "general/objects/animated_objects/portals/grassy_portal_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1323,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 7
+          },
+          "originalName": "grassy_portal_animation3"
+        },
+        "normal_portal_animation1": {
+          "type": "simple",
+          "key": "normal_portal_animation1",
+          "file": "general/objects/animated_objects/portals/normal_portal_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4536,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 24
+          },
+          "originalName": "normal_portal_animation1"
+        },
+        "normal_portal_animation2": {
+          "type": "simple",
+          "key": "normal_portal_animation2",
+          "file": "general/objects/animated_objects/portals/normal_portal_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 3213,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 17
+          },
+          "originalName": "normal_portal_animation2"
+        },
+        "normal_portal_animation3": {
+          "type": "simple",
+          "key": "normal_portal_animation3",
+          "file": "general/objects/animated_objects/portals/normal_portal_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1323,
+            "sheetHeight": 90,
+            "frameWidth": 189,
+            "frameHeight": 90,
+            "frameCount": 7
+          },
+          "originalName": "normal_portal_animation3"
+        }
+      }
+    },
+    "sci-fi_chests": {
+      "type": "standard",
+      "id": "sci-fi_chests",
+      "path": "general/objects/animated_objects/sci-fi_chests",
+      "animations": {
+        "chest_1.1": {
+          "type": "simple",
+          "key": "chest_1.1",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_1.1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 700,
+            "sheetHeight": 19,
+            "frameWidth": 20,
+            "frameHeight": 19,
+            "frameCount": 35
+          },
+          "originalName": "chest_1.1"
+        },
+        "chest_1.2": {
+          "type": "simple",
+          "key": "chest_1.2",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_1.2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 700,
+            "sheetHeight": 19,
+            "frameWidth": 20,
+            "frameHeight": 19,
+            "frameCount": 35
+          },
+          "originalName": "chest_1.2"
+        },
+        "chest_1.3": {
+          "type": "simple",
+          "key": "chest_1.3",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_1.3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 700,
+            "sheetHeight": 19,
+            "frameWidth": 20,
+            "frameHeight": 19,
+            "frameCount": 35
+          },
+          "originalName": "chest_1.3"
+        },
+        "chest_2.1": {
+          "type": "simple",
+          "key": "chest_2.1",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_2.1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 952,
+            "sheetHeight": 19,
+            "frameWidth": 28,
+            "frameHeight": 19,
+            "frameCount": 34
+          },
+          "originalName": "chest_2.1"
+        },
+        "chest_2.2": {
+          "type": "simple",
+          "key": "chest_2.2",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_2.2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 952,
+            "sheetHeight": 19,
+            "frameWidth": 28,
+            "frameHeight": 19,
+            "frameCount": 34
+          },
+          "originalName": "chest_2.2"
+        },
+        "chest_2.3": {
+          "type": "simple",
+          "key": "chest_2.3",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_2.3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 952,
+            "sheetHeight": 19,
+            "frameWidth": 28,
+            "frameHeight": 19,
+            "frameCount": 34
+          },
+          "originalName": "chest_2.3"
+        },
+        "chest_5.1": {
+          "type": "simple",
+          "key": "chest_5.1",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_5.1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2365,
+            "sheetHeight": 29,
+            "frameWidth": 43,
+            "frameHeight": 29,
+            "frameCount": 55
+          },
+          "originalName": "chest_5.1"
+        },
+        "chest_5.2": {
+          "type": "simple",
+          "key": "chest_5.2",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_5.2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2365,
+            "sheetHeight": 29,
+            "frameWidth": 43,
+            "frameHeight": 29,
+            "frameCount": 55
+          },
+          "originalName": "chest_5.2"
+        },
+        "chest_5.3": {
+          "type": "simple",
+          "key": "chest_5.3",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_5.3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2365,
+            "sheetHeight": 29,
+            "frameWidth": 43,
+            "frameHeight": 29,
+            "frameCount": 55
+          },
+          "originalName": "chest_5.3"
+        },
+        "chest_6.1": {
+          "type": "simple",
+          "key": "chest_6.1",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_6.1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1428,
+            "sheetHeight": 12,
+            "frameWidth": 42,
+            "frameHeight": 12,
+            "frameCount": 34
+          },
+          "originalName": "chest_6.1"
+        },
+        "chest_6.2": {
+          "type": "simple",
+          "key": "chest_6.2",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_6.2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1428,
+            "sheetHeight": 12,
+            "frameWidth": 42,
+            "frameHeight": 12,
+            "frameCount": 34
+          },
+          "originalName": "chest_6.2"
+        },
+        "chest_6.3": {
+          "type": "simple",
+          "key": "chest_6.3",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_6.3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1428,
+            "sheetHeight": 12,
+            "frameWidth": 42,
+            "frameHeight": 12,
+            "frameCount": 34
+          },
+          "originalName": "chest_6.3"
+        },
+        "chest_7.1": {
+          "type": "simple",
+          "key": "chest_7.1",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_7.1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1026,
+            "sheetHeight": 13,
+            "frameWidth": 27,
+            "frameHeight": 13,
+            "frameCount": 38
+          },
+          "originalName": "chest_7.1"
+        },
+        "chest_7.2": {
+          "type": "simple",
+          "key": "chest_7.2",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_7.2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1026,
+            "sheetHeight": 13,
+            "frameWidth": 27,
+            "frameHeight": 13,
+            "frameCount": 38
+          },
+          "originalName": "chest_7.2"
+        },
+        "chest_7.3": {
+          "type": "simple",
+          "key": "chest_7.3",
+          "file": "general/objects/animated_objects/sci-fi_chests/chest_7.3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1026,
+            "sheetHeight": 13,
+            "frameWidth": 27,
+            "frameHeight": 13,
+            "frameCount": 38
+          },
+          "originalName": "chest_7.3"
+        }
+      }
+    },
+    "shops": {
+      "type": "standard",
+      "id": "shops",
+      "path": "general/objects/animated_objects/shops",
+      "animations": {
+        "blood_shop_animation1": {
+          "type": "simple",
+          "key": "blood_shop_animation1",
+          "file": "general/objects/animated_objects/shops/blood_shop_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 415,
+            "sheetHeight": 69,
+            "frameWidth": 83,
+            "frameHeight": 69,
+            "frameCount": 5
+          },
+          "originalName": "blood_shop_animation1"
+        },
+        "herb_shop": {
+          "type": "simple",
+          "key": "herb_shop",
+          "file": "general/objects/animated_objects/shops/herb_shop.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 52,
+            "frameWidth": 70,
+            "frameHeight": 52,
+            "frameCount": 24
+          },
+          "originalName": "herb_shop"
+        },
+        "tech_shop": {
+          "type": "simple",
+          "key": "tech_shop",
+          "file": "general/objects/animated_objects/shops/tech_shop.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1944,
+            "sheetHeight": 108,
+            "frameWidth": 108,
+            "frameHeight": 108,
+            "frameCount": 18
+          },
+          "originalName": "tech_shop"
+        }
+      }
+    },
+    "traps": {
+      "type": "standard",
+      "id": "traps",
+      "path": "general/objects/animated_objects/traps",
+      "animations": {
+        "bear_trap_animation1": {
+          "type": "simple",
+          "key": "bear_trap_animation1",
+          "file": "general/objects/animated_objects/traps/bear_trap_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 225,
+            "sheetHeight": 38,
+            "frameWidth": 32,
+            "frameHeight": 38,
+            "frameCount": 7
+          },
+          "originalName": "bear_trap_animation1"
+        },
+        "bear_trap_animation2": {
+          "type": "simple",
+          "key": "bear_trap_animation2",
+          "file": "general/objects/animated_objects/traps/bear_trap_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 225,
+            "sheetHeight": 38,
+            "frameWidth": 32,
+            "frameHeight": 38,
+            "frameCount": 7
+          },
+          "originalName": "bear_trap_animation2"
+        },
+        "shokcer_ejector": {
+          "type": "simple",
+          "key": "shokcer_ejector",
+          "file": "general/objects/animated_objects/traps/shokcer_ejector.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1280,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
+            "frameCount": 20
+          },
+          "originalName": "shokcer_ejector"
+        },
+        "smoke_flame_ejector_blue": {
+          "type": "simple",
+          "key": "smoke_flame_ejector_blue",
+          "file": "general/objects/animated_objects/traps/smoke_flame_ejector_blue.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 272,
+            "sheetHeight": 33,
+            "frameWidth": 16,
+            "frameHeight": 33,
+            "frameCount": 17
+          },
+          "originalName": "smoke_flame_ejector_blue"
+        },
+        "smoke_flame_ejector_red": {
+          "type": "simple",
+          "key": "smoke_flame_ejector_red",
+          "file": "general/objects/animated_objects/traps/smoke_flame_ejector_red.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 272,
+            "sheetHeight": 33,
+            "frameWidth": 16,
+            "frameHeight": 33,
+            "frameCount": 17
+          },
+          "originalName": "smoke_flame_ejector_red"
+        },
+        "spike_ejector": {
+          "type": "simple",
+          "key": "spike_ejector",
+          "file": "general/objects/animated_objects/traps/spike_ejector.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 288,
+            "sheetHeight": 64,
+            "frameWidth": 16,
+            "frameHeight": 64,
+            "frameCount": 18
+          },
+          "originalName": "spike_ejector"
+        },
+        "spike_ejector_small": {
+          "type": "simple",
+          "key": "spike_ejector_small",
+          "file": "general/objects/animated_objects/traps/spike_ejector_small.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 288,
+            "sheetHeight": 64,
+            "frameWidth": 16,
+            "frameHeight": 64,
+            "frameCount": 18
+          },
+          "originalName": "spike_ejector_small"
+        },
+        "spikes": {
+          "type": "simple",
+          "key": "spikes",
+          "file": "general/objects/animated_objects/traps/spikes.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 432,
+            "sheetHeight": 16,
+            "frameWidth": 48,
+            "frameHeight": 16,
+            "frameCount": 9
+          },
+          "originalName": "spikes"
+        },
+        "swaying_sword_animation1": {
+          "type": "simple",
+          "key": "swaying_sword_animation1",
+          "file": "general/objects/animated_objects/traps/swaying_sword_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 945,
+            "sheetHeight": 106,
+            "frameWidth": 35,
+            "frameHeight": 106,
+            "frameCount": 27
+          },
+          "originalName": "swaying_sword_animation1"
+        },
+        "swaying_sword_animation2": {
+          "type": "simple",
+          "key": "swaying_sword_animation2",
+          "file": "general/objects/animated_objects/traps/swaying_sword_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 175,
+            "sheetHeight": 106,
+            "frameWidth": 35,
+            "frameHeight": 106,
+            "frameCount": 5
+          },
+          "originalName": "swaying_sword_animation2"
+        },
+        "swaying_sword_animation3": {
+          "type": "simple",
+          "key": "swaying_sword_animation3",
+          "file": "general/objects/animated_objects/traps/swaying_sword_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 35,
+            "sheetHeight": 106,
+            "frameWidth": 35,
+            "frameHeight": 106,
+            "frameCount": 1
+          },
+          "originalName": "swaying_sword_animation3"
+        },
+        "sword_slicer": {
+          "type": "simple",
+          "key": "sword_slicer",
+          "file": "general/objects/animated_objects/traps/sword_slicer.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1024,
+            "sheetHeight": 32,
+            "frameWidth": 64,
+            "frameHeight": 32,
+            "frameCount": 16
+          },
+          "originalName": "sword_slicer"
+        }
+      }
+    }
+  }
+}

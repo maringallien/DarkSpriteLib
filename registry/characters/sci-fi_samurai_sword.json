@@ -1,0 +1,67 @@
+{
+  "type": "standard",
+  "id": "sci-fi_samurai_sword",
+  "path": "characters/sci-fi_samurai",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/sci-fi_samurai/with_sword/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2280,
+        "sheetHeight": 49,
+        "frameWidth": 285,
+        "frameHeight": 49,
+        "frameCount": 8
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/sci-fi_samurai/with_sword/die.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2280,
+        "sheetHeight": 49,
+        "frameWidth": 285,
+        "frameHeight": 49,
+        "frameCount": 8
+      },
+      "originalName": "die"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/sci-fi_samurai/with_sword/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2280,
+        "sheetHeight": 49,
+        "frameWidth": 285,
+        "frameHeight": 49,
+        "frameCount": 8
+      },
+      "originalName": "idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/sci-fi_samurai/with_sword/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2280,
+        "sheetHeight": 49,
+        "frameWidth": 285,
+        "frameHeight": 49,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "biome": "castle_of_bones",
+  "path": "castle_of_bones/objects/animated_objects",
+  "objects": {
+    "candles": {
+      "type": "standard",
+      "id": "candles",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "animation1": {
+          "type": "simple",
+          "key": "animation1",
+          "file": "castle_of_bones/objects/animated_objects/candles_1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 18,
+            "frameWidth": 32,
+            "frameHeight": 18,
+            "frameCount": 8
+          },
+          "originalName": "candles_1"
+        },
+        "animation2": {
+          "type": "simple",
+          "key": "animation2",
+          "file": "castle_of_bones/objects/animated_objects/candles_2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 15,
+            "frameWidth": 32,
+            "frameHeight": 15,
+            "frameCount": 8
+          },
+          "originalName": "candles_2"
+        },
+        "animation3": {
+          "type": "simple",
+          "key": "animation3",
+          "file": "castle_of_bones/objects/animated_objects/candles_3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 18,
+            "frameWidth": 32,
+            "frameHeight": 18,
+            "frameCount": 8
+          },
+          "originalName": "candles_3"
+        }
+      }
+    },
+    "ancient_door": {
+      "type": "standard",
+      "id": "ancient_door",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/ancient_door.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 3072,
+            "sheetHeight": 144,
+            "frameWidth": 64,
+            "frameHeight": 144,
+            "frameCount": 48
+          },
+          "originalName": "ancient_door"
+        }
+      }
+    },
+    "ember_pit_shrine": {
+      "type": "standard",
+      "id": "ember_pit_shrine",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/ember_pit_shrine.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 320,
+            "sheetHeight": 33,
+            "frameWidth": 32,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "ember_pit_shrine"
+        }
+      }
+    },
+    "lever": {
+      "type": "standard",
+      "id": "lever",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/lever.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 32,
+            "frameWidth": 32,
+            "frameHeight": 32,
+            "frameCount": 8
+          },
+          "originalName": "lever"
+        }
+      }
+    },
+    "torch_1": {
+      "type": "standard",
+      "id": "torch_1",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/torch_1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 640,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
+            "frameCount": 10
+          },
+          "originalName": "torch_1"
+        }
+      }
+    }
+  }
+}

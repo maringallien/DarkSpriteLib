@@ -10,11 +10,12 @@
       "category": "state",
       "loops": true,
       "frames": {
-        "sheetWidth": 1008,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 16
+        "sheetWidth": 2016,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 8,
+        "anchorX": 55
       },
       "originalName": "eat"
     },
@@ -25,11 +26,12 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 1008,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 16
+        "sheetWidth": 2016,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 8,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-bark"
     },
@@ -40,11 +42,12 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2016,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 32
+        "sheetWidth": 4032,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 16,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-blast_1"
     },
@@ -55,11 +58,12 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2772,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 44
+        "sheetWidth": 5544,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 22,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-blast_2"
     },
@@ -70,11 +74,12 @@
       "category": "state",
       "loops": true,
       "frames": {
-        "sheetWidth": 3024,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 48
+        "sheetWidth": 6048,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 24,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-chill"
     },
@@ -85,11 +90,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-fall"
     },
@@ -100,11 +106,12 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 1008,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 16
+        "sheetWidth": 2016,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 8,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-idle"
     },
@@ -115,11 +122,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-jump"
     },
@@ -130,11 +138,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-land"
     },
@@ -145,11 +154,12 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-move"
     },
@@ -160,11 +170,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-roll"
     },
@@ -175,11 +186,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 882,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 14
+        "sheetWidth": 1764,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 7,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-roll_end"
     },
@@ -190,11 +202,12 @@
       "category": "state",
       "loops": true,
       "frames": {
-        "sheetWidth": 2142,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 34
+        "sheetWidth": 4284,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 17,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-sit"
     },
@@ -205,11 +218,12 @@
       "category": "state",
       "loops": true,
       "frames": {
-        "sheetWidth": 3024,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 48
+        "sheetWidth": 6048,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 24,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-sleep"
     },
@@ -218,13 +232,14 @@
       "key": "to_idle",
       "file": "animals/a_strange_companion/strange_companion_red/strange_companion_red-to_idle.png",
       "category": "movement",
-      "loops": true,
+      "loops": false,
       "frames": {
-        "sheetWidth": 1512,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 24
+        "sheetWidth": 3024,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 12,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-to_idle"
     },
@@ -235,11 +250,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 252,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 4
+        "sheetWidth": 504,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 2,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-to_roll"
     },
@@ -248,13 +264,14 @@
       "key": "to_sleep",
       "file": "animals/a_strange_companion/strange_companion_red/strange_companion_red-to_sleep.png",
       "category": "state",
-      "loops": true,
+      "loops": false,
       "frames": {
-        "sheetWidth": 1260,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 20
+        "sheetWidth": 2520,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 10,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-to_sleep"
     },
@@ -265,11 +282,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 8
+        "sheetWidth": 1008,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 4,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-trans_jump_to_fall"
     },
@@ -280,11 +298,12 @@
       "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 630,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 10
+        "sheetWidth": 1260,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 5,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-trans_to_jump"
     },
@@ -295,11 +314,12 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 1260,
-        "sheetHeight": 25,
-        "frameWidth": 63,
-        "frameHeight": 25,
-        "frameCount": 20
+        "sheetWidth": 2520,
+        "sheetHeight": 50,
+        "frameWidth": 252,
+        "frameHeight": 50,
+        "frameCount": 10,
+        "anchorX": 55
       },
       "originalName": "strange_companion_red-wake_up"
     },
@@ -310,10 +330,10 @@
       "category": "ranged",
       "loops": false,
       "frames": {
-        "sheetWidth": 288,
-        "sheetHeight": 32,
-        "frameWidth": 32,
-        "frameHeight": 32,
+        "sheetWidth": 576,
+        "sheetHeight": 64,
+        "frameWidth": 64,
+        "frameHeight": 64,
         "frameCount": 9
       },
       "originalName": "projectile_32x32-explode"
@@ -325,10 +345,10 @@
       "category": "ranged",
       "loops": true,
       "frames": {
-        "sheetWidth": 64,
-        "sheetHeight": 32,
-        "frameWidth": 32,
-        "frameHeight": 32,
+        "sheetWidth": 128,
+        "sheetHeight": 64,
+        "frameWidth": 64,
+        "frameHeight": 64,
         "frameCount": 2
       },
       "originalName": "projectile_32x32-idle"

@@ -1,0 +1,28 @@
+{
+  "biome": "the_grotesque_city",
+  "path": "the_grotesque_city/objects/animated_objects",
+  "objects": {
+    "boss_door": {
+      "type": "standard",
+      "id": "boss_door",
+      "path": "the_grotesque_city/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "the_grotesque_city/objects/animated_objects/boss_door.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2928,
+            "sheetHeight": 75,
+            "frameWidth": 61,
+            "frameHeight": 75,
+            "frameCount": 48
+          },
+          "originalName": "boss_door"
+        }
+      }
+    }
+  }
+}

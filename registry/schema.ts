@@ -158,8 +158,7 @@ export interface VariantCharacter {
 
 export type AnyCharacter =
   | StandardCharacter
-  | CompositeCharacter
-  | VariantCharacter;
+  | CompositeCharacter;
 
 // ---------------------------------------------------------------------------
 // Playable character (mode-based)
@@ -196,6 +195,20 @@ export interface ValidationIssue {
   file?: string;
 }
 
+/**
+ * A collection of animated objects belonging to one biome.
+ * Each object is a StandardCharacter; single-file objects have one animation
+ * keyed "idle", split-file groups use "animation1"/"animation2"…, and
+ * subdirectory groups use the file stem as the animation key.
+ */
+export interface BiomeObjects {
+  biome: string;
+  /** Path to the animated_objects directory, relative to DarkSpriteLib root */
+  path: string;
+  /** keyed by object id (e.g. "throne", "portal", "candles") */
+  objects: Record<string, StandardCharacter>;
+}
+
 export interface Registry {
   version: "1.0.0";
   generatedAt: string;
@@ -209,6 +222,11 @@ export interface Registry {
    * The strange_companion_* variants are in `characters` instead.
    */
   animals: Record<string, AnyCharacter>;
+  /**
+   * Animated environmental objects, keyed by biome id.
+   * Each entry groups all animated objects for one biome.
+   */
+  objects: Record<string, BiomeObjects>;
   /** Issues detected during generation — review these */
   validationIssues: ValidationIssue[];
 }

@@ -292,16 +292,6 @@ function buildEntities() {
         });
       }
 
-    } else if (char.type === 'variant') {
-      for (const [varKey, variant] of Object.entries(char.variants)) {
-        if (Object.keys(variant.animations).length === 0) continue;
-        entities.push({
-          id: `${charId}__${varKey}`,
-          label: `${name} [${varKey}]`,
-          group: 'Variants',
-          animations: variant.animations,
-        });
-      }
     }
   }
 
@@ -311,6 +301,21 @@ function buildEntities() {
     if (animal.type === 'standard') {
       if (Object.keys(animal.animations).length === 0) continue;
       entities.push({ id: `_animal__${animalId}`, label: name, group: 'Animals', animations: animal.animations });
+    }
+  }
+
+  // Biome objects
+  for (const [biome, biomeObj] of Object.entries(registry.objects ?? {})) {
+    const biomeLabel = biome.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    const group = `Objects: ${biomeLabel}`;
+    for (const [objId, obj] of Object.entries(biomeObj.objects)) {
+      if (Object.keys(obj.animations).length === 0) continue;
+      entities.push({
+        id: `_object__${biome}__${objId}`,
+        label: objId.replace(/_/g, ' '),
+        group,
+        animations: obj.animations,
+      });
     }
   }
 

@@ -28,6 +28,7 @@ import type {
   AnyAnimation,
   AnyCharacter,
   AnimationWithProjectile,
+  BiomeObjects,
   FrameData,
   PlayableCharacter,
   PlayableCharacterMode,
@@ -38,7 +39,10 @@ import type {
   SimpleAnimation,
   StandardCharacter,
   ValidationIssue,
+  VariantCharacter,
 } from "./schema.js";
+
+type BuildResult = AnyCharacter | VariantCharacter;
 
 // ---------------------------------------------------------------------------
 // Paths
@@ -51,6 +55,7 @@ const PLAYABLE_DIR = path.join(ROOT, "playable_character");
 const OUT_DIR = path.join(ROOT, "registry");
 const OUT_CHARS_DIR = path.join(OUT_DIR, "characters");
 const OUT_ANIMALS_DIR = path.join(OUT_DIR, "animals");
+const OUT_OBJECTS_DIR = path.join(OUT_DIR, "objects");
 
 // ---------------------------------------------------------------------------
 // PNG frame-size heuristic
@@ -142,12 +147,15 @@ function precomputeFrameData(files: string[], characterId?: string): Map<string,
       const fileOverride = FILE_FRAME_OVERRIDES[rel];
       const fw = fileOverride?.frameWidth ?? frameWidth;
       const fh = fileOverride?.frameHeight ?? h;
+      // Only apply character-level anchorX to files that aren't individually overridden.
+      const anchorX = (!fileOverride && characterId) ? ANCHOR_X_OVERRIDES[characterId] : undefined;
       result.set(file, {
         sheetWidth: w,
         sheetHeight: h,
         frameWidth: fw,
         frameHeight: fh,
         frameCount: fw > 0 ? Math.round((w / fw) * (h / fh)) : 1,
+        ...(anchorX !== undefined && { anchorX }),
         ambiguous,
       });
     }
@@ -402,18 +410,26 @@ const ANIMATION_META_OVERRIDES: Record<string, Record<string, { category?: strin
     "lord_of_the_flames-range_fire_burst": { category: "attack", loops: false },
     "range_sprite_with_glow":              { category: "attack", loops: false },
   },
-  // ── Strange companion: blast animations are melee/attack, not ranged ────────
+  // ── Strange companion: blast animations are melee/attack, not ranged ─────────
+  // ── to_idle/to_sleep are one-shot transitions (PATTERN_RULES /sleep/ fires ──
+  // ── on the full unprefixed stem before EXACT_MAP to_sleep: false is reached) ─
   strange_companion_black: {
-    "strange_companion-blast_1": { category: "attack", loops: false },
-    "strange_companion-blast_2": { category: "attack", loops: false },
+    "strange_companion-blast_1":  { category: "attack", loops: false },
+    "strange_companion-blast_2":  { category: "attack", loops: false },
+    "strange_companion-to_idle":  { loops: false },
+    "strange_companion-to_sleep": { loops: false },
   },
   strange_companion_red: {
-    "strange_companion_red-blast_1": { category: "attack", loops: false },
-    "strange_companion_red-blast_2": { category: "attack", loops: false },
+    "strange_companion_red-blast_1":  { category: "attack", loops: false },
+    "strange_companion_red-blast_2":  { category: "attack", loops: false },
+    "strange_companion_red-to_idle":  { loops: false },
+    "strange_companion_red-to_sleep": { loops: false },
   },
   strange_companion_teal: {
-    "strange_companion_teal-blast_1": { category: "attack", loops: false },
-    "strange_companion_teal-blast_2": { category: "attack", loops: false },
+    "strange_companion_teal-blast_1":  { category: "attack", loops: false },
+    "strange_companion_teal-blast_2":  { category: "attack", loops: false },
+    "strange_companion_teal-to_idle":  { loops: false },
+    "strange_companion_teal-to_sleep": { loops: false },
   },
   gem_merchant:        { "gem_merchant":        { category: "ui", loops: true } },
   gun_merchant:        { "gun_merchant":        { category: "ui", loops: true } },
@@ -453,6 +469,24 @@ const FRAME_WIDTH_OVERRIDES: Record<string, number> = {
   glitch_samurai: 210,
   kamikaze_crow: 27,
   human_crow_keeper: 268,
+  // Strange companion: raw GCD is 126, but the halving heuristic over-corrects
+  // (126/25 = 5.04 > 3.0) and produces 63. The true frame width is 126 — proven
+  // by odd frame counts at 126 (roll_end=7, sit=17, trans_to_jump=5).
+  strange_companion_black: 252,
+  strange_companion_red:   252,
+  strange_companion_teal:  252,
+};
+
+// Per-character anchorX override (pixels from left edge of one frame).
+// Set when the sprite content is not bounding-box centred inside the frame.
+// Parsers fall back to frameWidth / 2 when anchorX is absent.
+const ANCHOR_X_OVERRIDES: Record<string, number> = {
+  // Strange companion: character body consistently sits at x≈55 within the 252px frame
+  // (measured across all movement/state animations). Default frameWidth/2 = 126 places
+  // the character ~71px too far left.
+  strange_companion_black: 55,
+  strange_companion_red:   55,
+  strange_companion_teal:  55,
 };
 
 // Per-file frame dimension overrides (relative path from repo root).
@@ -527,8 +561,130 @@ const FILE_FRAME_OVERRIDES: Record<string, { frameWidth: number; frameHeight: nu
   "animals/orbs/orbs_animation4.png":      { frameWidth: 16, frameHeight: 16 },
 
   // ── Strange companion projectiles ──────────────────────────────────────────
-  "animals/a_strange_companion/projectile/projectile_32x32-explode.png": { frameWidth: 32, frameHeight: 32 },
-  "animals/a_strange_companion/projectile/projectile_32x32-idle.png":    { frameWidth: 32, frameHeight: 32 },
+  "animals/a_strange_companion/projectile/projectile_32x32-explode.png": { frameWidth: 64, frameHeight: 64 },
+  "animals/a_strange_companion/projectile/projectile_32x32-idle.png":    { frameWidth: 64, frameHeight: 64 },
+
+  // ── Biome animated objects ─────────────────────────────────────────────────
+  // ancient_caves
+  "ancient_caves/objects/animated_objects/ancient_rock_animations_1.png": { frameWidth: 36,  frameHeight: 33  }, // ~9fr (content-cropped from 360)
+  "ancient_caves/objects/animated_objects/ancient_rock_animations_2.png": { frameWidth: 36,  frameHeight: 33  }, // 8fr (cropped to 288px)
+  "ancient_caves/objects/animated_objects/ancient_rock_animations_3.png": { frameWidth: 36,  frameHeight: 50  }, // 14fr
+  "ancient_caves/objects/animated_objects/smoke_animations_2.png":        { frameWidth: 12,  frameHeight: 36  }, // 8fr (row1)
+  "ancient_caves/objects/animated_objects/smoke_animations_3.png":        { frameWidth: 12,  frameHeight: 26  }, // 8fr (padded to 96px)
+  "ancient_caves/objects/animated_objects/smoke_animations_4.png":        { frameWidth: 12,  frameHeight: 38  }, // 16fr (row2)
+  "ancient_caves/objects/animated_objects/throne_1.png":                  { frameWidth: 96,  frameHeight: 64  }, // 16fr (cropped, row1 of split)
+  "ancient_caves/objects/animated_objects/throne_2.png":                  { frameWidth: 96,  frameHeight: 64  }, // 18fr (row2 of split)
+  // blood_temple
+  "blood_temple/objects/animated_objects/statue.png":                     { frameWidth: 128, frameHeight: 112 }, // 8fr
+  // castle_of_bones
+  "castle_of_bones/objects/animated_objects/ancient_door.png":            { frameWidth: 64,  frameHeight: 144 }, // 48fr
+  "castle_of_bones/objects/animated_objects/candles_1.png":               { frameWidth: 32,  frameHeight: 18  }, // 8fr (row1 of split)
+  "castle_of_bones/objects/animated_objects/candles_2.png":               { frameWidth: 32,  frameHeight: 15  }, // 8fr
+  "castle_of_bones/objects/animated_objects/candles_3.png":               { frameWidth: 32,  frameHeight: 18  }, // 8fr (row2 of split)
+  "castle_of_bones/objects/animated_objects/ember_pit_shrine.png":        { frameWidth: 32,  frameHeight: 33  }, // 10fr (minima at x=31,63,95…)
+  "castle_of_bones/objects/animated_objects/lever.png":                   { frameWidth: 32,  frameHeight: 32  }, // 8fr
+  "castle_of_bones/objects/animated_objects/torch_1.png":                 { frameWidth: 64,  frameHeight: 64  }, // 10fr
+  // somber_city — rearranged vertical → horizontal; frame sizes are exact
+  "somber_city/objects/animated_objects/distant_lightning.png":           { frameWidth: 32,  frameHeight: 32  }, // 18fr
+  "somber_city/objects/animated_objects/door_fade.png":                   { frameWidth: 262, frameHeight: 121 }, // 20fr (col-alpha period=262)
+  "somber_city/objects/animated_objects/door_light_up.png":               { frameWidth: 262, frameHeight: 121 }, // 19fr (col-alpha period=262)
+  "somber_city/objects/animated_objects/fire_torch.png":                  { frameWidth: 9,   frameHeight: 17  }, // 10fr (minima at every ~9px)
+  "somber_city/objects/animated_objects/large_lightning.png":             { frameWidth: 64,  frameHeight: 48  }, // 18fr
+  "somber_city/objects/animated_objects/small_lightning.png":             { frameWidth: 32,  frameHeight: 32  }, // 18fr
+  // the_beneath
+  "the_beneath/objects/animated_objects/door_open.png":                   { frameWidth: 41,  frameHeight: 48  }, // 15fr
+  "the_beneath/objects/animated_objects/flower_glow.png":                 { frameWidth: 16,  frameHeight: 16  }, // 10fr
+  "the_beneath/objects/animated_objects/light_with_bugs.png":             { frameWidth: 32,  frameHeight: 37  }, // 10fr
+  "the_beneath/objects/animated_objects/portal/idle.png":                 { frameWidth: 21,  frameHeight: 41  }, // 12fr (63 showed 3 at once)
+  "the_beneath/objects/animated_objects/portal/warp.png":                 { frameWidth: 21,  frameHeight: 41  }, // 12fr (63 showed 3 at once)
+  "the_beneath/objects/animated_objects/save/down.png":                   { frameWidth: 16,  frameHeight: 19  }, // 4fr
+  "the_beneath/objects/animated_objects/save/idle.png":                   { frameWidth: 16,  frameHeight: 19  }, // 4fr
+  "the_beneath/objects/animated_objects/save/start_up.png":               { frameWidth: 16,  frameHeight: 19  }, // 7fr
+  "the_beneath/objects/animated_objects/torch.png":                       { frameWidth: 7,   frameHeight: 37  }, // 8fr
+  // the_grotesque_city
+  "the_grotesque_city/objects/animated_objects/boss_door.png":            { frameWidth: 61,  frameHeight: 75  }, // 48fr
+
+  // ── General animated objects ──────────────────────────────────────────────
+  // custom_fires — rock/stone_blue/stone_purple variants (468x38, 12 frames @ 39px)
+  "general/objects/animated_objects/custom_fires/rock_blue_calm.png":      { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_blue_insane.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_blue_mild.png":      { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_blue_wild.png":      { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_orange_calm.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_orange_insane.png":  { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_orange_mild.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_orange_wild.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_purple_calm.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_purple_insane.png":  { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_purple_mild.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/rock_purple_wild.png":    { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_blue_calm.png":     { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_blue_insane.png":   { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_blue_mild.png":     { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_blue_wild.png":     { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_purple_calm.png":   { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_purple_insane.png": { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_purple_mild.png":   { frameWidth: 39, frameHeight: 38 },
+  "general/objects/animated_objects/custom_fires/stone_purple_wild.png":   { frameWidth: 39, frameHeight: 38 },
+  // animated_trees — blood_tree_1 (1792x128 per row, 16 frames @ 112px)
+  "general/objects/animated_objects/animated_trees/blood_tree_1_animation1.png": { frameWidth: 112, frameHeight: 128 },
+  "general/objects/animated_objects/animated_trees/blood_tree_1_animation2.png": { frameWidth: 112, frameHeight: 128 },
+  "general/objects/animated_objects/animated_trees/blood_tree_1_animation3.png": { frameWidth: 112, frameHeight: 128 },
+  "general/objects/animated_objects/animated_trees/blood_tree_1_animation4.png": { frameWidth: 112, frameHeight: 128 },
+  // animated_trees — blood_tree_2 (2048x96 per row, 16 frames @ 128px)
+  "general/objects/animated_objects/animated_trees/blood_tree_2_animation1.png": { frameWidth: 128, frameHeight: 96 },
+  "general/objects/animated_objects/animated_trees/blood_tree_2_animation2.png": { frameWidth: 128, frameHeight: 96 },
+  "general/objects/animated_objects/animated_trees/blood_tree_2_animation3.png": { frameWidth: 128, frameHeight: 96 },
+  "general/objects/animated_objects/animated_trees/blood_tree_2_animation4.png": { frameWidth: 128, frameHeight: 96 },
+  // portals (4536x90 per row, 24 frames @ 189px)
+  "general/objects/animated_objects/portals/ancient_tech_portal_animation1.png": { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/ancient_tech_portal_animation2.png": { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/ancient_tech_portal_animation3.png": { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/blood_portal_animation1.png":        { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/blood_portal_animation2.png":        { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/blood_portal_animation3.png":        { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/grassy_portal_animation1.png":       { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/grassy_portal_animation2.png":       { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/grassy_portal_animation3.png":       { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/normal_portal_animation1.png":       { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/normal_portal_animation2.png":       { frameWidth: 189, frameHeight: 90 },
+  "general/objects/animated_objects/portals/normal_portal_animation3.png":       { frameWidth: 189, frameHeight: 90 },
+  // shops — blood_shop (415x69, 5 frames @ 83px)
+  "general/objects/animated_objects/shops/blood_shop_animation1.png": { frameWidth: 83, frameHeight: 69 },
+  // traps — swaying_sword (945x106 per row, 27 frames @ 35px; anim2/3 trimmed to content)
+  "general/objects/animated_objects/traps/swaying_sword_animation1.png": { frameWidth: 35, frameHeight: 106 },
+  "general/objects/animated_objects/traps/swaying_sword_animation2.png": { frameWidth: 35, frameHeight: 106 },
+  "general/objects/animated_objects/traps/swaying_sword_animation3.png": { frameWidth: 35, frameHeight: 106 },
+  // traps — sword_slicer (1024x32, 16 frames @ 64px; all rows merged into single animation)
+  "general/objects/animated_objects/traps/sword_slicer.png": { frameWidth: 64, frameHeight: 32 },
+  // traps — bear_trap (160x38 per row, 5 frames @ 32px)
+  "general/objects/animated_objects/traps/bear_trap_animation1.png": { frameWidth: 32, frameHeight: 38 },
+  "general/objects/animated_objects/traps/bear_trap_animation2.png": { frameWidth: 32, frameHeight: 38 },
+  // traps — single-animation objects with non-obvious frame widths
+  "general/objects/animated_objects/traps/shokcer_ejector.png":     { frameWidth: 64, frameHeight: 64 }, // 20fr
+  "general/objects/animated_objects/traps/spikes.png":              { frameWidth: 48, frameHeight: 16 }, // 9fr
+  "general/objects/animated_objects/traps/spike_ejector.png":       { frameWidth: 16, frameHeight: 64 }, // 18fr
+  "general/objects/animated_objects/traps/spike_ejector_small.png": { frameWidth: 16, frameHeight: 64 }, // 18fr
+  // traps — smoke_flame_ejector (272x33 after top-crop, 17 frames @ 16px)
+  "general/objects/animated_objects/traps/smoke_flame_ejector_blue.png": { frameWidth: 16, frameHeight: 33 },
+  "general/objects/animated_objects/traps/smoke_flame_ejector_red.png":  { frameWidth: 16, frameHeight: 33 },
+  // sci-fi_chests — chest_1 (700x19, 35 frames @ 20px; GCD heuristic picks 28 from shared h=19 group with chest_2)
+  "general/objects/animated_objects/sci-fi_chests/chest_1.1.png": { frameWidth: 20, frameHeight: 19 },
+  "general/objects/animated_objects/sci-fi_chests/chest_1.2.png": { frameWidth: 20, frameHeight: 19 },
+  "general/objects/animated_objects/sci-fi_chests/chest_1.3.png": { frameWidth: 20, frameHeight: 19 },
+  // sci-fi_chests — chests where GCD heuristic fails (single unique height group)
+  "general/objects/animated_objects/sci-fi_chests/chest_5.1.png": { frameWidth: 43, frameHeight: 29 }, // 55fr
+  "general/objects/animated_objects/sci-fi_chests/chest_5.2.png": { frameWidth: 43, frameHeight: 29 },
+  "general/objects/animated_objects/sci-fi_chests/chest_5.3.png": { frameWidth: 43, frameHeight: 29 },
+  "general/objects/animated_objects/sci-fi_chests/chest_6.1.png": { frameWidth: 42, frameHeight: 12 }, // 34fr
+  "general/objects/animated_objects/sci-fi_chests/chest_6.2.png": { frameWidth: 42, frameHeight: 12 },
+  "general/objects/animated_objects/sci-fi_chests/chest_6.3.png": { frameWidth: 42, frameHeight: 12 },
+  "general/objects/animated_objects/sci-fi_chests/chest_7.1.png": { frameWidth: 27, frameHeight: 13 }, // 38fr
+  "general/objects/animated_objects/sci-fi_chests/chest_7.2.png": { frameWidth: 27, frameHeight: 13 },
+  "general/objects/animated_objects/sci-fi_chests/chest_7.3.png": { frameWidth: 27, frameHeight: 13 },
+  // shops — flattened to single horizontal strips
+  "general/objects/animated_objects/shops/herb_shop.png": { frameWidth: 70,  frameHeight: 52  }, // 25fr (5 rows × 5fr flattened)
+  "general/objects/animated_objects/shops/tech_shop.png": { frameWidth: 108, frameHeight: 108 }, // 20fr (4 rows × 5fr flattened)
 };
 
 // ---------------------------------------------------------------------------
@@ -812,7 +968,7 @@ function buildCharacter(
   id: string,
   dirPath: string,
   issues: ValidationIssue[],
-): AnyCharacter {
+): BuildResult {
   const override = CHARACTER_OVERRIDES[id];
 
   if (override?.type === "composite") {
@@ -914,6 +1070,140 @@ function buildAnimalCharacter(
 }
 
 // ---------------------------------------------------------------------------
+// Biome animated object builder
+// ---------------------------------------------------------------------------
+
+/**
+ * Build a StandardCharacter for one animated object group (one or more files).
+ * animKeys maps each file (in order) to an animation key.
+ */
+function buildObjectGroup(
+  id: string,
+  dirPath: string,
+  relFilePaths: string[],
+  animKeys: string[],
+  issues: ValidationIssue[],
+): StandardCharacter {
+  const absFiles = relFilePaths.map((f) => path.join(ROOT, f));
+  const frameMap = precomputeFrameData(absFiles);
+  const animations: Record<string, AnyAnimation> = {};
+
+  for (let i = 0; i < relFilePaths.length; i++) {
+    const relFilePath = relFilePaths[i];
+    const absFile = absFiles[i];
+    const key = animKeys[i];
+
+    const raw = frameMap.get(absFile);
+    if (!raw) {
+      issues.push({ characterId: id, severity: "error", message: `Failed to read PNG dimensions for animation "${key}"`, file: relFilePath });
+      continue;
+    }
+
+    const { ambiguous, ...frames } = raw;
+    if (ambiguous) {
+      issues.push({ characterId: id, severity: "warning", message: `Ambiguous frame size for "${key}" — add FILE_FRAME_OVERRIDES entry`, file: relFilePath });
+    }
+
+    animations[key] = {
+      type: "simple",
+      key,
+      file: relFilePath,
+      category: "movement",
+      loops: true,
+      frames,
+      originalName: path.basename(relFilePath, path.extname(relFilePath)),
+    } satisfies SimpleAnimation;
+  }
+
+  return { type: "standard", id, path: dirPath, animations };
+}
+
+/**
+ * Scan a biome's animated_objects directory and build a BiomeObjects entry.
+ *
+ * Grouping rules:
+ *   - Subdirectories → one object per subdir; each file → one animation (keyed by stem)
+ *   - Files matching {stem}_{N}.png with multiple siblings → one object per stem;
+ *     animations keyed animation1, animation2, …
+ *   - Remaining single-file objects → id = stem, single animation keyed "idle"
+ */
+function buildBiomeObjects(
+  biome: string,
+  dir: string,
+  issues: ValidationIssue[],
+): BiomeObjects {
+  const objects: Record<string, StandardCharacter> = {};
+  const entries = fs.readdirSync(dir);
+  const dirRelPath = relPath(dir);
+
+  // ── Subdirectory groups ───────────────────────────────────────────────────
+  const subdirs = entries.filter((e) => fs.statSync(path.join(dir, e)).isDirectory());
+  for (const subdir of subdirs) {
+    const subdirPath = path.join(dir, subdir);
+    const files = listPngs(subdirPath).sort();
+    if (files.length === 0) continue;
+    const animKeys = files.map((f) => path.basename(f, path.extname(f)));
+    const relFiles = files.map((f) => relPath(f));
+    objects[subdir] = buildObjectGroup(
+      `${biome}/${subdir}`, relPath(subdirPath), relFiles, animKeys, issues,
+    );
+    objects[subdir].id = subdir;
+  }
+
+  // ── Flat PNGs: detect split groups ───────────────────────────────────────
+  const flatPngs = entries
+    .filter((e) => e.toLowerCase().endsWith(".png"))
+    .map((e) => path.join(dir, e));
+
+  // Group files by potential split stem ({stem}_{N}.png)
+  const stemMap = new Map<string, string[]>();
+  const nonSplit: string[] = [];
+
+  for (const f of flatPngs) {
+    const base = path.basename(f, path.extname(f));
+    const m = base.match(/^(.+)_(\d+)$/);
+    if (m) {
+      const stem = m[1];
+      if (!stemMap.has(stem)) stemMap.set(stem, []);
+      stemMap.get(stem)!.push(f);
+    } else {
+      nonSplit.push(f);
+    }
+  }
+
+  // Files with multiple numeric siblings → split group; singletons → standalone
+  for (const [stem, files] of stemMap) {
+    if (files.length > 1) {
+      files.sort((a, b) => {
+        const na = parseInt(path.basename(a, ".png").match(/_(\d+)$/)![1], 10);
+        const nb = parseInt(path.basename(b, ".png").match(/_(\d+)$/)![1], 10);
+        return na - nb;
+      });
+      const animKeys = files.map((_, i) => `animation${i + 1}`);
+      const relFiles = files.map((f) => relPath(f));
+      objects[stem] = buildObjectGroup(
+        `${biome}/${stem}`, dirRelPath, relFiles, animKeys, issues,
+      );
+      objects[stem].id = stem;
+    } else {
+      nonSplit.push(files[0]);
+    }
+  }
+
+  // ── Standalone single-file objects → animation key "idle" ────────────────
+  for (const f of nonSplit) {
+    const id = path.basename(f, path.extname(f));
+    const relF = relPath(f);
+    objects[id] = buildObjectGroup(
+      `${biome}/${id}`, dirRelPath, [relF], ["idle"], issues,
+    );
+    objects[id].id = id;
+  }
+
+  return { biome, path: dirRelPath, objects };
+}
+
+// ---------------------------------------------------------------------------
 // Playable character builder
 // ---------------------------------------------------------------------------
 
@@ -993,6 +1283,7 @@ function buildPlayableCharacter(issues: ValidationIssue[]): PlayableCharacter {
 function main() {
   fs.mkdirSync(OUT_CHARS_DIR, { recursive: true });
   fs.mkdirSync(OUT_ANIMALS_DIR, { recursive: true });
+  fs.mkdirSync(OUT_OBJECTS_DIR, { recursive: true });
 
   const issues: ValidationIssue[] = [];
   const characters: Record<string, AnyCharacter> = {};
@@ -1005,14 +1296,30 @@ function main() {
   for (const { id, dir } of charDirs) {
     console.log(`Processing character: ${id}`);
     const char = buildCharacter(id, dir, issues);
-    characters[id] = char;
 
-    // Write per-character JSON
-    fs.writeFileSync(
-      path.join(OUT_CHARS_DIR, `${id}.json`),
-      JSON.stringify(char, null, 2),
-      "utf-8",
-    );
+    if (char.type === "variant") {
+      // Flatten each variant directly into characters as its own StandardCharacter
+      for (const [varKey, variant] of Object.entries(char.variants)) {
+        const flatId = `${id}_${varKey}`;
+        const flatChar: StandardCharacter = { ...variant, id: flatId, path: char.path };
+        characters[flatId] = flatChar;
+        fs.writeFileSync(
+          path.join(OUT_CHARS_DIR, `${flatId}.json`),
+          JSON.stringify(flatChar, null, 2),
+          "utf-8",
+        );
+      }
+      // Remove stale top-level JSON if it exists from a previous run
+      const staleFile = path.join(OUT_CHARS_DIR, `${id}.json`);
+      if (fs.existsSync(staleFile)) fs.unlinkSync(staleFile);
+    } else {
+      characters[id] = char;
+      fs.writeFileSync(
+        path.join(OUT_CHARS_DIR, `${id}.json`),
+        JSON.stringify(char, null, 2),
+        "utf-8",
+      );
+    }
   }
 
   // Process strange companion color variants (go into characters, not animals)
@@ -1052,6 +1359,31 @@ function main() {
     );
   }
 
+  // Process biome animated objects
+  const objects: Record<string, BiomeObjects> = {};
+  const biomesWithObjects = [
+    "ancient_caves",
+    "blood_temple",
+    "castle_of_bones",
+    "general",
+    "somber_city",
+    "the_beneath",
+    "the_grotesque_city",
+  ];
+  for (const biome of biomesWithObjects) {
+    const objDir = path.join(ROOT, biome, "objects", "animated_objects");
+    if (fs.existsSync(objDir)) {
+      console.log(`Processing objects: ${biome}`);
+      const bo = buildBiomeObjects(biome, objDir, issues);
+      objects[biome] = bo;
+      fs.writeFileSync(
+        path.join(OUT_OBJECTS_DIR, `${biome}.json`),
+        JSON.stringify(bo, null, 2),
+        "utf-8",
+      );
+    }
+  }
+
   // Assemble master registry
   const registry: Registry = {
     version: "1.0.0",
@@ -1059,6 +1391,7 @@ function main() {
     characters,
     playableCharacter,
     animals,
+    objects,
     validationIssues: issues,
   };
 
@@ -1069,12 +1402,14 @@ function main() {
   );
 
   // Write validation report
+  const totalObjects = Object.values(objects).reduce((n, bo) => n + Object.keys(bo.objects).length, 0);
   const report: string[] = [
     "DarkSpriteLib – Animation Registry Validation Report",
     `Generated: ${registry.generatedAt}`,
     `Characters processed: ${Object.keys(characters).length}`,
     `Playable character modes: ${Object.keys(playableCharacter.modes).length}`,
     `Animals processed: ${Object.keys(animals).length}`,
+    `Biomes with objects: ${Object.keys(objects).length} (${totalObjects} objects total)`,
     `Total issues: ${issues.length}`,
     "",
     "─".repeat(80),
@@ -1117,6 +1452,7 @@ function main() {
   console.log(`\nDone.`);
   console.log(`  registry/registry.json`);
   console.log(`  registry/characters/   (${Object.keys(characters).length} files)`);
+  console.log(`  registry/objects/      (${Object.keys(objects).length} files, ${totalObjects} objects)`);
   console.log(`  registry/playable_character.json`);
   console.log(`  registry/validation_report.txt`);
   console.log(`  Issues: ${errors.length} errors, ${warnings.length} warnings`);

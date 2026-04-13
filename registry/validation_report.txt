@@ -1,13 +1,14 @@
 DarkSpriteLib – Animation Registry Validation Report
-Generated: 2026-04-13T16:06:42.859Z
-Characters processed: 65
+Generated: 2026-04-13T22:53:45.170Z
+Characters processed: 68
 Playable character modes: 5
 Animals processed: 10
-Total issues: 85
+Biomes with objects: 7 (28 objects total)
+Total issues: 90
 
 ────────────────────────────────────────────────────────────────────────────────
 
-WARNINGS (85)
+WARNINGS (90)
 ────────────────────────────────────────
   [WARN]  civilians: Missing idle animation
   [WARN]  civilians: Missing death animation
@@ -139,3 +140,13 @@ WARNINGS (85)
           → playable_character/sword_master_animations/regular_animations/take_hit.png
   [WARN]  playable_character/sword_master: Ambiguous frame size for "teleport_attack"
           → playable_character/sword_master_animations/regular_animations/teleport_attack.png
+  [WARN]  ancient_caves/ancient_rock_animations: Ambiguous frame size for "animation1" — add FILE_FRAME_OVERRIDES entry
+          → ancient_caves/objects/animated_objects/ancient_rock_animations_1.png
+  [WARN]  ancient_caves/ancient_rock_animations: Ambiguous frame size for "animation2" — add FILE_FRAME_OVERRIDES entry
+          → ancient_caves/objects/animated_objects/ancient_rock_animations_2.png
+  [WARN]  general/traps: Ambiguous frame size for "swaying_sword_animation1" — add FILE_FRAME_OVERRIDES entry
+          → general/objects/animated_objects/traps/swaying_sword_animation1.png
+  [WARN]  general/traps: Ambiguous frame size for "swaying_sword_animation2" — add FILE_FRAME_OVERRIDES entry
+          → general/objects/animated_objects/traps/swaying_sword_animation2.png
+  [WARN]  general/traps: Ambiguous frame size for "swaying_sword_animation3" — add FILE_FRAME_OVERRIDES entry
+          → general/objects/animated_objects/traps/swaying_sword_animation3.png

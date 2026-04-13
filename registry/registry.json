@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-04-13T16:06:42.859Z",
+  "generatedAt": "2026-04-13T22:53:45.170Z",
   "characters": {
     "ancient_guardian": {
       "type": "standard",
@@ -595,444 +595,437 @@
         }
       }
     },
-    "bo_panda": {
-      "type": "variant",
-      "id": "bo_panda",
+    "bo_panda_good": {
+      "type": "standard",
+      "id": "bo_panda_good",
       "path": "characters/bo_panda",
-      "variants": {
-        "good": {
-          "type": "standard",
-          "id": "good",
-          "path": "characters/bo_panda/good_bo_panda",
-          "animations": {
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/bo_panda/good_bo_panda/death.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "death"
-            },
-            "fall": {
-              "type": "simple",
-              "key": "fall",
-              "file": "characters/bo_panda/good_bo_panda/fall.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "fall"
-            },
-            "special": {
-              "type": "simple",
-              "key": "special",
-              "file": "characters/bo_panda/good_bo_panda/fall_with_spin.png",
-              "category": "special",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "fall_with_spin"
-            },
-            "attack1": {
-              "type": "simple",
-              "key": "attack1",
-              "file": "characters/bo_panda/good_bo_panda/heli_slam.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "heli_slam"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/bo_panda/good_bo_panda/idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 927,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 9
-              },
-              "originalName": "idle"
-            },
-            "attack2": {
-              "type": "simple",
-              "key": "attack2",
-              "file": "characters/bo_panda/good_bo_panda/jab_repeat.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 618,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 6
-              },
-              "originalName": "jab_repeat"
-            },
-            "attack3": {
-              "type": "simple",
-              "key": "attack3",
-              "file": "characters/bo_panda/good_bo_panda/jabs.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 927,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 9
-              },
-              "originalName": "jabs"
-            },
-            "jump": {
-              "type": "simple",
-              "key": "jump",
-              "file": "characters/bo_panda/good_bo_panda/jump.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "jump"
-            },
-            "attack4": {
-              "type": "simple",
-              "key": "attack4",
-              "file": "characters/bo_panda/good_bo_panda/jump_spin.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1751,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 17
-              },
-              "originalName": "jump_spin"
-            },
-            "attack5": {
-              "type": "simple",
-              "key": "attack5",
-              "file": "characters/bo_panda/good_bo_panda/jump_with_spin.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "jump_with_spin"
-            },
-            "attack6": {
-              "type": "simple",
-              "key": "attack6",
-              "file": "characters/bo_panda/good_bo_panda/quick_attacks.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "quick_attacks"
-            },
-            "roll": {
-              "type": "simple",
-              "key": "roll",
-              "file": "characters/bo_panda/good_bo_panda/roll.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "roll"
-            },
-            "run": {
-              "type": "simple",
-              "key": "run",
-              "file": "characters/bo_panda/good_bo_panda/run.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 824,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 8
-              },
-              "originalName": "run"
-            },
-            "wall_slide": {
-              "type": "simple",
-              "key": "wall_slide",
-              "file": "characters/bo_panda/good_bo_panda/wall_slide.png",
-              "category": "traversal",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "wall_slide"
-            }
-          }
+      "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/bo_panda/good_bo_panda/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "death"
         },
-        "evil": {
-          "type": "standard",
-          "id": "evil",
-          "path": "characters/bo_panda/evil_bo_panda",
-          "animations": {
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/bo_panda/evil_bo_panda/death.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "death"
-            },
-            "fall": {
-              "type": "simple",
-              "key": "fall",
-              "file": "characters/bo_panda/evil_bo_panda/fall.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "fall"
-            },
-            "special": {
-              "type": "simple",
-              "key": "special",
-              "file": "characters/bo_panda/evil_bo_panda/fall_with_spin.png",
-              "category": "special",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "fall_with_spin"
-            },
-            "attack1": {
-              "type": "simple",
-              "key": "attack1",
-              "file": "characters/bo_panda/evil_bo_panda/heli_slam.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "heli_slam"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/bo_panda/evil_bo_panda/idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 927,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 9
-              },
-              "originalName": "idle"
-            },
-            "attack2": {
-              "type": "simple",
-              "key": "attack2",
-              "file": "characters/bo_panda/evil_bo_panda/jab_repeat.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 618,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 6
-              },
-              "originalName": "jab_repeat"
-            },
-            "attack3": {
-              "type": "simple",
-              "key": "attack3",
-              "file": "characters/bo_panda/evil_bo_panda/jabs.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 927,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 9
-              },
-              "originalName": "jabs"
-            },
-            "jump": {
-              "type": "simple",
-              "key": "jump",
-              "file": "characters/bo_panda/evil_bo_panda/jump.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "jump"
-            },
-            "attack4": {
-              "type": "simple",
-              "key": "attack4",
-              "file": "characters/bo_panda/evil_bo_panda/jump_spin.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1751,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 17
-              },
-              "originalName": "jump_spin"
-            },
-            "attack5": {
-              "type": "simple",
-              "key": "attack5",
-              "file": "characters/bo_panda/evil_bo_panda/jump_with_spin.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "jump_with_spin"
-            },
-            "attack6": {
-              "type": "simple",
-              "key": "attack6",
-              "file": "characters/bo_panda/evil_bo_panda/quick_attacks.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1030,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 10
-              },
-              "originalName": "quick_attacks"
-            },
-            "roll": {
-              "type": "simple",
-              "key": "roll",
-              "file": "characters/bo_panda/evil_bo_panda/roll.png",
-              "category": "movement",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "roll"
-            },
-            "run": {
-              "type": "simple",
-              "key": "run",
-              "file": "characters/bo_panda/evil_bo_panda/run.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 824,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 8
-              },
-              "originalName": "run"
-            },
-            "wall_slide": {
-              "type": "simple",
-              "key": "wall_slide",
-              "file": "characters/bo_panda/evil_bo_panda/wall_slide.png",
-              "category": "traversal",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 412,
-                "sheetHeight": 33,
-                "frameWidth": 103,
-                "frameHeight": 33,
-                "frameCount": 4
-              },
-              "originalName": "wall_slide"
-            }
-          }
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/bo_panda/good_bo_panda/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "fall"
+        },
+        "special": {
+          "type": "simple",
+          "key": "special",
+          "file": "characters/bo_panda/good_bo_panda/fall_with_spin.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "fall_with_spin"
+        },
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/bo_panda/good_bo_panda/heli_slam.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "heli_slam"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/bo_panda/good_bo_panda/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "idle"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/bo_panda/good_bo_panda/jab_repeat.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 618,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 6
+          },
+          "originalName": "jab_repeat"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/bo_panda/good_bo_panda/jabs.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "jabs"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/bo_panda/good_bo_panda/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "jump"
+        },
+        "attack4": {
+          "type": "simple",
+          "key": "attack4",
+          "file": "characters/bo_panda/good_bo_panda/jump_spin.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1751,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 17
+          },
+          "originalName": "jump_spin"
+        },
+        "attack5": {
+          "type": "simple",
+          "key": "attack5",
+          "file": "characters/bo_panda/good_bo_panda/jump_with_spin.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "jump_with_spin"
+        },
+        "attack6": {
+          "type": "simple",
+          "key": "attack6",
+          "file": "characters/bo_panda/good_bo_panda/quick_attacks.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "quick_attacks"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/bo_panda/good_bo_panda/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "roll"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/bo_panda/good_bo_panda/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 824,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "wall_slide": {
+          "type": "simple",
+          "key": "wall_slide",
+          "file": "characters/bo_panda/good_bo_panda/wall_slide.png",
+          "category": "traversal",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "wall_slide"
+        }
+      }
+    },
+    "bo_panda_evil": {
+      "type": "standard",
+      "id": "bo_panda_evil",
+      "path": "characters/bo_panda",
+      "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/bo_panda/evil_bo_panda/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "death"
+        },
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/bo_panda/evil_bo_panda/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "fall"
+        },
+        "special": {
+          "type": "simple",
+          "key": "special",
+          "file": "characters/bo_panda/evil_bo_panda/fall_with_spin.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "fall_with_spin"
+        },
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/bo_panda/evil_bo_panda/heli_slam.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "heli_slam"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/bo_panda/evil_bo_panda/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "idle"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/bo_panda/evil_bo_panda/jab_repeat.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 618,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 6
+          },
+          "originalName": "jab_repeat"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/bo_panda/evil_bo_panda/jabs.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "jabs"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/bo_panda/evil_bo_panda/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "jump"
+        },
+        "attack4": {
+          "type": "simple",
+          "key": "attack4",
+          "file": "characters/bo_panda/evil_bo_panda/jump_spin.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1751,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 17
+          },
+          "originalName": "jump_spin"
+        },
+        "attack5": {
+          "type": "simple",
+          "key": "attack5",
+          "file": "characters/bo_panda/evil_bo_panda/jump_with_spin.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "jump_with_spin"
+        },
+        "attack6": {
+          "type": "simple",
+          "key": "attack6",
+          "file": "characters/bo_panda/evil_bo_panda/quick_attacks.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "quick_attacks"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/bo_panda/evil_bo_panda/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "roll"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/bo_panda/evil_bo_panda/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 824,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "wall_slide": {
+          "type": "simple",
+          "key": "wall_slide",
+          "file": "characters/bo_panda/evil_bo_panda/wall_slide.png",
+          "category": "traversal",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "wall_slide"
         }
       }
     },
@@ -4516,309 +4509,302 @@
         }
       }
     },
-    "lord_of_the_poisons": {
-      "type": "variant",
-      "id": "lord_of_the_poisons",
+    "lord_of_the_poisons_no_glow": {
+      "type": "standard",
+      "id": "lord_of_the_poisons_no_glow",
       "path": "characters/lord_of_the_poisons",
-      "variants": {
-        "no_glow": {
-          "type": "standard",
-          "id": "no_glow",
-          "path": "characters/lord_of_the_poisons/sprite_no_glow",
-          "animations": {
-            "attack1": {
-              "type": "simple",
-              "key": "attack1",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-attack.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2755,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 19
-              },
-              "originalName": "lord_of_the_poisons_asp-attack"
-            },
-            "buff": {
-              "type": "simple",
-              "key": "buff",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-buff.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3045,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 21
-              },
-              "originalName": "lord_of_the_poisons_asp-buff"
-            },
-            "attack2": {
-              "type": "simple",
-              "key": "attack2",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-chain_stab.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-chain_stab"
-            },
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-death.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-death"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 1740,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 12
-              },
-              "originalName": "lord_of_the_poisons_asp-idle"
-            },
-            "walk": {
-              "type": "simple",
-              "key": "walk",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-move.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2320,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 16
-              },
-              "originalName": "lord_of_the_poisons_asp-move"
-            },
-            "ranged": {
-              "type": "with_projectile",
-              "key": "ranged",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-range_fire_burst.png",
-              "category": "ranged",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1885,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 13
-              },
-              "originalName": "lord_of_the_poisons_asp-range_fire_burst",
-              "projectile": [
-                {
-                  "key": "idle",
-                  "file": "characters/lord_of_the_poisons/sprite_no_glow/range_poison_no_glow.png",
-                  "loops": false,
-                  "frames": {
-                    "sheetWidth": 572,
-                    "sheetHeight": 28,
-                    "frameWidth": 143,
-                    "frameHeight": 28,
-                    "frameCount": 4
-                  },
-                  "originalName": "range_poison_no_glow"
-                }
-              ]
-            },
-            "attack3": {
-              "type": "simple",
-              "key": "attack3",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-spear.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-spear"
-            },
-            "full_sheet": {
-              "type": "simple",
-              "key": "full_sheet",
-              "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_spritesheet_no_glow.png",
-              "category": "ui",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3045,
-                "sheetHeight": 376,
-                "frameWidth": 3045,
-                "frameHeight": 376,
-                "frameCount": 1
-              },
-              "originalName": "lord_of_the_poisons_spritesheet_no_glow"
-            }
-          }
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2755,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 19
+          },
+          "originalName": "lord_of_the_poisons_asp-attack"
         },
-        "with_glow": {
-          "type": "standard",
-          "id": "with_glow",
-          "path": "characters/lord_of_the_poisons/sprite_with_glow",
-          "animations": {
-            "attack1": {
-              "type": "simple",
-              "key": "attack1",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-attack.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2755,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 19
-              },
-              "originalName": "lord_of_the_poisons_asp-attack"
-            },
-            "buff": {
-              "type": "simple",
-              "key": "buff",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-buff.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3045,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 21
-              },
-              "originalName": "lord_of_the_poisons_asp-buff"
-            },
-            "attack2": {
-              "type": "simple",
-              "key": "attack2",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-chain_stab.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-chain_stab"
-            },
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-death.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-death"
-            },
-            "idle": {
-              "type": "simple",
+        "buff": {
+          "type": "simple",
+          "key": "buff",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-buff.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3045,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 21
+          },
+          "originalName": "lord_of_the_poisons_asp-buff"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-chain_stab.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-chain_stab"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1740,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 12
+          },
+          "originalName": "lord_of_the_poisons_asp-idle"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-move.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2320,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 16
+          },
+          "originalName": "lord_of_the_poisons_asp-move"
+        },
+        "ranged": {
+          "type": "with_projectile",
+          "key": "ranged",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-range_fire_burst.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1885,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 13
+          },
+          "originalName": "lord_of_the_poisons_asp-range_fire_burst",
+          "projectile": [
+            {
               "key": "idle",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 1740,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 12
-              },
-              "originalName": "lord_of_the_poisons_asp-idle"
-            },
-            "walk": {
-              "type": "simple",
-              "key": "walk",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-move.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2320,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 16
-              },
-              "originalName": "lord_of_the_poisons_asp-move"
-            },
-            "ranged": {
-              "type": "with_projectile",
-              "key": "ranged",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-range_fire_burst.png",
-              "category": "ranged",
+              "file": "characters/lord_of_the_poisons/sprite_no_glow/range_poison_no_glow.png",
               "loops": false,
               "frames": {
-                "sheetWidth": 1885,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 13
+                "sheetWidth": 572,
+                "sheetHeight": 28,
+                "frameWidth": 143,
+                "frameHeight": 28,
+                "frameCount": 4
               },
-              "originalName": "lord_of_the_poisons_asp-range_fire_burst",
-              "projectile": [
-                {
-                  "key": "idle",
-                  "file": "characters/lord_of_the_poisons/sprite_with_glow/range_poison_with_glow.png",
-                  "loops": false,
-                  "frames": {
-                    "sheetWidth": 572,
-                    "sheetHeight": 28,
-                    "frameWidth": 143,
-                    "frameHeight": 28,
-                    "frameCount": 4
-                  },
-                  "originalName": "range_poison_with_glow"
-                }
-              ]
-            },
-            "attack3": {
-              "type": "simple",
-              "key": "attack3",
-              "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-spear.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2175,
-                "sheetHeight": 47,
-                "frameWidth": 145,
-                "frameHeight": 47,
-                "frameCount": 15
-              },
-              "originalName": "lord_of_the_poisons_asp-spear"
+              "originalName": "range_poison_no_glow"
             }
-          }
+          ]
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_asp-spear.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-spear"
+        },
+        "full_sheet": {
+          "type": "simple",
+          "key": "full_sheet",
+          "file": "characters/lord_of_the_poisons/sprite_no_glow/lord_of_the_poisons_spritesheet_no_glow.png",
+          "category": "ui",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3045,
+            "sheetHeight": 376,
+            "frameWidth": 3045,
+            "frameHeight": 376,
+            "frameCount": 1
+          },
+          "originalName": "lord_of_the_poisons_spritesheet_no_glow"
+        }
+      }
+    },
+    "lord_of_the_poisons_with_glow": {
+      "type": "standard",
+      "id": "lord_of_the_poisons_with_glow",
+      "path": "characters/lord_of_the_poisons",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2755,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 19
+          },
+          "originalName": "lord_of_the_poisons_asp-attack"
+        },
+        "buff": {
+          "type": "simple",
+          "key": "buff",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-buff.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3045,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 21
+          },
+          "originalName": "lord_of_the_poisons_asp-buff"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-chain_stab.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-chain_stab"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1740,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 12
+          },
+          "originalName": "lord_of_the_poisons_asp-idle"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-move.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2320,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 16
+          },
+          "originalName": "lord_of_the_poisons_asp-move"
+        },
+        "ranged": {
+          "type": "with_projectile",
+          "key": "ranged",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-range_fire_burst.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1885,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 13
+          },
+          "originalName": "lord_of_the_poisons_asp-range_fire_burst",
+          "projectile": [
+            {
+              "key": "idle",
+              "file": "characters/lord_of_the_poisons/sprite_with_glow/range_poison_with_glow.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 572,
+                "sheetHeight": 28,
+                "frameWidth": 143,
+                "frameHeight": 28,
+                "frameCount": 4
+              },
+              "originalName": "range_poison_with_glow"
+            }
+          ]
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/lord_of_the_poisons/sprite_with_glow/lord_of_the_poisons_asp-spear.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2175,
+            "sheetHeight": 47,
+            "frameWidth": 145,
+            "frameHeight": 47,
+            "frameCount": 15
+          },
+          "originalName": "lord_of_the_poisons_asp-spear"
         }
       }
     },
@@ -5506,144 +5492,137 @@
         }
       }
     },
-    "sci-fi_samurai": {
-      "type": "variant",
-      "id": "sci-fi_samurai",
+    "sci-fi_samurai_sword": {
+      "type": "standard",
+      "id": "sci-fi_samurai_sword",
       "path": "characters/sci-fi_samurai",
-      "variants": {
-        "sword": {
-          "type": "standard",
-          "id": "sword",
-          "path": "characters/sci-fi_samurai/with_sword",
-          "animations": {
-            "attack": {
-              "type": "simple",
-              "key": "attack",
-              "file": "characters/sci-fi_samurai/with_sword/attack.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2280,
-                "sheetHeight": 49,
-                "frameWidth": 285,
-                "frameHeight": 49,
-                "frameCount": 8
-              },
-              "originalName": "attack"
-            },
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/sci-fi_samurai/with_sword/die.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2280,
-                "sheetHeight": 49,
-                "frameWidth": 285,
-                "frameHeight": 49,
-                "frameCount": 8
-              },
-              "originalName": "die"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/sci-fi_samurai/with_sword/idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2280,
-                "sheetHeight": 49,
-                "frameWidth": 285,
-                "frameHeight": 49,
-                "frameCount": 8
-              },
-              "originalName": "idle"
-            },
-            "run": {
-              "type": "simple",
-              "key": "run",
-              "file": "characters/sci-fi_samurai/with_sword/run.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2280,
-                "sheetHeight": 49,
-                "frameWidth": 285,
-                "frameHeight": 49,
-                "frameCount": 8
-              },
-              "originalName": "run"
-            }
-          }
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "characters/sci-fi_samurai/with_sword/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2280,
+            "sheetHeight": 49,
+            "frameWidth": 285,
+            "frameHeight": 49,
+            "frameCount": 8
+          },
+          "originalName": "attack"
         },
-        "spear": {
-          "type": "standard",
-          "id": "spear",
-          "path": "characters/sci-fi_samurai/with_spear",
-          "animations": {
-            "attack": {
-              "type": "simple",
-              "key": "attack",
-              "file": "characters/sci-fi_samurai/with_spear/attack.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2461,
-                "sheetHeight": 33,
-                "frameWidth": 2461,
-                "frameHeight": 33,
-                "frameCount": 1
-              },
-              "originalName": "attack"
-            },
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/sci-fi_samurai/with_spear/die.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2461,
-                "sheetHeight": 33,
-                "frameWidth": 2461,
-                "frameHeight": 33,
-                "frameCount": 1
-              },
-              "originalName": "die"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/sci-fi_samurai/with_spear/idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2461,
-                "sheetHeight": 33,
-                "frameWidth": 2461,
-                "frameHeight": 33,
-                "frameCount": 1
-              },
-              "originalName": "idle"
-            },
-            "run": {
-              "type": "simple",
-              "key": "run",
-              "file": "characters/sci-fi_samurai/with_spear/run.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 2461,
-                "sheetHeight": 33,
-                "frameWidth": 2461,
-                "frameHeight": 33,
-                "frameCount": 1
-              },
-              "originalName": "run"
-            }
-          }
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/sci-fi_samurai/with_sword/die.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2280,
+            "sheetHeight": 49,
+            "frameWidth": 285,
+            "frameHeight": 49,
+            "frameCount": 8
+          },
+          "originalName": "die"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/sci-fi_samurai/with_sword/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2280,
+            "sheetHeight": 49,
+            "frameWidth": 285,
+            "frameHeight": 49,
+            "frameCount": 8
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/sci-fi_samurai/with_sword/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2280,
+            "sheetHeight": 49,
+            "frameWidth": 285,
+            "frameHeight": 49,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        }
+      }
+    },
+    "sci-fi_samurai_spear": {
+      "type": "standard",
+      "id": "sci-fi_samurai_spear",
+      "path": "characters/sci-fi_samurai",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "characters/sci-fi_samurai/with_spear/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2461,
+            "sheetHeight": 33,
+            "frameWidth": 2461,
+            "frameHeight": 33,
+            "frameCount": 1
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/sci-fi_samurai/with_spear/die.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2461,
+            "sheetHeight": 33,
+            "frameWidth": 2461,
+            "frameHeight": 33,
+            "frameCount": 1
+          },
+          "originalName": "die"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/sci-fi_samurai/with_spear/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2461,
+            "sheetHeight": 33,
+            "frameWidth": 2461,
+            "frameHeight": 33,
+            "frameCount": 1
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/sci-fi_samurai/with_spear/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2461,
+            "sheetHeight": 33,
+            "frameWidth": 2461,
+            "frameHeight": 33,
+            "frameCount": 1
+          },
+          "originalName": "run"
         }
       }
     },
@@ -8524,11 +8503,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "eat"
         },
@@ -8539,11 +8519,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion-bark"
         },
@@ -8554,11 +8535,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 32
+            "sheetWidth": 4032,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 16,
+            "anchorX": 55
           },
           "originalName": "strange_companion-blast_1"
         },
@@ -8569,11 +8551,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2772,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 44
+            "sheetWidth": 5544,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 22,
+            "anchorX": 55
           },
           "originalName": "strange_companion-blast_2"
         },
@@ -8584,11 +8567,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion-chill"
         },
@@ -8599,11 +8583,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-fall"
         },
@@ -8614,11 +8599,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion-idle"
         },
@@ -8629,11 +8615,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-jump"
         },
@@ -8644,11 +8631,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-land"
         },
@@ -8659,11 +8647,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-move"
         },
@@ -8674,11 +8663,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-roll"
         },
@@ -8689,11 +8679,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 882,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 14
+            "sheetWidth": 1764,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 7,
+            "anchorX": 55
           },
           "originalName": "strange_companion-roll_end"
         },
@@ -8704,11 +8695,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 2142,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 34
+            "sheetWidth": 4284,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 17,
+            "anchorX": 55
           },
           "originalName": "strange_companion-sit"
         },
@@ -8719,11 +8711,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion-sleep"
         },
@@ -8732,13 +8725,14 @@
           "key": "to_idle",
           "file": "animals/a_strange_companion/strange_companion_black/strange_companion-to_idle.png",
           "category": "movement",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1512,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 24
+            "sheetWidth": 3024,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 12,
+            "anchorX": 55
           },
           "originalName": "strange_companion-to_idle"
         },
@@ -8749,11 +8743,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 252,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 4
+            "sheetWidth": 504,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 2,
+            "anchorX": 55
           },
           "originalName": "strange_companion-to_roll"
         },
@@ -8762,13 +8757,14 @@
           "key": "to_sleep",
           "file": "animals/a_strange_companion/strange_companion_black/strange_companion-to_sleep.png",
           "category": "state",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion-to_sleep"
         },
@@ -8779,11 +8775,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion-trans_jump_to_fall"
         },
@@ -8794,11 +8791,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 630,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 10
+            "sheetWidth": 1260,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 5,
+            "anchorX": 55
           },
           "originalName": "strange_companion-trans_to_jump"
         },
@@ -8809,11 +8807,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion-wake_up"
         },
@@ -8824,10 +8823,10 @@
           "category": "ranged",
           "loops": false,
           "frames": {
-            "sheetWidth": 288,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 576,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 9
           },
           "originalName": "projectile_32x32-explode"
@@ -8839,10 +8838,10 @@
           "category": "ranged",
           "loops": true,
           "frames": {
-            "sheetWidth": 64,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 128,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 2
           },
           "originalName": "projectile_32x32-idle"
@@ -8861,11 +8860,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "eat"
         },
@@ -8876,11 +8876,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-bark"
         },
@@ -8891,11 +8892,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 32
+            "sheetWidth": 4032,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 16,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-blast_1"
         },
@@ -8906,11 +8908,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2772,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 44
+            "sheetWidth": 5544,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 22,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-blast_2"
         },
@@ -8921,11 +8924,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-chill"
         },
@@ -8936,11 +8940,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-fall"
         },
@@ -8951,11 +8956,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-idle"
         },
@@ -8966,11 +8972,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-jump"
         },
@@ -8981,11 +8988,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-land"
         },
@@ -8996,11 +9004,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-move"
         },
@@ -9011,11 +9020,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-roll"
         },
@@ -9026,11 +9036,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 882,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 14
+            "sheetWidth": 1764,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 7,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-roll_end"
         },
@@ -9041,11 +9052,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 2142,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 34
+            "sheetWidth": 4284,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 17,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-sit"
         },
@@ -9056,11 +9068,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-sleep"
         },
@@ -9069,13 +9082,14 @@
           "key": "to_idle",
           "file": "animals/a_strange_companion/strange_companion_red/strange_companion_red-to_idle.png",
           "category": "movement",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1512,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 24
+            "sheetWidth": 3024,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 12,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-to_idle"
         },
@@ -9086,11 +9100,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 252,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 4
+            "sheetWidth": 504,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 2,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-to_roll"
         },
@@ -9099,13 +9114,14 @@
           "key": "to_sleep",
           "file": "animals/a_strange_companion/strange_companion_red/strange_companion_red-to_sleep.png",
           "category": "state",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-to_sleep"
         },
@@ -9116,11 +9132,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-trans_jump_to_fall"
         },
@@ -9131,11 +9148,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 630,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 10
+            "sheetWidth": 1260,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 5,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-trans_to_jump"
         },
@@ -9146,11 +9164,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion_red-wake_up"
         },
@@ -9161,10 +9180,10 @@
           "category": "ranged",
           "loops": false,
           "frames": {
-            "sheetWidth": 288,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 576,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 9
           },
           "originalName": "projectile_32x32-explode"
@@ -9176,10 +9195,10 @@
           "category": "ranged",
           "loops": true,
           "frames": {
-            "sheetWidth": 64,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 128,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 2
           },
           "originalName": "projectile_32x32-idle"
@@ -9198,11 +9217,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "eat"
         },
@@ -9213,11 +9233,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-bark"
         },
@@ -9228,11 +9249,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 32
+            "sheetWidth": 4032,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 16,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-blast_1"
         },
@@ -9243,11 +9265,12 @@
           "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 2772,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 44
+            "sheetWidth": 5544,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 22,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-blast_2"
         },
@@ -9258,11 +9281,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-chill"
         },
@@ -9273,11 +9297,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-fall"
         },
@@ -9288,11 +9313,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 1008,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 16
+            "sheetWidth": 2016,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 8,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-idle"
         },
@@ -9303,11 +9329,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-jump"
         },
@@ -9318,11 +9345,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-land"
         },
@@ -9333,11 +9361,12 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-move"
         },
@@ -9348,11 +9377,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-roll"
         },
@@ -9363,11 +9393,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 882,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 14
+            "sheetWidth": 1764,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 7,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-roll_end"
         },
@@ -9378,11 +9409,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 2142,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 34
+            "sheetWidth": 4284,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 17,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-sit"
         },
@@ -9393,11 +9425,12 @@
           "category": "state",
           "loops": true,
           "frames": {
-            "sheetWidth": 3024,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 48
+            "sheetWidth": 6048,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 24,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-sleep"
         },
@@ -9406,13 +9439,14 @@
           "key": "to_idle",
           "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-to_idle.png",
           "category": "movement",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1512,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 24
+            "sheetWidth": 3024,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 12,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-to_idle"
         },
@@ -9423,11 +9457,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 252,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 4
+            "sheetWidth": 504,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 2,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-to_roll"
         },
@@ -9436,13 +9471,14 @@
           "key": "to_sleep",
           "file": "animals/a_strange_companion/strange_companion_teal/strange_companion_teal-to_sleep.png",
           "category": "state",
-          "loops": true,
+          "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-to_sleep"
         },
@@ -9453,11 +9489,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 504,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 8
+            "sheetWidth": 1008,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 4,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-trans_jump_to_fall"
         },
@@ -9468,11 +9505,12 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 630,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 10
+            "sheetWidth": 1260,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 5,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-trans_to_jump"
         },
@@ -9483,11 +9521,12 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 1260,
-            "sheetHeight": 25,
-            "frameWidth": 63,
-            "frameHeight": 25,
-            "frameCount": 20
+            "sheetWidth": 2520,
+            "sheetHeight": 50,
+            "frameWidth": 252,
+            "frameHeight": 50,
+            "frameCount": 10,
+            "anchorX": 55
           },
           "originalName": "strange_companion_teal-wake_up"
         },
@@ -9498,10 +9537,10 @@
           "category": "ranged",
           "loops": false,
           "frames": {
-            "sheetWidth": 288,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 576,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 9
           },
           "originalName": "projectile_32x32-explode"
@@ -9513,10 +9552,10 @@
           "category": "ranged",
           "loops": true,
           "frames": {
-            "sheetWidth": 64,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
+            "sheetWidth": 128,
+            "sheetHeight": 64,
+            "frameWidth": 64,
+            "frameHeight": 64,
             "frameCount": 2
           },
           "originalName": "projectile_32x32-idle"
@@ -10918,6 +10957,1896 @@
       }
     }
   },
+  "objects": {
+    "ancient_caves": {
+      "biome": "ancient_caves",
+      "path": "ancient_caves/objects/animated_objects",
+      "objects": {
+        "ancient_rock_animations": {
+          "type": "standard",
+          "id": "ancient_rock_animations",
+          "path": "ancient_caves/objects/animated_objects",
+          "animations": {
+            "animation1": {
+              "type": "simple",
+              "key": "animation1",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 354,
+                "sheetHeight": 33,
+                "frameWidth": 36,
+                "frameHeight": 33,
+                "frameCount": 10
+              },
+              "originalName": "ancient_rock_animations_1"
+            },
+            "animation2": {
+              "type": "simple",
+              "key": "animation2",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 288,
+                "sheetHeight": 33,
+                "frameWidth": 36,
+                "frameHeight": 33,
+                "frameCount": 8
+              },
+              "originalName": "ancient_rock_animations_2"
+            },
+            "animation3": {
+              "type": "simple",
+              "key": "animation3",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 504,
+                "sheetHeight": 50,
+                "frameWidth": 36,
+                "frameHeight": 50,
+                "frameCount": 14
+              },
+              "originalName": "ancient_rock_animations_3"
+            }
+          }
+        },
+        "smoke_animations": {
+          "type": "standard",
+          "id": "smoke_animations",
+          "path": "ancient_caves/objects/animated_objects",
+          "animations": {
+            "animation1": {
+              "type": "simple",
+              "key": "animation1",
+              "file": "ancient_caves/objects/animated_objects/smoke_animations_2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 96,
+                "sheetHeight": 36,
+                "frameWidth": 12,
+                "frameHeight": 36,
+                "frameCount": 8
+              },
+              "originalName": "smoke_animations_2"
+            },
+            "animation2": {
+              "type": "simple",
+              "key": "animation2",
+              "file": "ancient_caves/objects/animated_objects/smoke_animations_3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 96,
+                "sheetHeight": 26,
+                "frameWidth": 12,
+                "frameHeight": 26,
+                "frameCount": 8
+              },
+              "originalName": "smoke_animations_3"
+            },
+            "animation3": {
+              "type": "simple",
+              "key": "animation3",
+              "file": "ancient_caves/objects/animated_objects/smoke_animations_4.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 192,
+                "sheetHeight": 38,
+                "frameWidth": 12,
+                "frameHeight": 38,
+                "frameCount": 16
+              },
+              "originalName": "smoke_animations_4"
+            }
+          }
+        },
+        "throne": {
+          "type": "standard",
+          "id": "throne",
+          "path": "ancient_caves/objects/animated_objects",
+          "animations": {
+            "animation1": {
+              "type": "simple",
+              "key": "animation1",
+              "file": "ancient_caves/objects/animated_objects/throne_1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1536,
+                "sheetHeight": 64,
+                "frameWidth": 96,
+                "frameHeight": 64,
+                "frameCount": 16
+              },
+              "originalName": "throne_1"
+            },
+            "animation2": {
+              "type": "simple",
+              "key": "animation2",
+              "file": "ancient_caves/objects/animated_objects/throne_2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1728,
+                "sheetHeight": 64,
+                "frameWidth": 96,
+                "frameHeight": 64,
+                "frameCount": 18
+              },
+              "originalName": "throne_2"
+            }
+          }
+        }
+      }
+    },
+    "blood_temple": {
+      "biome": "blood_temple",
+      "path": "blood_temple/objects/animated_objects",
+      "objects": {
+        "statue": {
+          "type": "standard",
+          "id": "statue",
+          "path": "blood_temple/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "blood_temple/objects/animated_objects/statue.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1024,
+                "sheetHeight": 112,
+                "frameWidth": 128,
+                "frameHeight": 112,
+                "frameCount": 8
+              },
+              "originalName": "statue"
+            }
+          }
+        }
+      }
+    },
+    "castle_of_bones": {
+      "biome": "castle_of_bones",
+      "path": "castle_of_bones/objects/animated_objects",
+      "objects": {
+        "candles": {
+          "type": "standard",
+          "id": "candles",
+          "path": "castle_of_bones/objects/animated_objects",
+          "animations": {
+            "animation1": {
+              "type": "simple",
+              "key": "animation1",
+              "file": "castle_of_bones/objects/animated_objects/candles_1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 256,
+                "sheetHeight": 18,
+                "frameWidth": 32,
+                "frameHeight": 18,
+                "frameCount": 8
+              },
+              "originalName": "candles_1"
+            },
+            "animation2": {
+              "type": "simple",
+              "key": "animation2",
+              "file": "castle_of_bones/objects/animated_objects/candles_2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 256,
+                "sheetHeight": 15,
+                "frameWidth": 32,
+                "frameHeight": 15,
+                "frameCount": 8
+              },
+              "originalName": "candles_2"
+            },
+            "animation3": {
+              "type": "simple",
+              "key": "animation3",
+              "file": "castle_of_bones/objects/animated_objects/candles_3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 256,
+                "sheetHeight": 18,
+                "frameWidth": 32,
+                "frameHeight": 18,
+                "frameCount": 8
+              },
+              "originalName": "candles_3"
+            }
+          }
+        },
+        "ancient_door": {
+          "type": "standard",
+          "id": "ancient_door",
+          "path": "castle_of_bones/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "castle_of_bones/objects/animated_objects/ancient_door.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 3072,
+                "sheetHeight": 144,
+                "frameWidth": 64,
+                "frameHeight": 144,
+                "frameCount": 48
+              },
+              "originalName": "ancient_door"
+            }
+          }
+        },
+        "ember_pit_shrine": {
+          "type": "standard",
+          "id": "ember_pit_shrine",
+          "path": "castle_of_bones/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "castle_of_bones/objects/animated_objects/ember_pit_shrine.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 320,
+                "sheetHeight": 33,
+                "frameWidth": 32,
+                "frameHeight": 33,
+                "frameCount": 10
+              },
+              "originalName": "ember_pit_shrine"
+            }
+          }
+        },
+        "lever": {
+          "type": "standard",
+          "id": "lever",
+          "path": "castle_of_bones/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "castle_of_bones/objects/animated_objects/lever.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 256,
+                "sheetHeight": 32,
+                "frameWidth": 32,
+                "frameHeight": 32,
+                "frameCount": 8
+              },
+              "originalName": "lever"
+            }
+          }
+        },
+        "torch_1": {
+          "type": "standard",
+          "id": "torch_1",
+          "path": "castle_of_bones/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "castle_of_bones/objects/animated_objects/torch_1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 640,
+                "sheetHeight": 64,
+                "frameWidth": 64,
+                "frameHeight": 64,
+                "frameCount": 10
+              },
+              "originalName": "torch_1"
+            }
+          }
+        }
+      }
+    },
+    "general": {
+      "biome": "general",
+      "path": "general/objects/animated_objects",
+      "objects": {
+        "animated_trees": {
+          "type": "standard",
+          "id": "animated_trees",
+          "path": "general/objects/animated_objects/animated_trees",
+          "animations": {
+            "blood_tree_1_animation1": {
+              "type": "simple",
+              "key": "blood_tree_1_animation1",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 896,
+                "sheetHeight": 128,
+                "frameWidth": 112,
+                "frameHeight": 128,
+                "frameCount": 8
+              },
+              "originalName": "blood_tree_1_animation1"
+            },
+            "blood_tree_1_animation2": {
+              "type": "simple",
+              "key": "blood_tree_1_animation2",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1456,
+                "sheetHeight": 128,
+                "frameWidth": 112,
+                "frameHeight": 128,
+                "frameCount": 13
+              },
+              "originalName": "blood_tree_1_animation2"
+            },
+            "blood_tree_1_animation3": {
+              "type": "simple",
+              "key": "blood_tree_1_animation3",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 896,
+                "sheetHeight": 128,
+                "frameWidth": 112,
+                "frameHeight": 128,
+                "frameCount": 8
+              },
+              "originalName": "blood_tree_1_animation3"
+            },
+            "blood_tree_1_animation4": {
+              "type": "simple",
+              "key": "blood_tree_1_animation4",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation4.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1792,
+                "sheetHeight": 128,
+                "frameWidth": 112,
+                "frameHeight": 128,
+                "frameCount": 16
+              },
+              "originalName": "blood_tree_1_animation4"
+            },
+            "blood_tree_2_animation1": {
+              "type": "simple",
+              "key": "blood_tree_2_animation1",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1024,
+                "sheetHeight": 96,
+                "frameWidth": 128,
+                "frameHeight": 96,
+                "frameCount": 8
+              },
+              "originalName": "blood_tree_2_animation1"
+            },
+            "blood_tree_2_animation2": {
+              "type": "simple",
+              "key": "blood_tree_2_animation2",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1920,
+                "sheetHeight": 96,
+                "frameWidth": 128,
+                "frameHeight": 96,
+                "frameCount": 15
+              },
+              "originalName": "blood_tree_2_animation2"
+            },
+            "blood_tree_2_animation3": {
+              "type": "simple",
+              "key": "blood_tree_2_animation3",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1024,
+                "sheetHeight": 96,
+                "frameWidth": 128,
+                "frameHeight": 96,
+                "frameCount": 8
+              },
+              "originalName": "blood_tree_2_animation3"
+            },
+            "blood_tree_2_animation4": {
+              "type": "simple",
+              "key": "blood_tree_2_animation4",
+              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation4.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 2048,
+                "sheetHeight": 96,
+                "frameWidth": 128,
+                "frameHeight": 96,
+                "frameCount": 16
+              },
+              "originalName": "blood_tree_2_animation4"
+            }
+          }
+        },
+        "custom_fires": {
+          "type": "standard",
+          "id": "custom_fires",
+          "path": "general/objects/animated_objects/custom_fires",
+          "animations": {
+            "rock_blue_calm": {
+              "type": "simple",
+              "key": "rock_blue_calm",
+              "file": "general/objects/animated_objects/custom_fires/rock_blue_calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_blue_calm"
+            },
+            "rock_blue_insane": {
+              "type": "simple",
+              "key": "rock_blue_insane",
+              "file": "general/objects/animated_objects/custom_fires/rock_blue_insane.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_blue_insane"
+            },
+            "rock_blue_mild": {
+              "type": "simple",
+              "key": "rock_blue_mild",
+              "file": "general/objects/animated_objects/custom_fires/rock_blue_mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_blue_mild"
+            },
+            "rock_blue_wild": {
+              "type": "simple",
+              "key": "rock_blue_wild",
+              "file": "general/objects/animated_objects/custom_fires/rock_blue_wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_blue_wild"
+            },
+            "rock_orange_calm": {
+              "type": "simple",
+              "key": "rock_orange_calm",
+              "file": "general/objects/animated_objects/custom_fires/rock_orange_calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_orange_calm"
+            },
+            "rock_orange_insane": {
+              "type": "simple",
+              "key": "rock_orange_insane",
+              "file": "general/objects/animated_objects/custom_fires/rock_orange_insane.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_orange_insane"
+            },
+            "rock_orange_mild": {
+              "type": "simple",
+              "key": "rock_orange_mild",
+              "file": "general/objects/animated_objects/custom_fires/rock_orange_mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_orange_mild"
+            },
+            "rock_orange_wild": {
+              "type": "simple",
+              "key": "rock_orange_wild",
+              "file": "general/objects/animated_objects/custom_fires/rock_orange_wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_orange_wild"
+            },
+            "rock_purple_calm": {
+              "type": "simple",
+              "key": "rock_purple_calm",
+              "file": "general/objects/animated_objects/custom_fires/rock_purple_calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_purple_calm"
+            },
+            "rock_purple_insane": {
+              "type": "simple",
+              "key": "rock_purple_insane",
+              "file": "general/objects/animated_objects/custom_fires/rock_purple_insane.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_purple_insane"
+            },
+            "rock_purple_mild": {
+              "type": "simple",
+              "key": "rock_purple_mild",
+              "file": "general/objects/animated_objects/custom_fires/rock_purple_mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_purple_mild"
+            },
+            "rock_purple_wild": {
+              "type": "simple",
+              "key": "rock_purple_wild",
+              "file": "general/objects/animated_objects/custom_fires/rock_purple_wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "rock_purple_wild"
+            },
+            "stone_blue_calm": {
+              "type": "simple",
+              "key": "stone_blue_calm",
+              "file": "general/objects/animated_objects/custom_fires/stone_blue_calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_blue_calm"
+            },
+            "stone_blue_insane": {
+              "type": "simple",
+              "key": "stone_blue_insane",
+              "file": "general/objects/animated_objects/custom_fires/stone_blue_insane.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_blue_insane"
+            },
+            "stone_blue_mild": {
+              "type": "simple",
+              "key": "stone_blue_mild",
+              "file": "general/objects/animated_objects/custom_fires/stone_blue_mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_blue_mild"
+            },
+            "stone_blue_wild": {
+              "type": "simple",
+              "key": "stone_blue_wild",
+              "file": "general/objects/animated_objects/custom_fires/stone_blue_wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_blue_wild"
+            },
+            "stone_custom_fires-calm": {
+              "type": "simple",
+              "key": "stone_custom_fires-calm",
+              "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_custom_fires-calm"
+            },
+            "stone_custom_fires-insnae": {
+              "type": "simple",
+              "key": "stone_custom_fires-insnae",
+              "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-insnae.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_custom_fires-insnae"
+            },
+            "stone_custom_fires-mild": {
+              "type": "simple",
+              "key": "stone_custom_fires-mild",
+              "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_custom_fires-mild"
+            },
+            "stone_custom_fires-wild": {
+              "type": "simple",
+              "key": "stone_custom_fires-wild",
+              "file": "general/objects/animated_objects/custom_fires/stone_custom_fires-wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_custom_fires-wild"
+            },
+            "stone_purple_calm": {
+              "type": "simple",
+              "key": "stone_purple_calm",
+              "file": "general/objects/animated_objects/custom_fires/stone_purple_calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_purple_calm"
+            },
+            "stone_purple_insane": {
+              "type": "simple",
+              "key": "stone_purple_insane",
+              "file": "general/objects/animated_objects/custom_fires/stone_purple_insane.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_purple_insane"
+            },
+            "stone_purple_mild": {
+              "type": "simple",
+              "key": "stone_purple_mild",
+              "file": "general/objects/animated_objects/custom_fires/stone_purple_mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_purple_mild"
+            },
+            "stone_purple_wild": {
+              "type": "simple",
+              "key": "stone_purple_wild",
+              "file": "general/objects/animated_objects/custom_fires/stone_purple_wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 468,
+                "sheetHeight": 38,
+                "frameWidth": 39,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "stone_purple_wild"
+            },
+            "wood_custom_fires-calm": {
+              "type": "simple",
+              "key": "wood_custom_fires-calm",
+              "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-calm.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "wood_custom_fires-calm"
+            },
+            "wood_custom_fires-insnae": {
+              "type": "simple",
+              "key": "wood_custom_fires-insnae",
+              "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-insnae.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "wood_custom_fires-insnae"
+            },
+            "wood_custom_fires-mild": {
+              "type": "simple",
+              "key": "wood_custom_fires-mild",
+              "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-mild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "wood_custom_fires-mild"
+            },
+            "wood_custom_fires-wild": {
+              "type": "simple",
+              "key": "wood_custom_fires-wild",
+              "file": "general/objects/animated_objects/custom_fires/wood_custom_fires-wild.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 38,
+                "frameWidth": 36,
+                "frameHeight": 38,
+                "frameCount": 12
+              },
+              "originalName": "wood_custom_fires-wild"
+            }
+          }
+        },
+        "portals": {
+          "type": "standard",
+          "id": "portals",
+          "path": "general/objects/animated_objects/portals",
+          "animations": {
+            "ancient_tech_portal_animation1": {
+              "type": "simple",
+              "key": "ancient_tech_portal_animation1",
+              "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4536,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 24
+              },
+              "originalName": "ancient_tech_portal_animation1"
+            },
+            "ancient_tech_portal_animation2": {
+              "type": "simple",
+              "key": "ancient_tech_portal_animation2",
+              "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 3213,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 17
+              },
+              "originalName": "ancient_tech_portal_animation2"
+            },
+            "ancient_tech_portal_animation3": {
+              "type": "simple",
+              "key": "ancient_tech_portal_animation3",
+              "file": "general/objects/animated_objects/portals/ancient_tech_portal_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1323,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 7
+              },
+              "originalName": "ancient_tech_portal_animation3"
+            },
+            "blood_portal_animation1": {
+              "type": "simple",
+              "key": "blood_portal_animation1",
+              "file": "general/objects/animated_objects/portals/blood_portal_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4536,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 24
+              },
+              "originalName": "blood_portal_animation1"
+            },
+            "blood_portal_animation2": {
+              "type": "simple",
+              "key": "blood_portal_animation2",
+              "file": "general/objects/animated_objects/portals/blood_portal_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4536,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 24
+              },
+              "originalName": "blood_portal_animation2"
+            },
+            "blood_portal_animation3": {
+              "type": "simple",
+              "key": "blood_portal_animation3",
+              "file": "general/objects/animated_objects/portals/blood_portal_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1890,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 10
+              },
+              "originalName": "blood_portal_animation3"
+            },
+            "grassy_portal_animation1": {
+              "type": "simple",
+              "key": "grassy_portal_animation1",
+              "file": "general/objects/animated_objects/portals/grassy_portal_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4536,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 24
+              },
+              "originalName": "grassy_portal_animation1"
+            },
+            "grassy_portal_animation2": {
+              "type": "simple",
+              "key": "grassy_portal_animation2",
+              "file": "general/objects/animated_objects/portals/grassy_portal_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 3213,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 17
+              },
+              "originalName": "grassy_portal_animation2"
+            },
+            "grassy_portal_animation3": {
+              "type": "simple",
+              "key": "grassy_portal_animation3",
+              "file": "general/objects/animated_objects/portals/grassy_portal_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1323,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 7
+              },
+              "originalName": "grassy_portal_animation3"
+            },
+            "normal_portal_animation1": {
+              "type": "simple",
+              "key": "normal_portal_animation1",
+              "file": "general/objects/animated_objects/portals/normal_portal_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4536,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 24
+              },
+              "originalName": "normal_portal_animation1"
+            },
+            "normal_portal_animation2": {
+              "type": "simple",
+              "key": "normal_portal_animation2",
+              "file": "general/objects/animated_objects/portals/normal_portal_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 3213,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 17
+              },
+              "originalName": "normal_portal_animation2"
+            },
+            "normal_portal_animation3": {
+              "type": "simple",
+              "key": "normal_portal_animation3",
+              "file": "general/objects/animated_objects/portals/normal_portal_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1323,
+                "sheetHeight": 90,
+                "frameWidth": 189,
+                "frameHeight": 90,
+                "frameCount": 7
+              },
+              "originalName": "normal_portal_animation3"
+            }
+          }
+        },
+        "sci-fi_chests": {
+          "type": "standard",
+          "id": "sci-fi_chests",
+          "path": "general/objects/animated_objects/sci-fi_chests",
+          "animations": {
+            "chest_1.1": {
+              "type": "simple",
+              "key": "chest_1.1",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_1.1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 700,
+                "sheetHeight": 19,
+                "frameWidth": 20,
+                "frameHeight": 19,
+                "frameCount": 35
+              },
+              "originalName": "chest_1.1"
+            },
+            "chest_1.2": {
+              "type": "simple",
+              "key": "chest_1.2",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_1.2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 700,
+                "sheetHeight": 19,
+                "frameWidth": 20,
+                "frameHeight": 19,
+                "frameCount": 35
+              },
+              "originalName": "chest_1.2"
+            },
+            "chest_1.3": {
+              "type": "simple",
+              "key": "chest_1.3",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_1.3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 700,
+                "sheetHeight": 19,
+                "frameWidth": 20,
+                "frameHeight": 19,
+                "frameCount": 35
+              },
+              "originalName": "chest_1.3"
+            },
+            "chest_2.1": {
+              "type": "simple",
+              "key": "chest_2.1",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_2.1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 952,
+                "sheetHeight": 19,
+                "frameWidth": 28,
+                "frameHeight": 19,
+                "frameCount": 34
+              },
+              "originalName": "chest_2.1"
+            },
+            "chest_2.2": {
+              "type": "simple",
+              "key": "chest_2.2",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_2.2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 952,
+                "sheetHeight": 19,
+                "frameWidth": 28,
+                "frameHeight": 19,
+                "frameCount": 34
+              },
+              "originalName": "chest_2.2"
+            },
+            "chest_2.3": {
+              "type": "simple",
+              "key": "chest_2.3",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_2.3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 952,
+                "sheetHeight": 19,
+                "frameWidth": 28,
+                "frameHeight": 19,
+                "frameCount": 34
+              },
+              "originalName": "chest_2.3"
+            },
+            "chest_5.1": {
+              "type": "simple",
+              "key": "chest_5.1",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_5.1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 2365,
+                "sheetHeight": 29,
+                "frameWidth": 43,
+                "frameHeight": 29,
+                "frameCount": 55
+              },
+              "originalName": "chest_5.1"
+            },
+            "chest_5.2": {
+              "type": "simple",
+              "key": "chest_5.2",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_5.2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 2365,
+                "sheetHeight": 29,
+                "frameWidth": 43,
+                "frameHeight": 29,
+                "frameCount": 55
+              },
+              "originalName": "chest_5.2"
+            },
+            "chest_5.3": {
+              "type": "simple",
+              "key": "chest_5.3",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_5.3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 2365,
+                "sheetHeight": 29,
+                "frameWidth": 43,
+                "frameHeight": 29,
+                "frameCount": 55
+              },
+              "originalName": "chest_5.3"
+            },
+            "chest_6.1": {
+              "type": "simple",
+              "key": "chest_6.1",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_6.1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1428,
+                "sheetHeight": 12,
+                "frameWidth": 42,
+                "frameHeight": 12,
+                "frameCount": 34
+              },
+              "originalName": "chest_6.1"
+            },
+            "chest_6.2": {
+              "type": "simple",
+              "key": "chest_6.2",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_6.2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1428,
+                "sheetHeight": 12,
+                "frameWidth": 42,
+                "frameHeight": 12,
+                "frameCount": 34
+              },
+              "originalName": "chest_6.2"
+            },
+            "chest_6.3": {
+              "type": "simple",
+              "key": "chest_6.3",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_6.3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1428,
+                "sheetHeight": 12,
+                "frameWidth": 42,
+                "frameHeight": 12,
+                "frameCount": 34
+              },
+              "originalName": "chest_6.3"
+            },
+            "chest_7.1": {
+              "type": "simple",
+              "key": "chest_7.1",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_7.1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1026,
+                "sheetHeight": 13,
+                "frameWidth": 27,
+                "frameHeight": 13,
+                "frameCount": 38
+              },
+              "originalName": "chest_7.1"
+            },
+            "chest_7.2": {
+              "type": "simple",
+              "key": "chest_7.2",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_7.2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1026,
+                "sheetHeight": 13,
+                "frameWidth": 27,
+                "frameHeight": 13,
+                "frameCount": 38
+              },
+              "originalName": "chest_7.2"
+            },
+            "chest_7.3": {
+              "type": "simple",
+              "key": "chest_7.3",
+              "file": "general/objects/animated_objects/sci-fi_chests/chest_7.3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1026,
+                "sheetHeight": 13,
+                "frameWidth": 27,
+                "frameHeight": 13,
+                "frameCount": 38
+              },
+              "originalName": "chest_7.3"
+            }
+          }
+        },
+        "shops": {
+          "type": "standard",
+          "id": "shops",
+          "path": "general/objects/animated_objects/shops",
+          "animations": {
+            "blood_shop_animation1": {
+              "type": "simple",
+              "key": "blood_shop_animation1",
+              "file": "general/objects/animated_objects/shops/blood_shop_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 415,
+                "sheetHeight": 69,
+                "frameWidth": 83,
+                "frameHeight": 69,
+                "frameCount": 5
+              },
+              "originalName": "blood_shop_animation1"
+            },
+            "herb_shop": {
+              "type": "simple",
+              "key": "herb_shop",
+              "file": "general/objects/animated_objects/shops/herb_shop.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1680,
+                "sheetHeight": 52,
+                "frameWidth": 70,
+                "frameHeight": 52,
+                "frameCount": 24
+              },
+              "originalName": "herb_shop"
+            },
+            "tech_shop": {
+              "type": "simple",
+              "key": "tech_shop",
+              "file": "general/objects/animated_objects/shops/tech_shop.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1944,
+                "sheetHeight": 108,
+                "frameWidth": 108,
+                "frameHeight": 108,
+                "frameCount": 18
+              },
+              "originalName": "tech_shop"
+            }
+          }
+        },
+        "traps": {
+          "type": "standard",
+          "id": "traps",
+          "path": "general/objects/animated_objects/traps",
+          "animations": {
+            "bear_trap_animation1": {
+              "type": "simple",
+              "key": "bear_trap_animation1",
+              "file": "general/objects/animated_objects/traps/bear_trap_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 225,
+                "sheetHeight": 38,
+                "frameWidth": 32,
+                "frameHeight": 38,
+                "frameCount": 7
+              },
+              "originalName": "bear_trap_animation1"
+            },
+            "bear_trap_animation2": {
+              "type": "simple",
+              "key": "bear_trap_animation2",
+              "file": "general/objects/animated_objects/traps/bear_trap_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 225,
+                "sheetHeight": 38,
+                "frameWidth": 32,
+                "frameHeight": 38,
+                "frameCount": 7
+              },
+              "originalName": "bear_trap_animation2"
+            },
+            "shokcer_ejector": {
+              "type": "simple",
+              "key": "shokcer_ejector",
+              "file": "general/objects/animated_objects/traps/shokcer_ejector.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1280,
+                "sheetHeight": 64,
+                "frameWidth": 64,
+                "frameHeight": 64,
+                "frameCount": 20
+              },
+              "originalName": "shokcer_ejector"
+            },
+            "smoke_flame_ejector_blue": {
+              "type": "simple",
+              "key": "smoke_flame_ejector_blue",
+              "file": "general/objects/animated_objects/traps/smoke_flame_ejector_blue.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 272,
+                "sheetHeight": 33,
+                "frameWidth": 16,
+                "frameHeight": 33,
+                "frameCount": 17
+              },
+              "originalName": "smoke_flame_ejector_blue"
+            },
+            "smoke_flame_ejector_red": {
+              "type": "simple",
+              "key": "smoke_flame_ejector_red",
+              "file": "general/objects/animated_objects/traps/smoke_flame_ejector_red.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 272,
+                "sheetHeight": 33,
+                "frameWidth": 16,
+                "frameHeight": 33,
+                "frameCount": 17
+              },
+              "originalName": "smoke_flame_ejector_red"
+            },
+            "spike_ejector": {
+              "type": "simple",
+              "key": "spike_ejector",
+              "file": "general/objects/animated_objects/traps/spike_ejector.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 288,
+                "sheetHeight": 64,
+                "frameWidth": 16,
+                "frameHeight": 64,
+                "frameCount": 18
+              },
+              "originalName": "spike_ejector"
+            },
+            "spike_ejector_small": {
+              "type": "simple",
+              "key": "spike_ejector_small",
+              "file": "general/objects/animated_objects/traps/spike_ejector_small.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 288,
+                "sheetHeight": 64,
+                "frameWidth": 16,
+                "frameHeight": 64,
+                "frameCount": 18
+              },
+              "originalName": "spike_ejector_small"
+            },
+            "spikes": {
+              "type": "simple",
+              "key": "spikes",
+              "file": "general/objects/animated_objects/traps/spikes.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 432,
+                "sheetHeight": 16,
+                "frameWidth": 48,
+                "frameHeight": 16,
+                "frameCount": 9
+              },
+              "originalName": "spikes"
+            },
+            "swaying_sword_animation1": {
+              "type": "simple",
+              "key": "swaying_sword_animation1",
+              "file": "general/objects/animated_objects/traps/swaying_sword_animation1.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 945,
+                "sheetHeight": 106,
+                "frameWidth": 35,
+                "frameHeight": 106,
+                "frameCount": 27
+              },
+              "originalName": "swaying_sword_animation1"
+            },
+            "swaying_sword_animation2": {
+              "type": "simple",
+              "key": "swaying_sword_animation2",
+              "file": "general/objects/animated_objects/traps/swaying_sword_animation2.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 175,
+                "sheetHeight": 106,
+                "frameWidth": 35,
+                "frameHeight": 106,
+                "frameCount": 5
+              },
+              "originalName": "swaying_sword_animation2"
+            },
+            "swaying_sword_animation3": {
+              "type": "simple",
+              "key": "swaying_sword_animation3",
+              "file": "general/objects/animated_objects/traps/swaying_sword_animation3.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 35,
+                "sheetHeight": 106,
+                "frameWidth": 35,
+                "frameHeight": 106,
+                "frameCount": 1
+              },
+              "originalName": "swaying_sword_animation3"
+            },
+            "sword_slicer": {
+              "type": "simple",
+              "key": "sword_slicer",
+              "file": "general/objects/animated_objects/traps/sword_slicer.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1024,
+                "sheetHeight": 32,
+                "frameWidth": 64,
+                "frameHeight": 32,
+                "frameCount": 16
+              },
+              "originalName": "sword_slicer"
+            }
+          }
+        }
+      }
+    },
+    "somber_city": {
+      "biome": "somber_city",
+      "path": "somber_city/objects/animated_objects",
+      "objects": {
+        "distant_lightning": {
+          "type": "standard",
+          "id": "distant_lightning",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/distant_lightning.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 576,
+                "sheetHeight": 32,
+                "frameWidth": 32,
+                "frameHeight": 32,
+                "frameCount": 18
+              },
+              "originalName": "distant_lightning"
+            }
+          }
+        },
+        "door_fade": {
+          "type": "standard",
+          "id": "door_fade",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/door_fade.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 5240,
+                "sheetHeight": 121,
+                "frameWidth": 262,
+                "frameHeight": 121,
+                "frameCount": 20
+              },
+              "originalName": "door_fade"
+            }
+          }
+        },
+        "door_light_up": {
+          "type": "standard",
+          "id": "door_light_up",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/door_light_up.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 4978,
+                "sheetHeight": 121,
+                "frameWidth": 262,
+                "frameHeight": 121,
+                "frameCount": 19
+              },
+              "originalName": "door_light_up"
+            }
+          }
+        },
+        "fire_torch": {
+          "type": "standard",
+          "id": "fire_torch",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/fire_torch.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 90,
+                "sheetHeight": 17,
+                "frameWidth": 9,
+                "frameHeight": 17,
+                "frameCount": 10
+              },
+              "originalName": "fire_torch"
+            }
+          }
+        },
+        "large_lightning": {
+          "type": "standard",
+          "id": "large_lightning",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/large_lightning.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 1152,
+                "sheetHeight": 48,
+                "frameWidth": 64,
+                "frameHeight": 48,
+                "frameCount": 18
+              },
+              "originalName": "large_lightning"
+            }
+          }
+        },
+        "small_lightning": {
+          "type": "standard",
+          "id": "small_lightning",
+          "path": "somber_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "somber_city/objects/animated_objects/small_lightning.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 576,
+                "sheetHeight": 32,
+                "frameWidth": 32,
+                "frameHeight": 32,
+                "frameCount": 18
+              },
+              "originalName": "small_lightning"
+            }
+          }
+        }
+      }
+    },
+    "the_beneath": {
+      "biome": "the_beneath",
+      "path": "the_beneath/objects/animated_objects",
+      "objects": {
+        "portal": {
+          "type": "standard",
+          "id": "portal",
+          "path": "the_beneath/objects/animated_objects/portal",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/portal/idle.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 252,
+                "sheetHeight": 41,
+                "frameWidth": 21,
+                "frameHeight": 41,
+                "frameCount": 12
+              },
+              "originalName": "idle"
+            },
+            "warp": {
+              "type": "simple",
+              "key": "warp",
+              "file": "the_beneath/objects/animated_objects/portal/warp.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 252,
+                "sheetHeight": 41,
+                "frameWidth": 21,
+                "frameHeight": 41,
+                "frameCount": 12
+              },
+              "originalName": "warp"
+            }
+          }
+        },
+        "save": {
+          "type": "standard",
+          "id": "save",
+          "path": "the_beneath/objects/animated_objects/save",
+          "animations": {
+            "down": {
+              "type": "simple",
+              "key": "down",
+              "file": "the_beneath/objects/animated_objects/save/down.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 64,
+                "sheetHeight": 19,
+                "frameWidth": 16,
+                "frameHeight": 19,
+                "frameCount": 4
+              },
+              "originalName": "down"
+            },
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/save/idle.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 64,
+                "sheetHeight": 19,
+                "frameWidth": 16,
+                "frameHeight": 19,
+                "frameCount": 4
+              },
+              "originalName": "idle"
+            },
+            "start_up": {
+              "type": "simple",
+              "key": "start_up",
+              "file": "the_beneath/objects/animated_objects/save/start_up.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 112,
+                "sheetHeight": 19,
+                "frameWidth": 16,
+                "frameHeight": 19,
+                "frameCount": 7
+              },
+              "originalName": "start_up"
+            }
+          }
+        },
+        "door_open": {
+          "type": "standard",
+          "id": "door_open",
+          "path": "the_beneath/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/door_open.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 615,
+                "sheetHeight": 48,
+                "frameWidth": 41,
+                "frameHeight": 48,
+                "frameCount": 15
+              },
+              "originalName": "door_open"
+            }
+          }
+        },
+        "flower_glow": {
+          "type": "standard",
+          "id": "flower_glow",
+          "path": "the_beneath/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/flower_glow.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 160,
+                "sheetHeight": 16,
+                "frameWidth": 16,
+                "frameHeight": 16,
+                "frameCount": 10
+              },
+              "originalName": "flower_glow"
+            }
+          }
+        },
+        "light_with_bugs": {
+          "type": "standard",
+          "id": "light_with_bugs",
+          "path": "the_beneath/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/light_with_bugs.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 320,
+                "sheetHeight": 37,
+                "frameWidth": 32,
+                "frameHeight": 37,
+                "frameCount": 10
+              },
+              "originalName": "light_with_bugs"
+            }
+          }
+        },
+        "torch": {
+          "type": "standard",
+          "id": "torch",
+          "path": "the_beneath/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_beneath/objects/animated_objects/torch.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 56,
+                "sheetHeight": 37,
+                "frameWidth": 7,
+                "frameHeight": 37,
+                "frameCount": 8
+              },
+              "originalName": "torch"
+            }
+          }
+        }
+      }
+    },
+    "the_grotesque_city": {
+      "biome": "the_grotesque_city",
+      "path": "the_grotesque_city/objects/animated_objects",
+      "objects": {
+        "boss_door": {
+          "type": "standard",
+          "id": "boss_door",
+          "path": "the_grotesque_city/objects/animated_objects",
+          "animations": {
+            "idle": {
+              "type": "simple",
+              "key": "idle",
+              "file": "the_grotesque_city/objects/animated_objects/boss_door.png",
+              "category": "movement",
+              "loops": true,
+              "frames": {
+                "sheetWidth": 2928,
+                "sheetHeight": 75,
+                "frameWidth": 61,
+                "frameHeight": 75,
+                "frameCount": 48
+              },
+              "originalName": "boss_door"
+            }
+          }
+        }
+      }
+    }
+  },
   "validationIssues": [
     {
       "characterId": "civilians",
@@ -11388,6 +13317,36 @@
       "severity": "warning",
       "message": "Ambiguous frame size for \"teleport_attack\"",
       "file": "playable_character/sword_master_animations/regular_animations/teleport_attack.png"
+    },
+    {
+      "characterId": "ancient_caves/ancient_rock_animations",
+      "severity": "warning",
+      "message": "Ambiguous frame size for \"animation1\" — add FILE_FRAME_OVERRIDES entry",
+      "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_1.png"
+    },
+    {
+      "characterId": "ancient_caves/ancient_rock_animations",
+      "severity": "warning",
+      "message": "Ambiguous frame size for \"animation2\" — add FILE_FRAME_OVERRIDES entry",
+      "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_2.png"
+    },
+    {
+      "characterId": "general/traps",
+      "severity": "warning",
+      "message": "Ambiguous frame size for \"swaying_sword_animation1\" — add FILE_FRAME_OVERRIDES entry",
+      "file": "general/objects/animated_objects/traps/swaying_sword_animation1.png"
+    },
+    {
+      "characterId": "general/traps",
+      "severity": "warning",
+      "message": "Ambiguous frame size for \"swaying_sword_animation2\" — add FILE_FRAME_OVERRIDES entry",
+      "file": "general/objects/animated_objects/traps/swaying_sword_animation2.png"
+    },
+    {
+      "characterId": "general/traps",
+      "severity": "warning",
+      "message": "Ambiguous frame size for \"swaying_sword_animation3\" — add FILE_FRAME_OVERRIDES entry",
+      "file": "general/objects/animated_objects/traps/swaying_sword_animation3.png"
     }
   ]
 }
