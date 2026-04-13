@@ -31,6 +31,21 @@ export interface FrameData {
   /** Total number of frames (sheetWidth/frameWidth * sheetHeight/frameHeight) */
   frameCount: number;
   /**
+   * Horizontal anchor point (x), in pixels from the left edge of a single frame.
+   * Renderers should align this column with the entity's world X position.
+   *
+   * Set explicitly when the anchor was determined via the pink-pixel workflow
+   * (a #f311e7 pixel placed at the intended center of each frame).
+   * Omit when the anchor is simply frameWidth / 2 (content was bounding-box
+   * centered) — parsers must fall back to frameWidth / 2 when this field is absent.
+   */
+  anchorX?: number;
+  /**
+   * Index of the first frame within the sheet (0-based).
+   * Used when multiple animations share a single sprite sheet file.
+   */
+  startFrame?: number;
+  /**
    * true when multiple valid frame sizes divide the sheet evenly —
    * human review recommended.
    */

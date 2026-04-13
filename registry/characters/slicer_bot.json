@@ -1,0 +1,37 @@
+{
+  "type": "standard",
+  "id": "slicer_bot",
+  "path": "characters/slicer_bot",
+  "animations": {
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/slicer_bot/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 12,
+        "sheetHeight": 32,
+        "frameWidth": 12,
+        "frameHeight": 32,
+        "frameCount": 1
+      },
+      "originalName": "idle"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/slicer_bot/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 72,
+        "sheetHeight": 32,
+        "frameWidth": 12,
+        "frameHeight": 32,
+        "frameCount": 6
+      },
+      "originalName": "attack"
+    }
+  }
+}

@@ -7,6 +7,9 @@
       "type": "standard",
       "id": "good",
       "path": "characters/bo_panda/good_bo_panda",
+      "sequences": {
+        "attack1": ["special", "attack1"]
+      },
       "animations": {
         "death": {
           "type": "simple",
@@ -83,21 +86,6 @@
           },
           "originalName": "idle"
         },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/bo_panda/good_bo_panda/jab_repeat.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 618,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 6
-          },
-          "originalName": "jab_repeat"
-        },
         "attack3": {
           "type": "simple",
           "key": "attack3",
@@ -146,21 +134,6 @@
         "attack5": {
           "type": "simple",
           "key": "attack5",
-          "file": "characters/bo_panda/good_bo_panda/jump_with_spin.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "jump_with_spin"
-        },
-        "attack6": {
-          "type": "simple",
-          "key": "attack6",
           "file": "characters/bo_panda/good_bo_panda/quick_attacks.png",
           "category": "attack",
           "loops": false,
@@ -224,6 +197,9 @@
       "type": "standard",
       "id": "evil",
       "path": "characters/bo_panda/evil_bo_panda",
+      "sequences": {
+        "attack1": ["special", "attack1"]
+      },
       "animations": {
         "death": {
           "type": "simple",
@@ -300,21 +276,6 @@
           },
           "originalName": "idle"
         },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/bo_panda/evil_bo_panda/jab_repeat.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 618,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 6
-          },
-          "originalName": "jab_repeat"
-        },
         "attack3": {
           "type": "simple",
           "key": "attack3",
@@ -363,21 +324,6 @@
         "attack5": {
           "type": "simple",
           "key": "attack5",
-          "file": "characters/bo_panda/evil_bo_panda/jump_with_spin.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "jump_with_spin"
-        },
-        "attack6": {
-          "type": "simple",
-          "key": "attack6",
           "file": "characters/bo_panda/evil_bo_panda/quick_attacks.png",
           "category": "attack",
           "loops": false,

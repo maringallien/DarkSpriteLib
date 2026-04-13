@@ -2,39 +2,40 @@
   "type": "standard",
   "id": "the_heart_hoarder",
   "path": "characters/the_heart_hoarder",
+  "sequences": {
+    "move_attack": ["swords_appear", "attack2", "swords_disappear"],
+    "attack1": ["swords_disappear", "teleport_vanish", "teleport_appear", "attack1", "swords_appear"]
+  },
   "animations": {
-    "teleport": {
-      "type": "sequence",
-      "key": "teleport",
+    "teleport_vanish": {
+      "type": "simple",
+      "key": "teleport_vanish",
+      "file": "characters/the_heart_hoarder/the_heart_hoarder-vanish.png",
       "category": "special",
-      "parts": [
-        {
-          "key": "vanish",
-          "file": "characters/the_heart_hoarder/the_heart_hoarder-vanish.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1554,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 7
-          },
-          "originalName": "the_heart_hoarder-vanish"
-        },
-        {
-          "key": "appear",
-          "file": "characters/the_heart_hoarder/the_heart_hoarder-appear.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1998,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 9
-          },
-          "originalName": "the_heart_hoarder-appear"
-        }
-      ]
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1554,
+        "sheetHeight": 119,
+        "frameWidth": 222,
+        "frameHeight": 119,
+        "frameCount": 7
+      },
+      "originalName": "the_heart_hoarder-vanish"
+    },
+    "teleport_appear": {
+      "type": "simple",
+      "key": "teleport_appear",
+      "file": "characters/the_heart_hoarder/the_heart_hoarder-appear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1998,
+        "sheetHeight": 119,
+        "frameWidth": 222,
+        "frameHeight": 119,
+        "frameCount": 9
+      },
+      "originalName": "the_heart_hoarder-appear"
     },
     "attack1": {
       "type": "simple",
@@ -45,26 +46,11 @@
       "frames": {
         "sheetWidth": 8118,
         "sheetHeight": 121,
-        "frameWidth": 369,
+        "frameWidth": 246,
         "frameHeight": 121,
-        "frameCount": 22
+        "frameCount": 33
       },
       "originalName": "air attack slam sprite sheet 246x121"
-    },
-    "full_sheet": {
-      "type": "simple",
-      "key": "full_sheet",
-      "file": "characters/the_heart_hoarder/The Heart Hoarder Sprite sheet 222x119.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 7992,
-        "sheetHeight": 1547,
-        "frameWidth": 3996,
-        "frameHeight": 1547,
-        "frameCount": 2
-      },
-      "originalName": "the heart hoarder sprite sheet 222x119"
     },
     "death": {
       "type": "simple",
@@ -96,9 +82,9 @@
       },
       "originalName": "the_heart_hoarder-hit"
     },
-    "idle1": {
+    "idle": {
       "type": "simple",
-      "key": "idle1",
+      "key": "idle",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-idle.png",
       "category": "movement",
       "loops": true,
@@ -111,9 +97,9 @@
       },
       "originalName": "the_heart_hoarder-idle"
     },
-    "walk1": {
+    "walk": {
       "type": "simple",
-      "key": "walk1",
+      "key": "walk",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-move.png",
       "category": "movement",
       "loops": true,
@@ -141,9 +127,9 @@
       },
       "originalName": "the_heart_hoarder-move_attack"
     },
-    "attack3": {
+    "swords_appear": {
       "type": "simple",
-      "key": "attack3",
+      "key": "swords_appear",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-prep_move_attack.png",
       "category": "attack",
       "loops": false,
@@ -156,39 +142,9 @@
       },
       "originalName": "the_heart_hoarder-prep_move_attack"
     },
-    "idle2": {
+    "attack3": {
       "type": "simple",
-      "key": "idle2",
-      "file": "characters/the_heart_hoarder/the_heart_hoarder-return_to_idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 2886,
-        "sheetHeight": 119,
-        "frameWidth": 222,
-        "frameHeight": 119,
-        "frameCount": 13
-      },
-      "originalName": "the_heart_hoarder-return_to_idle"
-    },
-    "attack4": {
-      "type": "simple",
-      "key": "attack4",
-      "file": "characters/the_heart_hoarder/the_heart_hoarder-slam_attack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 7380,
-        "sheetHeight": 121,
-        "frameWidth": 369,
-        "frameHeight": 121,
-        "frameCount": 20
-      },
-      "originalName": "the_heart_hoarder-slam_attack"
-    },
-    "attack5": {
-      "type": "simple",
-      "key": "attack5",
+      "key": "attack3",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-slice_attack.png",
       "category": "attack",
       "loops": false,
@@ -201,9 +157,9 @@
       },
       "originalName": "the_heart_hoarder-slice_attack"
     },
-    "walk2": {
+    "run": {
       "type": "simple",
-      "key": "walk2",
+      "key": "run",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-start_moving.png",
       "category": "movement",
       "loops": false,
@@ -216,24 +172,9 @@
       },
       "originalName": "the_heart_hoarder-start_moving"
     },
-    "walk3": {
+    "swords_disappear": {
       "type": "simple",
-      "key": "walk3",
-      "file": "characters/the_heart_hoarder/the_heart_hoarder-stop_moving.png",
-      "category": "movement",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 888,
-        "sheetHeight": 119,
-        "frameWidth": 222,
-        "frameHeight": 119,
-        "frameCount": 4
-      },
-      "originalName": "the_heart_hoarder-stop_moving"
-    },
-    "attack6": {
-      "type": "simple",
-      "key": "attack6",
+      "key": "swords_disappear",
       "file": "characters/the_heart_hoarder/the_heart_hoarder-stop_moving_from_attack.png",
       "category": "attack",
       "loops": false,

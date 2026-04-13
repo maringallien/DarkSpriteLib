@@ -3,38 +3,35 @@
   "id": "tiny_swordmaster",
   "path": "characters/tiny_swordmaster",
   "animations": {
-    "teleport": {
-      "type": "sequence",
-      "key": "teleport",
+    "teleport_vanish": {
+      "type": "simple",
+      "key": "teleport_vanish",
+      "file": "characters/tiny_swordmaster/teleport_vanish.png",
       "category": "special",
-      "parts": [
-        {
-          "key": "vanish",
-          "file": "characters/tiny_swordmaster/teleport_vanish.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 273,
-            "sheetHeight": 40,
-            "frameWidth": 39,
-            "frameHeight": 40,
-            "frameCount": 7
-          },
-          "originalName": "teleport_vanish"
-        },
-        {
-          "key": "appear",
-          "file": "characters/tiny_swordmaster/teleport_appear.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 195,
-            "sheetHeight": 40,
-            "frameWidth": 39,
-            "frameHeight": 40,
-            "frameCount": 5
-          },
-          "originalName": "teleport_appear"
-        }
-      ]
+      "loops": false,
+      "frames": {
+        "sheetWidth": 273,
+        "sheetHeight": 40,
+        "frameWidth": 39,
+        "frameHeight": 40,
+        "frameCount": 7
+      },
+      "originalName": "teleport_vanish"
+    },
+    "teleport_appear": {
+      "type": "simple",
+      "key": "teleport_appear",
+      "file": "characters/tiny_swordmaster/teleport_appear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 195,
+        "sheetHeight": 40,
+        "frameWidth": 39,
+        "frameHeight": 40,
+        "frameCount": 5
+      },
+      "originalName": "teleport_appear"
     },
     "attack1": {
       "type": "simple",

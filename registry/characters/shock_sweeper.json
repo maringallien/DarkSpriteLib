@@ -27,9 +27,9 @@
       "frames": {
         "sheetWidth": 264,
         "sheetHeight": 33,
-        "frameWidth": 66,
+        "frameWidth": 88,
         "frameHeight": 33,
-        "frameCount": 4
+        "frameCount": 1
       },
       "originalName": "fall"
     },
@@ -57,9 +57,9 @@
       "frames": {
         "sheetWidth": 264,
         "sheetHeight": 33,
-        "frameWidth": 66,
+        "frameWidth": 88,
         "frameHeight": 33,
-        "frameCount": 4
+        "frameCount": 1
       },
       "originalName": "jump"
     },

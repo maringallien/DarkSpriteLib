@@ -3,9 +3,9 @@
   "id": "shadow_of_storms",
   "path": "characters/shadow_of_storms",
   "animations": {
-    "ranged": {
+    "attack3_vfx": {
       "type": "simple",
-      "key": "ranged",
+      "key": "attack3_vfx",
       "file": "characters/shadow_of_storms/50x51 Beam.png",
       "category": "ranged",
       "loops": false,
@@ -18,18 +18,138 @@
       },
       "originalName": "50x51 beam"
     },
-    "full_sheet": {
+    "idle": {
       "type": "simple",
-      "key": "full_sheet",
-      "file": "characters/shadow_of_storms/Shadow Of Storms 159x53.png",
-      "category": "ui",
+      "key": "idle",
+      "file": "characters/shadow_of_storms/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1908,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 12
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/shadow_of_storms/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1272,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 8
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "heal": {
+      "type": "simple",
+      "key": "heal",
+      "file": "characters/shadow_of_storms/heal.png",
+      "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 17013,
+        "sheetWidth": 2862,
         "sheetHeight": 53,
-        "frameWidth": 17013,
+        "frameWidth": 159,
         "frameHeight": 53,
-        "frameCount": 1
+        "frameCount": 18
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/shadow_of_storms/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1431,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 9
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/shadow_of_storms/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2067,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 13
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/shadow_of_storms/attack3.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2226,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 14
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/shadow_of_storms/attack4.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2862,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 18
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/shadow_of_storms/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 318,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 2
+      },
+      "originalName": "shadow of storms 159x53"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/shadow_of_storms/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1590,
+        "sheetHeight": 53,
+        "frameWidth": 159,
+        "frameHeight": 53,
+        "frameCount": 10
       },
       "originalName": "shadow of storms 159x53"
     }

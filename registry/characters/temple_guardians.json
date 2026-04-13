@@ -66,17 +66,17 @@
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/temple_guardians/return_to_idle_from_special.png",
+      "file": "characters/temple_guardians/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 480,
+        "sheetWidth": 28,
         "sheetHeight": 59,
-        "frameWidth": 160,
+        "frameWidth": 28,
         "frameHeight": 59,
-        "frameCount": 3
+        "frameCount": 1
       },
-      "originalName": "return_to_idle_from_special"
+      "originalName": "idle"
     },
     "special": {
       "type": "simple",
