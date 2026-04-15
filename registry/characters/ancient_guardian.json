@@ -6,7 +6,7 @@
     "appear": {
       "type": "simple",
       "key": "appear",
-      "file": "characters/ancient_guardian/guardian-appear.png",
+      "file": "characters/ancient_guardian/appear.png",
       "category": "special",
       "loops": false,
       "frames": {
@@ -16,12 +16,12 @@
         "frameHeight": 96,
         "frameCount": 8
       },
-      "originalName": "guardian-appear"
+      "originalName": "appear"
     },
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/ancient_guardian/guardian-beam-attack.png",
+      "file": "characters/ancient_guardian/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -31,12 +31,27 @@
         "frameHeight": 96,
         "frameCount": 24
       },
-      "originalName": "guardian-beam-attack"
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/ancient_guardian/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3984,
+        "sheetHeight": 96,
+        "frameWidth": 166,
+        "frameHeight": 96,
+        "frameCount": 24
+      },
+      "originalName": "attack2"
     },
     "attack3": {
       "type": "simple",
       "key": "attack3",
-      "file": "characters/ancient_guardian/guardian-blast.png",
+      "file": "characters/ancient_guardian/attack3.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -46,12 +61,12 @@
         "frameHeight": 96,
         "frameCount": 24
       },
-      "originalName": "guardian-blast"
+      "originalName": "attack3"
     },
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/ancient_guardian/guardian-death.png",
+      "file": "characters/ancient_guardian/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -61,42 +76,12 @@
         "frameHeight": 96,
         "frameCount": 12
       },
-      "originalName": "guardian-death"
+      "originalName": "death"
     },
-    "idle": {
+    "vanish": {
       "type": "simple",
-      "key": "idle",
-      "file": "characters/ancient_guardian/guardian-idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 3984,
-        "sheetHeight": 96,
-        "frameWidth": 166,
-        "frameHeight": 96,
-        "frameCount": 24
-      },
-      "originalName": "guardian-idle"
-    },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/ancient_guardian/guardian-laser_attack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 3984,
-        "sheetHeight": 96,
-        "frameWidth": 166,
-        "frameHeight": 96,
-        "frameCount": 24
-      },
-      "originalName": "guardian-laser_attack"
-    },
-    "disappear": {
-      "type": "simple",
-      "key": "disappear",
-      "file": "characters/ancient_guardian/guardian-tele.png",
+      "key": "vanish",
+      "file": "characters/ancient_guardian/disappear.png",
       "category": "special",
       "loops": false,
       "frames": {
@@ -106,7 +91,22 @@
         "frameHeight": 96,
         "frameCount": 12
       },
-      "originalName": "guardian-tele"
+      "originalName": "disappear"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/ancient_guardian/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 3984,
+        "sheetHeight": 96,
+        "frameWidth": 166,
+        "frameHeight": 96,
+        "frameCount": 24
+      },
+      "originalName": "idle"
     }
   }
 }

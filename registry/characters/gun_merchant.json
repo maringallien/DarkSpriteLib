@@ -6,17 +6,17 @@
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/gun_merchant/gun_merchant.png",
-      "category": "ui",
+      "file": "characters/gun_merchant/idle.png",
+      "category": "movement",
       "loops": true,
       "frames": {
         "sheetWidth": 2160,
         "sheetHeight": 39,
-        "frameWidth": 108,
+        "frameWidth": 135,
         "frameHeight": 39,
-        "frameCount": 20
+        "frameCount": 16
       },
-      "originalName": "gun_merchant"
+      "originalName": "idle"
     }
   }
 }

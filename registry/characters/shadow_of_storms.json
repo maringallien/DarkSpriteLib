@@ -3,21 +3,6 @@
   "id": "shadow_of_storms",
   "path": "characters/shadow_of_storms",
   "animations": {
-    "ranged": {
-      "type": "simple",
-      "key": "ranged",
-      "file": "characters/shadow_of_storms/50x51 Beam.png",
-      "category": "ranged",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 350,
-        "sheetHeight": 51,
-        "frameWidth": 175,
-        "frameHeight": 51,
-        "frameCount": 2
-      },
-      "originalName": "50x51 beam"
-    },
     "attack1": {
       "type": "simple",
       "key": "attack1",
@@ -25,10 +10,10 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 1431,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 2142,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 9
       },
       "originalName": "attack1"
@@ -40,10 +25,10 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2067,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 3094,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 13
       },
       "originalName": "attack2"
@@ -55,13 +40,28 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2226,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 3332,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 14
       },
       "originalName": "attack3"
+    },
+    "attack3_vfx": {
+      "type": "simple",
+      "key": "attack3_vfx",
+      "file": "characters/shadow_of_storms/attack3_vfx.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 350,
+        "sheetHeight": 51,
+        "frameWidth": 50,
+        "frameHeight": 51,
+        "frameCount": 7
+      },
+      "originalName": "attack3_vfx"
     },
     "attack4": {
       "type": "simple",
@@ -70,13 +70,28 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2862,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 4284,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 18
       },
       "originalName": "attack4"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/shadow_of_storms/buff.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 4284,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
+        "frameCount": 18
+      },
+      "originalName": "buff"
     },
     "death": {
       "type": "simple",
@@ -85,28 +100,13 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 1590,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 2380,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 10
       },
       "originalName": "death"
-    },
-    "buff": {
-      "type": "simple",
-      "key": "buff",
-      "file": "characters/shadow_of_storms/heal.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 2862,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
-        "frameCount": 18
-      },
-      "originalName": "heal"
     },
     "idle": {
       "type": "simple",
@@ -115,10 +115,10 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 1908,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 2856,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 12
       },
       "originalName": "idle"
@@ -130,10 +130,10 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 1272,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 1904,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 8
       },
       "originalName": "run"
@@ -145,10 +145,10 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 318,
-        "sheetHeight": 53,
-        "frameWidth": 159,
-        "frameHeight": 53,
+        "sheetWidth": 476,
+        "sheetHeight": 80,
+        "frameWidth": 238,
+        "frameHeight": 80,
         "frameCount": 2
       },
       "originalName": "take_hit"

@@ -10,11 +10,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 140,
-        "sheetHeight": 20,
-        "frameWidth": 28,
-        "frameHeight": 20,
-        "frameCount": 5
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "fox_animation1"
     },
@@ -25,11 +25,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 168,
-        "sheetHeight": 20,
-        "frameWidth": 28,
-        "frameHeight": 20,
-        "frameCount": 6
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "fox_animation3"
     },
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 140,
-        "sheetHeight": 20,
-        "frameWidth": 28,
-        "frameHeight": 20,
-        "frameCount": 5
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "fox_animation4"
     },
@@ -55,11 +55,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 56,
-        "sheetHeight": 20,
-        "frameWidth": 28,
-        "frameHeight": 20,
-        "frameCount": 2
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "fox_animation5"
     },
@@ -70,11 +70,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 196,
-        "sheetHeight": 20,
-        "frameWidth": 28,
-        "frameHeight": 20,
-        "frameCount": 7
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "fox_animation6"
     }

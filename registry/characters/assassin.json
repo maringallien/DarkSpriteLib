@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/assassin/attack_1.png",
+      "file": "characters/assassin/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,12 +16,12 @@
         "frameHeight": 19,
         "frameCount": 4
       },
-      "originalName": "attack_1"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/assassin/attack_2.png",
+      "file": "characters/assassin/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -31,12 +31,12 @@
         "frameHeight": 19,
         "frameCount": 5
       },
-      "originalName": "attack_2"
+      "originalName": "attack2"
     },
     "attack3": {
       "type": "simple",
       "key": "attack3",
-      "file": "characters/assassin/cross_slice.png",
+      "file": "characters/assassin/attack3.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -46,7 +46,22 @@
         "frameHeight": 19,
         "frameCount": 5
       },
-      "originalName": "cross_slice"
+      "originalName": "attack3"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/assassin/attack4.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 910,
+        "sheetHeight": 19,
+        "frameWidth": 91,
+        "frameHeight": 19,
+        "frameCount": 10
+      },
+      "originalName": "attack4"
     },
     "death": {
       "type": "simple",
@@ -77,21 +92,6 @@
         "frameCount": 4
       },
       "originalName": "fall"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/assassin/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 182,
-        "sheetHeight": 19,
-        "frameWidth": 91,
-        "frameHeight": 19,
-        "frameCount": 2
-      },
-      "originalName": "hit"
     },
     "idle": {
       "type": "simple",
@@ -126,7 +126,7 @@
     "land": {
       "type": "simple",
       "key": "land",
-      "file": "characters/assassin/land_with_vfx.png",
+      "file": "characters/assassin/land.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -136,12 +136,12 @@
         "frameHeight": 19,
         "frameCount": 4
       },
-      "originalName": "land_with_vfx"
+      "originalName": "land"
     },
     "run": {
       "type": "simple",
       "key": "run",
-      "file": "characters/assassin/run_with_vfx.png",
+      "file": "characters/assassin/run.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -151,22 +151,22 @@
         "frameHeight": 19,
         "frameCount": 8
       },
-      "originalName": "run_with_vfx"
+      "originalName": "run"
     },
-    "attack4": {
+    "take_hit": {
       "type": "simple",
-      "key": "attack4",
-      "file": "characters/assassin/sweep_attack.png",
-      "category": "attack",
+      "key": "take_hit",
+      "file": "characters/assassin/take_hit.png",
+      "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 910,
+        "sheetWidth": 182,
         "sheetHeight": 19,
         "frameWidth": 91,
         "frameHeight": 19,
-        "frameCount": 10
+        "frameCount": 2
       },
-      "originalName": "sweep_attack"
+      "originalName": "take_hit"
     }
   }
 }

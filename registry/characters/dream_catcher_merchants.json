@@ -6,7 +6,7 @@
     "full_sheet1": {
       "type": "simple",
       "key": "full_sheet1",
-      "file": "characters/dream_catcher_merchants/genie_merchant.png",
+      "file": "characters/dream_catcher_merchants/full_sheet1.png",
       "category": "ui",
       "loops": false,
       "frames": {
@@ -21,7 +21,7 @@
     "full_sheet2": {
       "type": "simple",
       "key": "full_sheet2",
-      "file": "characters/dream_catcher_merchants/magic_merchant.png",
+      "file": "characters/dream_catcher_merchants/full_sheet2.png",
       "category": "ui",
       "loops": false,
       "frames": {
@@ -36,7 +36,7 @@
     "full_sheet3": {
       "type": "simple",
       "key": "full_sheet3",
-      "file": "characters/dream_catcher_merchants/time_traveler_npc.png",
+      "file": "characters/dream_catcher_merchants/full_sheet3.png",
       "category": "ui",
       "loops": false,
       "frames": {

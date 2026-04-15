@@ -3,21 +3,6 @@
   "id": "spark_bug",
   "path": "characters/spark_bug",
   "animations": {
-    "appear": {
-      "type": "simple",
-      "key": "appear",
-      "file": "characters/spark_bug/appear_attack.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 96,
-        "sheetHeight": 10,
-        "frameWidth": 16,
-        "frameHeight": 10,
-        "frameCount": 6
-      },
-      "originalName": "appear_attack"
-    },
     "death": {
       "type": "simple",
       "key": "death",
@@ -25,33 +10,18 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 64,
-        "sheetHeight": 10,
-        "frameWidth": 16,
-        "frameHeight": 10,
+        "sheetWidth": 80,
+        "sheetHeight": 14,
+        "frameWidth": 20,
+        "frameHeight": 14,
         "frameCount": 4
       },
       "originalName": "death"
     },
-    "vanish": {
+    "idle": {
       "type": "simple",
-      "key": "vanish",
-      "file": "characters/spark_bug/dissappear.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 128,
-        "sheetHeight": 10,
-        "frameWidth": 16,
-        "frameHeight": 10,
-        "frameCount": 8
-      },
-      "originalName": "dissappear"
-    },
-    "walk1": {
-      "type": "simple",
-      "key": "walk1",
-      "file": "characters/spark_bug/move.png",
+      "key": "idle",
+      "file": "characters/spark_bug/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -61,12 +31,12 @@
         "frameHeight": 10,
         "frameCount": 8
       },
-      "originalName": "move"
+      "originalName": "idle"
     },
-    "walk2": {
+    "walk": {
       "type": "simple",
-      "key": "walk2",
-      "file": "characters/spark_bug/move_with_spark.png",
+      "key": "walk",
+      "file": "characters/spark_bug/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -76,7 +46,7 @@
         "frameHeight": 10,
         "frameCount": 8
       },
-      "originalName": "move_with_spark"
+      "originalName": "walk"
     }
   }
 }

@@ -18,6 +18,21 @@
       },
       "originalName": "attack"
     },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/sage/block.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "block"
+    },
     "dash": {
       "type": "simple",
       "key": "dash",
@@ -36,7 +51,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/sage/die.png",
+      "file": "characters/sage/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -46,22 +61,7 @@
         "frameHeight": 21,
         "frameCount": 8
       },
-      "originalName": "die"
-    },
-    "idle1": {
-      "type": "simple",
-      "key": "idle1",
-      "file": "characters/sage/duck.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 728,
-        "sheetHeight": 21,
-        "frameWidth": 52,
-        "frameHeight": 21,
-        "frameCount": 14
-      },
-      "originalName": "duck"
+      "originalName": "death"
     },
     "fall": {
       "type": "simple",
@@ -78,10 +78,25 @@
       },
       "originalName": "fall"
     },
-    "idle2": {
+    "attack2": {
       "type": "simple",
-      "key": "idle2",
-      "file": "characters/sage/idle.png",
+      "key": "attack2",
+      "file": "characters/sage/idle1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 14
+      },
+      "originalName": "idle1"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/sage/idle2.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -91,7 +106,7 @@
         "frameHeight": 21,
         "frameCount": 9
       },
-      "originalName": "idle"
+      "originalName": "idle2"
     },
     "jump": {
       "type": "simple",
@@ -123,35 +138,20 @@
       },
       "originalName": "run"
     },
-    "block": {
+    "attack2_vfx": {
       "type": "simple",
-      "key": "block",
-      "file": "characters/sage/shield.png",
-      "category": "state",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 832,
-        "sheetHeight": 21,
-        "frameWidth": 52,
-        "frameHeight": 21,
-        "frameCount": 16
-      },
-      "originalName": "shield"
-    },
-    "special": {
-      "type": "simple",
-      "key": "special",
-      "file": "characters/sage/shockwave_vfx.png",
-      "category": "special",
+      "key": "attack2_vfx",
+      "file": "characters/sage/special.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 548,
         "sheetHeight": 156,
-        "frameWidth": 274,
+        "frameWidth": 137,
         "frameHeight": 156,
-        "frameCount": 2
+        "frameCount": 4
       },
-      "originalName": "shockwave_vfx"
+      "originalName": "special"
     },
     "take_hit": {
       "type": "simple",
@@ -167,6 +167,36 @@
         "frameCount": 2
       },
       "originalName": "take_hit"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "characters/sage/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 153,
+        "sheetHeight": 17,
+        "frameWidth": 17,
+        "frameHeight": 17,
+        "frameCount": 9
+      },
+      "originalName": "projectile_explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "characters/sage/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 34,
+        "sheetHeight": 17,
+        "frameWidth": 17,
+        "frameHeight": 17,
+        "frameCount": 2
+      },
+      "originalName": "projectile_idle"
     }
   }
 }

@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/dagger_mush/air_attack.png",
+      "file": "characters/dagger_mush/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,12 +16,12 @@
         "frameHeight": 80,
         "frameCount": 12
       },
-      "originalName": "air_attack"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/dagger_mush/attacks.png",
+      "file": "characters/dagger_mush/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -31,22 +31,22 @@
         "frameHeight": 80,
         "frameCount": 10
       },
-      "originalName": "attacks"
+      "originalName": "attack2"
     },
-    "take_hit": {
+    "attack3": {
       "type": "simple",
-      "key": "take_hit",
-      "file": "characters/dagger_mush/damaged.png",
-      "category": "state",
+      "key": "attack3",
+      "file": "characters/dagger_mush/attack3.png",
+      "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 288,
+        "sheetWidth": 1008,
         "sheetHeight": 80,
         "frameWidth": 144,
         "frameHeight": 80,
-        "frameCount": 2
+        "frameCount": 7
       },
-      "originalName": "damaged"
+      "originalName": "attack3"
     },
     "death": {
       "type": "simple",
@@ -96,7 +96,7 @@
     "sprint": {
       "type": "simple",
       "key": "sprint",
-      "file": "characters/dagger_mush/run_fast.png",
+      "file": "characters/dagger_mush/sprint.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -106,22 +106,22 @@
         "frameHeight": 80,
         "frameCount": 6
       },
-      "originalName": "run_fast"
+      "originalName": "sprint"
     },
-    "attack3": {
+    "take_hit": {
       "type": "simple",
-      "key": "attack3",
-      "file": "characters/dagger_mush/throw.png",
-      "category": "attack",
+      "key": "take_hit",
+      "file": "characters/dagger_mush/take_hit.png",
+      "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 1008,
+        "sheetWidth": 288,
         "sheetHeight": 80,
         "frameWidth": 144,
         "frameHeight": 80,
-        "frameCount": 7
+        "frameCount": 2
       },
-      "originalName": "throw"
+      "originalName": "take_hit"
     }
   }
 }

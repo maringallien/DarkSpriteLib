@@ -6,7 +6,7 @@
     "animation1": {
       "type": "simple",
       "key": "animation1",
-      "file": "animals/orbs/orbs_animation1.png",
+      "file": "animals/orbs/animation1.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -21,7 +21,7 @@
     "animation2": {
       "type": "simple",
       "key": "animation2",
-      "file": "animals/orbs/orbs_animation2.png",
+      "file": "animals/orbs/animation2.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -36,7 +36,7 @@
     "animation3": {
       "type": "simple",
       "key": "animation3",
-      "file": "animals/orbs/orbs_animation3.png",
+      "file": "animals/orbs/animation3.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -51,7 +51,7 @@
     "animation4": {
       "type": "simple",
       "key": "animation4",
-      "file": "animals/orbs/orbs_animation4.png",
+      "file": "animals/orbs/animation4.png",
       "category": "movement",
       "loops": true,
       "frames": {

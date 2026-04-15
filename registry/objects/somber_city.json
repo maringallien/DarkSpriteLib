@@ -2,135 +2,135 @@
   "biome": "somber_city",
   "path": "somber_city/objects/animated_objects",
   "objects": {
-    "distant_lightning": {
+    "distant_lightning_idle": {
       "type": "standard",
-      "id": "distant_lightning",
+      "id": "distant_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/distant_lightning.png",
+          "file": "somber_city/objects/animated_objects/distant_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 576,
             "sheetHeight": 32,
-            "frameWidth": 32,
+            "frameWidth": 72,
             "frameHeight": 32,
-            "frameCount": 18
+            "frameCount": 8
           },
-          "originalName": "distant_lightning"
+          "originalName": "distant_lightning_idle"
         }
       }
     },
-    "door_fade": {
+    "door_fade_idle": {
       "type": "standard",
-      "id": "door_fade",
+      "id": "door_fade_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/door_fade.png",
+          "file": "somber_city/objects/animated_objects/door_fade_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 5240,
             "sheetHeight": 121,
-            "frameWidth": 262,
+            "frameWidth": 655,
             "frameHeight": 121,
-            "frameCount": 20
+            "frameCount": 8
           },
-          "originalName": "door_fade"
+          "originalName": "door_fade_idle"
         }
       }
     },
-    "door_light_up": {
+    "door_light_up_idle": {
       "type": "standard",
-      "id": "door_light_up",
+      "id": "door_light_up_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/door_light_up.png",
+          "file": "somber_city/objects/animated_objects/door_light_up_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 4978,
             "sheetHeight": 121,
-            "frameWidth": 262,
+            "frameWidth": 2489,
             "frameHeight": 121,
-            "frameCount": 19
+            "frameCount": 2
           },
-          "originalName": "door_light_up"
+          "originalName": "door_light_up_idle"
         }
       }
     },
-    "fire_torch": {
+    "fire_torch_idle": {
       "type": "standard",
-      "id": "fire_torch",
+      "id": "fire_torch_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/fire_torch.png",
+          "file": "somber_city/objects/animated_objects/fire_torch_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 90,
             "sheetHeight": 17,
-            "frameWidth": 9,
+            "frameWidth": 45,
             "frameHeight": 17,
-            "frameCount": 10
+            "frameCount": 2
           },
-          "originalName": "fire_torch"
+          "originalName": "fire_torch_idle"
         }
       }
     },
-    "large_lightning": {
+    "large_lightning_idle": {
       "type": "standard",
-      "id": "large_lightning",
+      "id": "large_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/large_lightning.png",
+          "file": "somber_city/objects/animated_objects/large_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 1152,
             "sheetHeight": 48,
-            "frameWidth": 64,
+            "frameWidth": 144,
             "frameHeight": 48,
-            "frameCount": 18
+            "frameCount": 8
           },
-          "originalName": "large_lightning"
+          "originalName": "large_lightning_idle"
         }
       }
     },
-    "small_lightning": {
+    "small_lightning_idle": {
       "type": "standard",
-      "id": "small_lightning",
+      "id": "small_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "somber_city/objects/animated_objects/small_lightning.png",
+          "file": "somber_city/objects/animated_objects/small_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 576,
             "sheetHeight": 32,
-            "frameWidth": 32,
+            "frameWidth": 72,
             "frameHeight": 32,
-            "frameCount": 18
+            "frameCount": 8
           },
-          "originalName": "small_lightning"
+          "originalName": "small_lightning_idle"
         }
       }
     }

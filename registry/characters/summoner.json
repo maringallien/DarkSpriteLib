@@ -10,28 +10,13 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 460,
-        "sheetHeight": 44,
-        "frameWidth": 46,
-        "frameHeight": 44,
+        "sheetWidth": 350,
+        "sheetHeight": 34,
+        "frameWidth": 35,
+        "frameHeight": 34,
         "frameCount": 10
       },
       "originalName": "death"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/summoner/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 184,
-        "sheetHeight": 44,
-        "frameWidth": 46,
-        "frameHeight": 44,
-        "frameCount": 4
-      },
-      "originalName": "hit"
     },
     "idle": {
       "type": "simple",
@@ -40,28 +25,13 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 276,
-        "sheetHeight": 44,
-        "frameWidth": 46,
-        "frameHeight": 44,
+        "sheetWidth": 210,
+        "sheetHeight": 34,
+        "frameWidth": 35,
+        "frameHeight": 34,
         "frameCount": 6
       },
       "originalName": "idle"
-    },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/summoner/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 276,
-        "sheetHeight": 44,
-        "frameWidth": 46,
-        "frameHeight": 44,
-        "frameCount": 6
-      },
-      "originalName": "move"
     },
     "summon": {
       "type": "simple",
@@ -70,13 +40,43 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 414,
-        "sheetHeight": 44,
-        "frameWidth": 46,
-        "frameHeight": 44,
+        "sheetWidth": 315,
+        "sheetHeight": 34,
+        "frameWidth": 35,
+        "frameHeight": 34,
         "frameCount": 9
       },
       "originalName": "summon"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/summoner/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 140,
+        "sheetHeight": 34,
+        "frameWidth": 35,
+        "frameHeight": 34,
+        "frameCount": 4
+      },
+      "originalName": "take_hit"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/summoner/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 210,
+        "sheetHeight": 34,
+        "frameWidth": 35,
+        "frameHeight": 34,
+        "frameCount": 6
+      },
+      "originalName": "walk"
     }
   }
 }

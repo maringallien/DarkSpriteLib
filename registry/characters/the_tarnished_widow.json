@@ -36,6 +36,21 @@
         }
       ]
     },
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "characters/the_tarnished_widow/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 423,
+        "frameHeight": 90,
+        "frameCount": 8
+      },
+      "originalName": "attack"
+    },
     "buff": {
       "type": "simple",
       "key": "buff",
@@ -54,7 +69,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/the_tarnished_widow/die.png",
+      "file": "characters/the_tarnished_widow/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -64,7 +79,7 @@
         "frameHeight": 90,
         "frameCount": 8
       },
-      "originalName": "die"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -81,25 +96,10 @@
       },
       "originalName": "idle"
     },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/the_tarnished_widow/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 3384,
-        "sheetHeight": 90,
-        "frameWidth": 423,
-        "frameHeight": 90,
-        "frameCount": 8
-      },
-      "originalName": "move"
-    },
     "ranged": {
       "type": "simple",
       "key": "ranged",
-      "file": "characters/the_tarnished_widow/spit_attack.png",
+      "file": "characters/the_tarnished_widow/ranged.png",
       "category": "ranged",
       "loops": false,
       "frames": {
@@ -109,14 +109,14 @@
         "frameHeight": 90,
         "frameCount": 8
       },
-      "originalName": "spit_attack"
+      "originalName": "ranged"
     },
-    "attack": {
+    "walk": {
       "type": "simple",
-      "key": "attack",
-      "file": "characters/the_tarnished_widow/stomp_attack.png",
-      "category": "attack",
-      "loops": false,
+      "key": "walk",
+      "file": "characters/the_tarnished_widow/walk.png",
+      "category": "movement",
+      "loops": true,
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
@@ -124,7 +124,7 @@
         "frameHeight": 90,
         "frameCount": 8
       },
-      "originalName": "stomp_attack"
+      "originalName": "walk"
     }
   }
 }

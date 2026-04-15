@@ -3,10 +3,130 @@
   "id": "npcs",
   "path": "characters/npcs",
   "animations": {
+    "full_sheet1": {
+      "type": "simple",
+      "key": "full_sheet1",
+      "file": "characters/npcs/fortune_teller/full_sheet1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1104,
+        "sheetHeight": 43,
+        "frameWidth": 69,
+        "frameHeight": 43,
+        "frameCount": 16
+      },
+      "originalName": "full_sheet1"
+    },
+    "full_sheet2": {
+      "type": "simple",
+      "key": "full_sheet2",
+      "file": "characters/npcs/guard/full_sheet2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1216,
+        "sheetHeight": 48,
+        "frameWidth": 64,
+        "frameHeight": 48,
+        "frameCount": 19
+      },
+      "originalName": "full_sheet2"
+    },
+    "full_sheet3": {
+      "type": "simple",
+      "key": "full_sheet3",
+      "file": "characters/npcs/loader/full_sheet3.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1408,
+        "sheetHeight": 48,
+        "frameWidth": 64,
+        "frameHeight": 48,
+        "frameCount": 22
+      },
+      "originalName": "full_sheet3"
+    },
+    "full_sheet4": {
+      "type": "simple",
+      "key": "full_sheet4",
+      "file": "characters/npcs/magic_dude/full_sheet4.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 504,
+        "sheetHeight": 36,
+        "frameWidth": 63,
+        "frameHeight": 36,
+        "frameCount": 8
+      },
+      "originalName": "full_sheet4"
+    },
+    "full_sheet5": {
+      "type": "simple",
+      "key": "full_sheet5",
+      "file": "characters/npcs/senator/full_sheet5.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 768,
+        "sheetHeight": 41,
+        "frameWidth": 96,
+        "frameHeight": 41,
+        "frameCount": 8
+      },
+      "originalName": "full_sheet5"
+    },
+    "full_sheet6": {
+      "type": "simple",
+      "key": "full_sheet6",
+      "file": "characters/npcs/strangler/full_sheet6.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1344,
+        "sheetHeight": 48,
+        "frameWidth": 64,
+        "frameHeight": 48,
+        "frameCount": 21
+      },
+      "originalName": "full_sheet6"
+    },
+    "full_sheet7": {
+      "type": "simple",
+      "key": "full_sheet7",
+      "file": "characters/npcs/tamer/full_sheet7.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2496,
+        "sheetHeight": 48,
+        "frameWidth": 64,
+        "frameHeight": 48,
+        "frameCount": 39
+      },
+      "originalName": "full_sheet7"
+    },
+    "full_sheet8": {
+      "type": "simple",
+      "key": "full_sheet8",
+      "file": "characters/npcs/watcher/full_sheet8.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2240,
+        "sheetHeight": 48,
+        "frameWidth": 64,
+        "frameHeight": 48,
+        "frameCount": 35
+      },
+      "originalName": "full_sheet8"
+    },
     "summon": {
       "type": "simple",
       "key": "summon",
-      "file": "characters/npcs/bunny_lady/bunny_summoner.png",
+      "file": "characters/npcs/bunny_lady/summon.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -16,127 +136,7 @@
         "frameHeight": 42,
         "frameCount": 16
       },
-      "originalName": "bunny_summoner"
-    },
-    "full_sheet1": {
-      "type": "simple",
-      "key": "full_sheet1",
-      "file": "characters/npcs/fortune_teller/fortune_teller_dude.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1104,
-        "sheetHeight": 43,
-        "frameWidth": 69,
-        "frameHeight": 43,
-        "frameCount": 16
-      },
-      "originalName": "fortune_teller_dude"
-    },
-    "full_sheet2": {
-      "type": "simple",
-      "key": "full_sheet2",
-      "file": "characters/npcs/guard/guard.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1216,
-        "sheetHeight": 48,
-        "frameWidth": 64,
-        "frameHeight": 48,
-        "frameCount": 19
-      },
-      "originalName": "guard"
-    },
-    "full_sheet3": {
-      "type": "simple",
-      "key": "full_sheet3",
-      "file": "characters/npcs/loader/loader.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1408,
-        "sheetHeight": 48,
-        "frameWidth": 64,
-        "frameHeight": 48,
-        "frameCount": 22
-      },
-      "originalName": "loader"
-    },
-    "full_sheet4": {
-      "type": "simple",
-      "key": "full_sheet4",
-      "file": "characters/npcs/magic_dude/magic_dude.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 504,
-        "sheetHeight": 36,
-        "frameWidth": 63,
-        "frameHeight": 36,
-        "frameCount": 8
-      },
-      "originalName": "magic_dude"
-    },
-    "full_sheet5": {
-      "type": "simple",
-      "key": "full_sheet5",
-      "file": "characters/npcs/senator/senator.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 768,
-        "sheetHeight": 41,
-        "frameWidth": 96,
-        "frameHeight": 41,
-        "frameCount": 8
-      },
-      "originalName": "senator"
-    },
-    "full_sheet6": {
-      "type": "simple",
-      "key": "full_sheet6",
-      "file": "characters/npcs/strangler/strangler.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1344,
-        "sheetHeight": 48,
-        "frameWidth": 64,
-        "frameHeight": 48,
-        "frameCount": 21
-      },
-      "originalName": "strangler"
-    },
-    "full_sheet7": {
-      "type": "simple",
-      "key": "full_sheet7",
-      "file": "characters/npcs/tamer/tamer.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 2496,
-        "sheetHeight": 48,
-        "frameWidth": 64,
-        "frameHeight": 48,
-        "frameCount": 39
-      },
-      "originalName": "tamer"
-    },
-    "full_sheet8": {
-      "type": "simple",
-      "key": "full_sheet8",
-      "file": "characters/npcs/watcher/watcher.png",
-      "category": "ui",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 2240,
-        "sheetHeight": 48,
-        "frameWidth": 64,
-        "frameHeight": 48,
-        "frameCount": 35
-      },
-      "originalName": "watcher"
+      "originalName": "summon"
     }
   }
 }

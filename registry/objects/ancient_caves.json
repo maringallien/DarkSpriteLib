@@ -2,144 +2,179 @@
   "biome": "ancient_caves",
   "path": "ancient_caves/objects/animated_objects",
   "objects": {
-    "ancient_rock_animations": {
+    "ancient_rock_animations_animation1": {
       "type": "standard",
-      "id": "ancient_rock_animations",
+      "id": "ancient_rock_animations_animation1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "animation1": {
+        "idle": {
           "type": "simple",
-          "key": "animation1",
-          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_1.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation1.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 354,
             "sheetHeight": 33,
-            "frameWidth": 36,
+            "frameWidth": 177,
             "frameHeight": 33,
-            "frameCount": 10
+            "frameCount": 2
           },
-          "originalName": "ancient_rock_animations_1"
-        },
-        "animation2": {
+          "originalName": "ancient_rock_animations_animation1"
+        }
+      }
+    },
+    "ancient_rock_animations_animation2": {
+      "type": "standard",
+      "id": "ancient_rock_animations_animation2",
+      "path": "ancient_caves/objects/animated_objects",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "animation2",
-          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_2.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation2.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 288,
             "sheetHeight": 33,
-            "frameWidth": 36,
+            "frameWidth": 72,
             "frameHeight": 33,
-            "frameCount": 8
+            "frameCount": 4
           },
-          "originalName": "ancient_rock_animations_2"
-        },
-        "animation3": {
+          "originalName": "ancient_rock_animations_animation2"
+        }
+      }
+    },
+    "ancient_rock_animations_animation3": {
+      "type": "standard",
+      "id": "ancient_rock_animations_animation3",
+      "path": "ancient_caves/objects/animated_objects",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "animation3",
-          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_3.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation3.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 504,
             "sheetHeight": 50,
-            "frameWidth": 36,
+            "frameWidth": 126,
             "frameHeight": 50,
-            "frameCount": 14
+            "frameCount": 4
           },
-          "originalName": "ancient_rock_animations_3"
+          "originalName": "ancient_rock_animations_animation3"
         }
       }
     },
-    "smoke_animations": {
+    "smoke_animations_animation1": {
       "type": "standard",
-      "id": "smoke_animations",
+      "id": "smoke_animations_animation1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "animation1": {
+        "idle": {
           "type": "simple",
-          "key": "animation1",
-          "file": "ancient_caves/objects/animated_objects/smoke_animations_2.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/smoke_animations_animation1.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 96,
             "sheetHeight": 36,
-            "frameWidth": 12,
+            "frameWidth": 96,
             "frameHeight": 36,
-            "frameCount": 8
+            "frameCount": 1
           },
-          "originalName": "smoke_animations_2"
-        },
-        "animation2": {
+          "originalName": "smoke_animations_animation1"
+        }
+      }
+    },
+    "smoke_animations_animation2": {
+      "type": "standard",
+      "id": "smoke_animations_animation2",
+      "path": "ancient_caves/objects/animated_objects",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "animation2",
-          "file": "ancient_caves/objects/animated_objects/smoke_animations_3.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/smoke_animations_animation2.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 96,
             "sheetHeight": 26,
-            "frameWidth": 12,
+            "frameWidth": 48,
             "frameHeight": 26,
-            "frameCount": 8
+            "frameCount": 2
           },
-          "originalName": "smoke_animations_3"
-        },
-        "animation3": {
+          "originalName": "smoke_animations_animation2"
+        }
+      }
+    },
+    "smoke_animations_animation3": {
+      "type": "standard",
+      "id": "smoke_animations_animation3",
+      "path": "ancient_caves/objects/animated_objects",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "animation3",
-          "file": "ancient_caves/objects/animated_objects/smoke_animations_4.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/smoke_animations_animation3.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 192,
             "sheetHeight": 38,
-            "frameWidth": 12,
+            "frameWidth": 96,
             "frameHeight": 38,
-            "frameCount": 16
+            "frameCount": 2
           },
-          "originalName": "smoke_animations_4"
+          "originalName": "smoke_animations_animation3"
         }
       }
     },
-    "throne": {
+    "throne_animation1": {
       "type": "standard",
-      "id": "throne",
+      "id": "throne_animation1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "animation1": {
+        "idle": {
           "type": "simple",
-          "key": "animation1",
-          "file": "ancient_caves/objects/animated_objects/throne_1.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/throne_animation1.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 1536,
             "sheetHeight": 64,
-            "frameWidth": 96,
+            "frameWidth": 192,
             "frameHeight": 64,
-            "frameCount": 16
+            "frameCount": 8
           },
-          "originalName": "throne_1"
-        },
-        "animation2": {
+          "originalName": "throne_animation1"
+        }
+      }
+    },
+    "throne_animation2": {
+      "type": "standard",
+      "id": "throne_animation2",
+      "path": "ancient_caves/objects/animated_objects",
+      "animations": {
+        "idle": {
           "type": "simple",
-          "key": "animation2",
-          "file": "ancient_caves/objects/animated_objects/throne_2.png",
+          "key": "idle",
+          "file": "ancient_caves/objects/animated_objects/throne_animation2.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 1728,
             "sheetHeight": 64,
-            "frameWidth": 96,
+            "frameWidth": 108,
             "frameHeight": 64,
-            "frameCount": 18
+            "frameCount": 16
           },
-          "originalName": "throne_2"
+          "originalName": "throne_animation2"
         }
       }
     }

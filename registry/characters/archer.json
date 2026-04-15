@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/archer/attack.png",
+      "file": "characters/archer/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,22 +16,22 @@
         "frameHeight": 25,
         "frameCount": 14
       },
-      "originalName": "attack"
+      "originalName": "attack1"
     },
-    "take_hit": {
+    "attack2": {
       "type": "simple",
-      "key": "take_hit",
-      "file": "characters/archer/damaged.png",
-      "category": "state",
+      "key": "attack2",
+      "file": "characters/archer/attack2.png",
+      "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 348,
+        "sheetWidth": 2784,
         "sheetHeight": 25,
         "frameWidth": 174,
         "frameHeight": 25,
-        "frameCount": 2
+        "frameCount": 16
       },
-      "originalName": "damaged"
+      "originalName": "attack2"
     },
     "death": {
       "type": "simple",
@@ -78,20 +78,20 @@
       },
       "originalName": "run"
     },
-    "attack2": {
+    "take_hit": {
       "type": "simple",
-      "key": "attack2",
-      "file": "characters/archer/special_attack.png",
-      "category": "special",
+      "key": "take_hit",
+      "file": "characters/archer/take_hit.png",
+      "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 2784,
+        "sheetWidth": 348,
         "sheetHeight": 25,
         "frameWidth": 174,
         "frameHeight": 25,
-        "frameCount": 16
+        "frameCount": 2
       },
-      "originalName": "special_attack"
+      "originalName": "take_hit"
     }
   }
 }

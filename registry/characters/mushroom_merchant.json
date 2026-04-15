@@ -6,17 +6,17 @@
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/mushroom_merchant/mushroom_merchant.png",
-      "category": "ui",
+      "file": "characters/mushroom_merchant/idle.png",
+      "category": "movement",
       "loops": true,
       "frames": {
         "sheetWidth": 2664,
         "sheetHeight": 53,
-        "frameWidth": 111,
+        "frameWidth": 333,
         "frameHeight": 53,
-        "frameCount": 24
+        "frameCount": 8
       },
-      "originalName": "mushroom_merchant"
+      "originalName": "idle"
     }
   }
 }

@@ -21,7 +21,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/caged_spider/die.png",
+      "file": "characters/caged_spider/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -31,7 +31,7 @@
         "frameHeight": 19,
         "frameCount": 9
       },
-      "originalName": "die"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -48,21 +48,6 @@
       },
       "originalName": "idle"
     },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/caged_spider/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 258,
-        "sheetHeight": 19,
-        "frameWidth": 43,
-        "frameHeight": 19,
-        "frameCount": 6
-      },
-      "originalName": "move"
-    },
     "take_hit": {
       "type": "simple",
       "key": "take_hit",
@@ -77,6 +62,21 @@
         "frameCount": 2
       },
       "originalName": "take_hit"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/caged_spider/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 258,
+        "sheetHeight": 19,
+        "frameWidth": 43,
+        "frameHeight": 19,
+        "frameCount": 6
+      },
+      "originalName": "walk"
     }
   }
 }

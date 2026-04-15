@@ -2,25 +2,25 @@
   "biome": "blood_temple",
   "path": "blood_temple/objects/animated_objects",
   "objects": {
-    "statue": {
+    "idle": {
       "type": "standard",
-      "id": "statue",
+      "id": "idle",
       "path": "blood_temple/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "blood_temple/objects/animated_objects/statue.png",
+          "file": "blood_temple/objects/animated_objects/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 1024,
             "sheetHeight": 112,
-            "frameWidth": 128,
+            "frameWidth": 256,
             "frameHeight": 112,
-            "frameCount": 8
+            "frameCount": 4
           },
-          "originalName": "statue"
+          "originalName": "idle"
         }
       }
     }

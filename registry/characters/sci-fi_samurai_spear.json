@@ -12,26 +12,26 @@
       "frames": {
         "sheetWidth": 2461,
         "sheetHeight": 33,
-        "frameWidth": 2461,
+        "frameWidth": 107,
         "frameHeight": 33,
-        "frameCount": 1
+        "frameCount": 23
       },
       "originalName": "attack"
     },
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/sci-fi_samurai/with_spear/die.png",
+      "file": "characters/sci-fi_samurai/with_spear/death.png",
       "category": "state",
       "loops": false,
       "frames": {
         "sheetWidth": 2461,
         "sheetHeight": 33,
-        "frameWidth": 2461,
+        "frameWidth": 107,
         "frameHeight": 33,
-        "frameCount": 1
+        "frameCount": 23
       },
-      "originalName": "die"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 2461,
+        "sheetWidth": 1284,
         "sheetHeight": 33,
-        "frameWidth": 2461,
+        "frameWidth": 107,
         "frameHeight": 33,
-        "frameCount": 1
+        "frameCount": 12
       },
       "originalName": "idle"
     },
@@ -55,11 +55,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 2461,
+        "sheetWidth": 856,
         "sheetHeight": 33,
-        "frameWidth": 2461,
+        "frameWidth": 107,
         "frameHeight": 33,
-        "frameCount": 1
+        "frameCount": 8
       },
       "originalName": "run"
     }

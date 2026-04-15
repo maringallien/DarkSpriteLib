@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/shielder/attack.png",
+      "file": "characters/shielder/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,7 +16,22 @@
         "frameHeight": 46,
         "frameCount": 17
       },
-      "originalName": "attack"
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/shielder/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1806,
+        "sheetHeight": 46,
+        "frameWidth": 129,
+        "frameHeight": 46,
+        "frameCount": 14
+      },
+      "originalName": "attack2"
     },
     "death": {
       "type": "simple",
@@ -33,21 +48,6 @@
       },
       "originalName": "death"
     },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/shielder/range.png",
-      "category": "ranged",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1806,
-        "sheetHeight": 46,
-        "frameWidth": 129,
-        "frameHeight": 46,
-        "frameCount": 14
-      },
-      "originalName": "range"
-    },
     "walk": {
       "type": "simple",
       "key": "walk",
@@ -62,6 +62,36 @@
         "frameCount": 6
       },
       "originalName": "walk"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "characters/shielder/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 44,
+        "sheetHeight": 11,
+        "frameWidth": 11,
+        "frameHeight": 11,
+        "frameCount": 4
+      },
+      "originalName": "projectile_explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "characters/shielder/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 22,
+        "sheetHeight": 11,
+        "frameWidth": 11,
+        "frameHeight": 11,
+        "frameCount": 2
+      },
+      "originalName": "projectile_idle"
     }
   }
 }

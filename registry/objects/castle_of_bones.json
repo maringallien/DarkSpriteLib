@@ -2,67 +2,30 @@
   "biome": "castle_of_bones",
   "path": "castle_of_bones/objects/animated_objects",
   "objects": {
-    "candles": {
-      "type": "standard",
-      "id": "candles",
-      "path": "castle_of_bones/objects/animated_objects",
-      "animations": {
-        "animation1": {
-          "type": "simple",
-          "key": "animation1",
-          "file": "castle_of_bones/objects/animated_objects/candles_1.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 256,
-            "sheetHeight": 18,
-            "frameWidth": 32,
-            "frameHeight": 18,
-            "frameCount": 8
-          },
-          "originalName": "candles_1"
-        },
-        "animation2": {
-          "type": "simple",
-          "key": "animation2",
-          "file": "castle_of_bones/objects/animated_objects/candles_2.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 256,
-            "sheetHeight": 15,
-            "frameWidth": 32,
-            "frameHeight": 15,
-            "frameCount": 8
-          },
-          "originalName": "candles_2"
-        },
-        "animation3": {
-          "type": "simple",
-          "key": "animation3",
-          "file": "castle_of_bones/objects/animated_objects/candles_3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 256,
-            "sheetHeight": 18,
-            "frameWidth": 32,
-            "frameHeight": 18,
-            "frameCount": 8
-          },
-          "originalName": "candles_3"
-        }
-      }
-    },
     "ancient_door": {
       "type": "standard",
       "id": "ancient_door",
-      "path": "castle_of_bones/objects/animated_objects",
+      "path": "castle_of_bones/objects/animated_objects/ancient_door",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "castle_of_bones/objects/animated_objects/ancient_door.png",
+          "file": "castle_of_bones/objects/animated_objects/ancient_door/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 64,
+            "sheetHeight": 144,
+            "frameWidth": 64,
+            "frameHeight": 144,
+            "frameCount": 1
+          },
+          "originalName": "idle"
+        },
+        "open": {
+          "type": "simple",
+          "key": "open",
+          "file": "castle_of_bones/objects/animated_objects/ancient_door/open.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -72,63 +35,129 @@
             "frameHeight": 144,
             "frameCount": 48
           },
-          "originalName": "ancient_door"
+          "originalName": "open"
         }
       }
     },
-    "ember_pit_shrine": {
+    "ancient_door_idle": {
       "type": "standard",
-      "id": "ember_pit_shrine",
+      "id": "ancient_door_idle",
       "path": "castle_of_bones/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "castle_of_bones/objects/animated_objects/ember_pit_shrine.png",
+          "file": "castle_of_bones/objects/animated_objects/ancient_door_idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 100,
+            "sheetHeight": 144,
+            "frameWidth": 100,
+            "frameHeight": 144,
+            "frameCount": 1
+          },
+          "originalName": "ancient_door_idle"
+        }
+      }
+    },
+    "candles_animation1": {
+      "type": "standard",
+      "id": "candles_animation1",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/candles_animation1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 18,
+            "frameWidth": 32,
+            "frameHeight": 18,
+            "frameCount": 8
+          },
+          "originalName": "candles_animation1"
+        }
+      }
+    },
+    "candles_animation2": {
+      "type": "standard",
+      "id": "candles_animation2",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/candles_animation2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 15,
+            "frameWidth": 32,
+            "frameHeight": 15,
+            "frameCount": 8
+          },
+          "originalName": "candles_animation2"
+        }
+      }
+    },
+    "candles_animation3": {
+      "type": "standard",
+      "id": "candles_animation3",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/candles_animation3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 256,
+            "sheetHeight": 18,
+            "frameWidth": 32,
+            "frameHeight": 18,
+            "frameCount": 8
+          },
+          "originalName": "candles_animation3"
+        }
+      }
+    },
+    "ember_pit_shrine_idle": {
+      "type": "standard",
+      "id": "ember_pit_shrine_idle",
+      "path": "castle_of_bones/objects/animated_objects",
+      "animations": {
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/objects/animated_objects/ember_pit_shrine_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 320,
             "sheetHeight": 33,
-            "frameWidth": 32,
+            "frameWidth": 80,
             "frameHeight": 33,
-            "frameCount": 10
+            "frameCount": 4
           },
-          "originalName": "ember_pit_shrine"
+          "originalName": "ember_pit_shrine_idle"
         }
       }
     },
-    "lever": {
+    "torch_1_idle": {
       "type": "standard",
-      "id": "lever",
+      "id": "torch_1_idle",
       "path": "castle_of_bones/objects/animated_objects",
       "animations": {
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "castle_of_bones/objects/animated_objects/lever.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 256,
-            "sheetHeight": 32,
-            "frameWidth": 32,
-            "frameHeight": 32,
-            "frameCount": 8
-          },
-          "originalName": "lever"
-        }
-      }
-    },
-    "torch_1": {
-      "type": "standard",
-      "id": "torch_1",
-      "path": "castle_of_bones/objects/animated_objects",
-      "animations": {
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "castle_of_bones/objects/animated_objects/torch_1.png",
+          "file": "castle_of_bones/objects/animated_objects/torch_1_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -138,7 +167,7 @@
             "frameHeight": 64,
             "frameCount": 10
           },
-          "originalName": "torch_1"
+          "originalName": "torch_1_idle"
         }
       }
     }

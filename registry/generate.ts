@@ -147,8 +147,8 @@ function precomputeFrameData(files: string[], characterId?: string): Map<string,
       const fileOverride = FILE_FRAME_OVERRIDES[rel];
       const fw = fileOverride?.frameWidth ?? frameWidth;
       const fh = fileOverride?.frameHeight ?? h;
-      // Only apply character-level anchorX to files that aren't individually overridden.
-      const anchorX = (!fileOverride && characterId) ? ANCHOR_X_OVERRIDES[characterId] : undefined;
+      // Per-file anchorX takes priority; fall back to per-character override.
+      const anchorX = FILE_ANCHOR_OVERRIDES[rel] ?? ((!fileOverride && characterId) ? ANCHOR_X_OVERRIDES[characterId] : undefined);
       result.set(file, {
         sheetWidth: w,
         sheetHeight: h,
@@ -204,13 +204,6 @@ const CHARACTER_OVERRIDES: Record<string, CharacterOverride> = {
       orb_white: "orb_white",
     },
   },
-  lord_of_the_poisons: {
-    type: "variant",
-    variants: {
-      no_glow:   "sprite_no_glow",
-      with_glow: "sprite_with_glow",
-    },
-  },
   "sci-fi_samurai": {
     type: "variant",
     variants: {
@@ -243,6 +236,22 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "guardian-blast":        "attack3",
     "guardian-laser_attack": "attack2",
   },
+  orb_mage: {
+    "attack1_vfx": "attack1_vfx",
+    "attack2":     "attack2",
+  },
+  panda_protector: {
+    "attack2_vfx": "attack2_vfx",
+  },
+  shadow_of_storms: {
+    "attack3_vfx": "attack3_vfx",
+    "attack4":     "attack4",
+  },
+  the_blood_king: {
+    "attack3_vfx": "attack3_vfx",
+    "attack4":     "attack4",
+    "attack5":     "attack5",
+  },
   archer: {
     "attack":          "attack1",
     "special_attack":  "attack2",
@@ -258,15 +267,15 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "glitch samurai-slash 1":      "attack4",
     "glitch samurai-slash 2":      "attack3",
   },
-  hell_bot_dark: {
+  hell_bot: {
     "attack": "attack1",
     "shoot":  "attack2",
   },
   human_crow_keeper: {
-    "dash":        "attack_1",
-    "jump_attack": "attack2_jump",
-    "land_atack":  "attack2_slam",
-    "shoot_ball":  "attack3",
+    "attack2_jump": "attack1_vanish",
+    "attack2_slam": "attack1_slam",
+    "attack3":      "attack3",
+    "attack_1":     "attack4",
   },
   golden_retriever: {
     "dead":                        "dead",
@@ -289,9 +298,15 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "attack":          "attack1",
     "duck":            "attack2",
     "evil_shockwave":  "attack2_vfx",
+    "attack2_vfx":     "attack2_vfx",
     "dash":            "dash",
     "idle":            "idle",
     "slide":           "slide",
+  },
+  sage: {
+    "idle1":   "attack2",
+    "idle2":   "idle",
+    "special": "attack2_vfx",
   },
   doberman: {
     "dog-bark":               "bark",
@@ -309,8 +324,11 @@ const STEM_KEY_OVERRIDES: Record<string, Record<string, string>> = {
     "eat":                    "sniff",
   },
   lord_of_the_flames: {
-    "lord_of_the_flames-range_fire_burst": "attack4",
-    "range_sprite_with_glow":              "attack4_proj",
+    "attack4_proj": "attack4_vfx",
+  },
+  lord_of_the_poisons: {
+    "ranged":      "attack4",
+    "ranged_idle": "attack4_vfx",
   },
   // ── Strange companion color variants (each is its own character entry) ──────
   // All three share the same animation key conventions; only the stem prefix differs.
@@ -403,12 +421,20 @@ const ANIMATION_META_OVERRIDES: Record<string, Record<string, { category?: strin
   evil_sage: {
     "duck": { category: "attack", loops: false },
   },
+  sage: {
+    "idle1":   { category: "attack", loops: false },
+    "special": { category: "attack", loops: false },
+  },
   human_crow_keeper: {
-    "shoot_ball": { category: "attack", loops: false },
+    "attack2_jump": { category: "attack", loops: false },
+    "attack2_slam": { category: "attack", loops: false },
   },
   lord_of_the_flames: {
-    "lord_of_the_flames-range_fire_burst": { category: "attack", loops: false },
-    "range_sprite_with_glow":              { category: "attack", loops: false },
+    "attack4_proj": { category: "attack", loops: false },
+  },
+  lord_of_the_poisons: {
+    "ranged":      { category: "attack", loops: false },
+    "ranged_idle": { category: "attack", loops: false },
   },
   // ── Strange companion: blast animations are melee/attack, not ranged ─────────
   // ── to_idle/to_sleep are one-shot transitions (PATTERN_RULES /sleep/ fires ──
@@ -458,6 +484,10 @@ const STEM_EXCLUSIONS: Record<string, Set<string>> = {
   strange_companion_teal:  new Set(["strange_companion_teal", "projectile"]),
 };
 
+// Characters whose projectile files should be emitted as independent animations
+// (projectile_idle, projectile_explode…) rather than merged into a with_projectile attack.
+const SEPARATE_PROJECTILES = new Set(["sage", "hell_bot", "human_crow_keeper", "shielder", "spitter"]);
+
 // Override the auto-detected frameWidth for a character (all files share one height group).
 // Use when the GCD halving heuristic over- or under-corrects.
 // Per-character frameWidth overrides, keyed by character id.
@@ -469,24 +499,44 @@ const FRAME_WIDTH_OVERRIDES: Record<string, number> = {
   glitch_samurai: 210,
   kamikaze_crow: 27,
   human_crow_keeper: 268,
-  // Strange companion: raw GCD is 126, but the halving heuristic over-corrects
-  // (126/25 = 5.04 > 3.0) and produces 63. The true frame width is 126 — proven
-  // by odd frame counts at 126 (roll_end=7, sit=17, trans_to_jump=5).
-  strange_companion_black: 252,
-  strange_companion_red:   252,
-  strange_companion_teal:  252,
+  // Strange companion: scaled to 168×33 per frame (was 252×50, ÷1.5).
+  // GCD of all sheets = 168, min ratio = 336/168 = 2.0 — heuristic would be correct,
+  // but pin explicitly to guard against future files.
+  strange_companion_black: 168,
+  strange_companion_red:   168,
+  strange_companion_teal:  168,
+  // temple_guardian: idle.png previously pulled GCD down to 4; true fw is 160.
+  temple_guardian: 160,
 };
 
 // Per-character anchorX override (pixels from left edge of one frame).
 // Set when the sprite content is not bounding-box centred inside the frame.
 // Parsers fall back to frameWidth / 2 when anchorX is absent.
 const ANCHOR_X_OVERRIDES: Record<string, number> = {
-  // Strange companion: character body consistently sits at x≈55 within the 252px frame
-  // (measured across all movement/state animations). Default frameWidth/2 = 126 places
-  // the character ~71px too far left.
-  strange_companion_black: 55,
-  strange_companion_red:   55,
-  strange_companion_teal:  55,
+  // Strange companion: character body sits at x≈37 within the 168px frame (scaled from 55 at 252px).
+  strange_companion_black: 37,
+  strange_companion_red:   37,
+  strange_companion_teal:  37,
+};
+
+
+// Per-file anchorX overrides (relative path from repo root).
+// Use when the character body is not horizontally centred within the frame.
+const FILE_ANCHOR_OVERRIDES: Record<string, number> = {
+  // the_blood_king: body x varies per animation; measured from dark-pixel centroid.
+  "characters/the_blood_king/appear.png":      107,
+  "characters/the_blood_king/attack1.png":     130,
+  "characters/the_blood_king/attack2.png":      18,
+  "characters/the_blood_king/attack3.png":      19,
+  "characters/the_blood_king/attack3_vfx.png":  72,
+  "characters/the_blood_king/attack4.png":     206,
+  "characters/the_blood_king/attack5.png":     115,
+  "characters/the_blood_king/death.png":       107,
+  "characters/the_blood_king/fall1.png":        20,
+  "characters/the_blood_king/idle.png":         19,
+  "characters/the_blood_king/jump.png":         20,
+  "characters/the_blood_king/run.png":          19,
+  "characters/the_blood_king/take_hit.png":     20,
 };
 
 // Per-file frame dimension overrides (relative path from repo root).
@@ -495,11 +545,65 @@ const FILE_FRAME_OVERRIDES: Record<string, { frameWidth: number; frameHeight: nu
   "characters/archer_bandit/volley_vfx.png":                    { frameWidth: 74,  frameHeight: 111 },
   "characters/human_crow_keeper/projectile-idle.png":           { frameWidth: 114, frameHeight: 84  },
   "characters/human_crow_keeper/projectile_sprite_sheet.png":   { frameWidth: 114, frameHeight: 84  },
-  "characters/evil_sage/evil_shockwave.png":        { frameWidth: 137, frameHeight: 39  },
+  "characters/human_crow_keeper/projectile_idle.png":           { frameWidth: 19,  frameHeight: 14  },
+  "characters/human_crow_keeper/projectile_explode.png":        { frameWidth: 19,  frameHeight: 14  },
+  "characters/evil_sage/attack2_vfx.png":           { frameWidth: 137, frameHeight: 39  },
+  "characters/sage/special.png":                    { frameWidth: 137, frameHeight: 156 },
+  "characters/sage/projectile_idle.png":            { frameWidth: 17,  frameHeight: 17  },
+  "characters/sage/projectile_explode.png":         { frameWidth: 17,  frameHeight: 17  },
+  "characters/hell_bot/projectile_idle.png":    { frameWidth: 17, frameHeight: 17 },
+  "characters/hell_bot/projectile_explode.png": { frameWidth: 17, frameHeight: 17 },
+  "characters/spark_bug/death.png":             { frameWidth: 20, frameHeight: 14 },
+  // the_blood_king: each file pinned individually due to mixed frame widths across height groups.
+  "characters/the_blood_king/appear.png":      { frameWidth: 328, frameHeight: 153 },
+  "characters/the_blood_king/attack1.png":     { frameWidth: 281, frameHeight:  62 },
+  "characters/the_blood_king/attack2.png":     { frameWidth:  73, frameHeight:  29 },
+  "characters/the_blood_king/attack3.png":     { frameWidth:  58, frameHeight:  29 },
+  "characters/the_blood_king/attack3_vfx.png": { frameWidth: 153, frameHeight:  72 },
+  "characters/the_blood_king/attack4.png":     { frameWidth: 328, frameHeight: 153 },
+  "characters/the_blood_king/attack5.png":     { frameWidth: 265, frameHeight:  62 },
+  "characters/the_blood_king/death.png":       { frameWidth: 328, frameHeight: 153 },
+  "characters/the_blood_king/fall1.png":       { frameWidth:  44, frameHeight:  29 },
+  "characters/the_blood_king/idle.png":        { frameWidth:  29, frameHeight:  29 },
+  "characters/the_blood_king/jump.png":        { frameWidth:  29, frameHeight:  29 },
+  "characters/the_blood_king/run.png":         { frameWidth:  29, frameHeight:  29 },
+  "characters/the_blood_king/take_hit.png":    { frameWidth:  29, frameHeight:  29 },
+  "characters/shielder/projectile_idle.png":    { frameWidth: 11, frameHeight: 11 },
+  "characters/shielder/projectile_explode.png": { frameWidth: 11, frameHeight: 11 },
+  "animals/a_strange_companion/projectile/projectile_idle.png":    { frameWidth: 14, frameHeight: 14 },
+  "animals/a_strange_companion/projectile/projectile_explode.png": { frameWidth: 14, frameHeight: 14 },
   "characters/dream_merchant1/genie_merchant.png":  { frameWidth: 90,  frameHeight: 63  },
   "characters/dream_merchant2/magic_merchant.png":  { frameWidth: 65,  frameHeight: 49  },
   "characters/dream_merchant3/time_traveler_npc.png": { frameWidth: 64,  frameHeight: 82 },
-  "characters/lord_of_the_flames/range_sprite_with_glow.png": { frameWidth: 49, frameHeight: 28 },
+  "characters/lord_of_the_flames/attack4_proj.png":           { frameWidth: 49,  frameHeight: 28 },
+  "characters/lord_of_the_poisons/ranged_idle.png": { frameWidth: 48, frameHeight: 28 },
+  "characters/orb_mage/attack1.png":     { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/attack1_vfx.png": { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/attack2.png":     { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/buff.png":     { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/death.png":    { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/idle.png":     { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/take_hit.png": { frameWidth: 178, frameHeight: 51 },
+  "characters/orb_mage/walk.png":     { frameWidth: 178, frameHeight: 51 },
+  "characters/panda_protector/attack2_vfx.png": { frameWidth: 140, frameHeight: 30 },
+  "characters/shadow_of_storms/attack1.png":  { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/attack2.png":  { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/attack3.png":  { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/attack4.png":  { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/buff.png":     { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/death.png":    { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/idle.png":     { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/attack3_vfx.png": { frameWidth: 50, frameHeight: 51 },
+  "characters/shadow_of_storms/run.png":      { frameWidth: 238, frameHeight: 80 },
+  "characters/shadow_of_storms/take_hit.png": { frameWidth: 238, frameHeight: 80 },
+  "characters/sci-fi_samurai/with_sword/attack.png": { frameWidth: 95,  frameHeight: 49 },
+  "characters/sci-fi_samurai/with_sword/death.png":  { frameWidth: 95,  frameHeight: 49 },
+  "characters/sci-fi_samurai/with_sword/idle.png":   { frameWidth: 95,  frameHeight: 49 },
+  "characters/sci-fi_samurai/with_sword/run.png":    { frameWidth: 95,  frameHeight: 49 },
+  "characters/sci-fi_samurai/with_spear/attack.png": { frameWidth: 107, frameHeight: 33 },
+  "characters/sci-fi_samurai/with_spear/death.png":  { frameWidth: 107, frameHeight: 33 },
+  "characters/sci-fi_samurai/with_spear/idle.png":   { frameWidth: 107, frameHeight: 33 },
+  "characters/sci-fi_samurai/with_spear/run.png":    { frameWidth: 107, frameHeight: 33 },
   "characters/masks_merchant/mask_merchants.png": { frameWidth: 81, frameHeight: 60 },
   "characters/gem_merchant/gem_merchant.png":        { frameWidth: 101, frameHeight: 37 },
   "characters/gun_merchant/gun_merchant.png":        { frameWidth: 108, frameHeight: 39 },
@@ -577,13 +681,13 @@ const FILE_FRAME_OVERRIDES: Record<string, { frameWidth: number; frameHeight: nu
   // blood_temple
   "blood_temple/objects/animated_objects/statue.png":                     { frameWidth: 128, frameHeight: 112 }, // 8fr
   // castle_of_bones
-  "castle_of_bones/objects/animated_objects/ancient_door.png":            { frameWidth: 64,  frameHeight: 144 }, // 48fr
-  "castle_of_bones/objects/animated_objects/candles_1.png":               { frameWidth: 32,  frameHeight: 18  }, // 8fr (row1 of split)
-  "castle_of_bones/objects/animated_objects/candles_2.png":               { frameWidth: 32,  frameHeight: 15  }, // 8fr
-  "castle_of_bones/objects/animated_objects/candles_3.png":               { frameWidth: 32,  frameHeight: 18  }, // 8fr (row2 of split)
-  "castle_of_bones/objects/animated_objects/ember_pit_shrine.png":        { frameWidth: 32,  frameHeight: 33  }, // 10fr (minima at x=31,63,95…)
-  "castle_of_bones/objects/animated_objects/lever.png":                   { frameWidth: 32,  frameHeight: 32  }, // 8fr
-  "castle_of_bones/objects/animated_objects/torch_1.png":                 { frameWidth: 64,  frameHeight: 64  }, // 10fr
+  "castle_of_bones/objects/animated_objects/ancient_door/idle.png":       { frameWidth: 64,  frameHeight: 144 }, // 1fr (static)
+  "castle_of_bones/objects/animated_objects/ancient_door/open.png":       { frameWidth: 64,  frameHeight: 144 }, // 48fr
+  "castle_of_bones/objects/animated_objects/candles_animation1.png":      { frameWidth: 32,  frameHeight: 18  }, // 8fr
+  "castle_of_bones/objects/animated_objects/candles_animation2.png":      { frameWidth: 32,  frameHeight: 15  }, // 8fr
+  "castle_of_bones/objects/animated_objects/candles_animation3.png":      { frameWidth: 32,  frameHeight: 18  }, // 8fr
+  "castle_of_bones/objects/animated_objects/ember_pit_shrine_idle.png":   { frameWidth: 80,  frameHeight: 33  }, // 4fr
+  "castle_of_bones/objects/animated_objects/torch_1_idle.png":            { frameWidth: 64,  frameHeight: 64  }, // 10fr
   // somber_city — rearranged vertical → horizontal; frame sizes are exact
   "somber_city/objects/animated_objects/distant_lightning.png":           { frameWidth: 32,  frameHeight: 32  }, // 18fr
   "somber_city/objects/animated_objects/door_fade.png":                   { frameWidth: 262, frameHeight: 121 }, // 20fr (col-alpha period=262)
@@ -1005,7 +1109,9 @@ function buildCharacter(
     for (const sub of subdirs) files = files.concat(listPngs(sub));
   }
 
-  return buildStandardCharacter(id, dirPath, files, issues);
+  return buildStandardCharacter(id, dirPath, files, issues, {
+    separateProjectiles: SEPARATE_PROJECTILES.has(id),
+  });
 }
 
 // ---------------------------------------------------------------------------

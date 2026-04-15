@@ -10,11 +10,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 187,
-        "sheetHeight": 21,
-        "frameWidth": 17,
-        "frameHeight": 21,
-        "frameCount": 11
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "crow_red_animation1"
     },
@@ -25,11 +25,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 68,
-        "sheetHeight": 21,
-        "frameWidth": 17,
-        "frameHeight": 21,
-        "frameCount": 4
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "crow_red_animation2"
     },
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 102,
-        "sheetHeight": 21,
-        "frameWidth": 17,
-        "frameHeight": 21,
-        "frameCount": 6
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "crow_red_animation3"
     }

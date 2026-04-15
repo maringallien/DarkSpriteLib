@@ -10,10 +10,10 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 456,
-        "sheetHeight": 39,
-        "frameWidth": 57,
-        "frameHeight": 39,
+        "sheetWidth": 368,
+        "sheetHeight": 31,
+        "frameWidth": 46,
+        "frameHeight": 31,
         "frameCount": 8
       },
       "originalName": "attack"
@@ -25,28 +25,13 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 513,
-        "sheetHeight": 39,
-        "frameWidth": 57,
-        "frameHeight": 39,
+        "sheetWidth": 414,
+        "sheetHeight": 31,
+        "frameWidth": 46,
+        "frameHeight": 31,
         "frameCount": 9
       },
       "originalName": "death"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/spitter/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 171,
-        "sheetHeight": 39,
-        "frameWidth": 57,
-        "frameHeight": 39,
-        "frameCount": 3
-      },
-      "originalName": "hit"
     },
     "idle": {
       "type": "simple",
@@ -55,13 +40,28 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 342,
-        "sheetHeight": 39,
-        "frameWidth": 57,
-        "frameHeight": 39,
+        "sheetWidth": 276,
+        "sheetHeight": 31,
+        "frameWidth": 46,
+        "frameHeight": 31,
         "frameCount": 6
       },
       "originalName": "idle"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/spitter/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 138,
+        "sheetHeight": 31,
+        "frameWidth": 46,
+        "frameHeight": 31,
+        "frameCount": 3
+      },
+      "originalName": "take_hit"
     },
     "walk": {
       "type": "simple",
@@ -70,13 +70,43 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 399,
-        "sheetHeight": 39,
-        "frameWidth": 57,
-        "frameHeight": 39,
+        "sheetWidth": 322,
+        "sheetHeight": 31,
+        "frameWidth": 46,
+        "frameHeight": 31,
         "frameCount": 7
       },
       "originalName": "walk"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "characters/spitter/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 91,
+        "sheetHeight": 13,
+        "frameWidth": 13,
+        "frameHeight": 13,
+        "frameCount": 7
+      },
+      "originalName": "projectile_explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "characters/spitter/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 52,
+        "sheetHeight": 13,
+        "frameWidth": 13,
+        "frameHeight": 13,
+        "frameCount": 4
+      },
+      "originalName": "projectile_idle"
     }
   }
 }

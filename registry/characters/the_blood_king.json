@@ -3,230 +3,213 @@
   "id": "the_blood_king",
   "path": "characters/the_blood_king",
   "animations": {
-    "death": {
+    "appear": {
       "type": "simple",
-      "key": "death",
-      "file": "characters/the_blood_king/the_blood_king-death_or_teleport.png",
-      "category": "state",
+      "key": "appear",
+      "file": "characters/the_blood_king/appear.png",
+      "category": "special",
       "loops": false,
       "frames": {
-        "sheetWidth": 1848,
-        "sheetHeight": 79,
-        "frameWidth": 168,
-        "frameHeight": 79,
-        "frameCount": 11
+        "sheetWidth": 3936,
+        "sheetHeight": 153,
+        "frameWidth": 328,
+        "frameHeight": 153,
+        "frameCount": 12,
+        "anchorX": 107
       },
-      "originalName": "the_blood_king-death_or_teleport"
+      "originalName": "appear"
     },
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/the_blood_king/the_blood_king-dodge_charge_attack.png",
+      "file": "characters/the_blood_king/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2736,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 342
+        "sheetWidth": 5339,
+        "sheetHeight": 62,
+        "frameWidth": 281,
+        "frameHeight": 62,
+        "frameCount": 19,
+        "anchorX": 130
       },
-      "originalName": "the_blood_king-dodge_charge_attack"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/the_blood_king/the_blood_king-double_slash_vfx.png",
+      "file": "characters/the_blood_king/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 1120,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 140
+        "sheetWidth": 1022,
+        "sheetHeight": 29,
+        "frameWidth": 73,
+        "frameHeight": 29,
+        "frameCount": 14,
+        "anchorX": 18
       },
-      "originalName": "the_blood_king-double_slash_vfx"
-    },
-    "fall1": {
-      "type": "simple",
-      "key": "fall1",
-      "file": "characters/the_blood_king/the_blood_king-fall.png",
-      "category": "movement",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 192,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 24
-      },
-      "originalName": "the_blood_king-fall"
-    },
-    "special": {
-      "type": "simple",
-      "key": "special",
-      "file": "characters/the_blood_king/the_blood_king-finisher.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 832,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 104
-      },
-      "originalName": "the_blood_king-finisher"
+      "originalName": "attack2"
     },
     "attack3": {
       "type": "simple",
       "key": "attack3",
-      "file": "characters/the_blood_king/the_blood_king-heart_slam.png",
+      "file": "characters/the_blood_king/attack3.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 3024,
-        "sheetHeight": 79,
-        "frameWidth": 168,
-        "frameHeight": 79,
-        "frameCount": 18
+        "sheetWidth": 754,
+        "sheetHeight": 29,
+        "frameWidth": 58,
+        "frameHeight": 29,
+        "frameCount": 13,
+        "anchorX": 19
       },
-      "originalName": "the_blood_king-heart_slam"
+      "originalName": "attack3"
     },
-    "take_hit": {
+    "attack3_vfx": {
       "type": "simple",
-      "key": "take_hit",
-      "file": "characters/the_blood_king/the_blood_king-hit.png",
-      "category": "state",
+      "key": "attack3_vfx",
+      "file": "characters/the_blood_king/attack3_vfx.png",
+      "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 64,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 8
+        "sheetWidth": 2754,
+        "sheetHeight": 72,
+        "frameWidth": 153,
+        "frameHeight": 72,
+        "frameCount": 18,
+        "anchorX": 72
       },
-      "originalName": "the_blood_king-hit"
-    },
-    "idle": {
-      "type": "simple",
-      "key": "idle",
-      "file": "characters/the_blood_king/the_blood_king-idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 384,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 48
-      },
-      "originalName": "the_blood_king-idle"
-    },
-    "jump": {
-      "type": "simple",
-      "key": "jump",
-      "file": "characters/the_blood_king/the_blood_king-jump.png",
-      "category": "movement",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 128,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 16
-      },
-      "originalName": "the_blood_king-jump"
+      "originalName": "attack3_vfx"
     },
     "attack4": {
       "type": "simple",
       "key": "attack4",
-      "file": "characters/the_blood_king/the_blood_king-jump_slam_attack_vfx.png",
+      "file": "characters/the_blood_king/attack4.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 2184,
-        "sheetHeight": 79,
-        "frameWidth": 168,
-        "frameHeight": 79,
-        "frameCount": 13
+        "sheetWidth": 4264,
+        "sheetHeight": 153,
+        "frameWidth": 328,
+        "frameHeight": 153,
+        "frameCount": 13,
+        "anchorX": 206
       },
-      "originalName": "the_blood_king-jump_slam_attack_vfx"
-    },
-    "fall2": {
-      "type": "simple",
-      "key": "fall2",
-      "file": "characters/the_blood_king/the_blood_king-jump_to_fall_trans.png",
-      "category": "movement",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 64,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 8
-      },
-      "originalName": "the_blood_king-jump_to_fall_trans"
-    },
-    "run": {
-      "type": "simple",
-      "key": "run",
-      "file": "characters/the_blood_king/the_blood_king-run.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 256,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 32
-      },
-      "originalName": "the_blood_king-run"
+      "originalName": "attack4"
     },
     "attack5": {
       "type": "simple",
       "key": "attack5",
-      "file": "characters/the_blood_king/the_blood_king-stab_and_spin_throw.png",
+      "file": "characters/the_blood_king/attack5.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 1768,
-        "sheetHeight": 32,
-        "frameWidth": 8,
-        "frameHeight": 32,
-        "frameCount": 221
+        "sheetWidth": 3445,
+        "sheetHeight": 62,
+        "frameWidth": 265,
+        "frameHeight": 62,
+        "frameCount": 13,
+        "anchorX": 115
       },
-      "originalName": "the_blood_king-stab_and_spin_throw"
+      "originalName": "attack5"
     },
-    "appear": {
+    "death": {
       "type": "simple",
-      "key": "appear",
-      "file": "characters/the_blood_king/the_blood_king-teleport_appear.png",
-      "category": "special",
+      "key": "death",
+      "file": "characters/the_blood_king/death.png",
+      "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 2016,
-        "sheetHeight": 79,
-        "frameWidth": 168,
-        "frameHeight": 79,
-        "frameCount": 12
+        "sheetWidth": 3608,
+        "sheetHeight": 153,
+        "frameWidth": 328,
+        "frameHeight": 153,
+        "frameCount": 11,
+        "anchorX": 107
       },
-      "originalName": "the_blood_king-teleport_appear"
+      "originalName": "death"
     },
-    "attack6": {
+    "fall": {
       "type": "simple",
-      "key": "attack6",
-      "file": "characters/the_blood_king/the_blood_king-vfx_stab_and_spin_throw.png",
-      "category": "attack",
+      "key": "fall",
+      "file": "characters/the_blood_king/fall1.png",
+      "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 2184,
-        "sheetHeight": 79,
-        "frameWidth": 168,
-        "frameHeight": 79,
-        "frameCount": 13
+        "sheetWidth": 176,
+        "sheetHeight": 29,
+        "frameWidth": 44,
+        "frameHeight": 29,
+        "frameCount": 4,
+        "anchorX": 20
       },
-      "originalName": "the_blood_king-vfx_stab_and_spin_throw"
+      "originalName": "fall1"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/the_blood_king/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 348,
+        "sheetHeight": 29,
+        "frameWidth": 29,
+        "frameHeight": 29,
+        "frameCount": 12,
+        "anchorX": 19
+      },
+      "originalName": "idle"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "characters/the_blood_king/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 116,
+        "sheetHeight": 29,
+        "frameWidth": 29,
+        "frameHeight": 29,
+        "frameCount": 4,
+        "anchorX": 20
+      },
+      "originalName": "jump"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/the_blood_king/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 232,
+        "sheetHeight": 29,
+        "frameWidth": 29,
+        "frameHeight": 29,
+        "frameCount": 8,
+        "anchorX": 19
+      },
+      "originalName": "run"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/the_blood_king/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 58,
+        "sheetHeight": 29,
+        "frameWidth": 29,
+        "frameHeight": 29,
+        "frameCount": 2,
+        "anchorX": 20
+      },
+      "originalName": "take_hit"
     }
   }
 }

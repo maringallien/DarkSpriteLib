@@ -10,10 +10,10 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 72,
-        "sheetHeight": 32,
-        "frameWidth": 12,
-        "frameHeight": 32,
+        "sheetWidth": 54,
+        "sheetHeight": 25,
+        "frameWidth": 9,
+        "frameHeight": 25,
         "frameCount": 6
       },
       "originalName": "attack"
@@ -25,10 +25,10 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 12,
-        "sheetHeight": 32,
-        "frameWidth": 12,
-        "frameHeight": 32,
+        "sheetWidth": 9,
+        "sheetHeight": 25,
+        "frameWidth": 9,
+        "frameHeight": 25,
         "frameCount": 1
       },
       "originalName": "idle"

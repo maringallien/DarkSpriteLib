@@ -1,0 +1,112 @@
+{
+  "type": "standard",
+  "id": "temple_guardian",
+  "path": "characters/temple_guardian",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/temple_guardian/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1760,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 11
+      },
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/temple_guardian/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1760,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 11
+      },
+      "originalName": "attack2"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/temple_guardian/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1600,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 10
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/temple_guardian/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1280,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 8
+      },
+      "originalName": "idle"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/temple_guardian/special.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2240,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 14
+      },
+      "originalName": "special"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/temple_guardian/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 320,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/temple_guardian/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1280,
+        "sheetHeight": 59,
+        "frameWidth": 160,
+        "frameHeight": 59,
+        "frameCount": 8
+      },
+      "originalName": "walk"
+    }
+  }
+}

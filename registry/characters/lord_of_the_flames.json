@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-attack.png",
+      "file": "characters/lord_of_the_flames/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,27 +16,12 @@
         "frameHeight": 47,
         "frameCount": 19
       },
-      "originalName": "lord_of_the_flames-attack"
-    },
-    "buff": {
-      "type": "simple",
-      "key": "buff",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-buff.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 3045,
-        "sheetHeight": 47,
-        "frameWidth": 145,
-        "frameHeight": 47,
-        "frameCount": 21
-      },
-      "originalName": "lord_of_the_flames-buff"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-chain_stab.png",
+      "file": "characters/lord_of_the_flames/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -46,13 +31,13 @@
         "frameHeight": 47,
         "frameCount": 15
       },
-      "originalName": "lord_of_the_flames-chain_stab"
+      "originalName": "attack2"
     },
-    "death": {
+    "attack3": {
       "type": "simple",
-      "key": "death",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-death.png",
-      "category": "state",
+      "key": "attack3",
+      "file": "characters/lord_of_the_flames/attack3.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 2175,
@@ -61,42 +46,12 @@
         "frameHeight": 47,
         "frameCount": 15
       },
-      "originalName": "lord_of_the_flames-death"
-    },
-    "idle": {
-      "type": "simple",
-      "key": "idle",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 1740,
-        "sheetHeight": 47,
-        "frameWidth": 145,
-        "frameHeight": 47,
-        "frameCount": 12
-      },
-      "originalName": "lord_of_the_flames-idle"
-    },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 2320,
-        "sheetHeight": 47,
-        "frameWidth": 145,
-        "frameHeight": 47,
-        "frameCount": 16
-      },
-      "originalName": "lord_of_the_flames-move"
+      "originalName": "attack3"
     },
     "attack4": {
       "type": "simple",
       "key": "attack4",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-range_fire_burst.png",
+      "file": "characters/lord_of_the_flames/attack4.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -106,27 +61,12 @@
         "frameHeight": 47,
         "frameCount": 13
       },
-      "originalName": "lord_of_the_flames-range_fire_burst"
+      "originalName": "attack4"
     },
-    "attack3": {
+    "attack4_vfx": {
       "type": "simple",
-      "key": "attack3",
-      "file": "characters/lord_of_the_flames/lord_of_the_flames-spear.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 2175,
-        "sheetHeight": 47,
-        "frameWidth": 145,
-        "frameHeight": 47,
-        "frameCount": 15
-      },
-      "originalName": "lord_of_the_flames-spear"
-    },
-    "attack4_proj": {
-      "type": "simple",
-      "key": "attack4_proj",
-      "file": "characters/lord_of_the_flames/range_sprite_with_glow.png",
+      "key": "attack4_vfx",
+      "file": "characters/lord_of_the_flames/attack4_proj.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -136,7 +76,67 @@
         "frameHeight": 28,
         "frameCount": 9
       },
-      "originalName": "range_sprite_with_glow"
+      "originalName": "attack4_proj"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/lord_of_the_flames/buff.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3045,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 21
+      },
+      "originalName": "buff"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/lord_of_the_flames/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2175,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 15
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/lord_of_the_flames/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1740,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 12
+      },
+      "originalName": "idle"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/lord_of_the_flames/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 2320,
+        "sheetHeight": 47,
+        "frameWidth": 145,
+        "frameHeight": 47,
+        "frameCount": 16
+      },
+      "originalName": "walk"
     }
   }
 }

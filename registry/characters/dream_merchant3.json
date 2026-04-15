@@ -6,17 +6,17 @@
     "full_sheet": {
       "type": "simple",
       "key": "full_sheet",
-      "file": "characters/dream_merchant3/time_traveler_npc.png",
-      "category": "ui",
+      "file": "characters/dream_merchant3/full_sheet.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 768,
         "sheetHeight": 82,
-        "frameWidth": 64,
+        "frameWidth": 192,
         "frameHeight": 82,
-        "frameCount": 12
+        "frameCount": 4
       },
-      "originalName": "time_traveler_npc"
+      "originalName": "full_sheet"
     }
   }
 }

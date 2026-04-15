@@ -84,7 +84,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/tiny_swordmaster/die.png",
+      "file": "characters/tiny_swordmaster/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -94,7 +94,7 @@
         "frameHeight": 40,
         "frameCount": 6
       },
-      "originalName": "die"
+      "originalName": "death"
     },
     "fall": {
       "type": "simple",
@@ -126,21 +126,6 @@
       },
       "originalName": "idle"
     },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/tiny_swordmaster/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 312,
-        "sheetHeight": 40,
-        "frameWidth": 39,
-        "frameHeight": 40,
-        "frameCount": 8
-      },
-      "originalName": "move"
-    },
     "roll": {
       "type": "simple",
       "key": "roll",
@@ -170,6 +155,21 @@
         "frameCount": 2
       },
       "originalName": "take_hit"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/tiny_swordmaster/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 312,
+        "sheetHeight": 40,
+        "frameWidth": 39,
+        "frameHeight": 40,
+        "frameCount": 8
+      },
+      "originalName": "walk"
     }
   }
 }

@@ -14,21 +14,8 @@
           "category": "ranged",
           "parts": [
             {
-              "key": "prep",
-              "file": "characters/the_bone_reaper/hand/hand_prep_laser.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 798,
-                "sheetHeight": 103,
-                "frameWidth": 133,
-                "frameHeight": 103,
-                "frameCount": 6
-              },
-              "originalName": "hand_prep_laser"
-            },
-            {
               "key": "loop",
-              "file": "characters/the_bone_reaper/hand/hand_laser_loop.png",
+              "file": "characters/the_bone_reaper/hand/laser_loop.png",
               "loops": false,
               "frames": {
                 "sheetWidth": 1064,
@@ -37,11 +24,11 @@
                 "frameHeight": 103,
                 "frameCount": 8
               },
-              "originalName": "hand_laser_loop"
+              "originalName": "laser_loop"
             },
             {
               "key": "end",
-              "file": "characters/the_bone_reaper/hand/hand_laser_end.png",
+              "file": "characters/the_bone_reaper/hand/laser_end.png",
               "loops": false,
               "frames": {
                 "sheetWidth": 1330,
@@ -50,14 +37,44 @@
                 "frameHeight": 103,
                 "frameCount": 10
               },
-              "originalName": "hand_laser_end"
+              "originalName": "laser_end"
             }
           ]
+        },
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/the_bone_reaper/hand/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3192,
+            "sheetHeight": 103,
+            "frameWidth": 133,
+            "frameHeight": 103,
+            "frameCount": 24
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/the_bone_reaper/hand/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3192,
+            "sheetHeight": 103,
+            "frameWidth": 133,
+            "frameHeight": 103,
+            "frameCount": 24
+          },
+          "originalName": "attack2"
         },
         "death": {
           "type": "simple",
           "key": "death",
-          "file": "characters/the_bone_reaper/hand/hand_death.png",
+          "file": "characters/the_bone_reaper/hand/death.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -67,12 +84,12 @@
             "frameHeight": 103,
             "frameCount": 41
           },
-          "originalName": "hand_death"
+          "originalName": "death"
         },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "characters/the_bone_reaper/hand/hand_idle.png",
+          "file": "characters/the_bone_reaper/hand/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -82,37 +99,22 @@
             "frameHeight": 103,
             "frameCount": 24
           },
-          "originalName": "hand_idle"
+          "originalName": "idle"
         },
-        "attack1": {
+        "ranged": {
           "type": "simple",
-          "key": "attack1",
-          "file": "characters/the_bone_reaper/hand/hand_slam.png",
-          "category": "attack",
+          "key": "ranged",
+          "file": "characters/the_bone_reaper/hand/laser_prep.png",
+          "category": "ranged",
           "loops": false,
           "frames": {
-            "sheetWidth": 3192,
+            "sheetWidth": 798,
             "sheetHeight": 103,
             "frameWidth": 133,
             "frameHeight": 103,
-            "frameCount": 24
+            "frameCount": 6
           },
-          "originalName": "hand_slam"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/the_bone_reaper/hand/hand_slam_+_swipe.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3192,
-            "sheetHeight": 103,
-            "frameWidth": 133,
-            "frameHeight": 103,
-            "frameCount": 24
-          },
-          "originalName": "hand_slam_+_swipe"
+          "originalName": "laser_prep"
         }
       }
     },
@@ -127,21 +129,8 @@
           "category": "ranged",
           "parts": [
             {
-              "key": "prep",
-              "file": "characters/the_bone_reaper/head/head_prep_laser.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1440,
-                "sheetHeight": 163,
-                "frameWidth": 240,
-                "frameHeight": 163,
-                "frameCount": 6
-              },
-              "originalName": "head_prep_laser"
-            },
-            {
               "key": "loop",
-              "file": "characters/the_bone_reaper/head/head_laser_loop.png",
+              "file": "characters/the_bone_reaper/head/laser_loop.png",
               "loops": false,
               "frames": {
                 "sheetWidth": 1920,
@@ -150,11 +139,11 @@
                 "frameHeight": 163,
                 "frameCount": 8
               },
-              "originalName": "head_laser_loop"
+              "originalName": "laser_loop"
             },
             {
               "key": "end",
-              "file": "characters/the_bone_reaper/head/head_laser_end.png",
+              "file": "characters/the_bone_reaper/head/laser_end.png",
               "loops": false,
               "frames": {
                 "sheetWidth": 2400,
@@ -163,29 +152,14 @@
                 "frameHeight": 163,
                 "frameCount": 10
               },
-              "originalName": "head_laser_end"
+              "originalName": "laser_end"
             }
           ]
-        },
-        "special1": {
-          "type": "simple",
-          "key": "special1",
-          "file": "characters/the_bone_reaper/head/head_action.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 5760,
-            "sheetHeight": 163,
-            "frameWidth": 240,
-            "frameHeight": 163,
-            "frameCount": 24
-          },
-          "originalName": "head_action"
         },
         "death": {
           "type": "simple",
           "key": "death",
-          "file": "characters/the_bone_reaper/head/head_death.png",
+          "file": "characters/the_bone_reaper/head/death.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -195,27 +169,12 @@
             "frameHeight": 163,
             "frameCount": 41
           },
-          "originalName": "head_death"
-        },
-        "special2": {
-          "type": "simple",
-          "key": "special2",
-          "file": "characters/the_bone_reaper/head/head_electric_smoke.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 5760,
-            "sheetHeight": 163,
-            "frameWidth": 240,
-            "frameHeight": 163,
-            "frameCount": 24
-          },
-          "originalName": "head_electric_smoke"
+          "originalName": "death"
         },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "characters/the_bone_reaper/head/head_idle.png",
+          "file": "characters/the_bone_reaper/head/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -225,22 +184,22 @@
             "frameHeight": 163,
             "frameCount": 24
           },
-          "originalName": "head_idle"
+          "originalName": "idle"
         },
-        "summon": {
+        "ranged": {
           "type": "simple",
-          "key": "summon",
-          "file": "characters/the_bone_reaper/head/head_summon_orbs.png",
-          "category": "state",
+          "key": "ranged",
+          "file": "characters/the_bone_reaper/head/laser_prep.png",
+          "category": "ranged",
           "loops": false,
           "frames": {
-            "sheetWidth": 6000,
+            "sheetWidth": 1440,
             "sheetHeight": 163,
             "frameWidth": 240,
             "frameHeight": 163,
-            "frameCount": 25
+            "frameCount": 6
           },
-          "originalName": "head_summon_orbs"
+          "originalName": "laser_prep"
         },
         "rage": {
           "type": "simple",
@@ -256,6 +215,51 @@
             "frameCount": 24
           },
           "originalName": "rage"
+        },
+        "special1": {
+          "type": "simple",
+          "key": "special1",
+          "file": "characters/the_bone_reaper/head/special1.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 5760,
+            "sheetHeight": 163,
+            "frameWidth": 240,
+            "frameHeight": 163,
+            "frameCount": 24
+          },
+          "originalName": "special1"
+        },
+        "special2": {
+          "type": "simple",
+          "key": "special2",
+          "file": "characters/the_bone_reaper/head/special2.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 5760,
+            "sheetHeight": 163,
+            "frameWidth": 240,
+            "frameHeight": 163,
+            "frameCount": 24
+          },
+          "originalName": "special2"
+        },
+        "summon": {
+          "type": "simple",
+          "key": "summon",
+          "file": "characters/the_bone_reaper/head/summon.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 6000,
+            "sheetHeight": 163,
+            "frameWidth": 240,
+            "frameHeight": 163,
+            "frameCount": 25
+          },
+          "originalName": "summon"
         }
       }
     },
@@ -264,40 +268,10 @@
       "id": "orb_black",
       "path": "characters/the_bone_reaper/orb_black",
       "animations": {
-        "special1": {
-          "type": "simple",
-          "key": "special1",
-          "file": "characters/the_bone_reaper/orb_black/orb-burst_horizontal.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2112,
-            "sheetHeight": 192,
-            "frameWidth": 192,
-            "frameHeight": 192,
-            "frameCount": 11
-          },
-          "originalName": "orb-burst_horizontal"
-        },
-        "special2": {
-          "type": "simple",
-          "key": "special2",
-          "file": "characters/the_bone_reaper/orb_black/orb-burst_spikes.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3072,
-            "sheetHeight": 192,
-            "frameWidth": 192,
-            "frameHeight": 192,
-            "frameCount": 16
-          },
-          "originalName": "orb-burst_spikes"
-        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "characters/the_bone_reaper/orb_black/orb-idle.png",
+          "file": "characters/the_bone_reaper/orb_black/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -307,12 +281,42 @@
             "frameHeight": 192,
             "frameCount": 18
           },
-          "originalName": "orb-idle"
+          "originalName": "idle"
+        },
+        "special1": {
+          "type": "simple",
+          "key": "special1",
+          "file": "characters/the_bone_reaper/orb_black/special1.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2112,
+            "sheetHeight": 192,
+            "frameWidth": 192,
+            "frameHeight": 192,
+            "frameCount": 11
+          },
+          "originalName": "special1"
+        },
+        "special2": {
+          "type": "simple",
+          "key": "special2",
+          "file": "characters/the_bone_reaper/orb_black/special2.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3072,
+            "sheetHeight": 192,
+            "frameWidth": 192,
+            "frameHeight": 192,
+            "frameCount": 16
+          },
+          "originalName": "special2"
         },
         "summon": {
           "type": "simple",
           "key": "summon",
-          "file": "characters/the_bone_reaper/orb_black/orb-summon.png",
+          "file": "characters/the_bone_reaper/orb_black/summon.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -322,7 +326,7 @@
             "frameHeight": 192,
             "frameCount": 7
           },
-          "originalName": "orb-summon"
+          "originalName": "summon"
         }
       }
     },
@@ -331,40 +335,10 @@
       "id": "orb_white",
       "path": "characters/the_bone_reaper/orb_white",
       "animations": {
-        "special1": {
-          "type": "simple",
-          "key": "special1",
-          "file": "characters/the_bone_reaper/orb_white/orb-burst_horizontal.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2112,
-            "sheetHeight": 192,
-            "frameWidth": 192,
-            "frameHeight": 192,
-            "frameCount": 11
-          },
-          "originalName": "orb-burst_horizontal"
-        },
-        "special2": {
-          "type": "simple",
-          "key": "special2",
-          "file": "characters/the_bone_reaper/orb_white/orb-burst_spikes.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3072,
-            "sheetHeight": 192,
-            "frameWidth": 192,
-            "frameHeight": 192,
-            "frameCount": 16
-          },
-          "originalName": "orb-burst_spikes"
-        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "characters/the_bone_reaper/orb_white/orb-idle.png",
+          "file": "characters/the_bone_reaper/orb_white/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -374,12 +348,42 @@
             "frameHeight": 192,
             "frameCount": 18
           },
-          "originalName": "orb-idle"
+          "originalName": "idle"
+        },
+        "special1": {
+          "type": "simple",
+          "key": "special1",
+          "file": "characters/the_bone_reaper/orb_white/special1.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2112,
+            "sheetHeight": 192,
+            "frameWidth": 192,
+            "frameHeight": 192,
+            "frameCount": 11
+          },
+          "originalName": "special1"
+        },
+        "special2": {
+          "type": "simple",
+          "key": "special2",
+          "file": "characters/the_bone_reaper/orb_white/special2.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3072,
+            "sheetHeight": 192,
+            "frameWidth": 192,
+            "frameHeight": 192,
+            "frameCount": 16
+          },
+          "originalName": "special2"
         },
         "summon": {
           "type": "simple",
           "key": "summon",
-          "file": "characters/the_bone_reaper/orb_white/orb-summon.png",
+          "file": "characters/the_bone_reaper/orb_white/summon.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -389,12 +393,12 @@
             "frameHeight": 192,
             "frameCount": 7
           },
-          "originalName": "orb-summon"
+          "originalName": "summon"
         },
         "take_hit": {
           "type": "simple",
           "key": "take_hit",
-          "file": "characters/the_bone_reaper/orb_white/orb_white.png",
+          "file": "characters/the_bone_reaper/orb_white/take_hit.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -404,7 +408,7 @@
             "frameHeight": 768,
             "frameCount": 2
           },
-          "originalName": "orb_white"
+          "originalName": "take_hit"
         }
       }
     }

@@ -6,7 +6,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/the_hive/explode.png",
+      "file": "characters/the_hive/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -16,7 +16,7 @@
         "frameHeight": 43,
         "frameCount": 11
       },
-      "originalName": "explode"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",

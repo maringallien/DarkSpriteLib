@@ -6,32 +6,62 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/orb_mage/attack.png",
+      "file": "characters/orb_mage/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 1547,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
+        "sheetWidth": 2314,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
         "frameCount": 13
       },
-      "originalName": "attack"
+      "originalName": "attack1"
+    },
+    "attack1_vfx": {
+      "type": "simple",
+      "key": "attack1_vfx",
+      "file": "characters/orb_mage/attack1_vfx.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1068,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
+        "frameCount": 6
+      },
+      "originalName": "attack1_vfx"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/orb_mage/attack_vfx.png",
+      "file": "characters/orb_mage/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 714,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
-        "frameCount": 6
+        "sheetWidth": 2848,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
+        "frameCount": 16
       },
-      "originalName": "attack_vfx"
+      "originalName": "attack2"
+    },
+    "buff": {
+      "type": "simple",
+      "key": "buff",
+      "file": "characters/orb_mage/buff.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2492,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
+        "frameCount": 14
+      },
+      "originalName": "buff"
     },
     "death": {
       "type": "simple",
@@ -40,43 +70,13 @@
       "category": "state",
       "loops": false,
       "frames": {
-        "sheetWidth": 833,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
+        "sheetWidth": 1246,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
         "frameCount": 7
       },
       "originalName": "death"
-    },
-    "buff": {
-      "type": "simple",
-      "key": "buff",
-      "file": "characters/orb_mage/heal.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1666,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
-        "frameCount": 14
-      },
-      "originalName": "heal"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/orb_mage/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 357,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
-        "frameCount": 3
-      },
-      "originalName": "hit"
     },
     "idle": {
       "type": "simple",
@@ -85,43 +85,43 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 357,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
+        "sheetWidth": 534,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
         "frameCount": 3
       },
       "originalName": "idle"
     },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/orb_mage/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 534,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
+        "frameCount": 3
+      },
+      "originalName": "take_hit"
+    },
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "characters/orb_mage/move.png",
+      "file": "characters/orb_mage/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 952,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
+        "sheetWidth": 1424,
+        "sheetHeight": 51,
+        "frameWidth": 178,
+        "frameHeight": 51,
         "frameCount": 8
       },
-      "originalName": "move"
-    },
-    "attack3": {
-      "type": "simple",
-      "key": "attack3",
-      "file": "characters/orb_mage/sweep_attack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1904,
-        "sheetHeight": 34,
-        "frameWidth": 119,
-        "frameHeight": 34,
-        "frameCount": 16
-      },
-      "originalName": "sweep_attack"
+      "originalName": "walk"
     }
   }
 }

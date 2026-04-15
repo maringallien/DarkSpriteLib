@@ -21,7 +21,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/the_dark_warden/die.png",
+      "file": "characters/the_dark_warden/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -31,7 +31,7 @@
         "frameHeight": 32,
         "frameCount": 16
       },
-      "originalName": "die"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -51,7 +51,7 @@
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "characters/the_dark_warden/move.png",
+      "file": "characters/the_dark_warden/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -61,7 +61,7 @@
         "frameHeight": 32,
         "frameCount": 16
       },
-      "originalName": "move"
+      "originalName": "walk"
     }
   }
 }

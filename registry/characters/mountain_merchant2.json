@@ -6,17 +6,17 @@
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/mountain_merchant2/mountain_merchant2.png",
-      "category": "ui",
+      "file": "characters/mountain_merchant2/idle.png",
+      "category": "movement",
       "loops": true,
       "frames": {
         "sheetWidth": 3144,
         "sheetHeight": 88,
-        "frameWidth": 131,
+        "frameWidth": 393,
         "frameHeight": 88,
-        "frameCount": 24
+        "frameCount": 8
       },
-      "originalName": "mountain_merchant2"
+      "originalName": "idle"
     }
   }
 }

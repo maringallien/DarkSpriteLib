@@ -6,17 +6,17 @@
     "full_sheet": {
       "type": "simple",
       "key": "full_sheet",
-      "file": "characters/dream_merchant1/genie_merchant.png",
-      "category": "ui",
+      "file": "characters/dream_merchant1/full_sheet.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 1080,
         "sheetHeight": 63,
-        "frameWidth": 90,
+        "frameWidth": 135,
         "frameHeight": 63,
-        "frameCount": 12
+        "frameCount": 8
       },
-      "originalName": "genie_merchant"
+      "originalName": "full_sheet"
     }
   }
 }

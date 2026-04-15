@@ -10,11 +10,11 @@
       "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 1540,
+        "sheetWidth": 660,
         "sheetHeight": 42,
         "frameWidth": 110,
         "frameHeight": 42,
-        "frameCount": 14
+        "frameCount": 6
       },
       "originalName": "attack1"
     },
@@ -36,7 +36,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/caged_shocker/die.png",
+      "file": "characters/caged_shocker/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -46,22 +46,7 @@
         "frameHeight": 42,
         "frameCount": 12
       },
-      "originalName": "die"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/caged_shocker/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 220,
-        "sheetHeight": 42,
-        "frameWidth": 110,
-        "frameHeight": 42,
-        "frameCount": 2
-      },
-      "originalName": "hit"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -78,10 +63,25 @@
       },
       "originalName": "idle"
     },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/caged_shocker/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 220,
+        "sheetHeight": 42,
+        "frameWidth": 110,
+        "frameHeight": 42,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    },
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "characters/caged_shocker/move.png",
+      "file": "characters/caged_shocker/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -91,7 +91,7 @@
         "frameHeight": 42,
         "frameCount": 12
       },
-      "originalName": "move"
+      "originalName": "walk"
     }
   }
 }

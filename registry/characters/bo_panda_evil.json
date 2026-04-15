@@ -3,6 +3,96 @@
   "id": "bo_panda_evil",
   "path": "characters/bo_panda",
   "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/bo_panda/evil_bo_panda/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1030,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 10
+      },
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/bo_panda/evil_bo_panda/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 618,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 6
+      },
+      "originalName": "attack2"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/bo_panda/evil_bo_panda/attack3.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 927,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 9
+      },
+      "originalName": "attack3"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/bo_panda/evil_bo_panda/attack4.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1751,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 17
+      },
+      "originalName": "attack4"
+    },
+    "attack5": {
+      "type": "simple",
+      "key": "attack5",
+      "file": "characters/bo_panda/evil_bo_panda/attack5.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "attack5"
+    },
+    "attack6": {
+      "type": "simple",
+      "key": "attack6",
+      "file": "characters/bo_panda/evil_bo_panda/attack6.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1030,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 10
+      },
+      "originalName": "attack6"
+    },
     "death": {
       "type": "simple",
       "key": "death",
@@ -33,36 +123,6 @@
       },
       "originalName": "fall"
     },
-    "special": {
-      "type": "simple",
-      "key": "special",
-      "file": "characters/bo_panda/evil_bo_panda/fall_with_spin.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 412,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 4
-      },
-      "originalName": "fall_with_spin"
-    },
-    "attack1": {
-      "type": "simple",
-      "key": "attack1",
-      "file": "characters/bo_panda/evil_bo_panda/heli_slam.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1030,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 10
-      },
-      "originalName": "heli_slam"
-    },
     "idle": {
       "type": "simple",
       "key": "idle",
@@ -78,36 +138,6 @@
       },
       "originalName": "idle"
     },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/bo_panda/evil_bo_panda/jab_repeat.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 618,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 6
-      },
-      "originalName": "jab_repeat"
-    },
-    "attack3": {
-      "type": "simple",
-      "key": "attack3",
-      "file": "characters/bo_panda/evil_bo_panda/jabs.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 927,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 9
-      },
-      "originalName": "jabs"
-    },
     "jump": {
       "type": "simple",
       "key": "jump",
@@ -122,51 +152,6 @@
         "frameCount": 4
       },
       "originalName": "jump"
-    },
-    "attack4": {
-      "type": "simple",
-      "key": "attack4",
-      "file": "characters/bo_panda/evil_bo_panda/jump_spin.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1751,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 17
-      },
-      "originalName": "jump_spin"
-    },
-    "attack5": {
-      "type": "simple",
-      "key": "attack5",
-      "file": "characters/bo_panda/evil_bo_panda/jump_with_spin.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 412,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 4
-      },
-      "originalName": "jump_with_spin"
-    },
-    "attack6": {
-      "type": "simple",
-      "key": "attack6",
-      "file": "characters/bo_panda/evil_bo_panda/quick_attacks.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1030,
-        "sheetHeight": 33,
-        "frameWidth": 103,
-        "frameHeight": 33,
-        "frameCount": 10
-      },
-      "originalName": "quick_attacks"
     },
     "roll": {
       "type": "simple",
@@ -197,6 +182,21 @@
         "frameCount": 8
       },
       "originalName": "run"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/bo_panda/evil_bo_panda/special.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 412,
+        "sheetHeight": 33,
+        "frameWidth": 103,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "special"
     },
     "wall_slide": {
       "type": "simple",

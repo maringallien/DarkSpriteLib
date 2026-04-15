@@ -15,16 +15,16 @@
           "parts": [
             {
               "key": "start",
-              "file": "characters/colossal_boss/spin_charge.png",
+              "file": "characters/colossal_boss/spin_charge_end.png",
               "loops": false,
               "frames": {
-                "sheetWidth": 1407,
+                "sheetWidth": 603,
                 "sheetHeight": 94,
                 "frameWidth": 201,
                 "frameHeight": 94,
-                "frameCount": 7
+                "frameCount": 3
               },
-              "originalName": "spin_charge"
+              "originalName": "spin_charge_end"
             },
             {
               "key": "end",
@@ -44,7 +44,7 @@
         "attack1": {
           "type": "simple",
           "key": "attack1",
-          "file": "characters/colossal_boss/body_solo_for_boomarang.png",
+          "file": "characters/colossal_boss/attack1.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -54,12 +54,12 @@
             "frameHeight": 94,
             "frameCount": 1
           },
-          "originalName": "body_solo_for_boomarang"
+          "originalName": "attack1"
         },
         "attack2": {
           "type": "simple",
           "key": "attack2",
-          "file": "characters/colossal_boss/boomarang_arms.png",
+          "file": "characters/colossal_boss/attack2.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -69,7 +69,22 @@
             "frameHeight": 94,
             "frameCount": 7
           },
-          "originalName": "boomarang_arms"
+          "originalName": "attack2"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/colossal_boss/attack3.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 4623,
+            "sheetHeight": 94,
+            "frameWidth": 201,
+            "frameHeight": 94,
+            "frameCount": 23
+          },
+          "originalName": "attack3"
         },
         "buff": {
           "type": "simple",
@@ -116,40 +131,10 @@
           },
           "originalName": "idle"
         },
-        "attack3": {
-          "type": "simple",
-          "key": "attack3",
-          "file": "characters/colossal_boss/melee_attack.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 4623,
-            "sheetHeight": 94,
-            "frameWidth": 201,
-            "frameHeight": 94,
-            "frameCount": 23
-          },
-          "originalName": "melee_attack"
-        },
-        "walk1": {
-          "type": "simple",
-          "key": "walk1",
-          "file": "characters/colossal_boss/move.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4824,
-            "sheetHeight": 94,
-            "frameWidth": 201,
-            "frameHeight": 94,
-            "frameCount": 24
-          },
-          "originalName": "move"
-        },
         "ranged": {
           "type": "simple",
           "key": "ranged",
-          "file": "characters/colossal_boss/range_attack.png",
+          "file": "characters/colossal_boss/ranged.png",
           "category": "ranged",
           "loops": false,
           "frames": {
@@ -159,12 +144,12 @@
             "frameHeight": 94,
             "frameCount": 21
           },
-          "originalName": "range_attack"
+          "originalName": "ranged"
         },
         "sleep": {
           "type": "simple",
           "key": "sleep",
-          "file": "characters/colossal_boss/static_sleep.png",
+          "file": "characters/colossal_boss/sleep.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -174,12 +159,12 @@
             "frameHeight": 94,
             "frameCount": 1
           },
-          "originalName": "static_sleep"
+          "originalName": "sleep"
         },
-        "special": {
+        "special1": {
           "type": "simple",
-          "key": "special",
-          "file": "characters/colossal_boss/super_attack.png",
+          "key": "special1",
+          "file": "characters/colossal_boss/special.png",
           "category": "special",
           "loops": false,
           "frames": {
@@ -189,13 +174,13 @@
             "frameHeight": 94,
             "frameCount": 18
           },
-          "originalName": "super_attack"
+          "originalName": "special"
         },
-        "walk2": {
+        "special2": {
           "type": "simple",
-          "key": "walk2",
-          "file": "characters/colossal_boss/turnaound_to_right.png",
-          "category": "movement",
+          "key": "special2",
+          "file": "characters/colossal_boss/spin_charge_start.png",
+          "category": "special",
           "loops": false,
           "frames": {
             "sheetWidth": 1407,
@@ -204,22 +189,7 @@
             "frameHeight": 94,
             "frameCount": 7
           },
-          "originalName": "turnaound_to_right"
-        },
-        "walk3": {
-          "type": "simple",
-          "key": "walk3",
-          "file": "characters/colossal_boss/turnaround_to_left.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1608,
-            "sheetHeight": 94,
-            "frameWidth": 201,
-            "frameHeight": 94,
-            "frameCount": 8
-          },
-          "originalName": "turnaround_to_left"
+          "originalName": "spin_charge_start"
         },
         "wake": {
           "type": "simple",
@@ -235,6 +205,51 @@
             "frameCount": 12
           },
           "originalName": "wake"
+        },
+        "walk1": {
+          "type": "simple",
+          "key": "walk1",
+          "file": "characters/colossal_boss/walk1.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4824,
+            "sheetHeight": 94,
+            "frameWidth": 201,
+            "frameHeight": 94,
+            "frameCount": 24
+          },
+          "originalName": "walk1"
+        },
+        "walk2": {
+          "type": "simple",
+          "key": "walk2",
+          "file": "characters/colossal_boss/walk2.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1407,
+            "sheetHeight": 94,
+            "frameWidth": 201,
+            "frameHeight": 94,
+            "frameCount": 7
+          },
+          "originalName": "walk2"
+        },
+        "walk3": {
+          "type": "simple",
+          "key": "walk3",
+          "file": "characters/colossal_boss/walk3.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1608,
+            "sheetHeight": 94,
+            "frameWidth": 201,
+            "frameHeight": 94,
+            "frameCount": 8
+          },
+          "originalName": "walk3"
         }
       }
     }

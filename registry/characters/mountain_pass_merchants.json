@@ -6,7 +6,7 @@
     "full_sheet1": {
       "type": "simple",
       "key": "full_sheet1",
-      "file": "characters/mountain_pass_merchants/merchant_1.png",
+      "file": "characters/mountain_pass_merchants/full_sheet1.png",
       "category": "ui",
       "loops": false,
       "frames": {
@@ -21,7 +21,7 @@
     "full_sheet2": {
       "type": "simple",
       "key": "full_sheet2",
-      "file": "characters/mountain_pass_merchants/merchant_2.png",
+      "file": "characters/mountain_pass_merchants/full_sheet2.png",
       "category": "ui",
       "loops": false,
       "frames": {
@@ -36,7 +36,7 @@
     "full_sheet3": {
       "type": "simple",
       "key": "full_sheet3",
-      "file": "characters/mountain_pass_merchants/merchant_3.png",
+      "file": "characters/mountain_pass_merchants/full_sheet3.png",
       "category": "ui",
       "loops": false,
       "frames": {

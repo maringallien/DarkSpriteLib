@@ -3,11 +3,56 @@
   "id": "human_crow_keeper",
   "path": "characters/human_crow_keeper",
   "animations": {
-    "attack_1": {
+    "attack1_vanish": {
       "type": "simple",
-      "key": "attack_1",
-      "file": "characters/human_crow_keeper/dash.png",
-      "category": "movement",
+      "key": "attack1_vanish",
+      "file": "characters/human_crow_keeper/attack2_jump.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 5092,
+        "sheetHeight": 184,
+        "frameWidth": 268,
+        "frameHeight": 184,
+        "frameCount": 19
+      },
+      "originalName": "attack2_jump"
+    },
+    "attack1_slam": {
+      "type": "simple",
+      "key": "attack1_slam",
+      "file": "characters/human_crow_keeper/attack2_slam.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 4824,
+        "sheetHeight": 184,
+        "frameWidth": 268,
+        "frameHeight": 184,
+        "frameCount": 18
+      },
+      "originalName": "attack2_slam"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "characters/human_crow_keeper/attack3.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 4020,
+        "sheetHeight": 184,
+        "frameWidth": 268,
+        "frameHeight": 184,
+        "frameCount": 15
+      },
+      "originalName": "attack3"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "characters/human_crow_keeper/attack_1.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 6700,
@@ -16,7 +61,7 @@
         "frameHeight": 184,
         "frameCount": 25
       },
-      "originalName": "dash"
+      "originalName": "attack_1"
     },
     "death": {
       "type": "simple",
@@ -48,51 +93,6 @@
       },
       "originalName": "idle"
     },
-    "attack2_jump": {
-      "type": "simple",
-      "key": "attack2_jump",
-      "file": "characters/human_crow_keeper/jump_attack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 5092,
-        "sheetHeight": 184,
-        "frameWidth": 268,
-        "frameHeight": 184,
-        "frameCount": 19
-      },
-      "originalName": "jump_attack"
-    },
-    "attack2_slam": {
-      "type": "simple",
-      "key": "attack2_slam",
-      "file": "characters/human_crow_keeper/land_atack.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 4824,
-        "sheetHeight": 184,
-        "frameWidth": 268,
-        "frameHeight": 184,
-        "frameCount": 18
-      },
-      "originalName": "land_atack"
-    },
-    "attack3": {
-      "type": "simple",
-      "key": "attack3",
-      "file": "characters/human_crow_keeper/shoot_ball.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 4020,
-        "sheetHeight": 184,
-        "frameWidth": 268,
-        "frameHeight": 184,
-        "frameCount": 15
-      },
-      "originalName": "shoot_ball"
-    },
     "walk": {
       "type": "simple",
       "key": "walk",
@@ -107,6 +107,36 @@
         "frameCount": 6
       },
       "originalName": "walk"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "characters/human_crow_keeper/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 190,
+        "sheetHeight": 14,
+        "frameWidth": 19,
+        "frameHeight": 14,
+        "frameCount": 10
+      },
+      "originalName": "projectile_explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "characters/human_crow_keeper/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 38,
+        "sheetHeight": 14,
+        "frameWidth": 19,
+        "frameHeight": 14,
+        "frameCount": 2
+      },
+      "originalName": "projectile_idle"
     }
   }
 }

@@ -1,0 +1,127 @@
+{
+  "type": "standard",
+  "id": "hell_bot",
+  "path": "characters/hell_bot",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "characters/hell_bot/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 552,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 6
+      },
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/hell_bot/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 552,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 6
+      },
+      "originalName": "attack2"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/hell_bot/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1012,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 11
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "characters/hell_bot/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 552,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 6
+      },
+      "originalName": "idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "characters/hell_bot/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 736,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/hell_bot/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 184,
+        "sheetHeight": 36,
+        "frameWidth": 92,
+        "frameHeight": 36,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "characters/hell_bot/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 153,
+        "sheetHeight": 17,
+        "frameWidth": 17,
+        "frameHeight": 17,
+        "frameCount": 9
+      },
+      "originalName": "projectile_explode"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "characters/hell_bot/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 34,
+        "sheetHeight": 17,
+        "frameWidth": 17,
+        "frameHeight": 17,
+        "frameCount": 2
+      },
+      "originalName": "projectile_idle"
+    }
+  }
+}

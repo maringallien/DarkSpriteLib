@@ -3,21 +3,6 @@
   "id": "bomb_droid",
   "path": "characters/bomb_droid",
   "animations": {
-    "ranged": {
-      "type": "simple",
-      "key": "ranged",
-      "file": "characters/bomb_droid/bomb.png",
-      "category": "ranged",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1856,
-        "sheetHeight": 77,
-        "frameWidth": 116,
-        "frameHeight": 77,
-        "frameCount": 16
-      },
-      "originalName": "bomb"
-    },
     "death": {
       "type": "simple",
       "key": "death",
@@ -33,10 +18,25 @@
       },
       "originalName": "death"
     },
+    "ranged": {
+      "type": "simple",
+      "key": "ranged",
+      "file": "characters/bomb_droid/ranged.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1856,
+        "sheetHeight": 77,
+        "frameWidth": 116,
+        "frameHeight": 77,
+        "frameCount": 16
+      },
+      "originalName": "ranged"
+    },
     "take_hit": {
       "type": "simple",
       "key": "take_hit",
-      "file": "characters/bomb_droid/hit.png",
+      "file": "characters/bomb_droid/take_hit.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -46,12 +46,12 @@
         "frameHeight": 77,
         "frameCount": 2
       },
-      "originalName": "hit"
+      "originalName": "take_hit"
     },
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "characters/bomb_droid/move.png",
+      "file": "characters/bomb_droid/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -61,22 +61,7 @@
         "frameHeight": 77,
         "frameCount": 8
       },
-      "originalName": "move"
-    },
-    "idle": {
-      "type": "simple",
-      "key": "idle",
-      "file": "characters/bomb_droid/transition_to_idle.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 348,
-        "sheetHeight": 77,
-        "frameWidth": 116,
-        "frameHeight": 77,
-        "frameCount": 3
-      },
-      "originalName": "transition_to_idle"
+      "originalName": "walk"
     }
   }
 }

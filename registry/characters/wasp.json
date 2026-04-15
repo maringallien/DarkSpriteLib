@@ -6,7 +6,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/wasp/explode.png",
+      "file": "characters/wasp/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -16,7 +16,7 @@
         "frameHeight": 16,
         "frameCount": 5
       },
-      "originalName": "explode"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
@@ -33,21 +33,6 @@
       },
       "originalName": "idle"
     },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/wasp/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 96,
-        "sheetHeight": 16,
-        "frameWidth": 16,
-        "frameHeight": 16,
-        "frameCount": 6
-      },
-      "originalName": "move"
-    },
     "take_hit": {
       "type": "simple",
       "key": "take_hit",
@@ -62,6 +47,21 @@
         "frameCount": 2
       },
       "originalName": "take_hit"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/wasp/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 96,
+        "sheetHeight": 16,
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frameCount": 6
+      },
+      "originalName": "walk"
     }
   }
 }

@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/blinding_spider/blind_attack.png",
+      "file": "characters/blinding_spider/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,42 +16,12 @@
         "frameHeight": 16,
         "frameCount": 4
       },
-      "originalName": "blind_attack"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/blinding_spider/damaged.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 32,
-        "sheetHeight": 16,
-        "frameWidth": 16,
-        "frameHeight": 16,
-        "frameCount": 2
-      },
-      "originalName": "damaged"
-    },
-    "death": {
-      "type": "simple",
-      "key": "death",
-      "file": "characters/blinding_spider/deah.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 96,
-        "sheetHeight": 16,
-        "frameWidth": 16,
-        "frameHeight": 16,
-        "frameCount": 6
-      },
-      "originalName": "deah"
+      "originalName": "attack1"
     },
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "characters/blinding_spider/prep_blind_attack.png",
+      "file": "characters/blinding_spider/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -61,12 +31,27 @@
         "frameHeight": 16,
         "frameCount": 3
       },
-      "originalName": "prep_blind_attack"
+      "originalName": "attack2"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "characters/blinding_spider/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 96,
+        "sheetHeight": 16,
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frameCount": 6
+      },
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/blinding_spider/static_idle.png",
+      "file": "characters/blinding_spider/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -76,7 +61,22 @@
         "frameHeight": 16,
         "frameCount": 1
       },
-      "originalName": "static_idle"
+      "originalName": "idle"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/blinding_spider/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 32,
+        "sheetHeight": 16,
+        "frameWidth": 16,
+        "frameHeight": 16,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
     },
     "walk": {
       "type": "simple",

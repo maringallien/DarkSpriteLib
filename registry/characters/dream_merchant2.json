@@ -6,17 +6,17 @@
     "full_sheet": {
       "type": "simple",
       "key": "full_sheet",
-      "file": "characters/dream_merchant2/magic_merchant.png",
-      "category": "ui",
+      "file": "characters/dream_merchant2/full_sheet.png",
+      "category": "attack",
       "loops": false,
       "frames": {
         "sheetWidth": 520,
         "sheetHeight": 49,
-        "frameWidth": 65,
+        "frameWidth": 130,
         "frameHeight": 49,
-        "frameCount": 8
+        "frameCount": 4
       },
-      "originalName": "magic_merchant"
+      "originalName": "full_sheet"
     }
   }
 }

@@ -10,11 +10,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 336,
-        "sheetHeight": 35,
-        "frameWidth": 56,
-        "frameHeight": 35,
-        "frameCount": 6
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "elk_animation1"
     },
@@ -25,11 +25,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 1064,
-        "sheetHeight": 35,
-        "frameWidth": 56,
-        "frameHeight": 35,
-        "frameCount": 19
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "elk_animation2"
     },
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 448,
-        "sheetHeight": 35,
-        "frameWidth": 56,
-        "frameHeight": 35,
-        "frameCount": 8
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "elk_animation3"
     },
@@ -55,11 +55,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 784,
-        "sheetHeight": 35,
-        "frameWidth": 56,
-        "frameHeight": 35,
-        "frameCount": 14
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "elk_animation4"
     }

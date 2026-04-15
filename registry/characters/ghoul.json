@@ -3,6 +3,21 @@
   "id": "ghoul",
   "path": "characters/ghoul",
   "animations": {
+    "appear": {
+      "type": "simple",
+      "key": "appear",
+      "file": "characters/ghoul/appear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 682,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 11
+      },
+      "originalName": "appear"
+    },
     "attack": {
       "type": "simple",
       "key": "attack",
@@ -33,40 +48,10 @@
       },
       "originalName": "death"
     },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/ghoul/hit.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 248,
-        "sheetHeight": 33,
-        "frameWidth": 62,
-        "frameHeight": 33,
-        "frameCount": 4
-      },
-      "originalName": "hit"
-    },
-    "appear": {
-      "type": "simple",
-      "key": "appear",
-      "file": "characters/ghoul/spawn.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 682,
-        "sheetHeight": 33,
-        "frameWidth": 62,
-        "frameHeight": 33,
-        "frameCount": 11
-      },
-      "originalName": "spawn"
-    },
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/ghoul/static_idle.png",
+      "file": "characters/ghoul/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -76,7 +61,22 @@
         "frameHeight": 33,
         "frameCount": 1
       },
-      "originalName": "static_idle"
+      "originalName": "idle"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/ghoul/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 248,
+        "sheetHeight": 33,
+        "frameWidth": 62,
+        "frameHeight": 33,
+        "frameCount": 4
+      },
+      "originalName": "take_hit"
     },
     "wake": {
       "type": "simple",

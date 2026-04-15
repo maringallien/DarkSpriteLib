@@ -3,35 +3,20 @@
   "id": "wheel_bot",
   "path": "characters/wheel_bot",
   "animations": {
-    "special": {
+    "dash": {
       "type": "simple",
-      "key": "special",
-      "file": "characters/wheel_bot/charge.png",
-      "category": "special",
+      "key": "dash",
+      "file": "characters/wheel_bot/dash.png",
+      "category": "movement",
       "loops": false,
       "frames": {
-        "sheetWidth": 448,
+        "sheetWidth": 784,
         "sheetHeight": 26,
         "frameWidth": 56,
         "frameHeight": 26,
-        "frameCount": 8
+        "frameCount": 14
       },
-      "originalName": "charge"
-    },
-    "take_hit": {
-      "type": "simple",
-      "key": "take_hit",
-      "file": "characters/wheel_bot/damaged.png",
-      "category": "state",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 224,
-        "sheetHeight": 26,
-        "frameWidth": 56,
-        "frameHeight": 26,
-        "frameCount": 4
-      },
-      "originalName": "damaged"
+      "originalName": "dash"
     },
     "death": {
       "type": "simple",
@@ -48,21 +33,6 @@
       },
       "originalName": "death"
     },
-    "dash": {
-      "type": "simple",
-      "key": "dash",
-      "file": "characters/wheel_bot/fire_dash.png",
-      "category": "movement",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 784,
-        "sheetHeight": 26,
-        "frameWidth": 56,
-        "frameHeight": 26,
-        "frameCount": 14
-      },
-      "originalName": "fire_dash"
-    },
     "idle": {
       "type": "simple",
       "key": "idle",
@@ -78,25 +48,10 @@
       },
       "originalName": "idle"
     },
-    "walk": {
-      "type": "simple",
-      "key": "walk",
-      "file": "characters/wheel_bot/move.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 896,
-        "sheetHeight": 26,
-        "frameWidth": 56,
-        "frameHeight": 26,
-        "frameCount": 16
-      },
-      "originalName": "move"
-    },
     "ranged": {
       "type": "simple",
       "key": "ranged",
-      "file": "characters/wheel_bot/shoot.png",
+      "file": "characters/wheel_bot/ranged.png",
       "category": "ranged",
       "loops": false,
       "frames": {
@@ -106,7 +61,37 @@
         "frameHeight": 26,
         "frameCount": 8
       },
-      "originalName": "shoot"
+      "originalName": "ranged"
+    },
+    "special": {
+      "type": "simple",
+      "key": "special",
+      "file": "characters/wheel_bot/special.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 448,
+        "sheetHeight": 26,
+        "frameWidth": 56,
+        "frameHeight": 26,
+        "frameCount": 8
+      },
+      "originalName": "special"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "characters/wheel_bot/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 224,
+        "sheetHeight": 26,
+        "frameWidth": 56,
+        "frameHeight": 26,
+        "frameCount": 4
+      },
+      "originalName": "take_hit"
     },
     "wake": {
       "type": "simple",
@@ -122,6 +107,21 @@
         "frameCount": 10
       },
       "originalName": "wake"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "characters/wheel_bot/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 896,
+        "sheetHeight": 26,
+        "frameWidth": 56,
+        "frameHeight": 26,
+        "frameCount": 16
+      },
+      "originalName": "walk"
     }
   }
 }

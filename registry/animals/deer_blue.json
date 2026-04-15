@@ -10,11 +10,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 448,
-        "sheetHeight": 54,
-        "frameWidth": 56,
-        "frameHeight": 54,
-        "frameCount": 8
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "deer_blue_animation1"
     },
@@ -25,11 +25,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 336,
-        "sheetHeight": 54,
-        "frameWidth": 56,
-        "frameHeight": 54,
-        "frameCount": 6
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "deer_blue_animation2"
     },
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 840,
-        "sheetHeight": 54,
-        "frameWidth": 56,
-        "frameHeight": 54,
-        "frameCount": 15
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "deer_blue_animation3"
     },
@@ -55,11 +55,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 840,
-        "sheetHeight": 54,
-        "frameWidth": 56,
-        "frameHeight": 54,
-        "frameCount": 15
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "deer_blue_animation4"
     }

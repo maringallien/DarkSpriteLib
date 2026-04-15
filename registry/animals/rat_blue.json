@@ -10,11 +10,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 24,
-        "sheetHeight": 8,
-        "frameWidth": 24,
-        "frameHeight": 8,
-        "frameCount": 1
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "rat_blue_animation1"
     },
@@ -25,11 +25,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 120,
-        "sheetHeight": 8,
-        "frameWidth": 24,
-        "frameHeight": 8,
-        "frameCount": 5
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "rat_blue_animation2"
     },
@@ -40,11 +40,11 @@
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 216,
-        "sheetHeight": 8,
-        "frameWidth": 24,
-        "frameHeight": 8,
-        "frameCount": 9
+        "sheetWidth": 0,
+        "sheetHeight": 0,
+        "frameWidth": 0,
+        "frameHeight": 0,
+        "frameCount": 0
       },
       "originalName": "rat_blue_animation3"
     }

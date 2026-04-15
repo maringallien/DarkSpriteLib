@@ -6,17 +6,17 @@
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "characters/gem_merchant/gem_merchant.png",
-      "category": "ui",
+      "file": "characters/gem_merchant/idle.png",
+      "category": "movement",
       "loops": true,
       "frames": {
         "sheetWidth": 1212,
         "sheetHeight": 37,
-        "frameWidth": 101,
+        "frameWidth": 303,
         "frameHeight": 37,
-        "frameCount": 12
+        "frameCount": 4
       },
-      "originalName": "gem_merchant"
+      "originalName": "idle"
     }
   }
 }

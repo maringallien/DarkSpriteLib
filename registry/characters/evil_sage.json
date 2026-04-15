@@ -6,7 +6,7 @@
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "characters/evil_sage/attack.png",
+      "file": "characters/evil_sage/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -16,7 +16,52 @@
         "frameHeight": 21,
         "frameCount": 16
       },
-      "originalName": "attack"
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "characters/evil_sage/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 728,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 14
+      },
+      "originalName": "attack2"
+    },
+    "attack2_vfx": {
+      "type": "simple",
+      "key": "attack2_vfx",
+      "file": "characters/evil_sage/attack2_vfx.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1918,
+        "sheetHeight": 39,
+        "frameWidth": 137,
+        "frameHeight": 39,
+        "frameCount": 14
+      },
+      "originalName": "attack2_vfx"
+    },
+    "block": {
+      "type": "simple",
+      "key": "block",
+      "file": "characters/evil_sage/block.png",
+      "category": "state",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 832,
+        "sheetHeight": 21,
+        "frameWidth": 52,
+        "frameHeight": 21,
+        "frameCount": 16
+      },
+      "originalName": "block"
     },
     "dash": {
       "type": "simple",
@@ -36,7 +81,7 @@
     "death": {
       "type": "simple",
       "key": "death",
-      "file": "characters/evil_sage/die.png",
+      "file": "characters/evil_sage/death.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -46,37 +91,7 @@
         "frameHeight": 21,
         "frameCount": 8
       },
-      "originalName": "die"
-    },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/evil_sage/duck.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 728,
-        "sheetHeight": 21,
-        "frameWidth": 52,
-        "frameHeight": 21,
-        "frameCount": 14
-      },
-      "originalName": "duck"
-    },
-    "attack2_vfx": {
-      "type": "simple",
-      "key": "attack2_vfx",
-      "file": "characters/evil_sage/evil_shockwave.png",
-      "category": "special",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1918,
-        "sheetHeight": 39,
-        "frameWidth": 137,
-        "frameHeight": 39,
-        "frameCount": 14
-      },
-      "originalName": "evil_shockwave"
+      "originalName": "death"
     },
     "fall": {
       "type": "simple",
@@ -137,21 +152,6 @@
         "frameCount": 9
       },
       "originalName": "run"
-    },
-    "block": {
-      "type": "simple",
-      "key": "block",
-      "file": "characters/evil_sage/shield.png",
-      "category": "state",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 832,
-        "sheetHeight": 21,
-        "frameWidth": 52,
-        "frameHeight": 21,
-        "frameCount": 16
-      },
-      "originalName": "shield"
     },
     "slide": {
       "type": "simple",
