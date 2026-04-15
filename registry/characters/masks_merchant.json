@@ -12,9 +12,9 @@
       "frames": {
         "sheetWidth": 1944,
         "sheetHeight": 60,
-        "frameWidth": 243,
+        "frameWidth": 81,
         "frameHeight": 60,
-        "frameCount": 8
+        "frameCount": 24
       },
       "originalName": "idle"
     }

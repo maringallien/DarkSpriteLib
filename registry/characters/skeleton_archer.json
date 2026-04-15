@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "skeleton_archer",
+  "path": "castle_of_bones/skeleton_summoner/skeleton_archer",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "castle_of_bones/skeleton_summoner/skeleton_archer/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 414,
+        "sheetHeight": 22,
+        "frameWidth": 46,
+        "frameHeight": 22,
+        "frameCount": 9
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "castle_of_bones/skeleton_summoner/skeleton_archer/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 690,
+        "sheetHeight": 22,
+        "frameWidth": 46,
+        "frameHeight": 22,
+        "frameCount": 15
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "castle_of_bones/skeleton_summoner/skeleton_archer/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 552,
+        "sheetHeight": 22,
+        "frameWidth": 46,
+        "frameHeight": 22,
+        "frameCount": 12
+      },
+      "originalName": "idle"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "castle_of_bones/skeleton_summoner/skeleton_archer/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 368,
+        "sheetHeight": 22,
+        "frameWidth": 46,
+        "frameHeight": 22,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "summonned": {
+      "type": "simple",
+      "key": "summonned",
+      "file": "castle_of_bones/skeleton_summoner/skeleton_archer/summonned.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 782,
+        "sheetHeight": 22,
+        "frameWidth": 46,
+        "frameHeight": 22,
+        "frameCount": 17
+      },
+      "originalName": "summonned"
+    }
+  }
+}

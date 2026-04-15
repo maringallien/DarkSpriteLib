@@ -595,223 +595,6 @@
         }
       }
     },
-    "bo_panda_good": {
-      "type": "standard",
-      "id": "bo_panda_good",
-      "path": "characters/bo_panda",
-      "animations": {
-        "attack1": {
-          "type": "simple",
-          "key": "attack1",
-          "file": "characters/bo_panda/good_bo_panda/attack1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1030,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 10
-          },
-          "originalName": "attack1"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/bo_panda/good_bo_panda/attack2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 618,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 6
-          },
-          "originalName": "attack2"
-        },
-        "attack3": {
-          "type": "simple",
-          "key": "attack3",
-          "file": "characters/bo_panda/good_bo_panda/attack3.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 927,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 9
-          },
-          "originalName": "attack3"
-        },
-        "attack4": {
-          "type": "simple",
-          "key": "attack4",
-          "file": "characters/bo_panda/good_bo_panda/attack4.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1751,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 17
-          },
-          "originalName": "attack4"
-        },
-        "attack5": {
-          "type": "simple",
-          "key": "attack5",
-          "file": "characters/bo_panda/good_bo_panda/attack5.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "attack5"
-        },
-        "attack6": {
-          "type": "simple",
-          "key": "attack6",
-          "file": "characters/bo_panda/good_bo_panda/attack6.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1030,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 10
-          },
-          "originalName": "attack6"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "characters/bo_panda/good_bo_panda/death.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1030,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 10
-          },
-          "originalName": "death"
-        },
-        "fall": {
-          "type": "simple",
-          "key": "fall",
-          "file": "characters/bo_panda/good_bo_panda/fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "fall"
-        },
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "characters/bo_panda/good_bo_panda/idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 927,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 9
-          },
-          "originalName": "idle"
-        },
-        "jump": {
-          "type": "simple",
-          "key": "jump",
-          "file": "characters/bo_panda/good_bo_panda/jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "jump"
-        },
-        "roll": {
-          "type": "simple",
-          "key": "roll",
-          "file": "characters/bo_panda/good_bo_panda/roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "roll"
-        },
-        "run": {
-          "type": "simple",
-          "key": "run",
-          "file": "characters/bo_panda/good_bo_panda/run.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 824,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 8
-          },
-          "originalName": "run"
-        },
-        "special": {
-          "type": "simple",
-          "key": "special",
-          "file": "characters/bo_panda/good_bo_panda/special.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "special"
-        },
-        "wall_slide": {
-          "type": "simple",
-          "key": "wall_slide",
-          "file": "characters/bo_panda/good_bo_panda/wall_slide.png",
-          "category": "traversal",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 412,
-            "sheetHeight": 33,
-            "frameWidth": 103,
-            "frameHeight": 33,
-            "frameCount": 4
-          },
-          "originalName": "wall_slide"
-        }
-      }
-    },
     "bo_panda_evil": {
       "type": "standard",
       "id": "bo_panda_evil",
@@ -1016,6 +799,223 @@
           "type": "simple",
           "key": "wall_slide",
           "file": "characters/bo_panda/evil_bo_panda/wall_slide.png",
+          "category": "traversal",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "wall_slide"
+        }
+      }
+    },
+    "bo_panda_good": {
+      "type": "standard",
+      "id": "bo_panda_good",
+      "path": "characters/bo_panda",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/bo_panda/good_bo_panda/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/bo_panda/good_bo_panda/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 618,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 6
+          },
+          "originalName": "attack2"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/bo_panda/good_bo_panda/attack3.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "attack3"
+        },
+        "attack4": {
+          "type": "simple",
+          "key": "attack4",
+          "file": "characters/bo_panda/good_bo_panda/attack4.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1751,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 17
+          },
+          "originalName": "attack4"
+        },
+        "attack5": {
+          "type": "simple",
+          "key": "attack5",
+          "file": "characters/bo_panda/good_bo_panda/attack5.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "attack5"
+        },
+        "attack6": {
+          "type": "simple",
+          "key": "attack6",
+          "file": "characters/bo_panda/good_bo_panda/attack6.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "attack6"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/bo_panda/good_bo_panda/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1030,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 10
+          },
+          "originalName": "death"
+        },
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/bo_panda/good_bo_panda/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "fall"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/bo_panda/good_bo_panda/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 927,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 9
+          },
+          "originalName": "idle"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/bo_panda/good_bo_panda/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "jump"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/bo_panda/good_bo_panda/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "roll"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/bo_panda/good_bo_panda/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 824,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "special": {
+          "type": "simple",
+          "key": "special",
+          "file": "characters/bo_panda/good_bo_panda/special.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 412,
+            "sheetHeight": 33,
+            "frameWidth": 103,
+            "frameHeight": 33,
+            "frameCount": 4
+          },
+          "originalName": "special"
+        },
+        "wall_slide": {
+          "type": "simple",
+          "key": "wall_slide",
+          "file": "characters/bo_panda/good_bo_panda/wall_slide.png",
           "category": "traversal",
           "loops": true,
           "frames": {
@@ -2653,20 +2653,20 @@
       "id": "dream_merchant1",
       "path": "characters/dream_merchant1",
       "animations": {
-        "full_sheet": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/dream_merchant1/full_sheet.png",
-          "category": "attack",
-          "loops": false,
+          "key": "idle",
+          "file": "characters/dream_merchant1/idle.png",
+          "category": "movement",
+          "loops": true,
           "frames": {
             "sheetWidth": 1080,
             "sheetHeight": 63,
-            "frameWidth": 135,
+            "frameWidth": 90,
             "frameHeight": 63,
-            "frameCount": 8
+            "frameCount": 12
           },
-          "originalName": "full_sheet"
+          "originalName": "idle"
         }
       }
     },
@@ -2675,20 +2675,20 @@
       "id": "dream_merchant2",
       "path": "characters/dream_merchant2",
       "animations": {
-        "full_sheet": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/dream_merchant2/full_sheet.png",
-          "category": "attack",
-          "loops": false,
+          "key": "idle",
+          "file": "characters/dream_merchant2/idle.png",
+          "category": "movement",
+          "loops": true,
           "frames": {
             "sheetWidth": 520,
             "sheetHeight": 49,
-            "frameWidth": 130,
+            "frameWidth": 65,
             "frameHeight": 49,
-            "frameCount": 4
+            "frameCount": 8
           },
-          "originalName": "full_sheet"
+          "originalName": "idle"
         }
       }
     },
@@ -2697,20 +2697,20 @@
       "id": "dream_merchant3",
       "path": "characters/dream_merchant3",
       "animations": {
-        "full_sheet": {
+        "idle": {
           "type": "simple",
-          "key": "full_sheet",
-          "file": "characters/dream_merchant3/full_sheet.png",
-          "category": "attack",
-          "loops": false,
+          "key": "idle",
+          "file": "characters/dream_merchant3/idle.png",
+          "category": "movement",
+          "loops": true,
           "frames": {
             "sheetWidth": 768,
             "sheetHeight": 82,
-            "frameWidth": 192,
+            "frameWidth": 64,
             "frameHeight": 82,
-            "frameCount": 4
+            "frameCount": 12
           },
-          "originalName": "full_sheet"
+          "originalName": "idle"
         }
       }
     },
@@ -3273,9 +3273,9 @@
           "frames": {
             "sheetWidth": 1212,
             "sheetHeight": 37,
-            "frameWidth": 303,
+            "frameWidth": 101,
             "frameHeight": 37,
-            "frameCount": 4
+            "frameCount": 12
           },
           "originalName": "idle"
         }
@@ -3931,9 +3931,9 @@
           "frames": {
             "sheetWidth": 2160,
             "sheetHeight": 39,
-            "frameWidth": 135,
+            "frameWidth": 108,
             "frameHeight": 39,
-            "frameCount": 16
+            "frameCount": 20
           },
           "originalName": "idle"
         }
@@ -4655,9 +4655,9 @@
           "frames": {
             "sheetWidth": 1944,
             "sheetHeight": 60,
-            "frameWidth": 243,
+            "frameWidth": 81,
             "frameHeight": 60,
-            "frameCount": 8
+            "frameCount": 24
           },
           "originalName": "idle"
         }
@@ -4683,9 +4683,9 @@
           "frames": {
             "sheetWidth": 3072,
             "sheetHeight": 71,
-            "frameWidth": 192,
+            "frameWidth": 128,
             "frameHeight": 71,
-            "frameCount": 16
+            "frameCount": 24
           },
           "originalName": "idle"
         }
@@ -4705,9 +4705,9 @@
           "frames": {
             "sheetWidth": 3144,
             "sheetHeight": 88,
-            "frameWidth": 393,
+            "frameWidth": 131,
             "frameHeight": 88,
-            "frameCount": 8
+            "frameCount": 24
           },
           "originalName": "idle"
         }
@@ -4727,9 +4727,9 @@
           "frames": {
             "sheetWidth": 2436,
             "sheetHeight": 61,
-            "frameWidth": 609,
+            "frameWidth": 116,
             "frameHeight": 61,
-            "frameCount": 4
+            "frameCount": 21
           },
           "originalName": "idle"
         }
@@ -4749,9 +4749,9 @@
           "frames": {
             "sheetWidth": 2664,
             "sheetHeight": 53,
-            "frameWidth": 333,
+            "frameWidth": 111,
             "frameHeight": 53,
-            "frameCount": 8
+            "frameCount": 24
           },
           "originalName": "idle"
         }
@@ -5355,73 +5355,6 @@
         }
       }
     },
-    "sci-fi_samurai_sword": {
-      "type": "standard",
-      "id": "sci-fi_samurai_sword",
-      "path": "characters/sci-fi_samurai",
-      "animations": {
-        "attack": {
-          "type": "simple",
-          "key": "attack",
-          "file": "characters/sci-fi_samurai/with_sword/attack.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2280,
-            "sheetHeight": 49,
-            "frameWidth": 95,
-            "frameHeight": 49,
-            "frameCount": 24
-          },
-          "originalName": "attack"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "characters/sci-fi_samurai/with_sword/death.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2185,
-            "sheetHeight": 49,
-            "frameWidth": 95,
-            "frameHeight": 49,
-            "frameCount": 23
-          },
-          "originalName": "death"
-        },
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "characters/sci-fi_samurai/with_sword/idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1140,
-            "sheetHeight": 49,
-            "frameWidth": 95,
-            "frameHeight": 49,
-            "frameCount": 12
-          },
-          "originalName": "idle"
-        },
-        "run": {
-          "type": "simple",
-          "key": "run",
-          "file": "characters/sci-fi_samurai/with_sword/run.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 760,
-            "sheetHeight": 49,
-            "frameWidth": 95,
-            "frameHeight": 49,
-            "frameCount": 8
-          },
-          "originalName": "run"
-        }
-      }
-    },
     "sci-fi_samurai_spear": {
       "type": "standard",
       "id": "sci-fi_samurai_spear",
@@ -5483,6 +5416,73 @@
             "sheetHeight": 33,
             "frameWidth": 107,
             "frameHeight": 33,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        }
+      }
+    },
+    "sci-fi_samurai_sword": {
+      "type": "standard",
+      "id": "sci-fi_samurai_sword",
+      "path": "characters/sci-fi_samurai",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "characters/sci-fi_samurai/with_sword/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2280,
+            "sheetHeight": 49,
+            "frameWidth": 95,
+            "frameHeight": 49,
+            "frameCount": 24
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/sci-fi_samurai/with_sword/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2185,
+            "sheetHeight": 49,
+            "frameWidth": 95,
+            "frameHeight": 49,
+            "frameCount": 23
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/sci-fi_samurai/with_sword/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1140,
+            "sheetHeight": 49,
+            "frameWidth": 95,
+            "frameHeight": 49,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "characters/sci-fi_samurai/with_sword/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 760,
+            "sheetHeight": 49,
+            "frameWidth": 95,
+            "frameHeight": 49,
             "frameCount": 8
           },
           "originalName": "run"
@@ -5897,6 +5897,334 @@
             "frameCount": 8
           },
           "originalName": "walk"
+        }
+      }
+    },
+    "skeleton_archer": {
+      "type": "standard",
+      "id": "skeleton_archer",
+      "path": "castle_of_bones/skeleton_summoner/skeleton_archer",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_archer/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 414,
+            "sheetHeight": 22,
+            "frameWidth": 46,
+            "frameHeight": 22,
+            "frameCount": 9
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_archer/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 690,
+            "sheetHeight": 22,
+            "frameWidth": 46,
+            "frameHeight": 22,
+            "frameCount": 15
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_archer/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 552,
+            "sheetHeight": 22,
+            "frameWidth": 46,
+            "frameHeight": 22,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_archer/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 368,
+            "sheetHeight": 22,
+            "frameWidth": 46,
+            "frameHeight": 22,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "summonned": {
+          "type": "simple",
+          "key": "summonned",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_archer/summonned.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 782,
+            "sheetHeight": 22,
+            "frameWidth": 46,
+            "frameHeight": 22,
+            "frameCount": 17
+          },
+          "originalName": "summonned"
+        }
+      }
+    },
+    "skeleton_summoner": {
+      "type": "standard",
+      "id": "skeleton_summoner",
+      "path": "castle_of_bones/skeleton_summoner/summoner",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "castle_of_bones/skeleton_summoner/summoner/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2508,
+            "sheetHeight": 83,
+            "frameWidth": 132,
+            "frameHeight": 83,
+            "frameCount": 19
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "castle_of_bones/skeleton_summoner/summoner/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2244,
+            "sheetHeight": 83,
+            "frameWidth": 132,
+            "frameHeight": 83,
+            "frameCount": 17
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/skeleton_summoner/summoner/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1584,
+            "sheetHeight": 83,
+            "frameWidth": 132,
+            "frameHeight": 83,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "summon": {
+          "type": "simple",
+          "key": "summon",
+          "file": "castle_of_bones/skeleton_summoner/summoner/summon.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2112,
+            "sheetHeight": 83,
+            "frameWidth": 132,
+            "frameHeight": 83,
+            "frameCount": 16
+          },
+          "originalName": "summon"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "castle_of_bones/skeleton_summoner/summoner/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1584,
+            "sheetHeight": 83,
+            "frameWidth": 132,
+            "frameHeight": 83,
+            "frameCount": 12
+          },
+          "originalName": "walk"
+        }
+      }
+    },
+    "skeleton_swordsman": {
+      "type": "standard",
+      "id": "skeleton_swordsman",
+      "path": "castle_of_bones/skeleton_summoner/skeleton_swordsman",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_swordsman/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 396,
+            "sheetHeight": 24,
+            "frameWidth": 44,
+            "frameHeight": 24,
+            "frameCount": 9
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_swordsman/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 660,
+            "sheetHeight": 24,
+            "frameWidth": 44,
+            "frameHeight": 24,
+            "frameCount": 15
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_swordsman/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 528,
+            "sheetHeight": 24,
+            "frameWidth": 44,
+            "frameHeight": 24,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_swordsman/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 352,
+            "sheetHeight": 24,
+            "frameWidth": 44,
+            "frameHeight": 24,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "summonned": {
+          "type": "simple",
+          "key": "summonned",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_swordsman/summonned.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 748,
+            "sheetHeight": 24,
+            "frameWidth": 44,
+            "frameHeight": 24,
+            "frameCount": 17
+          },
+          "originalName": "summonned"
+        }
+      }
+    },
+    "skeleton_unarmed": {
+      "type": "standard",
+      "id": "skeleton_unarmed",
+      "path": "castle_of_bones/skeleton_summoner/skeleton_unarmed",
+      "animations": {
+        "attack": {
+          "type": "simple",
+          "key": "attack",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_unarmed/attack.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 387,
+            "sheetHeight": 22,
+            "frameWidth": 43,
+            "frameHeight": 22,
+            "frameCount": 9
+          },
+          "originalName": "attack"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_unarmed/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 645,
+            "sheetHeight": 22,
+            "frameWidth": 43,
+            "frameHeight": 22,
+            "frameCount": 15
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_unarmed/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 516,
+            "sheetHeight": 22,
+            "frameWidth": 43,
+            "frameHeight": 22,
+            "frameCount": 12
+          },
+          "originalName": "idle"
+        },
+        "run": {
+          "type": "simple",
+          "key": "run",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_unarmed/run.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 344,
+            "sheetHeight": 22,
+            "frameWidth": 43,
+            "frameHeight": 22,
+            "frameCount": 8
+          },
+          "originalName": "run"
+        },
+        "summonned": {
+          "type": "simple",
+          "key": "summonned",
+          "file": "castle_of_bones/skeleton_summoner/skeleton_unarmed/summonned.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 731,
+            "sheetHeight": 22,
+            "frameWidth": 43,
+            "frameHeight": 22,
+            "frameCount": 17
+          },
+          "originalName": "summonned"
         }
       }
     },
@@ -6703,6 +7031,1077 @@
             "frameWidth": 13,
             "frameHeight": 13,
             "frameCount": 4
+          },
+          "originalName": "projectile_idle"
+        }
+      }
+    },
+    "strange_companion_black": {
+      "type": "standard",
+      "id": "strange_companion_black",
+      "path": "characters/a_strange_companion/strange_companion_black",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/a_strange_companion/strange_companion_black/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2688,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 16,
+            "anchorX": 37
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/a_strange_companion/strange_companion_black/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3696,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 22,
+            "anchorX": 37
+          },
+          "originalName": "attack2"
+        },
+        "bark": {
+          "type": "simple",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_black/bark.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "bark"
+        },
+        "chill": {
+          "type": "simple",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_black/chill.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "chill"
+        },
+        "eat": {
+          "type": "simple",
+          "key": "eat",
+          "file": "characters/a_strange_companion/strange_companion_black/eat.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "eat"
+        },
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_black/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "fall"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_black/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "idle"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_black/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "jump"
+        },
+        "land": {
+          "type": "simple",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_black/land.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "land"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_black/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "roll"
+        },
+        "roll_end": {
+          "type": "simple",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_black/roll_end.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1176,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 7,
+            "anchorX": 37
+          },
+          "originalName": "roll_end"
+        },
+        "sit": {
+          "type": "simple",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_black/sit.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2856,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 17,
+            "anchorX": 37
+          },
+          "originalName": "sit"
+        },
+        "sleep": {
+          "type": "simple",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_black/sleep.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "sleep"
+        },
+        "to_idle": {
+          "type": "simple",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_black/to_idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2016,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 12,
+            "anchorX": 37
+          },
+          "originalName": "to_idle"
+        },
+        "to_roll": {
+          "type": "simple",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_black/to_roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 336,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 2,
+            "anchorX": 37
+          },
+          "originalName": "to_roll"
+        },
+        "to_sleep": {
+          "type": "simple",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_black/to_sleep.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "to_sleep"
+        },
+        "trans_jump_to_fall": {
+          "type": "simple",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "trans_jump_to_fall"
+        },
+        "trans_to_jump": {
+          "type": "simple",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_black/trans_to_jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 840,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 5,
+            "anchorX": 37
+          },
+          "originalName": "trans_to_jump"
+        },
+        "wake_up": {
+          "type": "simple",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_black/wake_up.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "wake_up"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/a_strange_companion/strange_companion_black/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "walk"
+        },
+        "projectile_explode": {
+          "type": "simple",
+          "key": "projectile_explode",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 126,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 9
+          },
+          "originalName": "projectile_explode"
+        },
+        "projectile_idle": {
+          "type": "simple",
+          "key": "projectile_idle",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
+          "category": "ranged",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 28,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 2
+          },
+          "originalName": "projectile_idle"
+        }
+      }
+    },
+    "strange_companion_red": {
+      "type": "standard",
+      "id": "strange_companion_red",
+      "path": "characters/a_strange_companion/strange_companion_red",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/a_strange_companion/strange_companion_red/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2688,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 16,
+            "anchorX": 37
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/a_strange_companion/strange_companion_red/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3696,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 22,
+            "anchorX": 37
+          },
+          "originalName": "attack2"
+        },
+        "bark": {
+          "type": "simple",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_red/bark.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "bark"
+        },
+        "chill": {
+          "type": "simple",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_red/chill.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "chill"
+        },
+        "eat": {
+          "type": "simple",
+          "key": "eat",
+          "file": "characters/a_strange_companion/strange_companion_red/eat.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "eat"
+        },
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_red/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "fall"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_red/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "idle"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_red/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "jump"
+        },
+        "land": {
+          "type": "simple",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_red/land.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "land"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_red/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "roll"
+        },
+        "roll_end": {
+          "type": "simple",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_red/roll_end.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1176,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 7,
+            "anchorX": 37
+          },
+          "originalName": "roll_end"
+        },
+        "sit": {
+          "type": "simple",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_red/sit.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2856,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 17,
+            "anchorX": 37
+          },
+          "originalName": "sit"
+        },
+        "sleep": {
+          "type": "simple",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_red/sleep.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "sleep"
+        },
+        "to_idle": {
+          "type": "simple",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_red/to_idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2016,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 12,
+            "anchorX": 37
+          },
+          "originalName": "to_idle"
+        },
+        "to_roll": {
+          "type": "simple",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_red/to_roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 336,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 2,
+            "anchorX": 37
+          },
+          "originalName": "to_roll"
+        },
+        "to_sleep": {
+          "type": "simple",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_red/to_sleep.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "to_sleep"
+        },
+        "trans_jump_to_fall": {
+          "type": "simple",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_red/trans_jump_to_fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "trans_jump_to_fall"
+        },
+        "trans_to_jump": {
+          "type": "simple",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_red/trans_to_jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 840,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 5,
+            "anchorX": 37
+          },
+          "originalName": "trans_to_jump"
+        },
+        "wake_up": {
+          "type": "simple",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_red/wake_up.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "wake_up"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/a_strange_companion/strange_companion_red/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "walk"
+        },
+        "projectile_explode": {
+          "type": "simple",
+          "key": "projectile_explode",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 126,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 9
+          },
+          "originalName": "projectile_explode"
+        },
+        "projectile_idle": {
+          "type": "simple",
+          "key": "projectile_idle",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
+          "category": "ranged",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 28,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 2
+          },
+          "originalName": "projectile_idle"
+        }
+      }
+    },
+    "strange_companion_teal": {
+      "type": "standard",
+      "id": "strange_companion_teal",
+      "path": "characters/a_strange_companion/strange_companion_teal",
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/a_strange_companion/strange_companion_teal/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2688,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 16,
+            "anchorX": 37
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/a_strange_companion/strange_companion_teal/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3696,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 22,
+            "anchorX": 37
+          },
+          "originalName": "attack2"
+        },
+        "bark": {
+          "type": "simple",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_teal/bark.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "bark"
+        },
+        "chill": {
+          "type": "simple",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_teal/chill.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "chill"
+        },
+        "eat": {
+          "type": "simple",
+          "key": "eat",
+          "file": "characters/a_strange_companion/strange_companion_teal/eat.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "eat"
+        },
+        "fall": {
+          "type": "simple",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_teal/fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "fall"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_teal/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 1344,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 8,
+            "anchorX": 37
+          },
+          "originalName": "idle"
+        },
+        "jump": {
+          "type": "simple",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_teal/jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "jump"
+        },
+        "land": {
+          "type": "simple",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_teal/land.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "land"
+        },
+        "roll": {
+          "type": "simple",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_teal/roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "roll"
+        },
+        "roll_end": {
+          "type": "simple",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_teal/roll_end.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1176,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 7,
+            "anchorX": 37
+          },
+          "originalName": "roll_end"
+        },
+        "sit": {
+          "type": "simple",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_teal/sit.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2856,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 17,
+            "anchorX": 37
+          },
+          "originalName": "sit"
+        },
+        "sleep": {
+          "type": "simple",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_teal/sleep.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 4032,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 24,
+            "anchorX": 37
+          },
+          "originalName": "sleep"
+        },
+        "to_idle": {
+          "type": "simple",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 2016,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 12,
+            "anchorX": 37
+          },
+          "originalName": "to_idle"
+        },
+        "to_roll": {
+          "type": "simple",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_roll.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 336,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 2,
+            "anchorX": 37
+          },
+          "originalName": "to_roll"
+        },
+        "to_sleep": {
+          "type": "simple",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_sleep.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "to_sleep"
+        },
+        "trans_jump_to_fall": {
+          "type": "simple",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_teal/trans_jump_to_fall.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "trans_jump_to_fall"
+        },
+        "trans_to_jump": {
+          "type": "simple",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_teal/trans_to_jump.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 840,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 5,
+            "anchorX": 37
+          },
+          "originalName": "trans_to_jump"
+        },
+        "wake_up": {
+          "type": "simple",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_teal/wake_up.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1680,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 10,
+            "anchorX": 37
+          },
+          "originalName": "wake_up"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/a_strange_companion/strange_companion_teal/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 672,
+            "sheetHeight": 33,
+            "frameWidth": 168,
+            "frameHeight": 33,
+            "frameCount": 4,
+            "anchorX": 37
+          },
+          "originalName": "walk"
+        },
+        "projectile_explode": {
+          "type": "simple",
+          "key": "projectile_explode",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 126,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 9
+          },
+          "originalName": "projectile_explode"
+        },
+        "projectile_idle": {
+          "type": "simple",
+          "key": "projectile_idle",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
+          "category": "ranged",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 28,
+            "sheetHeight": 14,
+            "frameWidth": 14,
+            "frameHeight": 14,
+            "frameCount": 2
           },
           "originalName": "projectile_idle"
         }
@@ -8431,1077 +9830,6 @@
             "frameCount": 8
           },
           "originalName": "walk"
-        }
-      }
-    },
-    "strange_companion_black": {
-      "type": "standard",
-      "id": "strange_companion_black",
-      "path": "characters/a_strange_companion/strange_companion_black",
-      "animations": {
-        "attack1": {
-          "type": "simple",
-          "key": "attack1",
-          "file": "characters/a_strange_companion/strange_companion_black/attack1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2688,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 16,
-            "anchorX": 37
-          },
-          "originalName": "attack1"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/a_strange_companion/strange_companion_black/attack2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3696,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 22,
-            "anchorX": 37
-          },
-          "originalName": "attack2"
-        },
-        "bark": {
-          "type": "simple",
-          "key": "bark",
-          "file": "characters/a_strange_companion/strange_companion_black/bark.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "bark"
-        },
-        "chill": {
-          "type": "simple",
-          "key": "chill",
-          "file": "characters/a_strange_companion/strange_companion_black/chill.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "chill"
-        },
-        "eat": {
-          "type": "simple",
-          "key": "eat",
-          "file": "characters/a_strange_companion/strange_companion_black/eat.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "eat"
-        },
-        "fall": {
-          "type": "simple",
-          "key": "fall",
-          "file": "characters/a_strange_companion/strange_companion_black/fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "fall"
-        },
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "characters/a_strange_companion/strange_companion_black/idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "idle"
-        },
-        "jump": {
-          "type": "simple",
-          "key": "jump",
-          "file": "characters/a_strange_companion/strange_companion_black/jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "jump"
-        },
-        "land": {
-          "type": "simple",
-          "key": "land",
-          "file": "characters/a_strange_companion/strange_companion_black/land.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "land"
-        },
-        "roll": {
-          "type": "simple",
-          "key": "roll",
-          "file": "characters/a_strange_companion/strange_companion_black/roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "roll"
-        },
-        "roll_end": {
-          "type": "simple",
-          "key": "roll_end",
-          "file": "characters/a_strange_companion/strange_companion_black/roll_end.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1176,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 7,
-            "anchorX": 37
-          },
-          "originalName": "roll_end"
-        },
-        "sit": {
-          "type": "simple",
-          "key": "sit",
-          "file": "characters/a_strange_companion/strange_companion_black/sit.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2856,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 17,
-            "anchorX": 37
-          },
-          "originalName": "sit"
-        },
-        "sleep": {
-          "type": "simple",
-          "key": "sleep",
-          "file": "characters/a_strange_companion/strange_companion_black/sleep.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "sleep"
-        },
-        "to_idle": {
-          "type": "simple",
-          "key": "to_idle",
-          "file": "characters/a_strange_companion/strange_companion_black/to_idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 12,
-            "anchorX": 37
-          },
-          "originalName": "to_idle"
-        },
-        "to_roll": {
-          "type": "simple",
-          "key": "to_roll",
-          "file": "characters/a_strange_companion/strange_companion_black/to_roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 336,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 2,
-            "anchorX": 37
-          },
-          "originalName": "to_roll"
-        },
-        "to_sleep": {
-          "type": "simple",
-          "key": "to_sleep",
-          "file": "characters/a_strange_companion/strange_companion_black/to_sleep.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "to_sleep"
-        },
-        "trans_jump_to_fall": {
-          "type": "simple",
-          "key": "trans_jump_to_fall",
-          "file": "characters/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "trans_jump_to_fall"
-        },
-        "trans_to_jump": {
-          "type": "simple",
-          "key": "trans_to_jump",
-          "file": "characters/a_strange_companion/strange_companion_black/trans_to_jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 840,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 5,
-            "anchorX": 37
-          },
-          "originalName": "trans_to_jump"
-        },
-        "wake_up": {
-          "type": "simple",
-          "key": "wake_up",
-          "file": "characters/a_strange_companion/strange_companion_black/wake_up.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "wake_up"
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "characters/a_strange_companion/strange_companion_black/walk.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "walk"
-        },
-        "projectile_explode": {
-          "type": "simple",
-          "key": "projectile_explode",
-          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
-          "category": "ranged",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 126,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 9
-          },
-          "originalName": "projectile_explode"
-        },
-        "projectile_idle": {
-          "type": "simple",
-          "key": "projectile_idle",
-          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
-          "category": "ranged",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 28,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 2
-          },
-          "originalName": "projectile_idle"
-        }
-      }
-    },
-    "strange_companion_red": {
-      "type": "standard",
-      "id": "strange_companion_red",
-      "path": "characters/a_strange_companion/strange_companion_red",
-      "animations": {
-        "attack1": {
-          "type": "simple",
-          "key": "attack1",
-          "file": "characters/a_strange_companion/strange_companion_red/attack1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2688,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 16,
-            "anchorX": 37
-          },
-          "originalName": "attack1"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/a_strange_companion/strange_companion_red/attack2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3696,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 22,
-            "anchorX": 37
-          },
-          "originalName": "attack2"
-        },
-        "bark": {
-          "type": "simple",
-          "key": "bark",
-          "file": "characters/a_strange_companion/strange_companion_red/bark.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "bark"
-        },
-        "chill": {
-          "type": "simple",
-          "key": "chill",
-          "file": "characters/a_strange_companion/strange_companion_red/chill.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "chill"
-        },
-        "eat": {
-          "type": "simple",
-          "key": "eat",
-          "file": "characters/a_strange_companion/strange_companion_red/eat.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "eat"
-        },
-        "fall": {
-          "type": "simple",
-          "key": "fall",
-          "file": "characters/a_strange_companion/strange_companion_red/fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "fall"
-        },
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "characters/a_strange_companion/strange_companion_red/idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "idle"
-        },
-        "jump": {
-          "type": "simple",
-          "key": "jump",
-          "file": "characters/a_strange_companion/strange_companion_red/jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "jump"
-        },
-        "land": {
-          "type": "simple",
-          "key": "land",
-          "file": "characters/a_strange_companion/strange_companion_red/land.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "land"
-        },
-        "roll": {
-          "type": "simple",
-          "key": "roll",
-          "file": "characters/a_strange_companion/strange_companion_red/roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "roll"
-        },
-        "roll_end": {
-          "type": "simple",
-          "key": "roll_end",
-          "file": "characters/a_strange_companion/strange_companion_red/roll_end.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1176,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 7,
-            "anchorX": 37
-          },
-          "originalName": "roll_end"
-        },
-        "sit": {
-          "type": "simple",
-          "key": "sit",
-          "file": "characters/a_strange_companion/strange_companion_red/sit.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2856,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 17,
-            "anchorX": 37
-          },
-          "originalName": "sit"
-        },
-        "sleep": {
-          "type": "simple",
-          "key": "sleep",
-          "file": "characters/a_strange_companion/strange_companion_red/sleep.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "sleep"
-        },
-        "to_idle": {
-          "type": "simple",
-          "key": "to_idle",
-          "file": "characters/a_strange_companion/strange_companion_red/to_idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 12,
-            "anchorX": 37
-          },
-          "originalName": "to_idle"
-        },
-        "to_roll": {
-          "type": "simple",
-          "key": "to_roll",
-          "file": "characters/a_strange_companion/strange_companion_red/to_roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 336,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 2,
-            "anchorX": 37
-          },
-          "originalName": "to_roll"
-        },
-        "to_sleep": {
-          "type": "simple",
-          "key": "to_sleep",
-          "file": "characters/a_strange_companion/strange_companion_red/to_sleep.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "to_sleep"
-        },
-        "trans_jump_to_fall": {
-          "type": "simple",
-          "key": "trans_jump_to_fall",
-          "file": "characters/a_strange_companion/strange_companion_red/trans_jump_to_fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "trans_jump_to_fall"
-        },
-        "trans_to_jump": {
-          "type": "simple",
-          "key": "trans_to_jump",
-          "file": "characters/a_strange_companion/strange_companion_red/trans_to_jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 840,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 5,
-            "anchorX": 37
-          },
-          "originalName": "trans_to_jump"
-        },
-        "wake_up": {
-          "type": "simple",
-          "key": "wake_up",
-          "file": "characters/a_strange_companion/strange_companion_red/wake_up.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "wake_up"
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "characters/a_strange_companion/strange_companion_red/walk.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "walk"
-        },
-        "projectile_explode": {
-          "type": "simple",
-          "key": "projectile_explode",
-          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
-          "category": "ranged",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 126,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 9
-          },
-          "originalName": "projectile_explode"
-        },
-        "projectile_idle": {
-          "type": "simple",
-          "key": "projectile_idle",
-          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
-          "category": "ranged",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 28,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 2
-          },
-          "originalName": "projectile_idle"
-        }
-      }
-    },
-    "strange_companion_teal": {
-      "type": "standard",
-      "id": "strange_companion_teal",
-      "path": "characters/a_strange_companion/strange_companion_teal",
-      "animations": {
-        "attack1": {
-          "type": "simple",
-          "key": "attack1",
-          "file": "characters/a_strange_companion/strange_companion_teal/attack1.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 2688,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 16,
-            "anchorX": 37
-          },
-          "originalName": "attack1"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/a_strange_companion/strange_companion_teal/attack2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3696,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 22,
-            "anchorX": 37
-          },
-          "originalName": "attack2"
-        },
-        "bark": {
-          "type": "simple",
-          "key": "bark",
-          "file": "characters/a_strange_companion/strange_companion_teal/bark.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "bark"
-        },
-        "chill": {
-          "type": "simple",
-          "key": "chill",
-          "file": "characters/a_strange_companion/strange_companion_teal/chill.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "chill"
-        },
-        "eat": {
-          "type": "simple",
-          "key": "eat",
-          "file": "characters/a_strange_companion/strange_companion_teal/eat.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "eat"
-        },
-        "fall": {
-          "type": "simple",
-          "key": "fall",
-          "file": "characters/a_strange_companion/strange_companion_teal/fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "fall"
-        },
-        "idle": {
-          "type": "simple",
-          "key": "idle",
-          "file": "characters/a_strange_companion/strange_companion_teal/idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 1344,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 8,
-            "anchorX": 37
-          },
-          "originalName": "idle"
-        },
-        "jump": {
-          "type": "simple",
-          "key": "jump",
-          "file": "characters/a_strange_companion/strange_companion_teal/jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "jump"
-        },
-        "land": {
-          "type": "simple",
-          "key": "land",
-          "file": "characters/a_strange_companion/strange_companion_teal/land.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "land"
-        },
-        "roll": {
-          "type": "simple",
-          "key": "roll",
-          "file": "characters/a_strange_companion/strange_companion_teal/roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "roll"
-        },
-        "roll_end": {
-          "type": "simple",
-          "key": "roll_end",
-          "file": "characters/a_strange_companion/strange_companion_teal/roll_end.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1176,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 7,
-            "anchorX": 37
-          },
-          "originalName": "roll_end"
-        },
-        "sit": {
-          "type": "simple",
-          "key": "sit",
-          "file": "characters/a_strange_companion/strange_companion_teal/sit.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2856,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 17,
-            "anchorX": 37
-          },
-          "originalName": "sit"
-        },
-        "sleep": {
-          "type": "simple",
-          "key": "sleep",
-          "file": "characters/a_strange_companion/strange_companion_teal/sleep.png",
-          "category": "state",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 4032,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 24,
-            "anchorX": 37
-          },
-          "originalName": "sleep"
-        },
-        "to_idle": {
-          "type": "simple",
-          "key": "to_idle",
-          "file": "characters/a_strange_companion/strange_companion_teal/to_idle.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2016,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 12,
-            "anchorX": 37
-          },
-          "originalName": "to_idle"
-        },
-        "to_roll": {
-          "type": "simple",
-          "key": "to_roll",
-          "file": "characters/a_strange_companion/strange_companion_teal/to_roll.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 336,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 2,
-            "anchorX": 37
-          },
-          "originalName": "to_roll"
-        },
-        "to_sleep": {
-          "type": "simple",
-          "key": "to_sleep",
-          "file": "characters/a_strange_companion/strange_companion_teal/to_sleep.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "to_sleep"
-        },
-        "trans_jump_to_fall": {
-          "type": "simple",
-          "key": "trans_jump_to_fall",
-          "file": "characters/a_strange_companion/strange_companion_teal/trans_jump_to_fall.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "trans_jump_to_fall"
-        },
-        "trans_to_jump": {
-          "type": "simple",
-          "key": "trans_to_jump",
-          "file": "characters/a_strange_companion/strange_companion_teal/trans_to_jump.png",
-          "category": "movement",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 840,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 5,
-            "anchorX": 37
-          },
-          "originalName": "trans_to_jump"
-        },
-        "wake_up": {
-          "type": "simple",
-          "key": "wake_up",
-          "file": "characters/a_strange_companion/strange_companion_teal/wake_up.png",
-          "category": "state",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1680,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 10,
-            "anchorX": 37
-          },
-          "originalName": "wake_up"
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "characters/a_strange_companion/strange_companion_teal/walk.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 33,
-            "frameWidth": 168,
-            "frameHeight": 33,
-            "frameCount": 4,
-            "anchorX": 37
-          },
-          "originalName": "walk"
-        },
-        "projectile_explode": {
-          "type": "simple",
-          "key": "projectile_explode",
-          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
-          "category": "ranged",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 126,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 9
-          },
-          "originalName": "projectile_explode"
-        },
-        "projectile_idle": {
-          "type": "simple",
-          "key": "projectile_idle",
-          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
-          "category": "ranged",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 28,
-            "sheetHeight": 14,
-            "frameWidth": 14,
-            "frameHeight": 14,
-            "frameCount": 2
-          },
-          "originalName": "projectile_idle"
         }
       }
     }

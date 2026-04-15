@@ -1,0 +1,82 @@
+{
+  "type": "standard",
+  "id": "skeleton_summoner",
+  "path": "castle_of_bones/skeleton_summoner/summoner",
+  "animations": {
+    "attack": {
+      "type": "simple",
+      "key": "attack",
+      "file": "castle_of_bones/skeleton_summoner/summoner/attack.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2508,
+        "sheetHeight": 83,
+        "frameWidth": 132,
+        "frameHeight": 83,
+        "frameCount": 19
+      },
+      "originalName": "attack"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "castle_of_bones/skeleton_summoner/summoner/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2244,
+        "sheetHeight": 83,
+        "frameWidth": 132,
+        "frameHeight": 83,
+        "frameCount": 17
+      },
+      "originalName": "death"
+    },
+    "idle": {
+      "type": "simple",
+      "key": "idle",
+      "file": "castle_of_bones/skeleton_summoner/summoner/idle.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1584,
+        "sheetHeight": 83,
+        "frameWidth": 132,
+        "frameHeight": 83,
+        "frameCount": 12
+      },
+      "originalName": "idle"
+    },
+    "summon": {
+      "type": "simple",
+      "key": "summon",
+      "file": "castle_of_bones/skeleton_summoner/summoner/summon.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2112,
+        "sheetHeight": 83,
+        "frameWidth": 132,
+        "frameHeight": 83,
+        "frameCount": 16
+      },
+      "originalName": "summon"
+    },
+    "walk": {
+      "type": "simple",
+      "key": "walk",
+      "file": "castle_of_bones/skeleton_summoner/summoner/walk.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 1584,
+        "sheetHeight": 83,
+        "frameWidth": 132,
+        "frameHeight": 83,
+        "frameCount": 12
+      },
+      "originalName": "walk"
+    }
+  }
+}

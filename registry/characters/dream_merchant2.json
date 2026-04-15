@@ -3,20 +3,20 @@
   "id": "dream_merchant2",
   "path": "characters/dream_merchant2",
   "animations": {
-    "full_sheet": {
+    "idle": {
       "type": "simple",
-      "key": "full_sheet",
-      "file": "characters/dream_merchant2/full_sheet.png",
-      "category": "attack",
-      "loops": false,
+      "key": "idle",
+      "file": "characters/dream_merchant2/idle.png",
+      "category": "movement",
+      "loops": true,
       "frames": {
         "sheetWidth": 520,
         "sheetHeight": 49,
-        "frameWidth": 130,
+        "frameWidth": 65,
         "frameHeight": 49,
-        "frameCount": 4
+        "frameCount": 8
       },
-      "originalName": "full_sheet"
+      "originalName": "idle"
     }
   }
 }
