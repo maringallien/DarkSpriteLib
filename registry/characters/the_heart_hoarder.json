@@ -3,73 +3,40 @@
   "id": "the_heart_hoarder",
   "path": "characters/the_heart_hoarder",
   "animations": {
-    "teleport": {
-      "type": "sequence",
-      "key": "teleport",
+    "teleport_disappear": {
+      "type": "simple",
+      "key": "teleport_disappear",
+      "file": "characters/the_heart_hoarder/teleport_disappear.png",
       "category": "special",
-      "parts": [
-        {
-          "key": "vanish",
-          "file": "characters/the_heart_hoarder/teleport_vanish.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1554,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 7
-          },
-          "originalName": "teleport_vanish"
-        },
-        {
-          "key": "appear",
-          "file": "characters/the_heart_hoarder/teleport_appear.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1998,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 9
-          },
-          "originalName": "teleport_appear"
-        }
-      ]
-    },
-    "attack1": {
-      "type": "simple",
-      "key": "attack1",
-      "file": "characters/the_heart_hoarder/attack1.png",
-      "category": "attack",
       "loops": false,
       "frames": {
-        "sheetWidth": 8118,
-        "sheetHeight": 121,
-        "frameWidth": 369,
-        "frameHeight": 121,
-        "frameCount": 22
-      },
-      "originalName": "attack1"
-    },
-    "attack2": {
-      "type": "simple",
-      "key": "attack2",
-      "file": "characters/the_heart_hoarder/attack2.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 3552,
+        "sheetWidth": 1554,
         "sheetHeight": 119,
         "frameWidth": 222,
         "frameHeight": 119,
-        "frameCount": 16
+        "frameCount": 7
       },
-      "originalName": "attack2"
+      "originalName": "teleport_disappear"
     },
-    "attack3": {
+    "teleport_appear": {
       "type": "simple",
-      "key": "attack3",
-      "file": "characters/the_heart_hoarder/attack3.png",
+      "key": "teleport_appear",
+      "file": "characters/the_heart_hoarder/teleport_appear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1998,
+        "sheetHeight": 119,
+        "frameWidth": 222,
+        "frameHeight": 119,
+        "frameCount": 9
+      },
+      "originalName": "teleport_appear"
+    },
+    "swords_disappear": {
+      "type": "simple",
+      "key": "swords_disappear",
+      "file": "characters/the_heart_hoarder/swords_disappear.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -79,42 +46,12 @@
         "frameHeight": 119,
         "frameCount": 8
       },
-      "originalName": "attack3"
+      "originalName": "swords_disappear"
     },
-    "attack4": {
+    "swords_appear": {
       "type": "simple",
-      "key": "attack4",
-      "file": "characters/the_heart_hoarder/attack4.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 7380,
-        "sheetHeight": 121,
-        "frameWidth": 369,
-        "frameHeight": 121,
-        "frameCount": 20
-      },
-      "originalName": "attack4"
-    },
-    "attack5": {
-      "type": "simple",
-      "key": "attack5",
-      "file": "characters/the_heart_hoarder/attack5.png",
-      "category": "attack",
-      "loops": false,
-      "frames": {
-        "sheetWidth": 1998,
-        "sheetHeight": 119,
-        "frameWidth": 222,
-        "frameHeight": 119,
-        "frameCount": 9
-      },
-      "originalName": "attack5"
-    },
-    "attack6": {
-      "type": "simple",
-      "key": "attack6",
-      "file": "characters/the_heart_hoarder/attack6.png",
+      "key": "swords_appear",
+      "file": "characters/the_heart_hoarder/swords_appear.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -124,7 +61,151 @@
         "frameHeight": 119,
         "frameCount": 4
       },
-      "originalName": "attack6"
+      "originalName": "swords_appear"
+    },
+    "attack1_return_normal": {
+      "type": "simple",
+      "key": "attack1_return_normal",
+      "file": "characters/the_heart_hoarder/attack1_return_normal.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 2886,
+        "sheetHeight": 119,
+        "frameWidth": 222,
+        "frameHeight": 119,
+        "frameCount": 13
+      },
+      "originalName": "attack1_return_normal"
+    },
+    "attack1": {
+      "type": "sequence",
+      "key": "attack1",
+      "category": "attack",
+      "parts": [
+        {
+          "key": "teleport_disappear",
+          "file": "characters/the_heart_hoarder/teleport_disappear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1554,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 7
+          }
+        },
+        {
+          "key": "main",
+          "file": "characters/the_heart_hoarder/attack1.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 8118,
+            "sheetHeight": 121,
+            "frameWidth": 246,
+            "frameHeight": 121,
+            "frameCount": 32
+          }
+        },
+        {
+          "key": "return_normal",
+          "file": "characters/the_heart_hoarder/attack1_return_normal.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2886,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 13
+          }
+        }
+      ]
+    },
+    "attack2": {
+      "type": "sequence",
+      "key": "attack2",
+      "category": "attack",
+      "parts": [
+        {
+          "key": "swords_disappear",
+          "file": "characters/the_heart_hoarder/swords_disappear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1776,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 8
+          }
+        },
+        {
+          "key": "main",
+          "file": "characters/the_heart_hoarder/attack2.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3552,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 16
+          }
+        },
+        {
+          "key": "swords_appear",
+          "file": "characters/the_heart_hoarder/swords_appear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 888,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 4
+          }
+        }
+      ]
+    },
+    "attack3": {
+      "type": "sequence",
+      "key": "attack3",
+      "category": "attack",
+      "parts": [
+        {
+          "key": "swords_disappear",
+          "file": "characters/the_heart_hoarder/swords_disappear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1776,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 8
+          }
+        },
+        {
+          "key": "main",
+          "file": "characters/the_heart_hoarder/attack3.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1998,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 9
+          }
+        },
+        {
+          "key": "swords_appear",
+          "file": "characters/the_heart_hoarder/swords_appear.png",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 888,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 4
+          }
+        }
+      ]
     },
     "death": {
       "type": "simple",
@@ -141,10 +222,10 @@
       },
       "originalName": "death"
     },
-    "idle1": {
+    "idle": {
       "type": "simple",
-      "key": "idle1",
-      "file": "characters/the_heart_hoarder/idle1.png",
+      "key": "idle",
+      "file": "characters/the_heart_hoarder/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -154,22 +235,7 @@
         "frameHeight": 119,
         "frameCount": 9
       },
-      "originalName": "idle1"
-    },
-    "idle2": {
-      "type": "simple",
-      "key": "idle2",
-      "file": "characters/the_heart_hoarder/idle2.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 2886,
-        "sheetHeight": 119,
-        "frameWidth": 222,
-        "frameHeight": 119,
-        "frameCount": 13
-      },
-      "originalName": "idle2"
+      "originalName": "idle"
     },
     "take_hit": {
       "type": "simple",
@@ -186,10 +252,10 @@
       },
       "originalName": "take_hit"
     },
-    "walk1": {
+    "walk": {
       "type": "simple",
-      "key": "walk1",
-      "file": "characters/the_heart_hoarder/walk1.png",
+      "key": "walk",
+      "file": "characters/the_heart_hoarder/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -199,12 +265,12 @@
         "frameHeight": 119,
         "frameCount": 8
       },
-      "originalName": "walk1"
+      "originalName": "walk"
     },
-    "walk2": {
+    "run": {
       "type": "simple",
-      "key": "walk2",
-      "file": "characters/the_heart_hoarder/walk2.png",
+      "key": "run",
+      "file": "characters/the_heart_hoarder/run.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -214,22 +280,7 @@
         "frameHeight": 119,
         "frameCount": 2
       },
-      "originalName": "walk2"
-    },
-    "walk3": {
-      "type": "simple",
-      "key": "walk3",
-      "file": "characters/the_heart_hoarder/walk3.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 888,
-        "sheetHeight": 119,
-        "frameWidth": 222,
-        "frameHeight": 119,
-        "frameCount": 4
-      },
-      "originalName": "walk3"
+      "originalName": "run"
     }
   }
 }

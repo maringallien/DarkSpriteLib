@@ -3,38 +3,35 @@
   "id": "the_tarnished_widow",
   "path": "characters/the_tarnished_widow",
   "animations": {
-    "teleport": {
-      "type": "sequence",
-      "key": "teleport",
+    "teleport_disappear": {
+      "type": "simple",
+      "key": "teleport_disappear",
+      "file": "characters/the_tarnished_widow/teleport_disappear.png",
       "category": "special",
-      "parts": [
-        {
-          "key": "vanish",
-          "file": "characters/the_tarnished_widow/teleport_vanish.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3384,
-            "sheetHeight": 90,
-            "frameWidth": 423,
-            "frameHeight": 90,
-            "frameCount": 8
-          },
-          "originalName": "teleport_vanish"
-        },
-        {
-          "key": "land",
-          "file": "characters/the_tarnished_widow/teleport_land.png",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3384,
-            "sheetHeight": 90,
-            "frameWidth": 423,
-            "frameHeight": 90,
-            "frameCount": 8
-          },
-          "originalName": "teleport_land"
-        }
-      ]
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 188,
+        "frameHeight": 90,
+        "frameCount": 18
+      },
+      "originalName": "teleport_disappear"
+    },
+    "teleport_appear": {
+      "type": "simple",
+      "key": "teleport_appear",
+      "file": "characters/the_tarnished_widow/teleport_appear.png",
+      "category": "special",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 3384,
+        "sheetHeight": 90,
+        "frameWidth": 188,
+        "frameHeight": 90,
+        "frameCount": 18
+      },
+      "originalName": "teleport_appear"
     },
     "attack": {
       "type": "simple",
@@ -45,9 +42,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "attack"
     },
@@ -60,9 +57,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "buff"
     },
@@ -75,9 +72,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "death"
     },
@@ -90,9 +87,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "idle"
     },
@@ -105,9 +102,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "ranged"
     },
@@ -120,9 +117,9 @@
       "frames": {
         "sheetWidth": 3384,
         "sheetHeight": 90,
-        "frameWidth": 423,
+        "frameWidth": 188,
         "frameHeight": 90,
-        "frameCount": 8
+        "frameCount": 18
       },
       "originalName": "walk"
     }

@@ -1883,259 +1883,189 @@
       }
     },
     "colossal_boss": {
-      "type": "composite",
+      "type": "standard",
       "id": "colossal_boss",
       "path": "characters/colossal_boss",
-      "components": {
-        "body": {
-          "type": "standard",
-          "id": "body",
-          "path": "characters/colossal_boss",
-          "animations": {
-            "spin_charge": {
-              "type": "sequence",
-              "key": "spin_charge",
-              "category": "special",
-              "parts": [
-                {
-                  "key": "start",
-                  "file": "characters/colossal_boss/spin_charge_end.png",
-                  "loops": false,
-                  "frames": {
-                    "sheetWidth": 603,
-                    "sheetHeight": 94,
-                    "frameWidth": 201,
-                    "frameHeight": 94,
-                    "frameCount": 3
-                  },
-                  "originalName": "spin_charge_end"
-                },
-                {
-                  "key": "end",
-                  "file": "characters/colossal_boss/spin_charge_end.png",
-                  "loops": false,
-                  "frames": {
-                    "sheetWidth": 603,
-                    "sheetHeight": 94,
-                    "frameWidth": 201,
-                    "frameHeight": 94,
-                    "frameCount": 3
-                  },
-                  "originalName": "spin_charge_end"
-                }
-              ]
-            },
-            "attack1": {
-              "type": "simple",
-              "key": "attack1",
-              "file": "characters/colossal_boss/attack1.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 201,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 1
-              },
-              "originalName": "attack1"
-            },
-            "attack2": {
-              "type": "simple",
-              "key": "attack2",
-              "file": "characters/colossal_boss/attack2.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1407,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 7
-              },
-              "originalName": "attack2"
-            },
-            "attack3": {
-              "type": "simple",
-              "key": "attack3",
-              "file": "characters/colossal_boss/attack3.png",
-              "category": "attack",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 4623,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 23
-              },
-              "originalName": "attack3"
-            },
-            "buff": {
-              "type": "simple",
-              "key": "buff",
-              "file": "characters/colossal_boss/buff.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2613,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 13
-              },
-              "originalName": "buff"
-            },
-            "death": {
-              "type": "simple",
-              "key": "death",
-              "file": "characters/colossal_boss/death.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 4221,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 21
-              },
-              "originalName": "death"
-            },
-            "idle": {
-              "type": "simple",
-              "key": "idle",
-              "file": "characters/colossal_boss/idle.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 4824,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 24
-              },
-              "originalName": "idle"
-            },
-            "ranged": {
-              "type": "simple",
-              "key": "ranged",
-              "file": "characters/colossal_boss/ranged.png",
-              "category": "ranged",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 4221,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 21
-              },
-              "originalName": "ranged"
-            },
-            "sleep": {
-              "type": "simple",
-              "key": "sleep",
-              "file": "characters/colossal_boss/sleep.png",
-              "category": "state",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 201,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 1
-              },
-              "originalName": "sleep"
-            },
-            "special1": {
-              "type": "simple",
-              "key": "special1",
-              "file": "characters/colossal_boss/special.png",
-              "category": "special",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3618,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 18
-              },
-              "originalName": "special"
-            },
-            "special2": {
-              "type": "simple",
-              "key": "special2",
-              "file": "characters/colossal_boss/spin_charge_start.png",
-              "category": "special",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1407,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 7
-              },
-              "originalName": "spin_charge_start"
-            },
-            "wake": {
-              "type": "simple",
-              "key": "wake",
-              "file": "characters/colossal_boss/wake.png",
-              "category": "state",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 2412,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 12
-              },
-              "originalName": "wake"
-            },
-            "walk1": {
-              "type": "simple",
-              "key": "walk1",
-              "file": "characters/colossal_boss/walk1.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 4824,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 24
-              },
-              "originalName": "walk1"
-            },
-            "walk2": {
-              "type": "simple",
-              "key": "walk2",
-              "file": "characters/colossal_boss/walk2.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 1407,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 7
-              },
-              "originalName": "walk2"
-            },
-            "walk3": {
-              "type": "simple",
-              "key": "walk3",
-              "file": "characters/colossal_boss/walk3.png",
-              "category": "movement",
-              "loops": true,
-              "frames": {
-                "sheetWidth": 1608,
-                "sheetHeight": 94,
-                "frameWidth": 201,
-                "frameHeight": 94,
-                "frameCount": 8
-              },
-              "originalName": "walk3"
-            }
-          }
+      "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/colossal_boss/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 6946,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 23
+          },
+          "originalName": "attack1"
+        },
+        "attack2": {
+          "type": "simple",
+          "key": "attack2",
+          "file": "characters/colossal_boss/attack2.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 6342,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 21
+          },
+          "originalName": "attack2"
+        },
+        "attack3": {
+          "type": "simple",
+          "key": "attack3",
+          "file": "characters/colossal_boss/attack3.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 5436,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 18
+          },
+          "originalName": "attack3"
+        },
+        "buff": {
+          "type": "simple",
+          "key": "buff",
+          "file": "characters/colossal_boss/buff.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3926,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 13
+          },
+          "originalName": "buff"
+        },
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "characters/colossal_boss/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 6342,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 21
+          },
+          "originalName": "death"
+        },
+        "idle": {
+          "type": "simple",
+          "key": "idle",
+          "file": "characters/colossal_boss/idle.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 7248,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 24
+          },
+          "originalName": "idle"
+        },
+        "sleep": {
+          "type": "simple",
+          "key": "sleep",
+          "file": "characters/colossal_boss/sleep.png",
+          "category": "state",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 302,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 1
+          },
+          "originalName": "sleep"
+        },
+        "spin_charge": {
+          "type": "simple",
+          "key": "spin_charge",
+          "file": "characters/colossal_boss/spin_charge.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2114,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 7
+          },
+          "originalName": "spin_charge"
+        },
+        "wake": {
+          "type": "simple",
+          "key": "wake",
+          "file": "characters/colossal_boss/wake.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3624,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 12
+          },
+          "originalName": "wake"
+        },
+        "walk": {
+          "type": "simple",
+          "key": "walk",
+          "file": "characters/colossal_boss/walk.png",
+          "category": "movement",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 7248,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 24
+          },
+          "originalName": "walk"
+        },
+        "turn_right": {
+          "type": "simple",
+          "key": "turn_right",
+          "file": "characters/colossal_boss/turn_right.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2114,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 7
+          },
+          "originalName": "turn_right"
+        },
+        "turn_left": {
+          "type": "simple",
+          "key": "turn_left",
+          "file": "characters/colossal_boss/turn_left.png",
+          "category": "movement",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2416,
+            "sheetHeight": 141,
+            "frameWidth": 302,
+            "frameHeight": 141,
+            "frameCount": 8
+          },
+          "originalName": "turn_left"
         }
       }
     },
@@ -7675,73 +7605,40 @@
       "id": "the_heart_hoarder",
       "path": "characters/the_heart_hoarder",
       "animations": {
-        "teleport": {
-          "type": "sequence",
-          "key": "teleport",
+        "teleport_disappear": {
+          "type": "simple",
+          "key": "teleport_disappear",
+          "file": "characters/the_heart_hoarder/teleport_disappear.png",
           "category": "special",
-          "parts": [
-            {
-              "key": "vanish",
-              "file": "characters/the_heart_hoarder/teleport_vanish.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1554,
-                "sheetHeight": 119,
-                "frameWidth": 222,
-                "frameHeight": 119,
-                "frameCount": 7
-              },
-              "originalName": "teleport_vanish"
-            },
-            {
-              "key": "appear",
-              "file": "characters/the_heart_hoarder/teleport_appear.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 1998,
-                "sheetHeight": 119,
-                "frameWidth": 222,
-                "frameHeight": 119,
-                "frameCount": 9
-              },
-              "originalName": "teleport_appear"
-            }
-          ]
-        },
-        "attack1": {
-          "type": "simple",
-          "key": "attack1",
-          "file": "characters/the_heart_hoarder/attack1.png",
-          "category": "attack",
           "loops": false,
           "frames": {
-            "sheetWidth": 8118,
-            "sheetHeight": 121,
-            "frameWidth": 369,
-            "frameHeight": 121,
-            "frameCount": 22
-          },
-          "originalName": "attack1"
-        },
-        "attack2": {
-          "type": "simple",
-          "key": "attack2",
-          "file": "characters/the_heart_hoarder/attack2.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 3552,
+            "sheetWidth": 1554,
             "sheetHeight": 119,
             "frameWidth": 222,
             "frameHeight": 119,
-            "frameCount": 16
+            "frameCount": 7
           },
-          "originalName": "attack2"
+          "originalName": "teleport_disappear"
         },
-        "attack3": {
+        "teleport_appear": {
           "type": "simple",
-          "key": "attack3",
-          "file": "characters/the_heart_hoarder/attack3.png",
+          "key": "teleport_appear",
+          "file": "characters/the_heart_hoarder/teleport_appear.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 1998,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 9
+          },
+          "originalName": "teleport_appear"
+        },
+        "swords_disappear": {
+          "type": "simple",
+          "key": "swords_disappear",
+          "file": "characters/the_heart_hoarder/swords_disappear.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -7751,42 +7648,12 @@
             "frameHeight": 119,
             "frameCount": 8
           },
-          "originalName": "attack3"
+          "originalName": "swords_disappear"
         },
-        "attack4": {
+        "swords_appear": {
           "type": "simple",
-          "key": "attack4",
-          "file": "characters/the_heart_hoarder/attack4.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 7380,
-            "sheetHeight": 121,
-            "frameWidth": 369,
-            "frameHeight": 121,
-            "frameCount": 20
-          },
-          "originalName": "attack4"
-        },
-        "attack5": {
-          "type": "simple",
-          "key": "attack5",
-          "file": "characters/the_heart_hoarder/attack5.png",
-          "category": "attack",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 1998,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 9
-          },
-          "originalName": "attack5"
-        },
-        "attack6": {
-          "type": "simple",
-          "key": "attack6",
-          "file": "characters/the_heart_hoarder/attack6.png",
+          "key": "swords_appear",
+          "file": "characters/the_heart_hoarder/swords_appear.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -7796,7 +7663,151 @@
             "frameHeight": 119,
             "frameCount": 4
           },
-          "originalName": "attack6"
+          "originalName": "swords_appear"
+        },
+        "attack1_return_normal": {
+          "type": "simple",
+          "key": "attack1_return_normal",
+          "file": "characters/the_heart_hoarder/attack1_return_normal.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 2886,
+            "sheetHeight": 119,
+            "frameWidth": 222,
+            "frameHeight": 119,
+            "frameCount": 13
+          },
+          "originalName": "attack1_return_normal"
+        },
+        "attack1": {
+          "type": "sequence",
+          "key": "attack1",
+          "category": "attack",
+          "parts": [
+            {
+              "key": "teleport_disappear",
+              "file": "characters/the_heart_hoarder/teleport_disappear.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 1554,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 7
+              }
+            },
+            {
+              "key": "main",
+              "file": "characters/the_heart_hoarder/attack1.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 8118,
+                "sheetHeight": 121,
+                "frameWidth": 246,
+                "frameHeight": 121,
+                "frameCount": 32
+              }
+            },
+            {
+              "key": "return_normal",
+              "file": "characters/the_heart_hoarder/attack1_return_normal.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 2886,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 13
+              }
+            }
+          ]
+        },
+        "attack2": {
+          "type": "sequence",
+          "key": "attack2",
+          "category": "attack",
+          "parts": [
+            {
+              "key": "swords_disappear",
+              "file": "characters/the_heart_hoarder/swords_disappear.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 1776,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 8
+              }
+            },
+            {
+              "key": "main",
+              "file": "characters/the_heart_hoarder/attack2.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 3552,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 16
+              }
+            },
+            {
+              "key": "swords_appear",
+              "file": "characters/the_heart_hoarder/swords_appear.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 888,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 4
+              }
+            }
+          ]
+        },
+        "attack3": {
+          "type": "sequence",
+          "key": "attack3",
+          "category": "attack",
+          "parts": [
+            {
+              "key": "swords_disappear",
+              "file": "characters/the_heart_hoarder/swords_disappear.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 1776,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 8
+              }
+            },
+            {
+              "key": "main",
+              "file": "characters/the_heart_hoarder/attack3.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 1998,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 9
+              }
+            },
+            {
+              "key": "swords_appear",
+              "file": "characters/the_heart_hoarder/swords_appear.png",
+              "loops": false,
+              "frames": {
+                "sheetWidth": 888,
+                "sheetHeight": 119,
+                "frameWidth": 222,
+                "frameHeight": 119,
+                "frameCount": 4
+              }
+            }
+          ]
         },
         "death": {
           "type": "simple",
@@ -7813,10 +7824,10 @@
           },
           "originalName": "death"
         },
-        "idle1": {
+        "idle": {
           "type": "simple",
-          "key": "idle1",
-          "file": "characters/the_heart_hoarder/idle1.png",
+          "key": "idle",
+          "file": "characters/the_heart_hoarder/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -7826,22 +7837,7 @@
             "frameHeight": 119,
             "frameCount": 9
           },
-          "originalName": "idle1"
-        },
-        "idle2": {
-          "type": "simple",
-          "key": "idle2",
-          "file": "characters/the_heart_hoarder/idle2.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 2886,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 13
-          },
-          "originalName": "idle2"
+          "originalName": "idle"
         },
         "take_hit": {
           "type": "simple",
@@ -7858,10 +7854,10 @@
           },
           "originalName": "take_hit"
         },
-        "walk1": {
+        "walk": {
           "type": "simple",
-          "key": "walk1",
-          "file": "characters/the_heart_hoarder/walk1.png",
+          "key": "walk",
+          "file": "characters/the_heart_hoarder/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -7871,12 +7867,12 @@
             "frameHeight": 119,
             "frameCount": 8
           },
-          "originalName": "walk1"
+          "originalName": "walk"
         },
-        "walk2": {
+        "run": {
           "type": "simple",
-          "key": "walk2",
-          "file": "characters/the_heart_hoarder/walk2.png",
+          "key": "run",
+          "file": "characters/the_heart_hoarder/run.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -7886,22 +7882,7 @@
             "frameHeight": 119,
             "frameCount": 2
           },
-          "originalName": "walk2"
-        },
-        "walk3": {
-          "type": "simple",
-          "key": "walk3",
-          "file": "characters/the_heart_hoarder/walk3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 888,
-            "sheetHeight": 119,
-            "frameWidth": 222,
-            "frameHeight": 119,
-            "frameCount": 4
-          },
-          "originalName": "walk3"
+          "originalName": "run"
         }
       }
     },
@@ -7947,38 +7928,35 @@
       "id": "the_tarnished_widow",
       "path": "characters/the_tarnished_widow",
       "animations": {
-        "teleport": {
-          "type": "sequence",
-          "key": "teleport",
+        "teleport_disappear": {
+          "type": "simple",
+          "key": "teleport_disappear",
+          "file": "characters/the_tarnished_widow/teleport_disappear.png",
           "category": "special",
-          "parts": [
-            {
-              "key": "vanish",
-              "file": "characters/the_tarnished_widow/teleport_vanish.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3384,
-                "sheetHeight": 90,
-                "frameWidth": 423,
-                "frameHeight": 90,
-                "frameCount": 8
-              },
-              "originalName": "teleport_vanish"
-            },
-            {
-              "key": "land",
-              "file": "characters/the_tarnished_widow/teleport_land.png",
-              "loops": false,
-              "frames": {
-                "sheetWidth": 3384,
-                "sheetHeight": 90,
-                "frameWidth": 423,
-                "frameHeight": 90,
-                "frameCount": 8
-              },
-              "originalName": "teleport_land"
-            }
-          ]
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3384,
+            "sheetHeight": 90,
+            "frameWidth": 188,
+            "frameHeight": 90,
+            "frameCount": 18
+          },
+          "originalName": "teleport_disappear"
+        },
+        "teleport_appear": {
+          "type": "simple",
+          "key": "teleport_appear",
+          "file": "characters/the_tarnished_widow/teleport_appear.png",
+          "category": "special",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 3384,
+            "sheetHeight": 90,
+            "frameWidth": 188,
+            "frameHeight": 90,
+            "frameCount": 18
+          },
+          "originalName": "teleport_appear"
         },
         "attack": {
           "type": "simple",
@@ -7989,9 +7967,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "attack"
         },
@@ -8004,9 +7982,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "buff"
         },
@@ -8019,9 +7997,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "death"
         },
@@ -8034,9 +8012,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "idle"
         },
@@ -8049,9 +8027,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "ranged"
         },
@@ -8064,9 +8042,9 @@
           "frames": {
             "sheetWidth": 3384,
             "sheetHeight": 90,
-            "frameWidth": 423,
+            "frameWidth": 188,
             "frameHeight": 90,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "walk"
         }
@@ -8319,6 +8297,21 @@
       "id": "wheel_bot",
       "path": "characters/wheel_bot",
       "animations": {
+        "attack1": {
+          "type": "simple",
+          "key": "attack1",
+          "file": "characters/wheel_bot/attack1.png",
+          "category": "attack",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 536,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 4
+          },
+          "originalName": "attack1"
+        },
         "dash": {
           "type": "simple",
           "key": "dash",
@@ -8326,11 +8319,11 @@
           "category": "movement",
           "loops": false,
           "frames": {
-            "sheetWidth": 784,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 14
+            "sheetWidth": 938,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 7
           },
           "originalName": "dash"
         },
@@ -8341,11 +8334,11 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 672,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 12
+            "sheetWidth": 804,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 6
           },
           "originalName": "death"
         },
@@ -8356,43 +8349,13 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 112,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 2
+            "sheetWidth": 134,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 1
           },
           "originalName": "idle"
-        },
-        "ranged": {
-          "type": "simple",
-          "key": "ranged",
-          "file": "characters/wheel_bot/ranged.png",
-          "category": "ranged",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 448,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 8
-          },
-          "originalName": "ranged"
-        },
-        "special": {
-          "type": "simple",
-          "key": "special",
-          "file": "characters/wheel_bot/special.png",
-          "category": "special",
-          "loops": false,
-          "frames": {
-            "sheetWidth": 448,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 8
-          },
-          "originalName": "special"
         },
         "take_hit": {
           "type": "simple",
@@ -8401,11 +8364,11 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 224,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 4
+            "sheetWidth": 268,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 2
           },
           "originalName": "take_hit"
         },
@@ -8416,13 +8379,43 @@
           "category": "state",
           "loops": false,
           "frames": {
-            "sheetWidth": 560,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 10
+            "sheetWidth": 670,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 5
           },
           "originalName": "wake"
+        },
+        "projectile_explode": {
+          "type": "simple",
+          "key": "projectile_explode",
+          "file": "characters/wheel_bot/projectile_explode.png",
+          "category": "ranged",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 44,
+            "sheetHeight": 11,
+            "frameWidth": 11,
+            "frameHeight": 11,
+            "frameCount": 4
+          },
+          "originalName": "projectile_explode"
+        },
+        "projectile_idle": {
+          "type": "simple",
+          "key": "projectile_idle",
+          "file": "characters/wheel_bot/projectile_idle.png",
+          "category": "ranged",
+          "loops": true,
+          "frames": {
+            "sheetWidth": 22,
+            "sheetHeight": 11,
+            "frameWidth": 11,
+            "frameHeight": 11,
+            "frameCount": 2
+          },
+          "originalName": "projectile_idle"
         },
         "walk": {
           "type": "simple",
@@ -8431,11 +8424,11 @@
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 896,
-            "sheetHeight": 26,
-            "frameWidth": 56,
-            "frameHeight": 26,
-            "frameCount": 16
+            "sheetWidth": 1072,
+            "sheetHeight": 31,
+            "frameWidth": 134,
+            "frameHeight": 31,
+            "frameCount": 8
           },
           "originalName": "walk"
         }
@@ -10912,179 +10905,179 @@
       "biome": "ancient_caves",
       "path": "ancient_caves/objects/animated_objects",
       "objects": {
-        "ancient_rock_animations_animation1": {
+        "ancient_rock1": {
           "type": "standard",
-          "id": "ancient_rock_animations_animation1",
+          "id": "ancient_rock1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation1.png",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock1.png",
               "category": "movement",
               "loops": true,
               "frames": {
-                "sheetWidth": 354,
+                "sheetWidth": 360,
                 "sheetHeight": 33,
-                "frameWidth": 177,
+                "frameWidth": 36,
                 "frameHeight": 33,
-                "frameCount": 2
+                "frameCount": 10
               },
-              "originalName": "ancient_rock_animations_animation1"
+              "originalName": "ancient_rock1"
             }
           }
         },
-        "ancient_rock_animations_animation2": {
+        "ancient_rock2": {
           "type": "standard",
-          "id": "ancient_rock_animations_animation2",
+          "id": "ancient_rock2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation2.png",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock2.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 288,
                 "sheetHeight": 33,
-                "frameWidth": 72,
+                "frameWidth": 36,
                 "frameHeight": 33,
-                "frameCount": 4
+                "frameCount": 8
               },
-              "originalName": "ancient_rock_animations_animation2"
+              "originalName": "ancient_rock2"
             }
           }
         },
-        "ancient_rock_animations_animation3": {
+        "ancient_rock3": {
           "type": "standard",
-          "id": "ancient_rock_animations_animation3",
+          "id": "ancient_rock3",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/ancient_rock_animations_animation3.png",
+              "file": "ancient_caves/objects/animated_objects/ancient_rock3.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 504,
                 "sheetHeight": 50,
-                "frameWidth": 126,
+                "frameWidth": 36,
                 "frameHeight": 50,
-                "frameCount": 4
+                "frameCount": 14
               },
-              "originalName": "ancient_rock_animations_animation3"
+              "originalName": "ancient_rock3"
             }
           }
         },
-        "smoke_animations_animation1": {
+        "smoke1": {
           "type": "standard",
-          "id": "smoke_animations_animation1",
+          "id": "smoke1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/smoke_animations_animation1.png",
+              "file": "ancient_caves/objects/animated_objects/smoke1.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 96,
                 "sheetHeight": 36,
-                "frameWidth": 96,
+                "frameWidth": 12,
                 "frameHeight": 36,
-                "frameCount": 1
+                "frameCount": 8
               },
-              "originalName": "smoke_animations_animation1"
+              "originalName": "smoke1"
             }
           }
         },
-        "smoke_animations_animation2": {
+        "smoke2": {
           "type": "standard",
-          "id": "smoke_animations_animation2",
+          "id": "smoke2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/smoke_animations_animation2.png",
+              "file": "ancient_caves/objects/animated_objects/smoke2.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 96,
                 "sheetHeight": 26,
-                "frameWidth": 48,
+                "frameWidth": 12,
                 "frameHeight": 26,
-                "frameCount": 2
+                "frameCount": 8
               },
-              "originalName": "smoke_animations_animation2"
+              "originalName": "smoke2"
             }
           }
         },
-        "smoke_animations_animation3": {
+        "smoke3": {
           "type": "standard",
-          "id": "smoke_animations_animation3",
+          "id": "smoke3",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/smoke_animations_animation3.png",
+              "file": "ancient_caves/objects/animated_objects/smoke3.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 192,
                 "sheetHeight": 38,
-                "frameWidth": 96,
+                "frameWidth": 12,
                 "frameHeight": 38,
-                "frameCount": 2
+                "frameCount": 16
               },
-              "originalName": "smoke_animations_animation3"
+              "originalName": "smoke3"
             }
           }
         },
-        "throne_animation1": {
+        "throne1": {
           "type": "standard",
-          "id": "throne_animation1",
+          "id": "throne1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/throne_animation1.png",
+              "file": "ancient_caves/objects/animated_objects/throne1.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 1536,
                 "sheetHeight": 64,
-                "frameWidth": 192,
+                "frameWidth": 96,
                 "frameHeight": 64,
-                "frameCount": 8
+                "frameCount": 16
               },
-              "originalName": "throne_animation1"
+              "originalName": "throne1"
             }
           }
         },
-        "throne_animation2": {
+        "throne2": {
           "type": "standard",
-          "id": "throne_animation2",
+          "id": "throne2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
             "idle": {
               "type": "simple",
               "key": "idle",
-              "file": "ancient_caves/objects/animated_objects/throne_animation2.png",
+              "file": "ancient_caves/objects/animated_objects/throne2.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 1728,
                 "sheetHeight": 64,
-                "frameWidth": 108,
+                "frameWidth": 96,
                 "frameHeight": 64,
-                "frameCount": 16
+                "frameCount": 18
               },
-              "originalName": "throne_animation2"
+              "originalName": "throne2"
             }
           }
         }
