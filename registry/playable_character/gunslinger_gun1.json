@@ -1,0 +1,158 @@
+{
+  "type": "standard",
+  "id": "playable_character/gunslinger_gun1",
+  "path": "playable_character/gunslinger/animations_gun_1",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "playable_character/gunslinger/animations_gun_1/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 4
+      },
+      "originalName": "attack1"
+    },
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "playable_character/gunslinger/animations_gun_1/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 240,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 5
+      },
+      "originalName": "death"
+    },
+    "fall": {
+      "type": "simple",
+      "key": "fall",
+      "file": "playable_character/gunslinger/animations_gun_1/fall.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 192,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 4
+      },
+      "originalName": "fall"
+    },
+    "jump": {
+      "type": "simple",
+      "key": "jump",
+      "file": "playable_character/gunslinger/animations_gun_1/jump.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 144,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 3
+      },
+      "originalName": "jump"
+    },
+    "ledge_grab": {
+      "type": "simple",
+      "key": "ledge_grab",
+      "file": "playable_character/gunslinger/animations_gun_1/ledge_grab.png",
+      "category": "traversal",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 288,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 6
+      },
+      "originalName": "ledge_grab"
+    },
+    "roll": {
+      "type": "simple",
+      "key": "roll",
+      "file": "playable_character/gunslinger/animations_gun_1/roll.png",
+      "category": "movement",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 432,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 9
+      },
+      "originalName": "roll"
+    },
+    "run": {
+      "type": "simple",
+      "key": "run",
+      "file": "playable_character/gunslinger/animations_gun_1/run.png",
+      "category": "movement",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 384,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 8
+      },
+      "originalName": "run"
+    },
+    "take_hit": {
+      "type": "simple",
+      "key": "take_hit",
+      "file": "playable_character/gunslinger/animations_gun_1/take_hit.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 96,
+        "sheetHeight": 48,
+        "frameWidth": 48,
+        "frameHeight": 48,
+        "frameCount": 2
+      },
+      "originalName": "take_hit"
+    },
+    "projectile_idle": {
+      "type": "simple",
+      "key": "projectile_idle",
+      "file": "playable_character/gunslinger/animations_gun_1/projectile_idle.png",
+      "category": "ranged",
+      "loops": true,
+      "frames": {
+        "sheetWidth": 32,
+        "sheetHeight": 5,
+        "frameWidth": 16,
+        "frameHeight": 5,
+        "frameCount": 2
+      },
+      "originalName": "projectile_idle"
+    },
+    "projectile_explode": {
+      "type": "simple",
+      "key": "projectile_explode",
+      "file": "playable_character/gunslinger/animations_gun_1/projectile_explode.png",
+      "category": "ranged",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 64,
+        "sheetHeight": 10,
+        "frameWidth": 16,
+        "frameHeight": 10,
+        "frameCount": 4
+      },
+      "originalName": "projectile_explode"
+    }
+  },
+  "mode": "gunslinger_gun1"
+}

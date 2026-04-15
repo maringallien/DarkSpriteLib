@@ -3,50 +3,50 @@
   "id": "rat_blue",
   "path": "animals/rat/rat_blue",
   "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "animals/rat/rat_blue/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 216,
+        "sheetHeight": 8,
+        "frameWidth": 24,
+        "frameHeight": 8,
+        "frameCount": 9
+      },
+      "originalName": "death"
+    },
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "animals/rat/rat_blue/rat_blue_animation1.png",
+      "file": "animals/rat/rat_blue/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 16,
+        "sheetHeight": 8,
+        "frameWidth": 8,
+        "frameHeight": 8,
+        "frameCount": 2
       },
-      "originalName": "rat_blue_animation1"
+      "originalName": "idle"
     },
     "run": {
       "type": "simple",
       "key": "run",
-      "file": "animals/rat/rat_blue/rat_blue_animation2.png",
+      "file": "animals/rat/rat_blue/run.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 120,
+        "sheetHeight": 8,
+        "frameWidth": 24,
+        "frameHeight": 8,
+        "frameCount": 5
       },
-      "originalName": "rat_blue_animation2"
-    },
-    "death": {
-      "type": "simple",
-      "key": "death",
-      "file": "animals/rat/rat_blue/rat_blue_animation3.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
-      },
-      "originalName": "rat_blue_animation3"
+      "originalName": "run"
     }
   }
 }

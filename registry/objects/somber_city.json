@@ -7,18 +7,18 @@
       "id": "distant_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "distant_lightning_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "distant_lightning_idle",
           "file": "somber_city/objects/animated_objects/distant_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 576,
             "sheetHeight": 32,
-            "frameWidth": 72,
+            "frameWidth": 32,
             "frameHeight": 32,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "distant_lightning_idle"
         }
@@ -29,18 +29,18 @@
       "id": "door_fade_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "door_fade_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "door_fade_idle",
           "file": "somber_city/objects/animated_objects/door_fade_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 5240,
             "sheetHeight": 121,
-            "frameWidth": 655,
+            "frameWidth": 262,
             "frameHeight": 121,
-            "frameCount": 8
+            "frameCount": 20
           },
           "originalName": "door_fade_idle"
         }
@@ -51,18 +51,18 @@
       "id": "door_light_up_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "door_light_up_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "door_light_up_idle",
           "file": "somber_city/objects/animated_objects/door_light_up_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 4978,
             "sheetHeight": 121,
-            "frameWidth": 2489,
+            "frameWidth": 262,
             "frameHeight": 121,
-            "frameCount": 2
+            "frameCount": 19
           },
           "originalName": "door_light_up_idle"
         }
@@ -73,18 +73,18 @@
       "id": "fire_torch_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "fire_torch_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "fire_torch_idle",
           "file": "somber_city/objects/animated_objects/fire_torch_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 90,
             "sheetHeight": 17,
-            "frameWidth": 45,
+            "frameWidth": 9,
             "frameHeight": 17,
-            "frameCount": 2
+            "frameCount": 10
           },
           "originalName": "fire_torch_idle"
         }
@@ -95,18 +95,18 @@
       "id": "large_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "large_lightning_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "large_lightning_idle",
           "file": "somber_city/objects/animated_objects/large_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 1152,
             "sheetHeight": 48,
-            "frameWidth": 144,
+            "frameWidth": 64,
             "frameHeight": 48,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "large_lightning_idle"
         }
@@ -117,18 +117,18 @@
       "id": "small_lightning_idle",
       "path": "somber_city/objects/animated_objects",
       "animations": {
-        "idle": {
+        "small_lightning_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "small_lightning_idle",
           "file": "somber_city/objects/animated_objects/small_lightning_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 576,
             "sheetHeight": 32,
-            "frameWidth": 72,
+            "frameWidth": 32,
             "frameHeight": 32,
-            "frameCount": 8
+            "frameCount": 18
           },
           "originalName": "small_lightning_idle"
         }

@@ -78,9 +78,9 @@
       },
       "originalName": "fall"
     },
-    "attack2": {
+    "idle1": {
       "type": "simple",
-      "key": "attack2",
+      "key": "idle1",
       "file": "characters/sage/idle1.png",
       "category": "attack",
       "loops": false,
@@ -93,9 +93,9 @@
       },
       "originalName": "idle1"
     },
-    "idle": {
+    "idle2": {
       "type": "simple",
-      "key": "idle",
+      "key": "idle2",
       "file": "characters/sage/idle2.png",
       "category": "movement",
       "loops": true,
@@ -138,9 +138,9 @@
       },
       "originalName": "run"
     },
-    "attack2_vfx": {
+    "special": {
       "type": "simple",
-      "key": "attack2_vfx",
+      "key": "special",
       "file": "characters/sage/special.png",
       "category": "attack",
       "loops": false,

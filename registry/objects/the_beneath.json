@@ -16,9 +16,9 @@
           "frames": {
             "sheetWidth": 252,
             "sheetHeight": 41,
-            "frameWidth": 21,
+            "frameWidth": 28,
             "frameHeight": 41,
-            "frameCount": 12
+            "frameCount": 9
           },
           "originalName": "idle"
         },
@@ -31,9 +31,9 @@
           "frames": {
             "sheetWidth": 252,
             "sheetHeight": 41,
-            "frameWidth": 21,
+            "frameWidth": 28,
             "frameHeight": 41,
-            "frameCount": 12
+            "frameCount": 9
           },
           "originalName": "warp"
         }
@@ -96,18 +96,18 @@
       "id": "door_open_idle",
       "path": "the_beneath/objects/animated_objects",
       "animations": {
-        "idle": {
+        "door_open_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "door_open_idle",
           "file": "the_beneath/objects/animated_objects/door_open_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 615,
             "sheetHeight": 48,
-            "frameWidth": 615,
+            "frameWidth": 41,
             "frameHeight": 48,
-            "frameCount": 1
+            "frameCount": 15
           },
           "originalName": "door_open_idle"
         }
@@ -118,18 +118,18 @@
       "id": "flower_glow_idle",
       "path": "the_beneath/objects/animated_objects",
       "animations": {
-        "idle": {
+        "flower_glow_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "flower_glow_idle",
           "file": "the_beneath/objects/animated_objects/flower_glow_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 160,
             "sheetHeight": 16,
-            "frameWidth": 40,
+            "frameWidth": 16,
             "frameHeight": 16,
-            "frameCount": 4
+            "frameCount": 10
           },
           "originalName": "flower_glow_idle"
         }
@@ -140,18 +140,18 @@
       "id": "light_with_bugs_idle",
       "path": "the_beneath/objects/animated_objects",
       "animations": {
-        "idle": {
+        "light_with_bugs_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "light_with_bugs_idle",
           "file": "the_beneath/objects/animated_objects/light_with_bugs_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 320,
             "sheetHeight": 37,
-            "frameWidth": 80,
+            "frameWidth": 32,
             "frameHeight": 37,
-            "frameCount": 4
+            "frameCount": 10
           },
           "originalName": "light_with_bugs_idle"
         }
@@ -162,18 +162,18 @@
       "id": "torch_idle",
       "path": "the_beneath/objects/animated_objects",
       "animations": {
-        "idle": {
+        "torch_idle": {
           "type": "simple",
-          "key": "idle",
+          "key": "torch_idle",
           "file": "the_beneath/objects/animated_objects/torch_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
             "sheetWidth": 56,
             "sheetHeight": 37,
-            "frameWidth": 56,
+            "frameWidth": 7,
             "frameHeight": 37,
-            "frameCount": 1
+            "frameCount": 8
           },
           "originalName": "torch_idle"
         }

@@ -7,10 +7,10 @@
       "id": "animated_trees",
       "path": "general/objects/animated_objects/animated_trees",
       "animations": {
-        "blood_tree_1_animation1": {
+        "tree1_animation1": {
           "type": "simple",
-          "key": "blood_tree_1_animation1",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation1.png",
+          "key": "tree1_animation1",
+          "file": "general/objects/animated_objects/animated_trees/tree1_animation1.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -20,12 +20,12 @@
             "frameHeight": 128,
             "frameCount": 8
           },
-          "originalName": "blood_tree_1_animation1"
+          "originalName": "tree1_animation1"
         },
-        "blood_tree_1_animation2": {
+        "tree1_animation2": {
           "type": "simple",
-          "key": "blood_tree_1_animation2",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation2.png",
+          "key": "tree1_animation2",
+          "file": "general/objects/animated_objects/animated_trees/tree1_animation2.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -35,12 +35,12 @@
             "frameHeight": 128,
             "frameCount": 13
           },
-          "originalName": "blood_tree_1_animation2"
+          "originalName": "tree1_animation2"
         },
-        "blood_tree_1_animation3": {
+        "tree1_animation3": {
           "type": "simple",
-          "key": "blood_tree_1_animation3",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation3.png",
+          "key": "tree1_animation3",
+          "file": "general/objects/animated_objects/animated_trees/tree1_animation3.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -50,12 +50,12 @@
             "frameHeight": 128,
             "frameCount": 8
           },
-          "originalName": "blood_tree_1_animation3"
+          "originalName": "tree1_animation3"
         },
-        "blood_tree_1_animation4": {
+        "tree1_animation4": {
           "type": "simple",
-          "key": "blood_tree_1_animation4",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation4.png",
+          "key": "tree1_animation4",
+          "file": "general/objects/animated_objects/animated_trees/tree1_animation4.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -65,12 +65,12 @@
             "frameHeight": 128,
             "frameCount": 16
           },
-          "originalName": "blood_tree_1_animation4"
+          "originalName": "tree1_animation4"
         },
-        "blood_tree_2_animation1": {
+        "tree2_animation1": {
           "type": "simple",
-          "key": "blood_tree_2_animation1",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation1.png",
+          "key": "tree2_animation1",
+          "file": "general/objects/animated_objects/animated_trees/tree2_animation1.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -80,12 +80,12 @@
             "frameHeight": 96,
             "frameCount": 8
           },
-          "originalName": "blood_tree_2_animation1"
+          "originalName": "tree2_animation1"
         },
-        "blood_tree_2_animation2": {
+        "tree2_animation2": {
           "type": "simple",
-          "key": "blood_tree_2_animation2",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation2.png",
+          "key": "tree2_animation2",
+          "file": "general/objects/animated_objects/animated_trees/tree2_animation2.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -95,12 +95,12 @@
             "frameHeight": 96,
             "frameCount": 15
           },
-          "originalName": "blood_tree_2_animation2"
+          "originalName": "tree2_animation2"
         },
-        "blood_tree_2_animation3": {
+        "tree2_animation3": {
           "type": "simple",
-          "key": "blood_tree_2_animation3",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation3.png",
+          "key": "tree2_animation3",
+          "file": "general/objects/animated_objects/animated_trees/tree2_animation3.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -110,12 +110,12 @@
             "frameHeight": 96,
             "frameCount": 8
           },
-          "originalName": "blood_tree_2_animation3"
+          "originalName": "tree2_animation3"
         },
-        "blood_tree_2_animation4": {
+        "tree2_animation4": {
           "type": "simple",
-          "key": "blood_tree_2_animation4",
-          "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation4.png",
+          "key": "tree2_animation4",
+          "file": "general/objects/animated_objects/animated_trees/tree2_animation4.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -125,7 +125,7 @@
             "frameHeight": 96,
             "frameCount": 16
           },
-          "originalName": "blood_tree_2_animation4"
+          "originalName": "tree2_animation4"
         }
       }
     },
@@ -980,10 +980,10 @@
       "id": "shops",
       "path": "general/objects/animated_objects/shops",
       "animations": {
-        "blood_shop_animation1": {
+        "blood_shop": {
           "type": "simple",
-          "key": "blood_shop_animation1",
-          "file": "general/objects/animated_objects/shops/blood_shop_animation1.png",
+          "key": "blood_shop",
+          "file": "general/objects/animated_objects/shops/blood_shop.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -993,7 +993,7 @@
             "frameHeight": 69,
             "frameCount": 5
           },
-          "originalName": "blood_shop_animation1"
+          "originalName": "blood_shop"
         },
         "herb_shop": {
           "type": "simple",

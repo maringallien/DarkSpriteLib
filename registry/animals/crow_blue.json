@@ -3,50 +3,50 @@
   "id": "crow_blue",
   "path": "animals/crow/crow_blue",
   "animations": {
-    "idle": {
+    "death": {
       "type": "simple",
-      "key": "idle",
-      "file": "animals/crow/crow_blue/crow_blue_animation1.png",
-      "category": "movement",
-      "loops": true,
+      "key": "death",
+      "file": "animals/crow/crow_blue/death.png",
+      "category": "state",
+      "loops": false,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 102,
+        "sheetHeight": 21,
+        "frameWidth": 17,
+        "frameHeight": 21,
+        "frameCount": 6
       },
-      "originalName": "crow_blue_animation1"
+      "originalName": "death"
     },
     "fly": {
       "type": "simple",
       "key": "fly",
-      "file": "animals/crow/crow_blue/crow_blue_animation2.png",
+      "file": "animals/crow/crow_blue/fly.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 68,
+        "sheetHeight": 21,
+        "frameWidth": 17,
+        "frameHeight": 21,
+        "frameCount": 4
       },
-      "originalName": "crow_blue_animation2"
+      "originalName": "fly"
     },
-    "death": {
+    "idle": {
       "type": "simple",
-      "key": "death",
-      "file": "animals/crow/crow_blue/crow_blue_animation3.png",
+      "key": "idle",
+      "file": "animals/crow/crow_blue/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 187,
+        "sheetHeight": 21,
+        "frameWidth": 17,
+        "frameHeight": 21,
+        "frameCount": 11
       },
-      "originalName": "crow_blue_animation3"
+      "originalName": "idle"
     }
   }
 }

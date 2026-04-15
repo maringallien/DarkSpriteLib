@@ -1,67 +1,67 @@
 {
   "type": "standard",
   "id": "deer_red",
-  "path": "animals/deer",
+  "path": "animals/deer/deer_red",
   "animations": {
-    "walk": {
+    "death": {
       "type": "simple",
-      "key": "walk",
-      "file": "animals/deer/deer_red_animation1.png",
-      "category": "movement",
-      "loops": true,
+      "key": "death",
+      "file": "animals/deer/deer_red/death.png",
+      "category": "state",
+      "loops": false,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 840,
+        "sheetHeight": 54,
+        "frameWidth": 56,
+        "frameHeight": 54,
+        "frameCount": 15
       },
-      "originalName": "deer_red_animation1"
+      "originalName": "death"
     },
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "animals/deer/deer_red_animation2.png",
+      "file": "animals/deer/deer_red/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 336,
+        "sheetHeight": 54,
+        "frameWidth": 56,
+        "frameHeight": 54,
+        "frameCount": 6
       },
-      "originalName": "deer_red_animation2"
+      "originalName": "idle"
     },
     "look_up": {
       "type": "simple",
       "key": "look_up",
-      "file": "animals/deer/deer_red_animation3.png",
+      "file": "animals/deer/deer_red/look_up.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 840,
+        "sheetHeight": 54,
+        "frameWidth": 56,
+        "frameHeight": 54,
+        "frameCount": 15
       },
-      "originalName": "deer_red_animation3"
+      "originalName": "look_up"
     },
-    "death": {
+    "walk": {
       "type": "simple",
-      "key": "death",
-      "file": "animals/deer/deer_red_animation4.png",
+      "key": "walk",
+      "file": "animals/deer/deer_red/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 448,
+        "sheetHeight": 54,
+        "frameWidth": 56,
+        "frameHeight": 54,
+        "frameCount": 8
       },
-      "originalName": "deer_red_animation4"
+      "originalName": "walk"
     }
   }
 }

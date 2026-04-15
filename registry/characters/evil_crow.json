@@ -108,9 +108,9 @@
       },
       "originalName": "land"
     },
-    "walk": {
+    "walk1": {
       "type": "simple",
-      "key": "walk",
+      "key": "walk1",
       "file": "characters/evil_crow/walk1.png",
       "category": "movement",
       "loops": true,

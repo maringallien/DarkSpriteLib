@@ -2,9 +2,9 @@
   "biome": "blood_temple",
   "path": "blood_temple/objects/animated_objects",
   "objects": {
-    "idle": {
+    "statue": {
       "type": "standard",
-      "id": "idle",
+      "id": "statue",
       "path": "blood_temple/objects/animated_objects",
       "animations": {
         "idle": {
@@ -16,9 +16,9 @@
           "frames": {
             "sheetWidth": 1024,
             "sheetHeight": 112,
-            "frameWidth": 256,
+            "frameWidth": 128,
             "frameHeight": 112,
-            "frameCount": 4
+            "frameCount": 8
           },
           "originalName": "idle"
         }

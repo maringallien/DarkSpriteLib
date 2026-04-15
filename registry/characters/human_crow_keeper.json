@@ -3,9 +3,9 @@
   "id": "human_crow_keeper",
   "path": "characters/human_crow_keeper",
   "animations": {
-    "attack1_vanish": {
+    "attack2_jump": {
       "type": "simple",
-      "key": "attack1_vanish",
+      "key": "attack2_jump",
       "file": "characters/human_crow_keeper/attack2_jump.png",
       "category": "attack",
       "loops": false,
@@ -18,9 +18,9 @@
       },
       "originalName": "attack2_jump"
     },
-    "attack1_slam": {
+    "attack2_slam": {
       "type": "simple",
-      "key": "attack1_slam",
+      "key": "attack2_slam",
       "file": "characters/human_crow_keeper/attack2_slam.png",
       "category": "attack",
       "loops": false,
@@ -48,9 +48,9 @@
       },
       "originalName": "attack3"
     },
-    "attack4": {
+    "attack_1": {
       "type": "simple",
-      "key": "attack4",
+      "key": "attack_1",
       "file": "characters/human_crow_keeper/attack_1.png",
       "category": "attack",
       "loops": false,

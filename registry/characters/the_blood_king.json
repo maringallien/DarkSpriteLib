@@ -131,9 +131,9 @@
       },
       "originalName": "death"
     },
-    "fall": {
+    "fall1": {
       "type": "simple",
-      "key": "fall",
+      "key": "fall1",
       "file": "characters/the_blood_king/fall1.png",
       "category": "movement",
       "loops": false,

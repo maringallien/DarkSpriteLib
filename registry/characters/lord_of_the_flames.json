@@ -63,9 +63,9 @@
       },
       "originalName": "attack4"
     },
-    "attack4_vfx": {
+    "attack4_proj": {
       "type": "simple",
-      "key": "attack4_vfx",
+      "key": "attack4_proj",
       "file": "characters/lord_of_the_flames/attack4_proj.png",
       "category": "attack",
       "loops": false,

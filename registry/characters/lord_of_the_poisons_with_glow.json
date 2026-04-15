@@ -93,9 +93,9 @@
       },
       "originalName": "idle"
     },
-    "ranged1": {
+    "ranged": {
       "type": "simple",
-      "key": "ranged1",
+      "key": "ranged",
       "file": "characters/lord_of_the_poisons/sprite_with_glow/ranged.png",
       "category": "ranged",
       "loops": false,
@@ -108,9 +108,9 @@
       },
       "originalName": "ranged"
     },
-    "ranged2": {
+    "ranged_idle": {
       "type": "simple",
-      "key": "ranged2",
+      "key": "ranged_idle",
       "file": "characters/lord_of_the_poisons/sprite_with_glow/ranged_idle.png",
       "category": "ranged",
       "loops": false,

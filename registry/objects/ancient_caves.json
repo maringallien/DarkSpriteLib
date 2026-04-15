@@ -7,9 +7,9 @@
       "id": "ancient_rock1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "ancient_rock1": {
           "type": "simple",
-          "key": "idle",
+          "key": "ancient_rock1",
           "file": "ancient_caves/objects/animated_objects/ancient_rock1.png",
           "category": "movement",
           "loops": true,
@@ -29,9 +29,9 @@
       "id": "ancient_rock2",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "ancient_rock2": {
           "type": "simple",
-          "key": "idle",
+          "key": "ancient_rock2",
           "file": "ancient_caves/objects/animated_objects/ancient_rock2.png",
           "category": "movement",
           "loops": true,
@@ -51,9 +51,9 @@
       "id": "ancient_rock3",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "ancient_rock3": {
           "type": "simple",
-          "key": "idle",
+          "key": "ancient_rock3",
           "file": "ancient_caves/objects/animated_objects/ancient_rock3.png",
           "category": "movement",
           "loops": true,
@@ -73,9 +73,9 @@
       "id": "smoke1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "smoke1": {
           "type": "simple",
-          "key": "idle",
+          "key": "smoke1",
           "file": "ancient_caves/objects/animated_objects/smoke1.png",
           "category": "movement",
           "loops": true,
@@ -95,9 +95,9 @@
       "id": "smoke2",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "smoke2": {
           "type": "simple",
-          "key": "idle",
+          "key": "smoke2",
           "file": "ancient_caves/objects/animated_objects/smoke2.png",
           "category": "movement",
           "loops": true,
@@ -117,9 +117,9 @@
       "id": "smoke3",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "smoke3": {
           "type": "simple",
-          "key": "idle",
+          "key": "smoke3",
           "file": "ancient_caves/objects/animated_objects/smoke3.png",
           "category": "movement",
           "loops": true,
@@ -139,9 +139,9 @@
       "id": "throne1",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "throne1": {
           "type": "simple",
-          "key": "idle",
+          "key": "throne1",
           "file": "ancient_caves/objects/animated_objects/throne1.png",
           "category": "movement",
           "loops": true,
@@ -161,9 +161,9 @@
       "id": "throne2",
       "path": "ancient_caves/objects/animated_objects",
       "animations": {
-        "idle": {
+        "throne2": {
           "type": "simple",
-          "key": "idle",
+          "key": "throne2",
           "file": "ancient_caves/objects/animated_objects/throne2.png",
           "category": "movement",
           "loops": true,

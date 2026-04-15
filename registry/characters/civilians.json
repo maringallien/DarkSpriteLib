@@ -18,9 +18,9 @@
       },
       "originalName": "idle1"
     },
-    "idle2": {
+    "idle10": {
       "type": "simple",
-      "key": "idle2",
+      "key": "idle10",
       "file": "characters/civilians/idle10.png",
       "category": "movement",
       "loops": true,
@@ -33,9 +33,9 @@
       },
       "originalName": "idle10"
     },
-    "idle3": {
+    "idle11": {
       "type": "simple",
-      "key": "idle3",
+      "key": "idle11",
       "file": "characters/civilians/idle11.png",
       "category": "movement",
       "loops": true,
@@ -48,9 +48,9 @@
       },
       "originalName": "idle11"
     },
-    "idle4": {
+    "idle12": {
       "type": "simple",
-      "key": "idle4",
+      "key": "idle12",
       "file": "characters/civilians/idle12.png",
       "category": "movement",
       "loops": true,
@@ -63,9 +63,9 @@
       },
       "originalName": "idle12"
     },
-    "idle5": {
+    "idle13": {
       "type": "simple",
-      "key": "idle5",
+      "key": "idle13",
       "file": "characters/civilians/idle13.png",
       "category": "movement",
       "loops": true,
@@ -78,9 +78,9 @@
       },
       "originalName": "idle13"
     },
-    "idle6": {
+    "idle14": {
       "type": "simple",
-      "key": "idle6",
+      "key": "idle14",
       "file": "characters/civilians/idle14.png",
       "category": "movement",
       "loops": true,
@@ -93,9 +93,9 @@
       },
       "originalName": "idle14"
     },
-    "idle7": {
+    "idle15": {
       "type": "simple",
-      "key": "idle7",
+      "key": "idle15",
       "file": "characters/civilians/idle15.png",
       "category": "movement",
       "loops": true,
@@ -108,9 +108,9 @@
       },
       "originalName": "idle15"
     },
-    "idle8": {
+    "idle16": {
       "type": "simple",
-      "key": "idle8",
+      "key": "idle16",
       "file": "characters/civilians/idle16.png",
       "category": "movement",
       "loops": true,
@@ -123,9 +123,9 @@
       },
       "originalName": "idle16"
     },
-    "idle9": {
+    "idle17": {
       "type": "simple",
-      "key": "idle9",
+      "key": "idle17",
       "file": "characters/civilians/idle17.png",
       "category": "movement",
       "loops": true,
@@ -138,9 +138,9 @@
       },
       "originalName": "idle17"
     },
-    "idle10": {
+    "idle18": {
       "type": "simple",
-      "key": "idle10",
+      "key": "idle18",
       "file": "characters/civilians/idle18.png",
       "category": "movement",
       "loops": true,
@@ -153,9 +153,9 @@
       },
       "originalName": "idle18"
     },
-    "idle11": {
+    "idle19": {
       "type": "simple",
-      "key": "idle11",
+      "key": "idle19",
       "file": "characters/civilians/idle19.png",
       "category": "movement",
       "loops": true,
@@ -168,9 +168,9 @@
       },
       "originalName": "idle19"
     },
-    "idle12": {
+    "idle2": {
       "type": "simple",
-      "key": "idle12",
+      "key": "idle2",
       "file": "characters/civilians/idle2.png",
       "category": "movement",
       "loops": true,
@@ -183,9 +183,9 @@
       },
       "originalName": "idle2"
     },
-    "idle13": {
+    "idle20": {
       "type": "simple",
-      "key": "idle13",
+      "key": "idle20",
       "file": "characters/civilians/idle20.png",
       "category": "movement",
       "loops": true,
@@ -198,9 +198,9 @@
       },
       "originalName": "idle20"
     },
-    "idle14": {
+    "idle3": {
       "type": "simple",
-      "key": "idle14",
+      "key": "idle3",
       "file": "characters/civilians/idle3.png",
       "category": "movement",
       "loops": true,
@@ -213,9 +213,9 @@
       },
       "originalName": "idle3"
     },
-    "idle15": {
+    "idle4": {
       "type": "simple",
-      "key": "idle15",
+      "key": "idle4",
       "file": "characters/civilians/idle4.png",
       "category": "movement",
       "loops": true,
@@ -228,9 +228,9 @@
       },
       "originalName": "idle4"
     },
-    "idle16": {
+    "idle5": {
       "type": "simple",
-      "key": "idle16",
+      "key": "idle5",
       "file": "characters/civilians/idle5.png",
       "category": "movement",
       "loops": true,
@@ -243,9 +243,9 @@
       },
       "originalName": "idle5"
     },
-    "idle17": {
+    "idle6": {
       "type": "simple",
-      "key": "idle17",
+      "key": "idle6",
       "file": "characters/civilians/idle6.png",
       "category": "movement",
       "loops": true,
@@ -258,9 +258,9 @@
       },
       "originalName": "idle6"
     },
-    "idle18": {
+    "idle7": {
       "type": "simple",
-      "key": "idle18",
+      "key": "idle7",
       "file": "characters/civilians/idle7.png",
       "category": "movement",
       "loops": true,
@@ -273,9 +273,9 @@
       },
       "originalName": "idle7"
     },
-    "idle19": {
+    "idle8": {
       "type": "simple",
-      "key": "idle19",
+      "key": "idle8",
       "file": "characters/civilians/idle8.png",
       "category": "movement",
       "loops": true,
@@ -288,9 +288,9 @@
       },
       "originalName": "idle8"
     },
-    "idle20": {
+    "idle9": {
       "type": "simple",
-      "key": "idle20",
+      "key": "idle9",
       "file": "characters/civilians/idle9.png",
       "category": "movement",
       "loops": true,
@@ -318,9 +318,9 @@
       },
       "originalName": "walk1"
     },
-    "walk2": {
+    "walk10": {
       "type": "simple",
-      "key": "walk2",
+      "key": "walk10",
       "file": "characters/civilians/walk10.png",
       "category": "movement",
       "loops": true,
@@ -333,9 +333,9 @@
       },
       "originalName": "walk10"
     },
-    "walk3": {
+    "walk11": {
       "type": "simple",
-      "key": "walk3",
+      "key": "walk11",
       "file": "characters/civilians/walk11.png",
       "category": "movement",
       "loops": true,
@@ -348,9 +348,9 @@
       },
       "originalName": "walk11"
     },
-    "walk4": {
+    "walk12": {
       "type": "simple",
-      "key": "walk4",
+      "key": "walk12",
       "file": "characters/civilians/walk12.png",
       "category": "movement",
       "loops": true,
@@ -363,9 +363,9 @@
       },
       "originalName": "walk12"
     },
-    "walk5": {
+    "walk13": {
       "type": "simple",
-      "key": "walk5",
+      "key": "walk13",
       "file": "characters/civilians/walk13.png",
       "category": "movement",
       "loops": true,
@@ -378,9 +378,9 @@
       },
       "originalName": "walk13"
     },
-    "walk6": {
+    "walk14": {
       "type": "simple",
-      "key": "walk6",
+      "key": "walk14",
       "file": "characters/civilians/walk14.png",
       "category": "movement",
       "loops": true,
@@ -393,9 +393,9 @@
       },
       "originalName": "walk14"
     },
-    "walk7": {
+    "walk15": {
       "type": "simple",
-      "key": "walk7",
+      "key": "walk15",
       "file": "characters/civilians/walk15.png",
       "category": "movement",
       "loops": true,
@@ -408,9 +408,9 @@
       },
       "originalName": "walk15"
     },
-    "walk8": {
+    "walk16": {
       "type": "simple",
-      "key": "walk8",
+      "key": "walk16",
       "file": "characters/civilians/walk16.png",
       "category": "movement",
       "loops": true,
@@ -423,9 +423,9 @@
       },
       "originalName": "walk16"
     },
-    "walk9": {
+    "walk17": {
       "type": "simple",
-      "key": "walk9",
+      "key": "walk17",
       "file": "characters/civilians/walk17.png",
       "category": "movement",
       "loops": true,
@@ -438,9 +438,9 @@
       },
       "originalName": "walk17"
     },
-    "walk10": {
+    "walk18": {
       "type": "simple",
-      "key": "walk10",
+      "key": "walk18",
       "file": "characters/civilians/walk18.png",
       "category": "movement",
       "loops": true,
@@ -453,9 +453,9 @@
       },
       "originalName": "walk18"
     },
-    "walk11": {
+    "walk19": {
       "type": "simple",
-      "key": "walk11",
+      "key": "walk19",
       "file": "characters/civilians/walk19.png",
       "category": "movement",
       "loops": true,
@@ -468,9 +468,9 @@
       },
       "originalName": "walk19"
     },
-    "walk12": {
+    "walk2": {
       "type": "simple",
-      "key": "walk12",
+      "key": "walk2",
       "file": "characters/civilians/walk2.png",
       "category": "movement",
       "loops": true,
@@ -483,9 +483,9 @@
       },
       "originalName": "walk2"
     },
-    "walk13": {
+    "walk20": {
       "type": "simple",
-      "key": "walk13",
+      "key": "walk20",
       "file": "characters/civilians/walk20.png",
       "category": "movement",
       "loops": true,
@@ -498,9 +498,9 @@
       },
       "originalName": "walk20"
     },
-    "walk14": {
+    "walk3": {
       "type": "simple",
-      "key": "walk14",
+      "key": "walk3",
       "file": "characters/civilians/walk3.png",
       "category": "movement",
       "loops": true,
@@ -513,9 +513,9 @@
       },
       "originalName": "walk3"
     },
-    "walk15": {
+    "walk4": {
       "type": "simple",
-      "key": "walk15",
+      "key": "walk4",
       "file": "characters/civilians/walk4.png",
       "category": "movement",
       "loops": true,
@@ -528,9 +528,9 @@
       },
       "originalName": "walk4"
     },
-    "walk16": {
+    "walk5": {
       "type": "simple",
-      "key": "walk16",
+      "key": "walk5",
       "file": "characters/civilians/walk5.png",
       "category": "movement",
       "loops": true,
@@ -543,9 +543,9 @@
       },
       "originalName": "walk5"
     },
-    "walk17": {
+    "walk6": {
       "type": "simple",
-      "key": "walk17",
+      "key": "walk6",
       "file": "characters/civilians/walk6.png",
       "category": "movement",
       "loops": true,
@@ -558,9 +558,9 @@
       },
       "originalName": "walk6"
     },
-    "walk18": {
+    "walk7": {
       "type": "simple",
-      "key": "walk18",
+      "key": "walk7",
       "file": "characters/civilians/walk7.png",
       "category": "movement",
       "loops": true,
@@ -573,9 +573,9 @@
       },
       "originalName": "walk7"
     },
-    "walk19": {
+    "walk8": {
       "type": "simple",
-      "key": "walk19",
+      "key": "walk8",
       "file": "characters/civilians/walk8.png",
       "category": "movement",
       "loops": true,
@@ -588,9 +588,9 @@
       },
       "originalName": "walk8"
     },
-    "walk20": {
+    "walk9": {
       "type": "simple",
-      "key": "walk20",
+      "key": "walk9",
       "file": "characters/civilians/walk9.png",
       "category": "movement",
       "loops": true,

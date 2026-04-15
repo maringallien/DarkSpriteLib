@@ -82,9 +82,9 @@
           },
           "originalName": "death"
         },
-        "vanish": {
+        "disappear": {
           "type": "simple",
-          "key": "vanish",
+          "key": "disappear",
           "file": "characters/ancient_guardian/disappear.png",
           "category": "special",
           "loops": false,
@@ -1295,9 +1295,9 @@
           },
           "originalName": "idle1"
         },
-        "idle2": {
+        "idle10": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle10",
           "file": "characters/civilians/idle10.png",
           "category": "movement",
           "loops": true,
@@ -1310,9 +1310,9 @@
           },
           "originalName": "idle10"
         },
-        "idle3": {
+        "idle11": {
           "type": "simple",
-          "key": "idle3",
+          "key": "idle11",
           "file": "characters/civilians/idle11.png",
           "category": "movement",
           "loops": true,
@@ -1325,9 +1325,9 @@
           },
           "originalName": "idle11"
         },
-        "idle4": {
+        "idle12": {
           "type": "simple",
-          "key": "idle4",
+          "key": "idle12",
           "file": "characters/civilians/idle12.png",
           "category": "movement",
           "loops": true,
@@ -1340,9 +1340,9 @@
           },
           "originalName": "idle12"
         },
-        "idle5": {
+        "idle13": {
           "type": "simple",
-          "key": "idle5",
+          "key": "idle13",
           "file": "characters/civilians/idle13.png",
           "category": "movement",
           "loops": true,
@@ -1355,9 +1355,9 @@
           },
           "originalName": "idle13"
         },
-        "idle6": {
+        "idle14": {
           "type": "simple",
-          "key": "idle6",
+          "key": "idle14",
           "file": "characters/civilians/idle14.png",
           "category": "movement",
           "loops": true,
@@ -1370,9 +1370,9 @@
           },
           "originalName": "idle14"
         },
-        "idle7": {
+        "idle15": {
           "type": "simple",
-          "key": "idle7",
+          "key": "idle15",
           "file": "characters/civilians/idle15.png",
           "category": "movement",
           "loops": true,
@@ -1385,9 +1385,9 @@
           },
           "originalName": "idle15"
         },
-        "idle8": {
+        "idle16": {
           "type": "simple",
-          "key": "idle8",
+          "key": "idle16",
           "file": "characters/civilians/idle16.png",
           "category": "movement",
           "loops": true,
@@ -1400,9 +1400,9 @@
           },
           "originalName": "idle16"
         },
-        "idle9": {
+        "idle17": {
           "type": "simple",
-          "key": "idle9",
+          "key": "idle17",
           "file": "characters/civilians/idle17.png",
           "category": "movement",
           "loops": true,
@@ -1415,9 +1415,9 @@
           },
           "originalName": "idle17"
         },
-        "idle10": {
+        "idle18": {
           "type": "simple",
-          "key": "idle10",
+          "key": "idle18",
           "file": "characters/civilians/idle18.png",
           "category": "movement",
           "loops": true,
@@ -1430,9 +1430,9 @@
           },
           "originalName": "idle18"
         },
-        "idle11": {
+        "idle19": {
           "type": "simple",
-          "key": "idle11",
+          "key": "idle19",
           "file": "characters/civilians/idle19.png",
           "category": "movement",
           "loops": true,
@@ -1445,9 +1445,9 @@
           },
           "originalName": "idle19"
         },
-        "idle12": {
+        "idle2": {
           "type": "simple",
-          "key": "idle12",
+          "key": "idle2",
           "file": "characters/civilians/idle2.png",
           "category": "movement",
           "loops": true,
@@ -1460,9 +1460,9 @@
           },
           "originalName": "idle2"
         },
-        "idle13": {
+        "idle20": {
           "type": "simple",
-          "key": "idle13",
+          "key": "idle20",
           "file": "characters/civilians/idle20.png",
           "category": "movement",
           "loops": true,
@@ -1475,9 +1475,9 @@
           },
           "originalName": "idle20"
         },
-        "idle14": {
+        "idle3": {
           "type": "simple",
-          "key": "idle14",
+          "key": "idle3",
           "file": "characters/civilians/idle3.png",
           "category": "movement",
           "loops": true,
@@ -1490,9 +1490,9 @@
           },
           "originalName": "idle3"
         },
-        "idle15": {
+        "idle4": {
           "type": "simple",
-          "key": "idle15",
+          "key": "idle4",
           "file": "characters/civilians/idle4.png",
           "category": "movement",
           "loops": true,
@@ -1505,9 +1505,9 @@
           },
           "originalName": "idle4"
         },
-        "idle16": {
+        "idle5": {
           "type": "simple",
-          "key": "idle16",
+          "key": "idle5",
           "file": "characters/civilians/idle5.png",
           "category": "movement",
           "loops": true,
@@ -1520,9 +1520,9 @@
           },
           "originalName": "idle5"
         },
-        "idle17": {
+        "idle6": {
           "type": "simple",
-          "key": "idle17",
+          "key": "idle6",
           "file": "characters/civilians/idle6.png",
           "category": "movement",
           "loops": true,
@@ -1535,9 +1535,9 @@
           },
           "originalName": "idle6"
         },
-        "idle18": {
+        "idle7": {
           "type": "simple",
-          "key": "idle18",
+          "key": "idle7",
           "file": "characters/civilians/idle7.png",
           "category": "movement",
           "loops": true,
@@ -1550,9 +1550,9 @@
           },
           "originalName": "idle7"
         },
-        "idle19": {
+        "idle8": {
           "type": "simple",
-          "key": "idle19",
+          "key": "idle8",
           "file": "characters/civilians/idle8.png",
           "category": "movement",
           "loops": true,
@@ -1565,9 +1565,9 @@
           },
           "originalName": "idle8"
         },
-        "idle20": {
+        "idle9": {
           "type": "simple",
-          "key": "idle20",
+          "key": "idle9",
           "file": "characters/civilians/idle9.png",
           "category": "movement",
           "loops": true,
@@ -1595,9 +1595,9 @@
           },
           "originalName": "walk1"
         },
-        "walk2": {
+        "walk10": {
           "type": "simple",
-          "key": "walk2",
+          "key": "walk10",
           "file": "characters/civilians/walk10.png",
           "category": "movement",
           "loops": true,
@@ -1610,9 +1610,9 @@
           },
           "originalName": "walk10"
         },
-        "walk3": {
+        "walk11": {
           "type": "simple",
-          "key": "walk3",
+          "key": "walk11",
           "file": "characters/civilians/walk11.png",
           "category": "movement",
           "loops": true,
@@ -1625,9 +1625,9 @@
           },
           "originalName": "walk11"
         },
-        "walk4": {
+        "walk12": {
           "type": "simple",
-          "key": "walk4",
+          "key": "walk12",
           "file": "characters/civilians/walk12.png",
           "category": "movement",
           "loops": true,
@@ -1640,9 +1640,9 @@
           },
           "originalName": "walk12"
         },
-        "walk5": {
+        "walk13": {
           "type": "simple",
-          "key": "walk5",
+          "key": "walk13",
           "file": "characters/civilians/walk13.png",
           "category": "movement",
           "loops": true,
@@ -1655,9 +1655,9 @@
           },
           "originalName": "walk13"
         },
-        "walk6": {
+        "walk14": {
           "type": "simple",
-          "key": "walk6",
+          "key": "walk14",
           "file": "characters/civilians/walk14.png",
           "category": "movement",
           "loops": true,
@@ -1670,9 +1670,9 @@
           },
           "originalName": "walk14"
         },
-        "walk7": {
+        "walk15": {
           "type": "simple",
-          "key": "walk7",
+          "key": "walk15",
           "file": "characters/civilians/walk15.png",
           "category": "movement",
           "loops": true,
@@ -1685,9 +1685,9 @@
           },
           "originalName": "walk15"
         },
-        "walk8": {
+        "walk16": {
           "type": "simple",
-          "key": "walk8",
+          "key": "walk16",
           "file": "characters/civilians/walk16.png",
           "category": "movement",
           "loops": true,
@@ -1700,9 +1700,9 @@
           },
           "originalName": "walk16"
         },
-        "walk9": {
+        "walk17": {
           "type": "simple",
-          "key": "walk9",
+          "key": "walk17",
           "file": "characters/civilians/walk17.png",
           "category": "movement",
           "loops": true,
@@ -1715,9 +1715,9 @@
           },
           "originalName": "walk17"
         },
-        "walk10": {
+        "walk18": {
           "type": "simple",
-          "key": "walk10",
+          "key": "walk18",
           "file": "characters/civilians/walk18.png",
           "category": "movement",
           "loops": true,
@@ -1730,9 +1730,9 @@
           },
           "originalName": "walk18"
         },
-        "walk11": {
+        "walk19": {
           "type": "simple",
-          "key": "walk11",
+          "key": "walk19",
           "file": "characters/civilians/walk19.png",
           "category": "movement",
           "loops": true,
@@ -1745,9 +1745,9 @@
           },
           "originalName": "walk19"
         },
-        "walk12": {
+        "walk2": {
           "type": "simple",
-          "key": "walk12",
+          "key": "walk2",
           "file": "characters/civilians/walk2.png",
           "category": "movement",
           "loops": true,
@@ -1760,9 +1760,9 @@
           },
           "originalName": "walk2"
         },
-        "walk13": {
+        "walk20": {
           "type": "simple",
-          "key": "walk13",
+          "key": "walk20",
           "file": "characters/civilians/walk20.png",
           "category": "movement",
           "loops": true,
@@ -1775,9 +1775,9 @@
           },
           "originalName": "walk20"
         },
-        "walk14": {
+        "walk3": {
           "type": "simple",
-          "key": "walk14",
+          "key": "walk3",
           "file": "characters/civilians/walk3.png",
           "category": "movement",
           "loops": true,
@@ -1790,9 +1790,9 @@
           },
           "originalName": "walk3"
         },
-        "walk15": {
+        "walk4": {
           "type": "simple",
-          "key": "walk15",
+          "key": "walk4",
           "file": "characters/civilians/walk4.png",
           "category": "movement",
           "loops": true,
@@ -1805,9 +1805,9 @@
           },
           "originalName": "walk4"
         },
-        "walk16": {
+        "walk5": {
           "type": "simple",
-          "key": "walk16",
+          "key": "walk5",
           "file": "characters/civilians/walk5.png",
           "category": "movement",
           "loops": true,
@@ -1820,9 +1820,9 @@
           },
           "originalName": "walk5"
         },
-        "walk17": {
+        "walk6": {
           "type": "simple",
-          "key": "walk17",
+          "key": "walk6",
           "file": "characters/civilians/walk6.png",
           "category": "movement",
           "loops": true,
@@ -1835,9 +1835,9 @@
           },
           "originalName": "walk6"
         },
-        "walk18": {
+        "walk7": {
           "type": "simple",
-          "key": "walk18",
+          "key": "walk7",
           "file": "characters/civilians/walk7.png",
           "category": "movement",
           "loops": true,
@@ -1850,9 +1850,9 @@
           },
           "originalName": "walk7"
         },
-        "walk19": {
+        "walk8": {
           "type": "simple",
-          "key": "walk19",
+          "key": "walk8",
           "file": "characters/civilians/walk8.png",
           "category": "movement",
           "loops": true,
@@ -1865,9 +1865,9 @@
           },
           "originalName": "walk8"
         },
-        "walk20": {
+        "walk9": {
           "type": "simple",
-          "key": "walk20",
+          "key": "walk9",
           "file": "characters/civilians/walk9.png",
           "category": "movement",
           "loops": true,
@@ -2406,9 +2406,9 @@
           },
           "originalName": "sniff"
         },
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/doberman/attack1.png",
           "category": "attack",
           "loops": false,
@@ -2421,9 +2421,9 @@
           },
           "originalName": "attack1"
         },
-        "idle1": {
+        "bark": {
           "type": "simple",
-          "key": "idle1",
+          "key": "bark",
           "file": "characters/doberman/bark.png",
           "category": "state",
           "loops": false,
@@ -2466,9 +2466,9 @@
           },
           "originalName": "fall"
         },
-        "wake1": {
+        "get_up": {
           "type": "simple",
-          "key": "wake1",
+          "key": "get_up",
           "file": "characters/doberman/get_up.png",
           "category": "state",
           "loops": false,
@@ -2481,9 +2481,9 @@
           },
           "originalName": "get_up"
         },
-        "sleep1": {
+        "go_sleep": {
           "type": "simple",
-          "key": "sleep1",
+          "key": "go_sleep",
           "file": "characters/doberman/go_sleep.png",
           "category": "state",
           "loops": true,
@@ -2496,9 +2496,9 @@
           },
           "originalName": "go_sleep"
         },
-        "idle2": {
+        "idle": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle",
           "file": "characters/doberman/idle.png",
           "category": "movement",
           "loops": true,
@@ -2571,9 +2571,9 @@
           },
           "originalName": "run"
         },
-        "sleep2": {
+        "sit": {
           "type": "simple",
-          "key": "sleep2",
+          "key": "sit",
           "file": "characters/doberman/sit.png",
           "category": "state",
           "loops": true,
@@ -2586,9 +2586,9 @@
           },
           "originalName": "sit"
         },
-        "sleep3": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep3",
+          "key": "sleep",
           "file": "characters/doberman/sleep.png",
           "category": "state",
           "loops": true,
@@ -2601,9 +2601,9 @@
           },
           "originalName": "sleep"
         },
-        "wake2": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake2",
+          "key": "wake_up",
           "file": "characters/doberman/wake_up.png",
           "category": "state",
           "loops": false,
@@ -2906,9 +2906,9 @@
           },
           "originalName": "land"
         },
-        "walk": {
+        "walk1": {
           "type": "simple",
-          "key": "walk",
+          "key": "walk1",
           "file": "characters/evil_crow/walk1.png",
           "category": "movement",
           "loops": true,
@@ -3413,9 +3413,9 @@
           },
           "originalName": "attack1"
         },
-        "attack2": {
+        "attack1_vanish": {
           "type": "simple",
-          "key": "attack2",
+          "key": "attack1_vanish",
           "file": "characters/glitch_samurai/attack1_vanish.png",
           "category": "attack",
           "loops": false,
@@ -3428,9 +3428,9 @@
           },
           "originalName": "attack1_vanish"
         },
-        "attack3": {
+        "attack2": {
           "type": "simple",
-          "key": "attack3",
+          "key": "attack2",
           "file": "characters/glitch_samurai/attack2.png",
           "category": "attack",
           "loops": false,
@@ -3443,9 +3443,9 @@
           },
           "originalName": "attack2"
         },
-        "attack4": {
+        "attack2_vanish": {
           "type": "simple",
-          "key": "attack4",
+          "key": "attack2_vanish",
           "file": "characters/glitch_samurai/attack2_vanish.png",
           "category": "attack",
           "loops": false,
@@ -3458,9 +3458,9 @@
           },
           "originalName": "attack2_vanish"
         },
-        "attack5": {
+        "attack3": {
           "type": "simple",
-          "key": "attack5",
+          "key": "attack3",
           "file": "characters/glitch_samurai/attack3.png",
           "category": "attack",
           "loops": false,
@@ -3473,9 +3473,9 @@
           },
           "originalName": "attack3"
         },
-        "attack6": {
+        "attack4": {
           "type": "simple",
-          "key": "attack6",
+          "key": "attack4",
           "file": "characters/glitch_samurai/attack4.png",
           "category": "attack",
           "loops": false,
@@ -3675,9 +3675,9 @@
           },
           "originalName": "sniff"
         },
-        "attack": {
+        "attack1": {
           "type": "simple",
-          "key": "attack",
+          "key": "attack1",
           "file": "characters/golden_retriever/attack1.png",
           "category": "attack",
           "loops": false,
@@ -3690,9 +3690,9 @@
           },
           "originalName": "attack1"
         },
-        "idle1": {
+        "bark": {
           "type": "simple",
-          "key": "idle1",
+          "key": "bark",
           "file": "characters/golden_retriever/bark.png",
           "category": "state",
           "loops": false,
@@ -3735,9 +3735,9 @@
           },
           "originalName": "fall"
         },
-        "wake1": {
+        "get_up": {
           "type": "simple",
-          "key": "wake1",
+          "key": "get_up",
           "file": "characters/golden_retriever/get_up.png",
           "category": "state",
           "loops": false,
@@ -3750,9 +3750,9 @@
           },
           "originalName": "get_up"
         },
-        "sleep1": {
+        "go_sleep": {
           "type": "simple",
-          "key": "sleep1",
+          "key": "go_sleep",
           "file": "characters/golden_retriever/go_sleep.png",
           "category": "state",
           "loops": true,
@@ -3765,9 +3765,9 @@
           },
           "originalName": "go_sleep"
         },
-        "idle2": {
+        "idle": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle",
           "file": "characters/golden_retriever/idle.png",
           "category": "movement",
           "loops": true,
@@ -3840,9 +3840,9 @@
           },
           "originalName": "run"
         },
-        "sleep2": {
+        "sit": {
           "type": "simple",
-          "key": "sleep2",
+          "key": "sit",
           "file": "characters/golden_retriever/sit.png",
           "category": "state",
           "loops": true,
@@ -3855,9 +3855,9 @@
           },
           "originalName": "sit"
         },
-        "sleep3": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep3",
+          "key": "sleep",
           "file": "characters/golden_retriever/sleep.png",
           "category": "state",
           "loops": true,
@@ -3870,9 +3870,9 @@
           },
           "originalName": "sleep"
         },
-        "wake2": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake2",
+          "key": "wake_up",
           "file": "characters/golden_retriever/wake_up.png",
           "category": "state",
           "loops": false,
@@ -3885,9 +3885,9 @@
           },
           "originalName": "wake_up"
         },
-        "walk1": {
+        "walk": {
           "type": "simple",
-          "key": "walk1",
+          "key": "walk",
           "file": "characters/golden_retriever/walk.png",
           "category": "movement",
           "loops": true,
@@ -4153,9 +4153,9 @@
       "id": "human_crow_keeper",
       "path": "characters/human_crow_keeper",
       "animations": {
-        "attack1_vanish": {
+        "attack2_jump": {
           "type": "simple",
-          "key": "attack1_vanish",
+          "key": "attack2_jump",
           "file": "characters/human_crow_keeper/attack2_jump.png",
           "category": "attack",
           "loops": false,
@@ -4168,9 +4168,9 @@
           },
           "originalName": "attack2_jump"
         },
-        "attack1_slam": {
+        "attack2_slam": {
           "type": "simple",
-          "key": "attack1_slam",
+          "key": "attack2_slam",
           "file": "characters/human_crow_keeper/attack2_slam.png",
           "category": "attack",
           "loops": false,
@@ -4198,9 +4198,9 @@
           },
           "originalName": "attack3"
         },
-        "attack4": {
+        "attack_1": {
           "type": "simple",
-          "key": "attack4",
+          "key": "attack_1",
           "file": "characters/human_crow_keeper/attack_1.png",
           "category": "attack",
           "loops": false,
@@ -4422,9 +4422,9 @@
           },
           "originalName": "attack4"
         },
-        "attack4_vfx": {
+        "attack4_proj": {
           "type": "simple",
-          "key": "attack4_vfx",
+          "key": "attack4_proj",
           "file": "characters/lord_of_the_flames/attack4_proj.png",
           "category": "attack",
           "loops": false,
@@ -4594,9 +4594,9 @@
           },
           "originalName": "idle"
         },
-        "attack4": {
+        "ranged": {
           "type": "simple",
-          "key": "attack4",
+          "key": "ranged",
           "file": "characters/lord_of_the_poisons/ranged.png",
           "category": "attack",
           "loops": false,
@@ -4609,9 +4609,9 @@
           },
           "originalName": "ranged"
         },
-        "attack4_vfx": {
+        "ranged_idle": {
           "type": "simple",
-          "key": "attack4_vfx",
+          "key": "ranged_idle",
           "file": "characters/lord_of_the_poisons/ranged_idle.png",
           "category": "attack",
           "loops": false,
@@ -5233,9 +5233,9 @@
           },
           "originalName": "fall"
         },
-        "attack2": {
+        "idle1": {
           "type": "simple",
-          "key": "attack2",
+          "key": "idle1",
           "file": "characters/sage/idle1.png",
           "category": "attack",
           "loops": false,
@@ -5248,9 +5248,9 @@
           },
           "originalName": "idle1"
         },
-        "idle": {
+        "idle2": {
           "type": "simple",
-          "key": "idle",
+          "key": "idle2",
           "file": "characters/sage/idle2.png",
           "category": "movement",
           "loops": true,
@@ -5293,9 +5293,9 @@
           },
           "originalName": "run"
         },
-        "attack2_vfx": {
+        "special": {
           "type": "simple",
-          "key": "attack2_vfx",
+          "key": "special",
           "file": "characters/sage/special.png",
           "category": "attack",
           "loops": false,
@@ -6009,9 +6009,9 @@
           },
           "originalName": "idle1"
         },
-        "idle2": {
+        "idle10": {
           "type": "simple",
-          "key": "idle2",
+          "key": "idle10",
           "file": "characters/spirit_walkers/idle10.png",
           "category": "movement",
           "loops": true,
@@ -6024,9 +6024,9 @@
           },
           "originalName": "idle10"
         },
-        "idle3": {
+        "idle11": {
           "type": "simple",
-          "key": "idle3",
+          "key": "idle11",
           "file": "characters/spirit_walkers/idle11.png",
           "category": "movement",
           "loops": true,
@@ -6039,9 +6039,9 @@
           },
           "originalName": "idle11"
         },
-        "idle4": {
+        "idle12": {
           "type": "simple",
-          "key": "idle4",
+          "key": "idle12",
           "file": "characters/spirit_walkers/idle12.png",
           "category": "movement",
           "loops": true,
@@ -6054,9 +6054,9 @@
           },
           "originalName": "idle12"
         },
-        "idle5": {
+        "idle13": {
           "type": "simple",
-          "key": "idle5",
+          "key": "idle13",
           "file": "characters/spirit_walkers/idle13.png",
           "category": "movement",
           "loops": true,
@@ -6069,9 +6069,9 @@
           },
           "originalName": "idle13"
         },
-        "idle6": {
+        "idle14": {
           "type": "simple",
-          "key": "idle6",
+          "key": "idle14",
           "file": "characters/spirit_walkers/idle14.png",
           "category": "movement",
           "loops": true,
@@ -6084,9 +6084,9 @@
           },
           "originalName": "idle14"
         },
-        "idle7": {
+        "idle15": {
           "type": "simple",
-          "key": "idle7",
+          "key": "idle15",
           "file": "characters/spirit_walkers/idle15.png",
           "category": "movement",
           "loops": true,
@@ -6099,9 +6099,9 @@
           },
           "originalName": "idle15"
         },
-        "idle8": {
+        "idle16": {
           "type": "simple",
-          "key": "idle8",
+          "key": "idle16",
           "file": "characters/spirit_walkers/idle16.png",
           "category": "movement",
           "loops": true,
@@ -6114,9 +6114,9 @@
           },
           "originalName": "idle16"
         },
-        "idle9": {
+        "idle17": {
           "type": "simple",
-          "key": "idle9",
+          "key": "idle17",
           "file": "characters/spirit_walkers/idle17.png",
           "category": "movement",
           "loops": true,
@@ -6129,9 +6129,9 @@
           },
           "originalName": "idle17"
         },
-        "idle10": {
+        "idle18": {
           "type": "simple",
-          "key": "idle10",
+          "key": "idle18",
           "file": "characters/spirit_walkers/idle18.png",
           "category": "movement",
           "loops": true,
@@ -6144,9 +6144,9 @@
           },
           "originalName": "idle18"
         },
-        "idle11": {
+        "idle19": {
           "type": "simple",
-          "key": "idle11",
+          "key": "idle19",
           "file": "characters/spirit_walkers/idle19.png",
           "category": "movement",
           "loops": true,
@@ -6159,9 +6159,9 @@
           },
           "originalName": "idle19"
         },
-        "idle12": {
+        "idle2": {
           "type": "simple",
-          "key": "idle12",
+          "key": "idle2",
           "file": "characters/spirit_walkers/idle2.png",
           "category": "movement",
           "loops": true,
@@ -6174,9 +6174,9 @@
           },
           "originalName": "idle2"
         },
-        "idle13": {
+        "idle20": {
           "type": "simple",
-          "key": "idle13",
+          "key": "idle20",
           "file": "characters/spirit_walkers/idle20.png",
           "category": "movement",
           "loops": true,
@@ -6189,9 +6189,9 @@
           },
           "originalName": "idle20"
         },
-        "idle14": {
+        "idle3": {
           "type": "simple",
-          "key": "idle14",
+          "key": "idle3",
           "file": "characters/spirit_walkers/idle3.png",
           "category": "movement",
           "loops": true,
@@ -6204,9 +6204,9 @@
           },
           "originalName": "idle3"
         },
-        "idle15": {
+        "idle4": {
           "type": "simple",
-          "key": "idle15",
+          "key": "idle4",
           "file": "characters/spirit_walkers/idle4.png",
           "category": "movement",
           "loops": true,
@@ -6219,9 +6219,9 @@
           },
           "originalName": "idle4"
         },
-        "idle16": {
+        "idle5": {
           "type": "simple",
-          "key": "idle16",
+          "key": "idle5",
           "file": "characters/spirit_walkers/idle5.png",
           "category": "movement",
           "loops": true,
@@ -6234,9 +6234,9 @@
           },
           "originalName": "idle5"
         },
-        "idle17": {
+        "idle6": {
           "type": "simple",
-          "key": "idle17",
+          "key": "idle6",
           "file": "characters/spirit_walkers/idle6.png",
           "category": "movement",
           "loops": true,
@@ -6249,9 +6249,9 @@
           },
           "originalName": "idle6"
         },
-        "idle18": {
+        "idle7": {
           "type": "simple",
-          "key": "idle18",
+          "key": "idle7",
           "file": "characters/spirit_walkers/idle7.png",
           "category": "movement",
           "loops": true,
@@ -6264,9 +6264,9 @@
           },
           "originalName": "idle7"
         },
-        "idle19": {
+        "idle8": {
           "type": "simple",
-          "key": "idle19",
+          "key": "idle8",
           "file": "characters/spirit_walkers/idle8.png",
           "category": "movement",
           "loops": true,
@@ -6279,9 +6279,9 @@
           },
           "originalName": "idle8"
         },
-        "idle20": {
+        "idle9": {
           "type": "simple",
-          "key": "idle20",
+          "key": "idle9",
           "file": "characters/spirit_walkers/idle9.png",
           "category": "movement",
           "loops": true,
@@ -6309,9 +6309,9 @@
           },
           "originalName": "walk1"
         },
-        "walk2": {
+        "walk10": {
           "type": "simple",
-          "key": "walk2",
+          "key": "walk10",
           "file": "characters/spirit_walkers/walk10.png",
           "category": "movement",
           "loops": true,
@@ -6324,9 +6324,9 @@
           },
           "originalName": "walk10"
         },
-        "walk3": {
+        "walk11": {
           "type": "simple",
-          "key": "walk3",
+          "key": "walk11",
           "file": "characters/spirit_walkers/walk11.png",
           "category": "movement",
           "loops": true,
@@ -6339,9 +6339,9 @@
           },
           "originalName": "walk11"
         },
-        "walk4": {
+        "walk12": {
           "type": "simple",
-          "key": "walk4",
+          "key": "walk12",
           "file": "characters/spirit_walkers/walk12.png",
           "category": "movement",
           "loops": true,
@@ -6354,9 +6354,9 @@
           },
           "originalName": "walk12"
         },
-        "walk5": {
+        "walk13": {
           "type": "simple",
-          "key": "walk5",
+          "key": "walk13",
           "file": "characters/spirit_walkers/walk13.png",
           "category": "movement",
           "loops": true,
@@ -6369,9 +6369,9 @@
           },
           "originalName": "walk13"
         },
-        "walk6": {
+        "walk14": {
           "type": "simple",
-          "key": "walk6",
+          "key": "walk14",
           "file": "characters/spirit_walkers/walk14.png",
           "category": "movement",
           "loops": true,
@@ -6384,9 +6384,9 @@
           },
           "originalName": "walk14"
         },
-        "walk7": {
+        "walk15": {
           "type": "simple",
-          "key": "walk7",
+          "key": "walk15",
           "file": "characters/spirit_walkers/walk15.png",
           "category": "movement",
           "loops": true,
@@ -6399,9 +6399,9 @@
           },
           "originalName": "walk15"
         },
-        "walk8": {
+        "walk16": {
           "type": "simple",
-          "key": "walk8",
+          "key": "walk16",
           "file": "characters/spirit_walkers/walk16.png",
           "category": "movement",
           "loops": true,
@@ -6414,9 +6414,9 @@
           },
           "originalName": "walk16"
         },
-        "walk9": {
+        "walk17": {
           "type": "simple",
-          "key": "walk9",
+          "key": "walk17",
           "file": "characters/spirit_walkers/walk17.png",
           "category": "movement",
           "loops": true,
@@ -6429,9 +6429,9 @@
           },
           "originalName": "walk17"
         },
-        "walk10": {
+        "walk18": {
           "type": "simple",
-          "key": "walk10",
+          "key": "walk18",
           "file": "characters/spirit_walkers/walk18.png",
           "category": "movement",
           "loops": true,
@@ -6444,9 +6444,9 @@
           },
           "originalName": "walk18"
         },
-        "walk11": {
+        "walk19": {
           "type": "simple",
-          "key": "walk11",
+          "key": "walk19",
           "file": "characters/spirit_walkers/walk19.png",
           "category": "movement",
           "loops": true,
@@ -6459,9 +6459,9 @@
           },
           "originalName": "walk19"
         },
-        "walk12": {
+        "walk2": {
           "type": "simple",
-          "key": "walk12",
+          "key": "walk2",
           "file": "characters/spirit_walkers/walk2.png",
           "category": "movement",
           "loops": true,
@@ -6474,9 +6474,9 @@
           },
           "originalName": "walk2"
         },
-        "walk13": {
+        "walk20": {
           "type": "simple",
-          "key": "walk13",
+          "key": "walk20",
           "file": "characters/spirit_walkers/walk20.png",
           "category": "movement",
           "loops": true,
@@ -6489,9 +6489,9 @@
           },
           "originalName": "walk20"
         },
-        "walk14": {
+        "walk3": {
           "type": "simple",
-          "key": "walk14",
+          "key": "walk3",
           "file": "characters/spirit_walkers/walk3.png",
           "category": "movement",
           "loops": true,
@@ -6504,9 +6504,9 @@
           },
           "originalName": "walk3"
         },
-        "walk15": {
+        "walk4": {
           "type": "simple",
-          "key": "walk15",
+          "key": "walk4",
           "file": "characters/spirit_walkers/walk4.png",
           "category": "movement",
           "loops": true,
@@ -6519,9 +6519,9 @@
           },
           "originalName": "walk4"
         },
-        "walk16": {
+        "walk5": {
           "type": "simple",
-          "key": "walk16",
+          "key": "walk5",
           "file": "characters/spirit_walkers/walk5.png",
           "category": "movement",
           "loops": true,
@@ -6534,9 +6534,9 @@
           },
           "originalName": "walk5"
         },
-        "walk17": {
+        "walk6": {
           "type": "simple",
-          "key": "walk17",
+          "key": "walk6",
           "file": "characters/spirit_walkers/walk6.png",
           "category": "movement",
           "loops": true,
@@ -6549,9 +6549,9 @@
           },
           "originalName": "walk6"
         },
-        "walk18": {
+        "walk7": {
           "type": "simple",
-          "key": "walk18",
+          "key": "walk7",
           "file": "characters/spirit_walkers/walk7.png",
           "category": "movement",
           "loops": true,
@@ -6564,9 +6564,9 @@
           },
           "originalName": "walk7"
         },
-        "walk19": {
+        "walk8": {
           "type": "simple",
-          "key": "walk19",
+          "key": "walk8",
           "file": "characters/spirit_walkers/walk8.png",
           "category": "movement",
           "loops": true,
@@ -6579,9 +6579,9 @@
           },
           "originalName": "walk8"
         },
-        "walk20": {
+        "walk9": {
           "type": "simple",
-          "key": "walk20",
+          "key": "walk9",
           "file": "characters/spirit_walkers/walk9.png",
           "category": "movement",
           "loops": true,
@@ -7035,9 +7035,9 @@
           },
           "originalName": "death"
         },
-        "fall": {
+        "fall1": {
           "type": "simple",
-          "key": "fall",
+          "key": "fall1",
           "file": "characters/the_blood_king/fall1.png",
           "category": "movement",
           "loops": false,
@@ -7220,9 +7220,9 @@
               },
               "originalName": "idle"
             },
-            "ranged": {
+            "laser_prep": {
               "type": "simple",
-              "key": "ranged",
+              "key": "laser_prep",
               "file": "characters/the_bone_reaper/hand/laser_prep.png",
               "category": "ranged",
               "loops": false,
@@ -7305,9 +7305,9 @@
               },
               "originalName": "idle"
             },
-            "ranged": {
+            "laser_prep": {
               "type": "simple",
-              "key": "ranged",
+              "key": "laser_prep",
               "file": "characters/the_bone_reaper/head/laser_prep.png",
               "category": "ranged",
               "loops": false,
@@ -8437,12 +8437,12 @@
     "strange_companion_black": {
       "type": "standard",
       "id": "strange_companion_black",
-      "path": "animals/a_strange_companion/strange_companion_black",
+      "path": "characters/a_strange_companion/strange_companion_black",
       "animations": {
         "attack1": {
           "type": "simple",
           "key": "attack1",
-          "file": "animals/a_strange_companion/strange_companion_black/attack1.png",
+          "file": "characters/a_strange_companion/strange_companion_black/attack1.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -8458,7 +8458,7 @@
         "attack2": {
           "type": "simple",
           "key": "attack2",
-          "file": "animals/a_strange_companion/strange_companion_black/attack2.png",
+          "file": "characters/a_strange_companion/strange_companion_black/attack2.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -8471,10 +8471,10 @@
           },
           "originalName": "attack2"
         },
-        "idle1": {
+        "bark": {
           "type": "simple",
-          "key": "idle1",
-          "file": "animals/a_strange_companion/strange_companion_black/bark.png",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_black/bark.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -8487,10 +8487,10 @@
           },
           "originalName": "bark"
         },
-        "idle2": {
+        "chill": {
           "type": "simple",
-          "key": "idle2",
-          "file": "animals/a_strange_companion/strange_companion_black/chill.png",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_black/chill.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8506,7 +8506,7 @@
         "eat": {
           "type": "simple",
           "key": "eat",
-          "file": "animals/a_strange_companion/strange_companion_black/eat.png",
+          "file": "characters/a_strange_companion/strange_companion_black/eat.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8519,10 +8519,10 @@
           },
           "originalName": "eat"
         },
-        "fall1": {
+        "fall": {
           "type": "simple",
-          "key": "fall1",
-          "file": "animals/a_strange_companion/strange_companion_black/fall.png",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_black/fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8535,10 +8535,10 @@
           },
           "originalName": "fall"
         },
-        "idle4": {
+        "idle": {
           "type": "simple",
-          "key": "idle4",
-          "file": "animals/a_strange_companion/strange_companion_black/idle.png",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_black/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -8551,10 +8551,10 @@
           },
           "originalName": "idle"
         },
-        "jump1": {
+        "jump": {
           "type": "simple",
-          "key": "jump1",
-          "file": "animals/a_strange_companion/strange_companion_black/jump.png",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_black/jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8567,10 +8567,10 @@
           },
           "originalName": "jump"
         },
-        "land1": {
+        "land": {
           "type": "simple",
-          "key": "land1",
-          "file": "animals/a_strange_companion/strange_companion_black/land.png",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_black/land.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8583,10 +8583,10 @@
           },
           "originalName": "land"
         },
-        "roll1": {
+        "roll": {
           "type": "simple",
-          "key": "roll1",
-          "file": "animals/a_strange_companion/strange_companion_black/roll.png",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_black/roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8599,10 +8599,10 @@
           },
           "originalName": "roll"
         },
-        "land2": {
+        "roll_end": {
           "type": "simple",
-          "key": "land2",
-          "file": "animals/a_strange_companion/strange_companion_black/roll_end.png",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_black/roll_end.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8615,10 +8615,10 @@
           },
           "originalName": "roll_end"
         },
-        "sleep1": {
+        "sit": {
           "type": "simple",
-          "key": "sleep1",
-          "file": "animals/a_strange_companion/strange_companion_black/sit.png",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_black/sit.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8631,10 +8631,10 @@
           },
           "originalName": "sit"
         },
-        "sleep2": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep2",
-          "file": "animals/a_strange_companion/strange_companion_black/sleep.png",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_black/sleep.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8647,10 +8647,10 @@
           },
           "originalName": "sleep"
         },
-        "idle5": {
+        "to_idle": {
           "type": "simple",
-          "key": "idle5",
-          "file": "animals/a_strange_companion/strange_companion_black/to_idle.png",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_black/to_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -8663,10 +8663,10 @@
           },
           "originalName": "to_idle"
         },
-        "roll2": {
+        "to_roll": {
           "type": "simple",
-          "key": "roll2",
-          "file": "animals/a_strange_companion/strange_companion_black/to_roll.png",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_black/to_roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8679,10 +8679,10 @@
           },
           "originalName": "to_roll"
         },
-        "sleep3": {
+        "to_sleep": {
           "type": "simple",
-          "key": "sleep3",
-          "file": "animals/a_strange_companion/strange_companion_black/to_sleep.png",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_black/to_sleep.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -8695,10 +8695,10 @@
           },
           "originalName": "to_sleep"
         },
-        "fall2": {
+        "trans_jump_to_fall": {
           "type": "simple",
-          "key": "fall2",
-          "file": "animals/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8711,10 +8711,10 @@
           },
           "originalName": "trans_jump_to_fall"
         },
-        "jump2": {
+        "trans_to_jump": {
           "type": "simple",
-          "key": "jump2",
-          "file": "animals/a_strange_companion/strange_companion_black/trans_to_jump.png",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_black/trans_to_jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8727,10 +8727,10 @@
           },
           "originalName": "trans_to_jump"
         },
-        "wake": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake",
-          "file": "animals/a_strange_companion/strange_companion_black/wake_up.png",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_black/wake_up.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -8746,7 +8746,7 @@
         "walk": {
           "type": "simple",
           "key": "walk",
-          "file": "animals/a_strange_companion/strange_companion_black/walk.png",
+          "file": "characters/a_strange_companion/strange_companion_black/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -8762,7 +8762,7 @@
         "projectile_explode": {
           "type": "simple",
           "key": "projectile_explode",
-          "file": "animals/a_strange_companion/projectile/projectile_explode.png",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
           "category": "ranged",
           "loops": false,
           "frames": {
@@ -8777,7 +8777,7 @@
         "projectile_idle": {
           "type": "simple",
           "key": "projectile_idle",
-          "file": "animals/a_strange_companion/projectile/projectile_idle.png",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
           "category": "ranged",
           "loops": true,
           "frames": {
@@ -8794,12 +8794,12 @@
     "strange_companion_red": {
       "type": "standard",
       "id": "strange_companion_red",
-      "path": "animals/a_strange_companion/strange_companion_red",
+      "path": "characters/a_strange_companion/strange_companion_red",
       "animations": {
         "attack1": {
           "type": "simple",
           "key": "attack1",
-          "file": "animals/a_strange_companion/strange_companion_red/attack1.png",
+          "file": "characters/a_strange_companion/strange_companion_red/attack1.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -8815,7 +8815,7 @@
         "attack2": {
           "type": "simple",
           "key": "attack2",
-          "file": "animals/a_strange_companion/strange_companion_red/attack2.png",
+          "file": "characters/a_strange_companion/strange_companion_red/attack2.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -8828,10 +8828,10 @@
           },
           "originalName": "attack2"
         },
-        "idle1": {
+        "bark": {
           "type": "simple",
-          "key": "idle1",
-          "file": "animals/a_strange_companion/strange_companion_red/bark.png",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_red/bark.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -8844,10 +8844,10 @@
           },
           "originalName": "bark"
         },
-        "idle2": {
+        "chill": {
           "type": "simple",
-          "key": "idle2",
-          "file": "animals/a_strange_companion/strange_companion_red/chill.png",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_red/chill.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8863,7 +8863,7 @@
         "eat": {
           "type": "simple",
           "key": "eat",
-          "file": "animals/a_strange_companion/strange_companion_red/eat.png",
+          "file": "characters/a_strange_companion/strange_companion_red/eat.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8876,10 +8876,10 @@
           },
           "originalName": "eat"
         },
-        "fall1": {
+        "fall": {
           "type": "simple",
-          "key": "fall1",
-          "file": "animals/a_strange_companion/strange_companion_red/fall.png",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_red/fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8892,10 +8892,10 @@
           },
           "originalName": "fall"
         },
-        "idle4": {
+        "idle": {
           "type": "simple",
-          "key": "idle4",
-          "file": "animals/a_strange_companion/strange_companion_red/idle.png",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -8908,10 +8908,10 @@
           },
           "originalName": "idle"
         },
-        "jump1": {
+        "jump": {
           "type": "simple",
-          "key": "jump1",
-          "file": "animals/a_strange_companion/strange_companion_red/jump.png",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_red/jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8924,10 +8924,10 @@
           },
           "originalName": "jump"
         },
-        "land1": {
+        "land": {
           "type": "simple",
-          "key": "land1",
-          "file": "animals/a_strange_companion/strange_companion_red/land.png",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_red/land.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8940,10 +8940,10 @@
           },
           "originalName": "land"
         },
-        "roll1": {
+        "roll": {
           "type": "simple",
-          "key": "roll1",
-          "file": "animals/a_strange_companion/strange_companion_red/roll.png",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_red/roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8956,10 +8956,10 @@
           },
           "originalName": "roll"
         },
-        "land2": {
+        "roll_end": {
           "type": "simple",
-          "key": "land2",
-          "file": "animals/a_strange_companion/strange_companion_red/roll_end.png",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_red/roll_end.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -8972,10 +8972,10 @@
           },
           "originalName": "roll_end"
         },
-        "sleep1": {
+        "sit": {
           "type": "simple",
-          "key": "sleep1",
-          "file": "animals/a_strange_companion/strange_companion_red/sit.png",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_red/sit.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -8988,10 +8988,10 @@
           },
           "originalName": "sit"
         },
-        "sleep2": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep2",
-          "file": "animals/a_strange_companion/strange_companion_red/sleep.png",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_red/sleep.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -9004,10 +9004,10 @@
           },
           "originalName": "sleep"
         },
-        "idle5": {
+        "to_idle": {
           "type": "simple",
-          "key": "idle5",
-          "file": "animals/a_strange_companion/strange_companion_red/to_idle.png",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_red/to_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -9020,10 +9020,10 @@
           },
           "originalName": "to_idle"
         },
-        "roll2": {
+        "to_roll": {
           "type": "simple",
-          "key": "roll2",
-          "file": "animals/a_strange_companion/strange_companion_red/to_roll.png",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_red/to_roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9036,10 +9036,10 @@
           },
           "originalName": "to_roll"
         },
-        "sleep3": {
+        "to_sleep": {
           "type": "simple",
-          "key": "sleep3",
-          "file": "animals/a_strange_companion/strange_companion_red/to_sleep.png",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_red/to_sleep.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -9052,10 +9052,10 @@
           },
           "originalName": "to_sleep"
         },
-        "fall2": {
+        "trans_jump_to_fall": {
           "type": "simple",
-          "key": "fall2",
-          "file": "animals/a_strange_companion/strange_companion_red/trans_jump_to_fall.png",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_red/trans_jump_to_fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9068,10 +9068,10 @@
           },
           "originalName": "trans_jump_to_fall"
         },
-        "jump2": {
+        "trans_to_jump": {
           "type": "simple",
-          "key": "jump2",
-          "file": "animals/a_strange_companion/strange_companion_red/trans_to_jump.png",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_red/trans_to_jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9084,10 +9084,10 @@
           },
           "originalName": "trans_to_jump"
         },
-        "wake": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake",
-          "file": "animals/a_strange_companion/strange_companion_red/wake_up.png",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_red/wake_up.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -9103,7 +9103,7 @@
         "walk": {
           "type": "simple",
           "key": "walk",
-          "file": "animals/a_strange_companion/strange_companion_red/walk.png",
+          "file": "characters/a_strange_companion/strange_companion_red/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -9119,7 +9119,7 @@
         "projectile_explode": {
           "type": "simple",
           "key": "projectile_explode",
-          "file": "animals/a_strange_companion/projectile/projectile_explode.png",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
           "category": "ranged",
           "loops": false,
           "frames": {
@@ -9134,7 +9134,7 @@
         "projectile_idle": {
           "type": "simple",
           "key": "projectile_idle",
-          "file": "animals/a_strange_companion/projectile/projectile_idle.png",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
           "category": "ranged",
           "loops": true,
           "frames": {
@@ -9151,12 +9151,12 @@
     "strange_companion_teal": {
       "type": "standard",
       "id": "strange_companion_teal",
-      "path": "animals/a_strange_companion/strange_companion_teal",
+      "path": "characters/a_strange_companion/strange_companion_teal",
       "animations": {
         "attack1": {
           "type": "simple",
           "key": "attack1",
-          "file": "animals/a_strange_companion/strange_companion_teal/attack1.png",
+          "file": "characters/a_strange_companion/strange_companion_teal/attack1.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -9172,7 +9172,7 @@
         "attack2": {
           "type": "simple",
           "key": "attack2",
-          "file": "animals/a_strange_companion/strange_companion_teal/attack2.png",
+          "file": "characters/a_strange_companion/strange_companion_teal/attack2.png",
           "category": "attack",
           "loops": false,
           "frames": {
@@ -9185,10 +9185,10 @@
           },
           "originalName": "attack2"
         },
-        "idle1": {
+        "bark": {
           "type": "simple",
-          "key": "idle1",
-          "file": "animals/a_strange_companion/strange_companion_teal/bark.png",
+          "key": "bark",
+          "file": "characters/a_strange_companion/strange_companion_teal/bark.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -9201,10 +9201,10 @@
           },
           "originalName": "bark"
         },
-        "idle2": {
+        "chill": {
           "type": "simple",
-          "key": "idle2",
-          "file": "animals/a_strange_companion/strange_companion_teal/chill.png",
+          "key": "chill",
+          "file": "characters/a_strange_companion/strange_companion_teal/chill.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -9220,7 +9220,7 @@
         "eat": {
           "type": "simple",
           "key": "eat",
-          "file": "animals/a_strange_companion/strange_companion_teal/eat.png",
+          "file": "characters/a_strange_companion/strange_companion_teal/eat.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -9233,10 +9233,10 @@
           },
           "originalName": "eat"
         },
-        "fall1": {
+        "fall": {
           "type": "simple",
-          "key": "fall1",
-          "file": "animals/a_strange_companion/strange_companion_teal/fall.png",
+          "key": "fall",
+          "file": "characters/a_strange_companion/strange_companion_teal/fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9249,10 +9249,10 @@
           },
           "originalName": "fall"
         },
-        "idle4": {
+        "idle": {
           "type": "simple",
-          "key": "idle4",
-          "file": "animals/a_strange_companion/strange_companion_teal/idle.png",
+          "key": "idle",
+          "file": "characters/a_strange_companion/strange_companion_teal/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -9265,10 +9265,10 @@
           },
           "originalName": "idle"
         },
-        "jump1": {
+        "jump": {
           "type": "simple",
-          "key": "jump1",
-          "file": "animals/a_strange_companion/strange_companion_teal/jump.png",
+          "key": "jump",
+          "file": "characters/a_strange_companion/strange_companion_teal/jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9281,10 +9281,10 @@
           },
           "originalName": "jump"
         },
-        "land1": {
+        "land": {
           "type": "simple",
-          "key": "land1",
-          "file": "animals/a_strange_companion/strange_companion_teal/land.png",
+          "key": "land",
+          "file": "characters/a_strange_companion/strange_companion_teal/land.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9297,10 +9297,10 @@
           },
           "originalName": "land"
         },
-        "roll1": {
+        "roll": {
           "type": "simple",
-          "key": "roll1",
-          "file": "animals/a_strange_companion/strange_companion_teal/roll.png",
+          "key": "roll",
+          "file": "characters/a_strange_companion/strange_companion_teal/roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9313,10 +9313,10 @@
           },
           "originalName": "roll"
         },
-        "land2": {
+        "roll_end": {
           "type": "simple",
-          "key": "land2",
-          "file": "animals/a_strange_companion/strange_companion_teal/roll_end.png",
+          "key": "roll_end",
+          "file": "characters/a_strange_companion/strange_companion_teal/roll_end.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9329,10 +9329,10 @@
           },
           "originalName": "roll_end"
         },
-        "sleep1": {
+        "sit": {
           "type": "simple",
-          "key": "sleep1",
-          "file": "animals/a_strange_companion/strange_companion_teal/sit.png",
+          "key": "sit",
+          "file": "characters/a_strange_companion/strange_companion_teal/sit.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -9345,10 +9345,10 @@
           },
           "originalName": "sit"
         },
-        "sleep2": {
+        "sleep": {
           "type": "simple",
-          "key": "sleep2",
-          "file": "animals/a_strange_companion/strange_companion_teal/sleep.png",
+          "key": "sleep",
+          "file": "characters/a_strange_companion/strange_companion_teal/sleep.png",
           "category": "state",
           "loops": true,
           "frames": {
@@ -9361,10 +9361,10 @@
           },
           "originalName": "sleep"
         },
-        "idle5": {
+        "to_idle": {
           "type": "simple",
-          "key": "idle5",
-          "file": "animals/a_strange_companion/strange_companion_teal/to_idle.png",
+          "key": "to_idle",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -9377,10 +9377,10 @@
           },
           "originalName": "to_idle"
         },
-        "roll2": {
+        "to_roll": {
           "type": "simple",
-          "key": "roll2",
-          "file": "animals/a_strange_companion/strange_companion_teal/to_roll.png",
+          "key": "to_roll",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_roll.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9393,10 +9393,10 @@
           },
           "originalName": "to_roll"
         },
-        "sleep3": {
+        "to_sleep": {
           "type": "simple",
-          "key": "sleep3",
-          "file": "animals/a_strange_companion/strange_companion_teal/to_sleep.png",
+          "key": "to_sleep",
+          "file": "characters/a_strange_companion/strange_companion_teal/to_sleep.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -9409,10 +9409,10 @@
           },
           "originalName": "to_sleep"
         },
-        "fall2": {
+        "trans_jump_to_fall": {
           "type": "simple",
-          "key": "fall2",
-          "file": "animals/a_strange_companion/strange_companion_teal/trans_jump_to_fall.png",
+          "key": "trans_jump_to_fall",
+          "file": "characters/a_strange_companion/strange_companion_teal/trans_jump_to_fall.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9425,10 +9425,10 @@
           },
           "originalName": "trans_jump_to_fall"
         },
-        "jump2": {
+        "trans_to_jump": {
           "type": "simple",
-          "key": "jump2",
-          "file": "animals/a_strange_companion/strange_companion_teal/trans_to_jump.png",
+          "key": "trans_to_jump",
+          "file": "characters/a_strange_companion/strange_companion_teal/trans_to_jump.png",
           "category": "movement",
           "loops": false,
           "frames": {
@@ -9441,10 +9441,10 @@
           },
           "originalName": "trans_to_jump"
         },
-        "wake": {
+        "wake_up": {
           "type": "simple",
-          "key": "wake",
-          "file": "animals/a_strange_companion/strange_companion_teal/wake_up.png",
+          "key": "wake_up",
+          "file": "characters/a_strange_companion/strange_companion_teal/wake_up.png",
           "category": "state",
           "loops": false,
           "frames": {
@@ -9460,7 +9460,7 @@
         "walk": {
           "type": "simple",
           "key": "walk",
-          "file": "animals/a_strange_companion/strange_companion_teal/walk.png",
+          "file": "characters/a_strange_companion/strange_companion_teal/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
@@ -9476,7 +9476,7 @@
         "projectile_explode": {
           "type": "simple",
           "key": "projectile_explode",
-          "file": "animals/a_strange_companion/projectile/projectile_explode.png",
+          "file": "characters/a_strange_companion/projectile/projectile_explode.png",
           "category": "ranged",
           "loops": false,
           "frames": {
@@ -9491,7 +9491,7 @@
         "projectile_idle": {
           "type": "simple",
           "key": "projectile_idle",
-          "file": "animals/a_strange_companion/projectile/projectile_idle.png",
+          "file": "characters/a_strange_companion/projectile/projectile_idle.png",
           "category": "ranged",
           "loops": true,
           "frames": {
@@ -9511,139 +9511,26 @@
     "id": "playable_character",
     "path": "playable_character",
     "modes": {
-      "dark_flame_spells": {
-        "type": "standard",
-        "id": "playable_character/dark_flame_spells",
-        "path": "playable_character/dark_flame_spells",
-        "animations": {
-          "attack": {
-            "type": "simple",
-            "key": "attack",
-            "file": "playable_character/dark_flame_spells/attack.png",
-            "category": "attack",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 2856,
-              "sheetHeight": 59,
-              "frameWidth": 357,
-              "frameHeight": 59,
-              "frameCount": 8
-            },
-            "originalName": "attack"
-          },
-          "ranged1": {
-            "type": "simple",
-            "key": "ranged1",
-            "file": "playable_character/dark_flame_spells/ranged1.png",
-            "category": "ranged",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 2054,
-              "sheetHeight": 65,
-              "frameWidth": 1027,
-              "frameHeight": 65,
-              "frameCount": 2
-            },
-            "originalName": "ranged1"
-          },
-          "ranged2": {
-            "type": "simple",
-            "key": "ranged2",
-            "file": "playable_character/dark_flame_spells/ranged2.png",
-            "category": "ranged",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 2054,
-              "sheetHeight": 80,
-              "frameWidth": 1027,
-              "frameHeight": 80,
-              "frameCount": 2
-            },
-            "originalName": "ranged2"
-          },
-          "special1": {
-            "type": "simple",
-            "key": "special1",
-            "file": "playable_character/dark_flame_spells/special1.png",
-            "category": "special",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 1066,
-              "sheetHeight": 73,
-              "frameWidth": 533,
-              "frameHeight": 73,
-              "frameCount": 2
-            },
-            "originalName": "special1"
-          },
-          "special2": {
-            "type": "simple",
-            "key": "special2",
-            "file": "playable_character/dark_flame_spells/special2.png",
-            "category": "special",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 500,
-              "sheetHeight": 40,
-              "frameWidth": 5,
-              "frameHeight": 40,
-              "frameCount": 100
-            },
-            "originalName": "special2"
-          },
-          "special3": {
-            "type": "simple",
-            "key": "special3",
-            "file": "playable_character/dark_flame_spells/special3.png",
-            "category": "special",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 715,
-              "sheetHeight": 40,
-              "frameWidth": 5,
-              "frameHeight": 40,
-              "frameCount": 143
-            },
-            "originalName": "special3"
-          },
-          "special4": {
-            "type": "simple",
-            "key": "special4",
-            "file": "playable_character/dark_flame_spells/special4.png",
-            "category": "special",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 1445,
-              "sheetHeight": 44,
-              "frameWidth": 1445,
-              "frameHeight": 44,
-              "frameCount": 1
-            },
-            "originalName": "special4"
-          },
-          "special5": {
-            "type": "simple",
-            "key": "special5",
-            "file": "playable_character/dark_flame_spells/special5.png",
-            "category": "special",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 1780,
-              "sheetHeight": 28,
-              "frameWidth": 445,
-              "frameHeight": 28,
-              "frameCount": 4
-            },
-            "originalName": "special5"
-          }
-        },
-        "mode": "dark_flame_spells"
-      },
       "gunslinger_gun1": {
         "type": "standard",
         "id": "playable_character/gunslinger_gun1",
         "path": "playable_character/gunslinger/animations_gun_1",
         "animations": {
+          "attack1": {
+            "type": "simple",
+            "key": "attack1",
+            "file": "playable_character/gunslinger/animations_gun_1/attack1.png",
+            "category": "attack",
+            "loops": false,
+            "frames": {
+              "sheetWidth": 192,
+              "sheetHeight": 48,
+              "frameWidth": 48,
+              "frameHeight": 48,
+              "frameCount": 4
+            },
+            "originalName": "attack1"
+          },
           "death": {
             "type": "simple",
             "key": "death",
@@ -9704,21 +9591,6 @@
             },
             "originalName": "ledge_grab"
           },
-          "ranged": {
-            "type": "simple",
-            "key": "ranged",
-            "file": "playable_character/gunslinger/animations_gun_1/ranged.png",
-            "category": "ranged",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 192,
-              "sheetHeight": 48,
-              "frameWidth": 48,
-              "frameHeight": 48,
-              "frameCount": 4
-            },
-            "originalName": "ranged"
-          },
           "roll": {
             "type": "simple",
             "key": "roll",
@@ -9763,6 +9635,36 @@
               "frameCount": 2
             },
             "originalName": "take_hit"
+          },
+          "projectile_idle": {
+            "type": "simple",
+            "key": "projectile_idle",
+            "file": "playable_character/gunslinger/animations_gun_1/projectile_idle.png",
+            "category": "ranged",
+            "loops": true,
+            "frames": {
+              "sheetWidth": 32,
+              "sheetHeight": 5,
+              "frameWidth": 16,
+              "frameHeight": 5,
+              "frameCount": 2
+            },
+            "originalName": "projectile_idle"
+          },
+          "projectile_explode": {
+            "type": "simple",
+            "key": "projectile_explode",
+            "file": "playable_character/gunslinger/animations_gun_1/projectile_explode.png",
+            "category": "ranged",
+            "loops": false,
+            "frames": {
+              "sheetWidth": 64,
+              "sheetHeight": 10,
+              "frameWidth": 16,
+              "frameHeight": 10,
+              "frameCount": 4
+            },
+            "originalName": "projectile_explode"
           }
         },
         "mode": "gunslinger_gun1"
@@ -9772,6 +9674,21 @@
         "id": "playable_character/gunslinger_gun2",
         "path": "playable_character/gunslinger/animations_gun_2",
         "animations": {
+          "attack1": {
+            "type": "simple",
+            "key": "attack1",
+            "file": "playable_character/gunslinger/animations_gun_2/attack1.png",
+            "category": "attack",
+            "loops": false,
+            "frames": {
+              "sheetWidth": 384,
+              "sheetHeight": 48,
+              "frameWidth": 48,
+              "frameHeight": 48,
+              "frameCount": 8
+            },
+            "originalName": "attack1"
+          },
           "death": {
             "type": "simple",
             "key": "death",
@@ -9832,21 +9749,6 @@
             },
             "originalName": "ledge_grab"
           },
-          "ranged": {
-            "type": "simple",
-            "key": "ranged",
-            "file": "playable_character/gunslinger/animations_gun_2/ranged.png",
-            "category": "ranged",
-            "loops": false,
-            "frames": {
-              "sheetWidth": 384,
-              "sheetHeight": 48,
-              "frameWidth": 48,
-              "frameHeight": 48,
-              "frameCount": 8
-            },
-            "originalName": "ranged"
-          },
           "roll": {
             "type": "simple",
             "key": "roll",
@@ -9891,6 +9793,36 @@
               "frameCount": 2
             },
             "originalName": "take_hit"
+          },
+          "projectile_idle": {
+            "type": "simple",
+            "key": "projectile_idle",
+            "file": "playable_character/gunslinger/animations_gun_2/projectile_idle.png",
+            "category": "ranged",
+            "loops": true,
+            "frames": {
+              "sheetWidth": 48,
+              "sheetHeight": 9,
+              "frameWidth": 16,
+              "frameHeight": 9,
+              "frameCount": 3
+            },
+            "originalName": "projectile_idle"
+          },
+          "projectile_explode": {
+            "type": "simple",
+            "key": "projectile_explode",
+            "file": "playable_character/gunslinger/animations_gun_2/projectile_explode.png",
+            "category": "ranged",
+            "loops": false,
+            "frames": {
+              "sheetWidth": 80,
+              "sheetHeight": 13,
+              "frameWidth": 16,
+              "frameHeight": 13,
+              "frameCount": 5
+            },
+            "originalName": "projectile_explode"
           }
         },
         "mode": "gunslinger_gun2"
@@ -9909,9 +9841,9 @@
             "frames": {
               "sheetWidth": 1150,
               "sheetHeight": 75,
-              "frameWidth": 575,
+              "frameWidth": 115,
               "frameHeight": 75,
-              "frameCount": 2
+              "frameCount": 10
             },
             "originalName": "attack1"
           },
@@ -9924,9 +9856,9 @@
             "frames": {
               "sheetWidth": 500,
               "sheetHeight": 37,
-              "frameWidth": 125,
+              "frameWidth": 100,
               "frameHeight": 37,
-              "frameCount": 4
+              "frameCount": 5
             },
             "originalName": "attack2"
           },
@@ -9939,9 +9871,9 @@
             "frames": {
               "sheetWidth": 1232,
               "sheetHeight": 120,
-              "frameWidth": 1,
+              "frameWidth": 176,
               "frameHeight": 120,
-              "frameCount": 1232
+              "frameCount": 7
             },
             "originalName": "attack3"
           },
@@ -9954,9 +9886,9 @@
             "frames": {
               "sheetWidth": 685,
               "sheetHeight": 120,
-              "frameWidth": 1,
+              "frameWidth": 137,
               "frameHeight": 120,
-              "frameCount": 685
+              "frameCount": 5
             },
             "originalName": "attack4"
           },
@@ -9969,9 +9901,9 @@
             "frames": {
               "sheetWidth": 906,
               "sheetHeight": 90,
-              "frameWidth": 453,
+              "frameWidth": 151,
               "frameHeight": 90,
-              "frameCount": 2
+              "frameCount": 6
             },
             "originalName": "attack5"
           }
@@ -9992,9 +9924,9 @@
             "frames": {
               "sheetWidth": 900,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 150
+              "frameCount": 10
             },
             "originalName": "attack1"
           },
@@ -10007,9 +9939,9 @@
             "frames": {
               "sheetWidth": 450,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 75
+              "frameCount": 5
             },
             "originalName": "attack2"
           },
@@ -10022,9 +9954,9 @@
             "frames": {
               "sheetWidth": 630,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 105
+              "frameCount": 7
             },
             "originalName": "attack3"
           },
@@ -10037,9 +9969,9 @@
             "frames": {
               "sheetWidth": 450,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 75
+              "frameCount": 5
             },
             "originalName": "attack4"
           },
@@ -10052,9 +9984,9 @@
             "frames": {
               "sheetWidth": 546,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 91,
               "frameHeight": 37,
-              "frameCount": 91
+              "frameCount": 6
             },
             "originalName": "attack5"
           },
@@ -10067,9 +9999,9 @@
             "frames": {
               "sheetWidth": 540,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 90
+              "frameCount": 6
             },
             "originalName": "block"
           },
@@ -10082,9 +10014,9 @@
             "frames": {
               "sheetWidth": 540,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 90
+              "frameCount": 6
             },
             "originalName": "dash"
           },
@@ -10097,9 +10029,9 @@
             "frames": {
               "sheetWidth": 540,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 90
+              "frameCount": 6
             },
             "originalName": "death"
           },
@@ -10112,26 +10044,26 @@
             "frames": {
               "sheetWidth": 630,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 105
+              "frameCount": 7
             },
             "originalName": "fall1"
           },
-          "fall2": {
+          "ledge_slide": {
             "type": "simple",
-            "key": "fall2",
-            "file": "playable_character/sword_master_animations/regular_animations/fall2.png",
+            "key": "ledge_slide",
+            "file": "playable_character/sword_master_animations/regular_animations/ledge_slide.png",
             "category": "movement",
             "loops": false,
             "frames": {
               "sheetWidth": 810,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 135
+              "frameCount": 9
             },
-            "originalName": "fall2"
+            "originalName": "ledge_slide"
           },
           "idle": {
             "type": "simple",
@@ -10142,9 +10074,9 @@
             "frames": {
               "sheetWidth": 810,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 135
+              "frameCount": 9
             },
             "originalName": "idle"
           },
@@ -10157,9 +10089,9 @@
             "frames": {
               "sheetWidth": 720,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 120
+              "frameCount": 8
             },
             "originalName": "jog"
           },
@@ -10172,9 +10104,9 @@
             "frames": {
               "sheetWidth": 384,
               "sheetHeight": 62,
-              "frameWidth": 96,
+              "frameWidth": 48,
               "frameHeight": 62,
-              "frameCount": 4
+              "frameCount": 8
             },
             "originalName": "ledge_climb"
           },
@@ -10187,9 +10119,9 @@
             "frames": {
               "sheetWidth": 720,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 120
+              "frameCount": 8
             },
             "originalName": "roll"
           },
@@ -10202,26 +10134,26 @@
             "frames": {
               "sheetWidth": 720,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 120
+              "frameCount": 8
             },
             "originalName": "run"
           },
-          "special": {
+          "attack6": {
             "type": "simple",
-            "key": "special",
-            "file": "playable_character/sword_master_animations/regular_animations/special.png",
-            "category": "special",
+            "key": "attack6",
+            "file": "playable_character/sword_master_animations/regular_animations/attack6.png",
+            "category": "attack",
             "loops": false,
             "frames": {
               "sheetWidth": 2340,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 390
+              "frameCount": 26
             },
-            "originalName": "special"
+            "originalName": "attack6"
           },
           "sprint": {
             "type": "simple",
@@ -10232,9 +10164,9 @@
             "frames": {
               "sheetWidth": 720,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 120
+              "frameCount": 8
             },
             "originalName": "sprint"
           },
@@ -10247,9 +10179,9 @@
             "frames": {
               "sheetWidth": 180,
               "sheetHeight": 37,
-              "frameWidth": 6,
+              "frameWidth": 90,
               "frameHeight": 37,
-              "frameCount": 30
+              "frameCount": 2
             },
             "originalName": "take_hit"
           }
@@ -10264,50 +10196,50 @@
       "id": "crow_blue",
       "path": "animals/crow/crow_blue",
       "animations": {
-        "idle": {
+        "death": {
           "type": "simple",
-          "key": "idle",
-          "file": "animals/crow/crow_blue/crow_blue_animation1.png",
-          "category": "movement",
-          "loops": true,
+          "key": "death",
+          "file": "animals/crow/crow_blue/death.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 102,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 6
           },
-          "originalName": "crow_blue_animation1"
+          "originalName": "death"
         },
         "fly": {
           "type": "simple",
           "key": "fly",
-          "file": "animals/crow/crow_blue/crow_blue_animation2.png",
+          "file": "animals/crow/crow_blue/fly.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 68,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 4
           },
-          "originalName": "crow_blue_animation2"
+          "originalName": "fly"
         },
-        "death": {
+        "idle": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/crow/crow_blue/crow_blue_animation3.png",
+          "key": "idle",
+          "file": "animals/crow/crow_blue/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 187,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 11
           },
-          "originalName": "crow_blue_animation3"
+          "originalName": "idle"
         }
       }
     },
@@ -10316,184 +10248,184 @@
       "id": "crow_red",
       "path": "animals/crow/crow_red",
       "animations": {
-        "idle": {
+        "death": {
           "type": "simple",
-          "key": "idle",
-          "file": "animals/crow/crow_red/crow_red_animation1.png",
-          "category": "movement",
-          "loops": true,
+          "key": "death",
+          "file": "animals/crow/crow_red/death.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 102,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 6
           },
-          "originalName": "crow_red_animation1"
+          "originalName": "death"
         },
         "fly": {
           "type": "simple",
           "key": "fly",
-          "file": "animals/crow/crow_red/crow_red_animation2.png",
+          "file": "animals/crow/crow_red/fly.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 68,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 4
           },
-          "originalName": "crow_red_animation2"
+          "originalName": "fly"
         },
-        "death": {
+        "idle": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/crow/crow_red/crow_red_animation3.png",
+          "key": "idle",
+          "file": "animals/crow/crow_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 187,
+            "sheetHeight": 21,
+            "frameWidth": 17,
+            "frameHeight": 21,
+            "frameCount": 11
           },
-          "originalName": "crow_red_animation3"
+          "originalName": "idle"
         }
       }
     },
     "deer_blue": {
       "type": "standard",
       "id": "deer_blue",
-      "path": "animals/deer",
+      "path": "animals/deer/deer_blue",
       "animations": {
-        "walk": {
+        "death": {
           "type": "simple",
-          "key": "walk",
-          "file": "animals/deer/deer_blue_animation1.png",
-          "category": "movement",
-          "loops": true,
+          "key": "death",
+          "file": "animals/deer/deer_blue/death.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 840,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 15
           },
-          "originalName": "deer_blue_animation1"
+          "originalName": "death"
         },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/deer/deer_blue_animation2.png",
+          "file": "animals/deer/deer_blue/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 336,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 6
           },
-          "originalName": "deer_blue_animation2"
+          "originalName": "idle"
         },
         "look_up": {
           "type": "simple",
           "key": "look_up",
-          "file": "animals/deer/deer_blue_animation3.png",
+          "file": "animals/deer/deer_blue/look_up.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 840,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 15
           },
-          "originalName": "deer_blue_animation3"
+          "originalName": "look_up"
         },
-        "death": {
+        "walk": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/deer/deer_blue_animation4.png",
+          "key": "walk",
+          "file": "animals/deer/deer_blue/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 448,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 8
           },
-          "originalName": "deer_blue_animation4"
+          "originalName": "walk"
         }
       }
     },
     "deer_red": {
       "type": "standard",
       "id": "deer_red",
-      "path": "animals/deer",
+      "path": "animals/deer/deer_red",
       "animations": {
-        "walk": {
+        "death": {
           "type": "simple",
-          "key": "walk",
-          "file": "animals/deer/deer_red_animation1.png",
-          "category": "movement",
-          "loops": true,
+          "key": "death",
+          "file": "animals/deer/deer_red/death.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 840,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 15
           },
-          "originalName": "deer_red_animation1"
+          "originalName": "death"
         },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/deer/deer_red_animation2.png",
+          "file": "animals/deer/deer_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 336,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 6
           },
-          "originalName": "deer_red_animation2"
+          "originalName": "idle"
         },
         "look_up": {
           "type": "simple",
           "key": "look_up",
-          "file": "animals/deer/deer_red_animation3.png",
+          "file": "animals/deer/deer_red/look_up.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 840,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 15
           },
-          "originalName": "deer_red_animation3"
+          "originalName": "look_up"
         },
-        "death": {
+        "walk": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/deer/deer_red_animation4.png",
+          "key": "walk",
+          "file": "animals/deer/deer_red/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 448,
+            "sheetHeight": 54,
+            "frameWidth": 56,
+            "frameHeight": 54,
+            "frameCount": 8
           },
-          "originalName": "deer_red_animation4"
+          "originalName": "walk"
         }
       }
     },
@@ -10502,65 +10434,65 @@
       "id": "elk_blue",
       "path": "animals/elk/elk_blue",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/elk/elk_blue/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 784,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 14
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/elk/elk_blue/elk_animation1.png",
+          "file": "animals/elk/elk_blue/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 336,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 6
           },
-          "originalName": "elk_animation1"
+          "originalName": "idle"
         },
         "look_up": {
           "type": "simple",
           "key": "look_up",
-          "file": "animals/elk/elk_blue/elk_animation2.png",
+          "file": "animals/elk/elk_blue/look_up.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 1064,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 19
           },
-          "originalName": "elk_animation2"
+          "originalName": "look_up"
         },
         "walk": {
           "type": "simple",
           "key": "walk",
-          "file": "animals/elk/elk_blue/elk_animation3.png",
+          "file": "animals/elk/elk_blue/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 448,
+            "sheetHeight": 35,
+            "frameWidth": 224,
+            "frameHeight": 35,
+            "frameCount": 2
           },
-          "originalName": "elk_animation3"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "animals/elk/elk_blue/elk_animation4.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "elk_animation4"
+          "originalName": "walk"
         }
       }
     },
@@ -10569,65 +10501,65 @@
       "id": "elk_red",
       "path": "animals/elk/elk_red",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/elk/elk_red/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 784,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 14
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/elk/elk_red/elk_red_animation1.png",
+          "file": "animals/elk/elk_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 336,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 6
           },
-          "originalName": "elk_red_animation1"
+          "originalName": "idle"
         },
         "look_up": {
           "type": "simple",
           "key": "look_up",
-          "file": "animals/elk/elk_red/elk_red_animation2.png",
+          "file": "animals/elk/elk_red/look_up.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 1064,
+            "sheetHeight": 35,
+            "frameWidth": 56,
+            "frameHeight": 35,
+            "frameCount": 19
           },
-          "originalName": "elk_red_animation2"
+          "originalName": "look_up"
         },
         "walk": {
           "type": "simple",
           "key": "walk",
-          "file": "animals/elk/elk_red/elk_red_animation3.png",
+          "file": "animals/elk/elk_red/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 448,
+            "sheetHeight": 35,
+            "frameWidth": 224,
+            "frameHeight": 35,
+            "frameCount": 2
           },
-          "originalName": "elk_red_animation3"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "animals/elk/elk_red/elk_red_animation4.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "elk_red_animation4"
+          "originalName": "walk"
         }
       }
     },
@@ -10636,80 +10568,80 @@
       "id": "fox_blue",
       "path": "animals/fox/fox_blue",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/fox/fox_blue/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 196,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 7
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/fox/fox_blue/fox_animation1.png",
+          "file": "animals/fox/fox_blue/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 140,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 5
           },
-          "originalName": "fox_animation1"
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "animals/fox/fox_blue/fox_animation3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "fox_animation3"
+          "originalName": "idle"
         },
         "run": {
           "type": "simple",
           "key": "run",
-          "file": "animals/fox/fox_blue/fox_animation4.png",
+          "file": "animals/fox/fox_blue/run.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 140,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 5
           },
-          "originalName": "fox_animation4"
+          "originalName": "run"
         },
         "take_hit": {
           "type": "simple",
           "key": "take_hit",
-          "file": "animals/fox/fox_blue/fox_animation5.png",
-          "category": "movement",
-          "loops": true,
+          "file": "animals/fox/fox_blue/take_hit.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 56,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 2
           },
-          "originalName": "fox_animation5"
+          "originalName": "take_hit"
         },
-        "death": {
+        "walk": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/fox/fox_blue/fox_animation6.png",
+          "key": "walk",
+          "file": "animals/fox/fox_blue/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 168,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 6
           },
-          "originalName": "fox_animation6"
+          "originalName": "walk"
         }
       }
     },
@@ -10718,80 +10650,80 @@
       "id": "fox_red",
       "path": "animals/fox/fox_red",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/fox/fox_red/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 196,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 7
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/fox/fox_red/fox_red_animation1.png",
+          "file": "animals/fox/fox_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 140,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 5
           },
-          "originalName": "fox_red_animation1"
-        },
-        "walk": {
-          "type": "simple",
-          "key": "walk",
-          "file": "animals/fox/fox_red/fox_red_animation3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "fox_red_animation3"
+          "originalName": "idle"
         },
         "run": {
           "type": "simple",
           "key": "run",
-          "file": "animals/fox/fox_red/fox_red_animation4.png",
+          "file": "animals/fox/fox_red/run.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 140,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 5
           },
-          "originalName": "fox_red_animation4"
+          "originalName": "run"
         },
         "take_hit": {
           "type": "simple",
           "key": "take_hit",
-          "file": "animals/fox/fox_red/fox_red_animation5.png",
-          "category": "movement",
-          "loops": true,
+          "file": "animals/fox/fox_red/take_hit.png",
+          "category": "state",
+          "loops": false,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 56,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 2
           },
-          "originalName": "fox_red_animation5"
+          "originalName": "take_hit"
         },
-        "death": {
+        "walk": {
           "type": "simple",
-          "key": "death",
-          "file": "animals/fox/fox_red/fox_red_animation6.png",
+          "key": "walk",
+          "file": "animals/fox/fox_red/walk.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 168,
+            "sheetHeight": 20,
+            "frameWidth": 28,
+            "frameHeight": 20,
+            "frameCount": 6
           },
-          "originalName": "fox_red_animation6"
+          "originalName": "walk"
         }
       }
     },
@@ -10800,50 +10732,50 @@
       "id": "rat_blue",
       "path": "animals/rat/rat_blue",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/rat/rat_blue/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 216,
+            "sheetHeight": 8,
+            "frameWidth": 24,
+            "frameHeight": 8,
+            "frameCount": 9
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/rat/rat_blue/rat_blue_animation1.png",
+          "file": "animals/rat/rat_blue/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 16,
+            "sheetHeight": 8,
+            "frameWidth": 8,
+            "frameHeight": 8,
+            "frameCount": 2
           },
-          "originalName": "rat_blue_animation1"
+          "originalName": "idle"
         },
         "run": {
           "type": "simple",
           "key": "run",
-          "file": "animals/rat/rat_blue/rat_blue_animation2.png",
+          "file": "animals/rat/rat_blue/run.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 120,
+            "sheetHeight": 8,
+            "frameWidth": 24,
+            "frameHeight": 8,
+            "frameCount": 5
           },
-          "originalName": "rat_blue_animation2"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "animals/rat/rat_blue/rat_blue_animation3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "rat_blue_animation3"
+          "originalName": "run"
         }
       }
     },
@@ -10852,50 +10784,50 @@
       "id": "rat_red",
       "path": "animals/rat/rat_red",
       "animations": {
+        "death": {
+          "type": "simple",
+          "key": "death",
+          "file": "animals/rat/rat_red/death.png",
+          "category": "state",
+          "loops": false,
+          "frames": {
+            "sheetWidth": 216,
+            "sheetHeight": 8,
+            "frameWidth": 24,
+            "frameHeight": 8,
+            "frameCount": 9
+          },
+          "originalName": "death"
+        },
         "idle": {
           "type": "simple",
           "key": "idle",
-          "file": "animals/rat/rat_red/rat_red_animation1.png",
+          "file": "animals/rat/rat_red/idle.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 16,
+            "sheetHeight": 8,
+            "frameWidth": 8,
+            "frameHeight": 8,
+            "frameCount": 2
           },
-          "originalName": "rat_red_animation1"
+          "originalName": "idle"
         },
         "run": {
           "type": "simple",
           "key": "run",
-          "file": "animals/rat/rat_red/rat_red_animation2.png",
+          "file": "animals/rat/rat_red/run.png",
           "category": "movement",
           "loops": true,
           "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
+            "sheetWidth": 120,
+            "sheetHeight": 8,
+            "frameWidth": 24,
+            "frameHeight": 8,
+            "frameCount": 5
           },
-          "originalName": "rat_red_animation2"
-        },
-        "death": {
-          "type": "simple",
-          "key": "death",
-          "file": "animals/rat/rat_red/rat_red_animation3.png",
-          "category": "movement",
-          "loops": true,
-          "frames": {
-            "sheetWidth": 0,
-            "sheetHeight": 0,
-            "frameWidth": 0,
-            "frameHeight": 0,
-            "frameCount": 0
-          },
-          "originalName": "rat_red_animation3"
+          "originalName": "run"
         }
       }
     }
@@ -10910,9 +10842,9 @@
           "id": "ancient_rock1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "ancient_rock1": {
               "type": "simple",
-              "key": "idle",
+              "key": "ancient_rock1",
               "file": "ancient_caves/objects/animated_objects/ancient_rock1.png",
               "category": "movement",
               "loops": true,
@@ -10932,9 +10864,9 @@
           "id": "ancient_rock2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "ancient_rock2": {
               "type": "simple",
-              "key": "idle",
+              "key": "ancient_rock2",
               "file": "ancient_caves/objects/animated_objects/ancient_rock2.png",
               "category": "movement",
               "loops": true,
@@ -10954,9 +10886,9 @@
           "id": "ancient_rock3",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "ancient_rock3": {
               "type": "simple",
-              "key": "idle",
+              "key": "ancient_rock3",
               "file": "ancient_caves/objects/animated_objects/ancient_rock3.png",
               "category": "movement",
               "loops": true,
@@ -10976,9 +10908,9 @@
           "id": "smoke1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "smoke1": {
               "type": "simple",
-              "key": "idle",
+              "key": "smoke1",
               "file": "ancient_caves/objects/animated_objects/smoke1.png",
               "category": "movement",
               "loops": true,
@@ -10998,9 +10930,9 @@
           "id": "smoke2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "smoke2": {
               "type": "simple",
-              "key": "idle",
+              "key": "smoke2",
               "file": "ancient_caves/objects/animated_objects/smoke2.png",
               "category": "movement",
               "loops": true,
@@ -11020,9 +10952,9 @@
           "id": "smoke3",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "smoke3": {
               "type": "simple",
-              "key": "idle",
+              "key": "smoke3",
               "file": "ancient_caves/objects/animated_objects/smoke3.png",
               "category": "movement",
               "loops": true,
@@ -11042,9 +10974,9 @@
           "id": "throne1",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "throne1": {
               "type": "simple",
-              "key": "idle",
+              "key": "throne1",
               "file": "ancient_caves/objects/animated_objects/throne1.png",
               "category": "movement",
               "loops": true,
@@ -11064,9 +10996,9 @@
           "id": "throne2",
           "path": "ancient_caves/objects/animated_objects",
           "animations": {
-            "idle": {
+            "throne2": {
               "type": "simple",
-              "key": "idle",
+              "key": "throne2",
               "file": "ancient_caves/objects/animated_objects/throne2.png",
               "category": "movement",
               "loops": true,
@@ -11087,9 +11019,9 @@
       "biome": "blood_temple",
       "path": "blood_temple/objects/animated_objects",
       "objects": {
-        "idle": {
+        "statue": {
           "type": "standard",
-          "id": "idle",
+          "id": "statue",
           "path": "blood_temple/objects/animated_objects",
           "animations": {
             "idle": {
@@ -11101,9 +11033,9 @@
               "frames": {
                 "sheetWidth": 1024,
                 "sheetHeight": 112,
-                "frameWidth": 256,
+                "frameWidth": 128,
                 "frameHeight": 112,
-                "frameCount": 4
+                "frameCount": 8
               },
               "originalName": "idle"
             }
@@ -11157,9 +11089,9 @@
           "id": "ancient_door_idle",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "ancient_door_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "ancient_door_idle",
               "file": "castle_of_bones/objects/animated_objects/ancient_door_idle.png",
               "category": "movement",
               "loops": true,
@@ -11179,9 +11111,9 @@
           "id": "candles_animation1",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "candles_animation1": {
               "type": "simple",
-              "key": "idle",
+              "key": "candles_animation1",
               "file": "castle_of_bones/objects/animated_objects/candles_animation1.png",
               "category": "movement",
               "loops": true,
@@ -11201,9 +11133,9 @@
           "id": "candles_animation2",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "candles_animation2": {
               "type": "simple",
-              "key": "idle",
+              "key": "candles_animation2",
               "file": "castle_of_bones/objects/animated_objects/candles_animation2.png",
               "category": "movement",
               "loops": true,
@@ -11223,9 +11155,9 @@
           "id": "candles_animation3",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "candles_animation3": {
               "type": "simple",
-              "key": "idle",
+              "key": "candles_animation3",
               "file": "castle_of_bones/objects/animated_objects/candles_animation3.png",
               "category": "movement",
               "loops": true,
@@ -11245,18 +11177,18 @@
           "id": "ember_pit_shrine_idle",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "ember_pit_shrine_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "ember_pit_shrine_idle",
               "file": "castle_of_bones/objects/animated_objects/ember_pit_shrine_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 320,
                 "sheetHeight": 33,
-                "frameWidth": 80,
+                "frameWidth": 32,
                 "frameHeight": 33,
-                "frameCount": 4
+                "frameCount": 10
               },
               "originalName": "ember_pit_shrine_idle"
             }
@@ -11267,9 +11199,9 @@
           "id": "torch_1_idle",
           "path": "castle_of_bones/objects/animated_objects",
           "animations": {
-            "idle": {
+            "torch_1_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "torch_1_idle",
               "file": "castle_of_bones/objects/animated_objects/torch_1_idle.png",
               "category": "movement",
               "loops": true,
@@ -11295,10 +11227,10 @@
           "id": "animated_trees",
           "path": "general/objects/animated_objects/animated_trees",
           "animations": {
-            "blood_tree_1_animation1": {
+            "tree1_animation1": {
               "type": "simple",
-              "key": "blood_tree_1_animation1",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation1.png",
+              "key": "tree1_animation1",
+              "file": "general/objects/animated_objects/animated_trees/tree1_animation1.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11308,12 +11240,12 @@
                 "frameHeight": 128,
                 "frameCount": 8
               },
-              "originalName": "blood_tree_1_animation1"
+              "originalName": "tree1_animation1"
             },
-            "blood_tree_1_animation2": {
+            "tree1_animation2": {
               "type": "simple",
-              "key": "blood_tree_1_animation2",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation2.png",
+              "key": "tree1_animation2",
+              "file": "general/objects/animated_objects/animated_trees/tree1_animation2.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11323,12 +11255,12 @@
                 "frameHeight": 128,
                 "frameCount": 13
               },
-              "originalName": "blood_tree_1_animation2"
+              "originalName": "tree1_animation2"
             },
-            "blood_tree_1_animation3": {
+            "tree1_animation3": {
               "type": "simple",
-              "key": "blood_tree_1_animation3",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation3.png",
+              "key": "tree1_animation3",
+              "file": "general/objects/animated_objects/animated_trees/tree1_animation3.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11338,12 +11270,12 @@
                 "frameHeight": 128,
                 "frameCount": 8
               },
-              "originalName": "blood_tree_1_animation3"
+              "originalName": "tree1_animation3"
             },
-            "blood_tree_1_animation4": {
+            "tree1_animation4": {
               "type": "simple",
-              "key": "blood_tree_1_animation4",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_1_animation4.png",
+              "key": "tree1_animation4",
+              "file": "general/objects/animated_objects/animated_trees/tree1_animation4.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11353,12 +11285,12 @@
                 "frameHeight": 128,
                 "frameCount": 16
               },
-              "originalName": "blood_tree_1_animation4"
+              "originalName": "tree1_animation4"
             },
-            "blood_tree_2_animation1": {
+            "tree2_animation1": {
               "type": "simple",
-              "key": "blood_tree_2_animation1",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation1.png",
+              "key": "tree2_animation1",
+              "file": "general/objects/animated_objects/animated_trees/tree2_animation1.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11368,12 +11300,12 @@
                 "frameHeight": 96,
                 "frameCount": 8
               },
-              "originalName": "blood_tree_2_animation1"
+              "originalName": "tree2_animation1"
             },
-            "blood_tree_2_animation2": {
+            "tree2_animation2": {
               "type": "simple",
-              "key": "blood_tree_2_animation2",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation2.png",
+              "key": "tree2_animation2",
+              "file": "general/objects/animated_objects/animated_trees/tree2_animation2.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11383,12 +11315,12 @@
                 "frameHeight": 96,
                 "frameCount": 15
               },
-              "originalName": "blood_tree_2_animation2"
+              "originalName": "tree2_animation2"
             },
-            "blood_tree_2_animation3": {
+            "tree2_animation3": {
               "type": "simple",
-              "key": "blood_tree_2_animation3",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation3.png",
+              "key": "tree2_animation3",
+              "file": "general/objects/animated_objects/animated_trees/tree2_animation3.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11398,12 +11330,12 @@
                 "frameHeight": 96,
                 "frameCount": 8
               },
-              "originalName": "blood_tree_2_animation3"
+              "originalName": "tree2_animation3"
             },
-            "blood_tree_2_animation4": {
+            "tree2_animation4": {
               "type": "simple",
-              "key": "blood_tree_2_animation4",
-              "file": "general/objects/animated_objects/animated_trees/blood_tree_2_animation4.png",
+              "key": "tree2_animation4",
+              "file": "general/objects/animated_objects/animated_trees/tree2_animation4.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -11413,7 +11345,7 @@
                 "frameHeight": 96,
                 "frameCount": 16
               },
-              "originalName": "blood_tree_2_animation4"
+              "originalName": "tree2_animation4"
             }
           }
         },
@@ -12268,10 +12200,10 @@
           "id": "shops",
           "path": "general/objects/animated_objects/shops",
           "animations": {
-            "blood_shop_animation1": {
+            "blood_shop": {
               "type": "simple",
-              "key": "blood_shop_animation1",
-              "file": "general/objects/animated_objects/shops/blood_shop_animation1.png",
+              "key": "blood_shop",
+              "file": "general/objects/animated_objects/shops/blood_shop.png",
               "category": "movement",
               "loops": true,
               "frames": {
@@ -12281,7 +12213,7 @@
                 "frameHeight": 69,
                 "frameCount": 5
               },
-              "originalName": "blood_shop_animation1"
+              "originalName": "blood_shop"
             },
             "herb_shop": {
               "type": "simple",
@@ -12513,18 +12445,18 @@
           "id": "distant_lightning_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "distant_lightning_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "distant_lightning_idle",
               "file": "somber_city/objects/animated_objects/distant_lightning_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 576,
                 "sheetHeight": 32,
-                "frameWidth": 72,
+                "frameWidth": 32,
                 "frameHeight": 32,
-                "frameCount": 8
+                "frameCount": 18
               },
               "originalName": "distant_lightning_idle"
             }
@@ -12535,18 +12467,18 @@
           "id": "door_fade_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "door_fade_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "door_fade_idle",
               "file": "somber_city/objects/animated_objects/door_fade_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 5240,
                 "sheetHeight": 121,
-                "frameWidth": 655,
+                "frameWidth": 262,
                 "frameHeight": 121,
-                "frameCount": 8
+                "frameCount": 20
               },
               "originalName": "door_fade_idle"
             }
@@ -12557,18 +12489,18 @@
           "id": "door_light_up_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "door_light_up_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "door_light_up_idle",
               "file": "somber_city/objects/animated_objects/door_light_up_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 4978,
                 "sheetHeight": 121,
-                "frameWidth": 2489,
+                "frameWidth": 262,
                 "frameHeight": 121,
-                "frameCount": 2
+                "frameCount": 19
               },
               "originalName": "door_light_up_idle"
             }
@@ -12579,18 +12511,18 @@
           "id": "fire_torch_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "fire_torch_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "fire_torch_idle",
               "file": "somber_city/objects/animated_objects/fire_torch_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 90,
                 "sheetHeight": 17,
-                "frameWidth": 45,
+                "frameWidth": 9,
                 "frameHeight": 17,
-                "frameCount": 2
+                "frameCount": 10
               },
               "originalName": "fire_torch_idle"
             }
@@ -12601,18 +12533,18 @@
           "id": "large_lightning_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "large_lightning_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "large_lightning_idle",
               "file": "somber_city/objects/animated_objects/large_lightning_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 1152,
                 "sheetHeight": 48,
-                "frameWidth": 144,
+                "frameWidth": 64,
                 "frameHeight": 48,
-                "frameCount": 8
+                "frameCount": 18
               },
               "originalName": "large_lightning_idle"
             }
@@ -12623,18 +12555,18 @@
           "id": "small_lightning_idle",
           "path": "somber_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "small_lightning_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "small_lightning_idle",
               "file": "somber_city/objects/animated_objects/small_lightning_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 576,
                 "sheetHeight": 32,
-                "frameWidth": 72,
+                "frameWidth": 32,
                 "frameHeight": 32,
-                "frameCount": 8
+                "frameCount": 18
               },
               "originalName": "small_lightning_idle"
             }
@@ -12660,9 +12592,9 @@
               "frames": {
                 "sheetWidth": 252,
                 "sheetHeight": 41,
-                "frameWidth": 21,
+                "frameWidth": 28,
                 "frameHeight": 41,
-                "frameCount": 12
+                "frameCount": 9
               },
               "originalName": "idle"
             },
@@ -12675,9 +12607,9 @@
               "frames": {
                 "sheetWidth": 252,
                 "sheetHeight": 41,
-                "frameWidth": 21,
+                "frameWidth": 28,
                 "frameHeight": 41,
-                "frameCount": 12
+                "frameCount": 9
               },
               "originalName": "warp"
             }
@@ -12740,18 +12672,18 @@
           "id": "door_open_idle",
           "path": "the_beneath/objects/animated_objects",
           "animations": {
-            "idle": {
+            "door_open_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "door_open_idle",
               "file": "the_beneath/objects/animated_objects/door_open_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 615,
                 "sheetHeight": 48,
-                "frameWidth": 615,
+                "frameWidth": 41,
                 "frameHeight": 48,
-                "frameCount": 1
+                "frameCount": 15
               },
               "originalName": "door_open_idle"
             }
@@ -12762,18 +12694,18 @@
           "id": "flower_glow_idle",
           "path": "the_beneath/objects/animated_objects",
           "animations": {
-            "idle": {
+            "flower_glow_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "flower_glow_idle",
               "file": "the_beneath/objects/animated_objects/flower_glow_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 160,
                 "sheetHeight": 16,
-                "frameWidth": 40,
+                "frameWidth": 16,
                 "frameHeight": 16,
-                "frameCount": 4
+                "frameCount": 10
               },
               "originalName": "flower_glow_idle"
             }
@@ -12784,18 +12716,18 @@
           "id": "light_with_bugs_idle",
           "path": "the_beneath/objects/animated_objects",
           "animations": {
-            "idle": {
+            "light_with_bugs_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "light_with_bugs_idle",
               "file": "the_beneath/objects/animated_objects/light_with_bugs_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 320,
                 "sheetHeight": 37,
-                "frameWidth": 80,
+                "frameWidth": 32,
                 "frameHeight": 37,
-                "frameCount": 4
+                "frameCount": 10
               },
               "originalName": "light_with_bugs_idle"
             }
@@ -12806,18 +12738,18 @@
           "id": "torch_idle",
           "path": "the_beneath/objects/animated_objects",
           "animations": {
-            "idle": {
+            "torch_idle": {
               "type": "simple",
-              "key": "idle",
+              "key": "torch_idle",
               "file": "the_beneath/objects/animated_objects/torch_idle.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 56,
                 "sheetHeight": 37,
-                "frameWidth": 56,
+                "frameWidth": 7,
                 "frameHeight": 37,
-                "frameCount": 1
+                "frameCount": 8
               },
               "originalName": "torch_idle"
             }
@@ -12829,25 +12761,25 @@
       "biome": "the_grotesque_city",
       "path": "the_grotesque_city/objects/animated_objects",
       "objects": {
-        "idle": {
+        "door": {
           "type": "standard",
-          "id": "idle",
+          "id": "door",
           "path": "the_grotesque_city/objects/animated_objects",
           "animations": {
-            "idle": {
+            "door": {
               "type": "simple",
-              "key": "idle",
-              "file": "the_grotesque_city/objects/animated_objects/idle.png",
+              "key": "door",
+              "file": "the_grotesque_city/objects/animated_objects/door.png",
               "category": "movement",
               "loops": true,
               "frames": {
                 "sheetWidth": 2928,
                 "sheetHeight": 75,
-                "frameWidth": 183,
+                "frameWidth": 61,
                 "frameHeight": 75,
-                "frameCount": 16
+                "frameCount": 48
               },
-              "originalName": "idle"
+              "originalName": "door"
             }
           }
         }

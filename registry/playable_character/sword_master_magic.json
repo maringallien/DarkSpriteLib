@@ -1,0 +1,83 @@
+{
+  "type": "standard",
+  "id": "playable_character/sword_master_magic",
+  "path": "playable_character/sword_master_animations/magic_attacks",
+  "animations": {
+    "attack1": {
+      "type": "simple",
+      "key": "attack1",
+      "file": "playable_character/sword_master_animations/magic_attacks/attack1.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1150,
+        "sheetHeight": 75,
+        "frameWidth": 115,
+        "frameHeight": 75,
+        "frameCount": 10
+      },
+      "originalName": "attack1"
+    },
+    "attack2": {
+      "type": "simple",
+      "key": "attack2",
+      "file": "playable_character/sword_master_animations/magic_attacks/attack2.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 500,
+        "sheetHeight": 37,
+        "frameWidth": 100,
+        "frameHeight": 37,
+        "frameCount": 5
+      },
+      "originalName": "attack2"
+    },
+    "attack3": {
+      "type": "simple",
+      "key": "attack3",
+      "file": "playable_character/sword_master_animations/magic_attacks/attack3.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 1232,
+        "sheetHeight": 120,
+        "frameWidth": 176,
+        "frameHeight": 120,
+        "frameCount": 7
+      },
+      "originalName": "attack3"
+    },
+    "attack4": {
+      "type": "simple",
+      "key": "attack4",
+      "file": "playable_character/sword_master_animations/magic_attacks/attack4.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 685,
+        "sheetHeight": 120,
+        "frameWidth": 137,
+        "frameHeight": 120,
+        "frameCount": 5
+      },
+      "originalName": "attack4"
+    },
+    "attack5": {
+      "type": "simple",
+      "key": "attack5",
+      "file": "playable_character/sword_master_animations/magic_attacks/attack5.png",
+      "category": "attack",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 906,
+        "sheetHeight": 90,
+        "frameWidth": 151,
+        "frameHeight": 90,
+        "frameCount": 6
+      },
+      "originalName": "attack5"
+    }
+  },
+  "mode": "sword_master_magic"
+}

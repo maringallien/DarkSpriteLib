@@ -3,65 +3,65 @@
   "id": "elk_red",
   "path": "animals/elk/elk_red",
   "animations": {
+    "death": {
+      "type": "simple",
+      "key": "death",
+      "file": "animals/elk/elk_red/death.png",
+      "category": "state",
+      "loops": false,
+      "frames": {
+        "sheetWidth": 784,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 14
+      },
+      "originalName": "death"
+    },
     "idle": {
       "type": "simple",
       "key": "idle",
-      "file": "animals/elk/elk_red/elk_red_animation1.png",
+      "file": "animals/elk/elk_red/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 336,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 6
       },
-      "originalName": "elk_red_animation1"
+      "originalName": "idle"
     },
     "look_up": {
       "type": "simple",
       "key": "look_up",
-      "file": "animals/elk/elk_red/elk_red_animation2.png",
+      "file": "animals/elk/elk_red/look_up.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 1064,
+        "sheetHeight": 35,
+        "frameWidth": 56,
+        "frameHeight": 35,
+        "frameCount": 19
       },
-      "originalName": "elk_red_animation2"
+      "originalName": "look_up"
     },
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "animals/elk/elk_red/elk_red_animation3.png",
+      "file": "animals/elk/elk_red/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
+        "sheetWidth": 448,
+        "sheetHeight": 35,
+        "frameWidth": 224,
+        "frameHeight": 35,
+        "frameCount": 2
       },
-      "originalName": "elk_red_animation3"
-    },
-    "death": {
-      "type": "simple",
-      "key": "death",
-      "file": "animals/elk/elk_red/elk_red_animation4.png",
-      "category": "movement",
-      "loops": true,
-      "frames": {
-        "sheetWidth": 0,
-        "sheetHeight": 0,
-        "frameWidth": 0,
-        "frameHeight": 0,
-        "frameCount": 0
-      },
-      "originalName": "elk_red_animation4"
+      "originalName": "walk"
     }
   }
 }

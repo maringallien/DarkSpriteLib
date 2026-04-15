@@ -93,9 +93,9 @@
       },
       "originalName": "idle"
     },
-    "attack4": {
+    "ranged": {
       "type": "simple",
-      "key": "attack4",
+      "key": "ranged",
       "file": "characters/lord_of_the_poisons/ranged.png",
       "category": "attack",
       "loops": false,
@@ -108,9 +108,9 @@
       },
       "originalName": "ranged"
     },
-    "attack4_vfx": {
+    "ranged_idle": {
       "type": "simple",
-      "key": "attack4_vfx",
+      "key": "ranged_idle",
       "file": "characters/lord_of_the_poisons/ranged_idle.png",
       "category": "attack",
       "loops": false,

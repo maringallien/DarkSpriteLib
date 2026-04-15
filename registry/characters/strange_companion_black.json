@@ -1,12 +1,12 @@
 {
   "type": "standard",
   "id": "strange_companion_black",
-  "path": "animals/a_strange_companion/strange_companion_black",
+  "path": "characters/a_strange_companion/strange_companion_black",
   "animations": {
     "attack1": {
       "type": "simple",
       "key": "attack1",
-      "file": "animals/a_strange_companion/strange_companion_black/attack1.png",
+      "file": "characters/a_strange_companion/strange_companion_black/attack1.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -22,7 +22,7 @@
     "attack2": {
       "type": "simple",
       "key": "attack2",
-      "file": "animals/a_strange_companion/strange_companion_black/attack2.png",
+      "file": "characters/a_strange_companion/strange_companion_black/attack2.png",
       "category": "attack",
       "loops": false,
       "frames": {
@@ -35,10 +35,10 @@
       },
       "originalName": "attack2"
     },
-    "idle1": {
+    "bark": {
       "type": "simple",
-      "key": "idle1",
-      "file": "animals/a_strange_companion/strange_companion_black/bark.png",
+      "key": "bark",
+      "file": "characters/a_strange_companion/strange_companion_black/bark.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -51,10 +51,10 @@
       },
       "originalName": "bark"
     },
-    "idle2": {
+    "chill": {
       "type": "simple",
-      "key": "idle2",
-      "file": "animals/a_strange_companion/strange_companion_black/chill.png",
+      "key": "chill",
+      "file": "characters/a_strange_companion/strange_companion_black/chill.png",
       "category": "state",
       "loops": true,
       "frames": {
@@ -70,7 +70,7 @@
     "eat": {
       "type": "simple",
       "key": "eat",
-      "file": "animals/a_strange_companion/strange_companion_black/eat.png",
+      "file": "characters/a_strange_companion/strange_companion_black/eat.png",
       "category": "state",
       "loops": true,
       "frames": {
@@ -83,10 +83,10 @@
       },
       "originalName": "eat"
     },
-    "fall1": {
+    "fall": {
       "type": "simple",
-      "key": "fall1",
-      "file": "animals/a_strange_companion/strange_companion_black/fall.png",
+      "key": "fall",
+      "file": "characters/a_strange_companion/strange_companion_black/fall.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -99,10 +99,10 @@
       },
       "originalName": "fall"
     },
-    "idle4": {
+    "idle": {
       "type": "simple",
-      "key": "idle4",
-      "file": "animals/a_strange_companion/strange_companion_black/idle.png",
+      "key": "idle",
+      "file": "characters/a_strange_companion/strange_companion_black/idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -115,10 +115,10 @@
       },
       "originalName": "idle"
     },
-    "jump1": {
+    "jump": {
       "type": "simple",
-      "key": "jump1",
-      "file": "animals/a_strange_companion/strange_companion_black/jump.png",
+      "key": "jump",
+      "file": "characters/a_strange_companion/strange_companion_black/jump.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -131,10 +131,10 @@
       },
       "originalName": "jump"
     },
-    "land1": {
+    "land": {
       "type": "simple",
-      "key": "land1",
-      "file": "animals/a_strange_companion/strange_companion_black/land.png",
+      "key": "land",
+      "file": "characters/a_strange_companion/strange_companion_black/land.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -147,10 +147,10 @@
       },
       "originalName": "land"
     },
-    "roll1": {
+    "roll": {
       "type": "simple",
-      "key": "roll1",
-      "file": "animals/a_strange_companion/strange_companion_black/roll.png",
+      "key": "roll",
+      "file": "characters/a_strange_companion/strange_companion_black/roll.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -163,10 +163,10 @@
       },
       "originalName": "roll"
     },
-    "land2": {
+    "roll_end": {
       "type": "simple",
-      "key": "land2",
-      "file": "animals/a_strange_companion/strange_companion_black/roll_end.png",
+      "key": "roll_end",
+      "file": "characters/a_strange_companion/strange_companion_black/roll_end.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -179,10 +179,10 @@
       },
       "originalName": "roll_end"
     },
-    "sleep1": {
+    "sit": {
       "type": "simple",
-      "key": "sleep1",
-      "file": "animals/a_strange_companion/strange_companion_black/sit.png",
+      "key": "sit",
+      "file": "characters/a_strange_companion/strange_companion_black/sit.png",
       "category": "state",
       "loops": true,
       "frames": {
@@ -195,10 +195,10 @@
       },
       "originalName": "sit"
     },
-    "sleep2": {
+    "sleep": {
       "type": "simple",
-      "key": "sleep2",
-      "file": "animals/a_strange_companion/strange_companion_black/sleep.png",
+      "key": "sleep",
+      "file": "characters/a_strange_companion/strange_companion_black/sleep.png",
       "category": "state",
       "loops": true,
       "frames": {
@@ -211,10 +211,10 @@
       },
       "originalName": "sleep"
     },
-    "idle5": {
+    "to_idle": {
       "type": "simple",
-      "key": "idle5",
-      "file": "animals/a_strange_companion/strange_companion_black/to_idle.png",
+      "key": "to_idle",
+      "file": "characters/a_strange_companion/strange_companion_black/to_idle.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -227,10 +227,10 @@
       },
       "originalName": "to_idle"
     },
-    "roll2": {
+    "to_roll": {
       "type": "simple",
-      "key": "roll2",
-      "file": "animals/a_strange_companion/strange_companion_black/to_roll.png",
+      "key": "to_roll",
+      "file": "characters/a_strange_companion/strange_companion_black/to_roll.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -243,10 +243,10 @@
       },
       "originalName": "to_roll"
     },
-    "sleep3": {
+    "to_sleep": {
       "type": "simple",
-      "key": "sleep3",
-      "file": "animals/a_strange_companion/strange_companion_black/to_sleep.png",
+      "key": "to_sleep",
+      "file": "characters/a_strange_companion/strange_companion_black/to_sleep.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -259,10 +259,10 @@
       },
       "originalName": "to_sleep"
     },
-    "fall2": {
+    "trans_jump_to_fall": {
       "type": "simple",
-      "key": "fall2",
-      "file": "animals/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
+      "key": "trans_jump_to_fall",
+      "file": "characters/a_strange_companion/strange_companion_black/trans_jump_to_fall.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -275,10 +275,10 @@
       },
       "originalName": "trans_jump_to_fall"
     },
-    "jump2": {
+    "trans_to_jump": {
       "type": "simple",
-      "key": "jump2",
-      "file": "animals/a_strange_companion/strange_companion_black/trans_to_jump.png",
+      "key": "trans_to_jump",
+      "file": "characters/a_strange_companion/strange_companion_black/trans_to_jump.png",
       "category": "movement",
       "loops": false,
       "frames": {
@@ -291,10 +291,10 @@
       },
       "originalName": "trans_to_jump"
     },
-    "wake": {
+    "wake_up": {
       "type": "simple",
-      "key": "wake",
-      "file": "animals/a_strange_companion/strange_companion_black/wake_up.png",
+      "key": "wake_up",
+      "file": "characters/a_strange_companion/strange_companion_black/wake_up.png",
       "category": "state",
       "loops": false,
       "frames": {
@@ -310,7 +310,7 @@
     "walk": {
       "type": "simple",
       "key": "walk",
-      "file": "animals/a_strange_companion/strange_companion_black/walk.png",
+      "file": "characters/a_strange_companion/strange_companion_black/walk.png",
       "category": "movement",
       "loops": true,
       "frames": {
@@ -326,7 +326,7 @@
     "projectile_explode": {
       "type": "simple",
       "key": "projectile_explode",
-      "file": "animals/a_strange_companion/projectile/projectile_explode.png",
+      "file": "characters/a_strange_companion/projectile/projectile_explode.png",
       "category": "ranged",
       "loops": false,
       "frames": {
@@ -341,7 +341,7 @@
     "projectile_idle": {
       "type": "simple",
       "key": "projectile_idle",
-      "file": "animals/a_strange_companion/projectile/projectile_idle.png",
+      "file": "characters/a_strange_companion/projectile/projectile_idle.png",
       "category": "ranged",
       "loops": true,
       "frames": {

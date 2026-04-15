@@ -18,9 +18,9 @@
       },
       "originalName": "attack1"
     },
-    "attack2": {
+    "attack1_vanish": {
       "type": "simple",
-      "key": "attack2",
+      "key": "attack1_vanish",
       "file": "characters/glitch_samurai/attack1_vanish.png",
       "category": "attack",
       "loops": false,
@@ -33,9 +33,9 @@
       },
       "originalName": "attack1_vanish"
     },
-    "attack3": {
+    "attack2": {
       "type": "simple",
-      "key": "attack3",
+      "key": "attack2",
       "file": "characters/glitch_samurai/attack2.png",
       "category": "attack",
       "loops": false,
@@ -48,9 +48,9 @@
       },
       "originalName": "attack2"
     },
-    "attack4": {
+    "attack2_vanish": {
       "type": "simple",
-      "key": "attack4",
+      "key": "attack2_vanish",
       "file": "characters/glitch_samurai/attack2_vanish.png",
       "category": "attack",
       "loops": false,
@@ -63,9 +63,9 @@
       },
       "originalName": "attack2_vanish"
     },
-    "attack5": {
+    "attack3": {
       "type": "simple",
-      "key": "attack5",
+      "key": "attack3",
       "file": "characters/glitch_samurai/attack3.png",
       "category": "attack",
       "loops": false,
@@ -78,9 +78,9 @@
       },
       "originalName": "attack3"
     },
-    "attack6": {
+    "attack4": {
       "type": "simple",
-      "key": "attack6",
+      "key": "attack4",
       "file": "characters/glitch_samurai/attack4.png",
       "category": "attack",
       "loops": false,

@@ -101,9 +101,9 @@
           },
           "originalName": "idle"
         },
-        "ranged": {
+        "laser_prep": {
           "type": "simple",
-          "key": "ranged",
+          "key": "laser_prep",
           "file": "characters/the_bone_reaper/hand/laser_prep.png",
           "category": "ranged",
           "loops": false,
@@ -186,9 +186,9 @@
           },
           "originalName": "idle"
         },
-        "ranged": {
+        "laser_prep": {
           "type": "simple",
-          "key": "ranged",
+          "key": "laser_prep",
           "file": "characters/the_bone_reaper/head/laser_prep.png",
           "category": "ranged",
           "loops": false,

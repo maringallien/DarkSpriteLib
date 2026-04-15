@@ -78,9 +78,9 @@
       },
       "originalName": "death"
     },
-    "vanish": {
+    "disappear": {
       "type": "simple",
-      "key": "vanish",
+      "key": "disappear",
       "file": "characters/ancient_guardian/disappear.png",
       "category": "special",
       "loops": false,

@@ -63,9 +63,9 @@
       },
       "originalName": "sniff"
     },
-    "attack": {
+    "attack1": {
       "type": "simple",
-      "key": "attack",
+      "key": "attack1",
       "file": "characters/golden_retriever/attack1.png",
       "category": "attack",
       "loops": false,
@@ -78,9 +78,9 @@
       },
       "originalName": "attack1"
     },
-    "idle1": {
+    "bark": {
       "type": "simple",
-      "key": "idle1",
+      "key": "bark",
       "file": "characters/golden_retriever/bark.png",
       "category": "state",
       "loops": false,
@@ -123,9 +123,9 @@
       },
       "originalName": "fall"
     },
-    "wake1": {
+    "get_up": {
       "type": "simple",
-      "key": "wake1",
+      "key": "get_up",
       "file": "characters/golden_retriever/get_up.png",
       "category": "state",
       "loops": false,
@@ -138,9 +138,9 @@
       },
       "originalName": "get_up"
     },
-    "sleep1": {
+    "go_sleep": {
       "type": "simple",
-      "key": "sleep1",
+      "key": "go_sleep",
       "file": "characters/golden_retriever/go_sleep.png",
       "category": "state",
       "loops": true,
@@ -153,9 +153,9 @@
       },
       "originalName": "go_sleep"
     },
-    "idle2": {
+    "idle": {
       "type": "simple",
-      "key": "idle2",
+      "key": "idle",
       "file": "characters/golden_retriever/idle.png",
       "category": "movement",
       "loops": true,
@@ -228,9 +228,9 @@
       },
       "originalName": "run"
     },
-    "sleep2": {
+    "sit": {
       "type": "simple",
-      "key": "sleep2",
+      "key": "sit",
       "file": "characters/golden_retriever/sit.png",
       "category": "state",
       "loops": true,
@@ -243,9 +243,9 @@
       },
       "originalName": "sit"
     },
-    "sleep3": {
+    "sleep": {
       "type": "simple",
-      "key": "sleep3",
+      "key": "sleep",
       "file": "characters/golden_retriever/sleep.png",
       "category": "state",
       "loops": true,
@@ -258,9 +258,9 @@
       },
       "originalName": "sleep"
     },
-    "wake2": {
+    "wake_up": {
       "type": "simple",
-      "key": "wake2",
+      "key": "wake_up",
       "file": "characters/golden_retriever/wake_up.png",
       "category": "state",
       "loops": false,
@@ -273,9 +273,9 @@
       },
       "originalName": "wake_up"
     },
-    "walk1": {
+    "walk": {
       "type": "simple",
-      "key": "walk1",
+      "key": "walk",
       "file": "characters/golden_retriever/walk.png",
       "category": "movement",
       "loops": true,
