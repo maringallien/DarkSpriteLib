@@ -18,14 +18,14 @@
 
 import type {
   AnyAnimation,
-  AnyCharacter,
   AnimationWithProjectile,
+  BiomeObjects,
   FrameData,
   Registry,
   SequenceAnimation,
   SimpleAnimation,
   StandardCharacter,
-} from "./schema.js";
+} from "./schema";
 
 // ---------------------------------------------------------------------------
 // Options
@@ -114,9 +114,15 @@ function loadAnimation(
   anim: AnyAnimation,
   basePath: string,
 ): void {
-  if (anim.type === "simple")           loadSimple(scene, prefix, anim, basePath);
-  else if (anim.type === "with_projectile") loadWithProjectile(scene, prefix, anim, basePath);
-  else if (anim.type === "sequence")    loadSequence(scene, prefix, anim, basePath);
+  switch (anim.type) {
+    case "simple":           loadSimple(scene, prefix, anim, basePath); return;
+    case "with_projectile":  loadWithProjectile(scene, prefix, anim, basePath); return;
+    case "sequence":         loadSequence(scene, prefix, anim, basePath); return;
+    default: {
+      const _exhaustive: never = anim;
+      throw new Error(`[DarkSpriteLib] Unknown animation type: ${JSON.stringify(_exhaustive)}`);
+    }
+  }
 }
 
 function loadStandardCharacter(
@@ -156,18 +162,25 @@ export function loadCharacterAnims(
     return;
   }
 
-  if (char.type === "standard") {
-    loadStandardCharacter(scene, char, characterId, basePath);
-
-  } else if (char.type === "composite") {
-    for (const [compKey, comp] of Object.entries(char.components)) {
-      loadStandardCharacter(scene, comp, `${characterId}_${compKey}`, basePath);
-    }
-
-  } else if (char.type === "variant") {
-    // Load all variants; keys become "<id>_<variant>_<anim>"
-    for (const [varKey, variant] of Object.entries(char.variants)) {
-      loadStandardCharacter(scene, variant, `${characterId}_${varKey}`, basePath);
+  switch (char.type) {
+    case "standard":
+      loadStandardCharacter(scene, char, characterId, basePath);
+      return;
+    case "composite":
+      for (const [compKey, comp] of Object.entries(char.components)) {
+        loadStandardCharacter(scene, comp, `${characterId}_${compKey}`, basePath);
+      }
+      return;
+    case "variant":
+      // Loads ALL variants; keys become "<id>_<variant>_<anim>".
+      // Use loadCharacterVariant() to load a single variant.
+      for (const [varKey, variant] of Object.entries(char.variants)) {
+        loadStandardCharacter(scene, variant, `${characterId}_${varKey}`, basePath);
+      }
+      return;
+    default: {
+      const _exhaustive: never = char;
+      throw new Error(`[DarkSpriteLib] Unknown character type: ${JSON.stringify(_exhaustive)}`);
     }
   }
 }
@@ -254,6 +267,90 @@ export function loadAllPlayableCharacterModes(
   }
 }
 
+/**
+ * Load all spritesheets for an animal into the Phaser loader.
+ * Animals share the AnyCharacter shape, so the same standard/composite/variant
+ * logic applies. Spritesheet keys are "<animalId>_<animKey>".
+ */
+export function loadAnimal(
+  scene: PhaserScene,
+  registry: Registry,
+  animalId: string,
+  options: LoadOptions = {},
+): void {
+  const basePath = options.basePath ?? "";
+  const animal = registry.animals[animalId];
+  if (!animal) {
+    console.warn(`[DarkSpriteLib] Animal "${animalId}" not found in registry`);
+    return;
+  }
+
+  switch (animal.type) {
+    case "standard":
+      loadStandardCharacter(scene, animal, animalId, basePath);
+      return;
+    case "composite":
+      for (const [compKey, comp] of Object.entries(animal.components)) {
+        loadStandardCharacter(scene, comp, `${animalId}_${compKey}`, basePath);
+      }
+      return;
+    case "variant":
+      for (const [varKey, variant] of Object.entries(animal.variants)) {
+        loadStandardCharacter(scene, variant, `${animalId}_${varKey}`, basePath);
+      }
+      return;
+    default: {
+      const _exhaustive: never = animal;
+      throw new Error(`[DarkSpriteLib] Unknown animal type: ${JSON.stringify(_exhaustive)}`);
+    }
+  }
+}
+
+/**
+ * Load all animated objects for one biome.
+ * Spritesheet keys are "<biomeId>_<objectKey>_<animKey>".
+ */
+export function loadBiomeObjects(
+  scene: PhaserScene,
+  registry: Registry,
+  biomeId: string,
+  options: LoadOptions = {},
+): void {
+  const basePath = options.basePath ?? "";
+  const biome: BiomeObjects | undefined = registry.objects[biomeId];
+  if (!biome) {
+    console.warn(`[DarkSpriteLib] Biome "${biomeId}" not found in registry`);
+    return;
+  }
+  for (const [objKey, obj] of Object.entries(biome.objects)) {
+    loadStandardCharacter(scene, obj, `${biomeId}_${objKey}`, basePath);
+  }
+}
+
+/**
+ * Load a single animated object from a biome.
+ */
+export function loadBiomeObject(
+  scene: PhaserScene,
+  registry: Registry,
+  biomeId: string,
+  objectKey: string,
+  options: LoadOptions = {},
+): void {
+  const basePath = options.basePath ?? "";
+  const biome = registry.objects[biomeId];
+  if (!biome) {
+    console.warn(`[DarkSpriteLib] Biome "${biomeId}" not found in registry`);
+    return;
+  }
+  const obj = biome.objects[objectKey];
+  if (!obj) {
+    console.warn(`[DarkSpriteLib] Object "${objectKey}" not found in biome "${biomeId}"`);
+    return;
+  }
+  loadStandardCharacter(scene, obj, `${biomeId}_${objectKey}`, basePath);
+}
+
 // ---------------------------------------------------------------------------
 // Spritesheet key utilities
 // ---------------------------------------------------------------------------
@@ -262,8 +359,8 @@ export function loadAllPlayableCharacterModes(
  * Get the Phaser spritesheet key for an animation.
  * Useful in create() when setting up this.anims.create().
  */
-export function animKey(characterId: string, animKey: string): string {
-  return `${characterId}_${animKey}`;
+export function animKey(characterId: string, key: string): string {
+  return `${characterId}_${key}`;
 }
 
 export function sequencePartKey(characterId: string, sequenceKey: string, partKey: string): string {
@@ -274,6 +371,6 @@ export function projectileKey(characterId: string, attackKey: string, projKey: s
   return `${characterId}_${attackKey}_proj_${projKey}`;
 }
 
-export function playerAnimKey(modeKey: string, animKey: string): string {
-  return `player_${modeKey}_${animKey}`;
+export function playerAnimKey(modeKey: string, key: string): string {
+  return `player_${modeKey}_${key}`;
 }

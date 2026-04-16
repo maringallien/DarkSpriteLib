@@ -158,7 +158,8 @@ export interface VariantCharacter {
 
 export type AnyCharacter =
   | StandardCharacter
-  | CompositeCharacter;
+  | CompositeCharacter
+  | VariantCharacter;
 
 // ---------------------------------------------------------------------------
 // Playable character (mode-based)
@@ -176,7 +177,7 @@ export interface PlayableCharacterMode extends StandardCharacter {
 
 export interface PlayableCharacter {
   type: "playable";
-  id: "playable_character";
+  id: string;
   path: string;
   modes: Record<string, PlayableCharacterMode>;
 }
